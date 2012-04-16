@@ -35,6 +35,7 @@ rcs: git
 add_plugins:
 - goodstuff
 - websetup
+- lockedit
 #- attachment
 #- textile
 #- search
@@ -164,6 +165,7 @@ atom: '1'
 # lockedit plugin
 # PageSpec controlling which pages are locked
 #locked_pages: '!*/Discussion'
+locked_pages: '*'
 
 # moderatedcomments plugin
 # PageSpec matching users or comment locations to moderate
