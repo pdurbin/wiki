@@ -1,1 +1,1 @@
-foo
+I set up this wiki with [this](wiki.setup) file.
