@@ -1,5 +1,6 @@
-This wiki is running [ikiwiki](http://ikiwiki.info) on CentOS 6 with an [RPM](http://yum.greptilian.com/RPMS/noarch/ikiwiki-3.20120202-1.el6.noarch.rpm) I rebuild from a [ikiwiki Fedora spec file](https://admin.fedoraproject.org/pkgdb/acls/name/ikiwiki).  I also had to rebuild a number of dependencies, which you can find at <http://yum.greptilian.com>.
+This wiki is running [ikiwiki](http://ikiwiki.info) on CentOS 6 with an [RPM](http://yum.greptilian.com/RPMS/noarch/ikiwiki-3.20120202-1.el6.noarch.rpm) I rebuild from a [ikiwiki Fedora spec file](https://admin.fedoraproject.org/pkgdb/acls/name/ikiwiki).  I also had to rebuild a number of dependencies, which you can find at <http://yum.greptilian.com>
 
-After installing the RPMs, I ran `ikiwiki --setup [wiki.setup](wiki.setup)`
+After installing the RPMs, I ran `ikiwiki --setup wiki.setup` on [this setup file](wiki.setup).
 
-This wiki is written in [[markdown]], which I like well enough.
+The source of this wiki ([markdown](markdown), mostly) is available at <http://git.greptilian.com/?p=wiki.git>
+
