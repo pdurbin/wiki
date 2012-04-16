@@ -1,1 +1,1 @@
-I set up this wiki with [this](wiki.setup) file.
+I set up this wiki with [this](wiki.setup) file.  It's written in [[markdown]].
