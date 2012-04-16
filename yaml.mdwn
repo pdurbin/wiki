@@ -1,0 +1,12 @@
+- object-group:
+    - protocol:
+        - tcp-udp: both TCP and UDP
+    - port:
+        - ssh: 22
+        - https: 443
+- port:
+    - ftp-data: 20
+    - ftp: 21
+    - smtp: 25
+    - domain: 53
+    - www: 80
