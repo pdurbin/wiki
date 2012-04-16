@@ -1,0 +1,74 @@
+An unordered Markdown list can be written as YAML, like this:
+
+    - object-group:
+        - protocol:
+            - tcp-udp: both TCP and UDP
+        - port:
+            - ssh: 22
+            - https: 443
+    - port:
+        - ftp-data: 20
+        - ftp: 21
+        - smtp: 25
+        - domain: 53
+        - www: 80
+
+Why is this interesting?  Because the text can be rendered as HTML. . .
+
+- object-group:
+    - protocol:
+        - tcp-udp: both TCP and UDP
+    - port:
+        - ssh: 22
+        - https: 443
+- port:
+    - ftp-data: 20
+    - ftp: 21
+    - smtp: 25
+    - domain: 53
+    - www: 80
+
+. . . as well as being manipulated programmatically.  You could convert it to JSON, for example:
+
+    [
+       {
+          "object-group" : [
+             {
+                "protocol" : [
+                   {
+                      "tcp-udp" : "both TCP and UDP"
+                   }
+                ]
+             },
+             {
+                "port" : [
+                   {
+                      "ssh" : 22
+                   },
+                   {
+                      "https" : 443
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "port" : [
+             {
+                "ftp-data" : 20
+             },
+             {
+                "ftp" : 21
+             },
+             {
+                "smtp" : 25
+             },
+             {
+                "domain" : 53
+             },
+             {
+                "www" : 80
+             }
+          ]
+       }
+    ]
