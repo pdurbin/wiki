@@ -1,0 +1,7 @@
+    apt-get update
+    apt-get upgrade
+    apt-get dist-upgrade
+
+"-y  Assume Yes to all queries and do not prompt" is not recommended for `apt-get dist-upgrade`
+
+<https://help.ubuntu.com/community/AptGet/Howto>
