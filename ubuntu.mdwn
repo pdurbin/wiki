@@ -1,3 +1,5 @@
+## Package management
+
 <https://help.ubuntu.com/community/AptGet/Howto>
 
 <https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora>
@@ -30,3 +32,7 @@
 http://askubuntu.com/questions/601/the-following-packages-have-been-kept-back-why-and-how-do-i-solve-it
 
 http://askubuntu.com/questions/81585/what-is-dist-upgrade-and-why-does-it-upgrade-more-than-upgrade
+
+## User management
+
+    useradd -m myuser -s /bin/bash
