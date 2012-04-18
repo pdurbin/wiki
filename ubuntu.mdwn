@@ -1,9 +1,32 @@
-    apt-get update
-    apt-get upgrade
-    apt-get dist-upgrade
-
-"-y  Assume Yes to all queries and do not prompt" is not recommended for `apt-get dist-upgrade`
-
 <https://help.ubuntu.com/community/AptGet/Howto>
 
 <https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora>
+
+    # show installed packages
+    dpkg --list
+
+    # show infor for a package
+    dpkg --status package_name
+
+    # show files owned by a package
+    dpkg --listfiles package_name
+
+    # resynchronize the package index files from their sources
+    apt-get update
+
+    # install the newest versions installed packages
+    apt-get upgrade
+
+    # install packages that are "kept back"
+    apt-get dist-upgrade
+
+    # for clearing out unused linux-headers, for example
+    apt-get autoremove
+
+## `apt-get dist-upgrade`
+
+"-y  Assume Yes to all queries and do not prompt" is not recommended for `apt-get dist-upgrade`
+
+http://askubuntu.com/questions/601/the-following-packages-have-been-kept-back-why-and-how-do-i-solve-it
+
+http://askubuntu.com/questions/81585/what-is-dist-upgrade-and-why-does-it-upgrade-more-than-upgrade
