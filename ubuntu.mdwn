@@ -36,3 +36,5 @@ http://askubuntu.com/questions/81585/what-is-dist-upgrade-and-why-does-it-upgrad
 ## User management
 
     useradd -m myuser -s /bin/bash
+
+<https://help.ubuntu.com/community/AddUsersHowto>
