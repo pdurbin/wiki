@@ -5,7 +5,7 @@
     # show installed packages
     dpkg --list
 
-    # show infor for a package
+    # show info for a package
     dpkg --status package_name
 
     # show files owned by a package
