@@ -10,8 +10,13 @@ h3 {
   font-size: 90%
 }
 
+p {
+  margin-left: 10px;
+}
+
 pre {
   border: 1px solid #DEDEDE;
+  margin-left: 10px;
 }
 
 code {
