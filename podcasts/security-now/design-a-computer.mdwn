@@ -1,5 +1,5 @@
-<http://www.grc.com/securitynow.htm>
+http://www.grc.com/securitynow.htm
 
-<http://wiki.twit.tv/wiki/Security_Now_233>
+http://wiki.twit.tv/wiki/Security_Now_233
 
-<http://www.grc.com/sn/sn-233.htm>
+http://www.grc.com/sn/sn-233.htm

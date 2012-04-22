@@ -1,8 +1,8 @@
 ## Package management
 
-<https://help.ubuntu.com/community/AptGet/Howto>
+https://help.ubuntu.com/community/AptGet/Howto
 
-<https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora>
+https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora
 
     # show installed packages
     dpkg --list
@@ -37,4 +37,4 @@ http://askubuntu.com/questions/81585/what-is-dist-upgrade-and-why-does-it-upgrad
 
     useradd -m myuser -s /bin/bash
 
-<https://help.ubuntu.com/community/AddUsersHowto>
+https://help.ubuntu.com/community/AddUsersHowto
