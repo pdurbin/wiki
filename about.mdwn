@@ -2,4 +2,4 @@ This wiki is running [ikiwiki](http://ikiwiki.info) on CentOS 6 with an [RPM](ht
 
 After installing the RPMs, I ran `ikiwiki --setup wiki.setup` on [[/wiki.setup]].
 
-The source of this wiki ([markdown](markdown), mostly) is available at http://git.greptilian.com/?p=wiki.git
+The source of this wiki ([[markdown]], mostly) is available at http://git.greptilian.com/?p=wiki.git
