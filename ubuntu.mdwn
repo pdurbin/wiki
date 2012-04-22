@@ -2,7 +2,7 @@
 
 https://help.ubuntu.com/community/AptGet/Howto
 
-https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora
+[Ubuntu comparison of apt-get vs. yum commands](https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora)
 
     # show installed packages
     dpkg --list
