@@ -1,6 +1,6 @@
-## Package management
-
 [[!toc]]
+
+## Package management
 
 https://help.ubuntu.com/community/AptGet/Howto
 
