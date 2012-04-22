@@ -1,3 +1,105 @@
+From http://www.grc.com/sn/sn-235.htm
+
+Leo: Where do we start?
+
+Steve: Well, two weeks ago we sort of laid down the foundation by demystifying AND and OR and NAND gates and how you could cross-connect two inverters that would create a little memory cell which could remember if it was set to one or set to zero, a so-called "flip-flop." And I wanted to convey to people the sense from back in 1960, essentially, for the number of components that were required to do even the simplest things. So now we have gates and the ability to create a register of individual bits which can be read and written.
+
+So how do we, literally, how do we make a computer? And I know from talking to people so much, there's sort of this mystique about assembly language and machine language, as if, like, you have to be some galactic guru in order to understand that. It's like, oh, that's like really deep voodoo. And I'm going to use C or Perl or PHP or Python or something. The truth is that what's actually happening down at the hardware level is really simple. And, I mean, I'm going to demonstrate that now by looking at and sort of designing, developing right now with our listeners a completely workable, usable computer, using only what we understand, no magic. And I believe that, once we've gone through this exercise, sort of wiping the slate clean and just saying, okay, let me just think about this, people are going to end up thinking, well, okay, that's it? And the answer is yes. I mean, it's not that big a deal.
+
+So we have memory for any machine. Back in the early '60s we had gone from drum memory to core memory. Drum memory was sort of the predecessor to core, the idea being that you'd have a magnetized drum that was spinning and literally use the impulses coming off of the drum as the contents of the computer's memory. Thank goodness that was replaced when this concept of cores, little tiny doughnuts, essentially, that are magnetizable in either a clockwise or counterclockwise direction. We've talked about it once before, the idea being that this memory could store a one or a zero based on whether the individual little doughnut was magnetized in one direction or the other. And you could tell which direction it was magnetized in by forcing them, like a set of them, all to zero. If they were already at zero, nothing would happen. If they had been at one, then the act of switching their direction would induce a pulse in a so-called "sense wire," and that would tell you that, ah, we just moved that one from one to zero.
+
+Well, that was called a "destructive read" because the act of reading the contents destroyed the contents. We wrote zeros to everything, getting pulses out of those ones that switched from one to zero. Which meant that, unless we wanted to leave the zero there, we needed to rewrite the original contents in order to put it back, which is what these memories typically did.
+
+So let's imagine that we have memory, core memory, which is nonvolatile, meaning that it just - we can magnetize these little cores, and they'll stay set that way. And we have a way of reading out the contents of a location and getting the ones and zero bits that are there. So the first thing we need to have is what's called the PC, the Program Counter, which is a - it's a counter which increments one at a time, reading out the contents of successive words of this memory. Now, the word length can be pretty much whatever we want. There were word lengths back in the beginning of as much as, like, 36 bits, sometimes even more. The early DEC machines were 18-bit word length. And people are used to thinking these days in terms of 16 bits or 8-bit bytes. We know, for example, that the Pentium machines were 32-bit machines, and of course we now have 64-bit systems. So these are the - currently there's been complexity added to what so-called "word length" means, which we're going to actually talk about in two weeks. In two weeks we're going to talk about all of the stuff that's happened since. But back in the beginning the word length was whatever the designers wanted.
+
+Now, there was pressure on keeping it short because everything cost so much. Remember that, back then, this was before integrated circuits. So a bit that you had was a bunch of circuitry that you had to pay for every time you made one of these machines. So, sure, the programmers would like more bits because that allowed them to store more stuff. But the management was saying, wait a minute, we can't afford this many bits. So there was sort of a compromise. So if we look, for example, we don't really have to worry about specifically, but just sort of imagine you had 18 bits because that's where the first machines of this era sort of landed, 18 sort of being a compromise of different pressures, cost and capability.
+
+So we have this program counter which will address the memory sequentially, basically stepping through it. So say we start at location zero. So out comes 18 bits into a register which we call the "instruction register." And it's just, it's one of these registers made out of individual bit memories, which we talked about last week. And they're all expensive, but we can afford 18 of them. So this instruction register holds the data that we just read out of a given location in memory. So what do we do with that?
+
+Well, there's essentially a subdivision of the bits into different purposes. And a term that probably everybody has heard is opcode, the operation code. And sort of traditionally, the opcode has been on the left of one of these long words. So, for example, in the case of this computer we're making, we'll dedicate some number of bits to the opcode. So, okay, what does that mean? What things do we want to be able to do? We want to be able to load and store memory. We want to be able to add and subtract and maybe perform some logical operations.
+
+Now, we're performing these against something called the "accumulator," which is another register. We had the instructor register; now we have an accumulator, which is sort of our scratch pad, so that that's the main working register where the data moves through where we perform these operations. So, for example, if an instruction said load a certain location into the accumulator, then the computer would transfer the data in a given location in its memory into the accumulator. And if another instruction said store that somewhere else, the computer would store whatever happened to be in the accumulator now into the location specified.
+
+So we need to be able to perform some operations on the data in this accumulator. And sort of - so this is everything is centered around the accumulator, with the rest of the hardware sort of all existing to serve the purposes and needs of this accumulator. So if we had an opcode of, say, 5 bits, well, we know how binary works. We know that each bit gives us twice as many as we had before; 5 bits means that there's 32 different combinations of 5 bits. So if we think of those as sort of as the verb of this instruction, we could have 32 different things. And in fact the PDP-1 was an 18-bit computer that did have a 5-bit opcode. But back then 32 verbs, 32 actions that you could specify turned out to be more than they ended up being able to use.
+
+So as the DEC minicomputers evolved, in fact with the very next one, which was the PDP-4 - there was no 2 or 3; the 4 and the 7 and the 9 and finally the 15 were the 18-bit lineage - they dropped the opcode to 4 bits, which is where they stayed for quite a while, for many years. So 4 bits gives us 16 different verbs, 16 different things we could do. So, for example, the opcode, meaning the first four bits of this word, might be 0000 or 0001, 0010, and so forth. Each combination of those 4 bits would specify a different action. And just one simple action. So absolutely one of them would be load the accumulator with something in memory. Now, where in memory? Well, that's where the rest of the bits come in.
+
+Leo: All right, Steve. So we're building a machine language. And it really is based on kind of the architecture of the CPU; isn't it?
+
+Steve: Well, I think what's significant, the point that's worth making is that even though I'm talking about an architecture that is 50 years old, this is still today exactly the way computers work. What I'm talking about is a simple CPU, a simple Central Processing Unit. But the fundamentals haven't changed at all.
+
+Leo: Probably not even since Alan Turing imagined how a computer would work in the '40s.
+
+Steve: Right.
+
+Leo: This is the fundamental way a computer works.
+
+Steve: So we've got a 16-bit word. And the left-hand 4 bits are allocated to the opcode, which leaves us 14 bits for the address. Meaning that the word is two parts. There's "what to do," and then the second part is "and what to do it with." So a 14-bit address gives us 16K words. If we think of, like, 10 bits is 1K, 11 is 2K, 12 bits is 4K, 13 bits is 8K, 14 bits is 16K. So the right-hand 14 bits provides the address, sort of the address argument for the opcode verb.
+
+So say that the opcode 0000 stood for "load the accumulator." So when we fetch this 18-bits instruction into the instruction register, there's some logic which looks at the combination of bits in the opcode and essentially does this one simple thing that the opcode specifies, like load accumulator, if all four of those bits are zero. And so what that means is that that 14-bit argument is used as the address to fetch another piece of data from memory, different from the instruction. We fetch the instruction from where the program counter is pointing. Then we fetch the data from where the 14-bit argument of that instruction is pointing and load that into the accumulator.
+
+So the opcode 0001 might be "store accumulator." And then the 14 bits following it would specify where to store the accumulator. So with those two instructions we have the ability of picking up data from somewhere and storing it somewhere else, moving the data from one place to another in memory. We might - we would certainly have an instruction called ADD. That might be 0011. And what that would do is - and then the 14 bits that follow would specify where to go to get the data to add to what's in memory. Again, it would - and this class of instructions are collectively called "memory reference instructions" because each of those opcodes references memory. It loads it; it stores it; it adds it to the accumulator; it might subtract it from the accumulator; it might AND it against the accumulator or OR it with the accumulator. Basically very simple, simple bit manipulations against the accumulator.
+
+Now, the computer is useless to us unless it's able to have some sort of I/O, some sort of input/output. So one of those instructions, which would not be a memory reference instruction, would be an I/O instruction. Maybe that's, like, 1111, all the way at the other end, the 16th instruction, 1111. That would - it would be formatted differently. That is, the memory reference instructions were all an opcode followed by 14 bits that specified where in memory to do its thing. Whereas the last instruction, 1111, that's an I/O instruction.
+
+So the rest of the 14 bits might, for example, specify an I/O device. Many of the early computers had, like, you could attach up to 64 devices. Well, 64 is another power of 2 which you require 6 bits to specify. So there might be a field in those remaining 14 bits that is a 6-bit I/O device number, meaning the teletype, the mag tape, the card reader, the card punch, whatever device it was. And then some of the other bits might be start the device, stop the device, read the device, write the device, different bits that are about input/output rather than, well, because those apply to that specific instruction. So what we see is we see that there's always a field in the instruction word for specifying the operation. And then depending upon that operation, the remaining bits provide arguments of one form or another to it.
+
+Now, at this point we've got a computer which is able to move through memory, incrementing its program counter once for every instruction, and reading what's there and causing something to happen. Read, load and store, input something, output something. The problem is, it just goes in a straight line. And while that's certainly what you want some of the time, one of the things that computers do is make decisions. And that requires altering the normal linear incrementation to jump somewhere else.
+
+The way this was done then, and even now, was to have a skip instruction, the ability to skip over a word in memory. Even though that wasn't very powerful, it was powerful enough because what you might have had, and certainly would have, one of our instructions. We talked about load and store and add and so forth, well, one of those, like instruction eight - 1000 - that instruction could be the jump instruction. And so when we load the instruction in the instruction register, and the opcode is 1000, that is, the first, the left-hand 4 bits is that pattern, well, the argument to that instruction, the other 14 bits, is the address we want to jump to.
+
+So all the computer does is it loads that 14 bits into the program counter. So that instead of the program counter incrementing one at a time, we've just replaced the contents of the program counter with the 14 bits in the jump instruction. Which means that the next instruction we fetch is at that location. We've just jumped our program execution to a different place. That's all there is to it.
+
+And so the way the skip comes into play is that, if we tested something, like say that one of our instructions was skip if the accumulator is zero, or skip if the accumulator is not zero, that kind of thing, well, if we were to subtract two items, and they were the same, that is, if they were equal, then the result would be zero. So that allows us to determine if two things are equal or not. And if we had an instruction that said skip if the accumulator is zero, then the instruction it's skipping over would be a jump instruction, which is - this is all a very simple way of implementing the control of the program's flow, so that if the two things we were comparing were not the same, the accumulator would not be zero, so we would not skip the instruction that follows. That instruction that follows would be jump completely somewhere else, so that if we don't skip, then we land on that jump instruction and go completely somewhere else. If the accumulator was zero, we skip over that jump instruction.
+
+And all skipping means is, instead of adding one to the program counter, we add two, or we add one twice, which is actually how these machines worked back then. And that just causes us to skip over a jump. So essentially that means we can branch to anywhere we want to in memory or continue on our way, which gives us, even though that's very simple, that gives us enough power to allow machines to make decisions. And we've got input/output; we've got math; we've got the ability to transfer data from one location in memory to another. Those are all the essentials of the way a machine functions. That is machine language.
+
+Now, the one layer of humanity that's put on top of that is what's called "assembly language," which is nothing but naming things. For example, you create sort of a so-called mnemonic for the different instructions. So, for example, load the accumulator would be LDA. Store the accumulator, STA. You want them to be short because you're going to be typing them a lot. Remember that you end up using lots of little instructions in order to get something done. And then the only other thing really that assembly language does, it allows you to name locations in memory.
+
+So, for example, you might say LDA, for load accumulator, current score. And current score would simply refer to a, like a variable essentially, a location in memory that you had labeled "current score." And then if you did STA, store accumulator, new score, well, it would first load the current score into the accumulator, and then store that into a different location called new score. So really that's all we're talking about is some simple abbreviations for helping sort of remember and use these individual instructions and convenient labels for locations in memory so that you're not having to remember, oh, that's in location 329627. I mean, who can do that? So instead you just, you label that location with an English, an alphanumeric phrase of some sort, and then you refer to that location by the phrase rather than by its actual number.
+
+And in fact you don't care what the number is. That's one of the things that the assembler will do for you is you just say I need memory called these things. And it worries about where they go because it doesn't really matter to you as long as they're consistently referred to. And that's the whole process. That's machine language and assembly language. And that's the way it was 50 years ago, and more or less that's the way it is now.
+
+Leo: Very cool. It's amazing, really.
+
+Steve: It is. We referred to it the other day as a dumb box of rocks that was just very fast.
+
+Leo: Exactly. And this is - I think that was the most valuable thing about me learning how assembler works is you see every individual thing it does. And so you see exactly that. That's the lesson, is it's not doing very much. It's doing it fast.
+
+Steve: It's why I like it, because nothing is hidden.
+
+Leo: Right.
+
+Steve: That is, there's nothing going on underneath that. One of the problems that I see programmers having is they assume that the compiler, like a C programmer is expressing much more abstract things. For example, when you're dealing at the machine level, you are truly dealing with fixed numbers of bits that you're moving around under your command. When you abstract that a lot, you're now talking about sort of like double-precision something. But the details matter. And it's where the programmer assumes that something is going to be done for him or her by the compiler that the compiler doesn't agree with. The compiler says, no, that's not what you told me to do. I'm going to go off and do this. So that kind of miscommunication in assumptions is where a lot of problems crop up. And for me, by dealing with it, by insisting on actually doing the individual small little bite-size pieces, there's no room for argument.
+
+Leo: Yeah.
+
+Steve: I mean, when I make a mistake, it's mine. It's because I told the computer, move this chunk of bits over here, and that was the wrong place to go. It's not that I told it something, and it did something different.
+
+Leo: Yeah. Well, doesn't mean there are no bugs or surprises. I mean, because humans may think they're saying one thing and the computer think another. But it's much less ambiguous.
+
+Steve: Yeah.
+
+Leo: I mean, it's pretty clear. And I would guess there's kind of fewer interactions. Although, I don't know about you, but as I used assembler, I built larger and larger macros that, in effect, represented higher level commands. You must do that; right? You're not going to write out each little thing every single time.
+
+Steve: Well, we're going to talk - one of the things we're going to talk about in two weeks is the nature of indirection and pointers.
+
+Leo: Oh, boy. That's fun.
+
+Steve: And...
+
+Leo: Oh, boy. If you - that was - there are two things I found very difficult to learn in programming. Indirection was one, and recursion was the other.
+
+Steve: It's hard. It requires you being very clear about whether you mean something or the thing that that thing points to.
+
+Leo: Right. I remember it very well. Now it's obvious to me. But I do remember very well when I first started writing in C, learning where to put that little caret and where not to. Oh, this'll be fun.
+
+Steve: Yeah.
+
+Leo: This'll be fun. Oh, I'm really enjoying this, Steve. And it's bringing back memories, and it makes me want to drag out my copy of MSM.
+
+Steve: Well, and, I mean, what we just described, I mean, that is - what I described is a working computer that has everything it needs to get something done. And I think the mystery or the surprise is that just that, I mean, that's all our computers do. They load and store and perform simple operations on little bits of data. And, I mean, look what we get as a result. Because they're able - because there's enough of these little bits of data, and it's able to do stuff so fast, that they perform magic, really.
+
 - Transistors: http://www.grc.com/sn/sn-233.htm
     - images: http://wiki.twit.tv/wiki/Security_Now_233#Lets_Design_a_Computer
 - http://www.grc.com/sn/sn-234.htm
