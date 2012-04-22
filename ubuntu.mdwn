@@ -27,7 +27,7 @@ https://help.ubuntu.com/community/AptGet/Howto
     # for clearing out unused linux-headers, for example
     apt-get autoremove
 
-## `apt-get dist-upgrade`
+### `apt-get dist-upgrade`
 
 "-y  Assume Yes to all queries and do not prompt" is not recommended for `apt-get dist-upgrade`
 
