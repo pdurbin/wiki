@@ -1,1 +1,1 @@
-[[!map pages="*"]]
+[[!map pages="* and !favicon.ico and !ikiwiki and !index and !local.css and !sandbox and !smileys and !style.css"]]
