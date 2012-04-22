@@ -22,4 +22,4 @@ I order to get autolinking working (MKD_AUTOLINK per http://www.pell.portland.or
              Document *doc;
     [pdurbin@server1 Text-Markdown-Discount-0.02]$ 
 
-As http://ikiwiki.info/plugins/mdwn/ says, ikiwiki will prefers to use Text::Markdown::Discount, if it's available.
+As http://ikiwiki.info/plugins/mdwn/ says, ikiwiki prefers to use Text::Markdown::Discount, if it's available.
