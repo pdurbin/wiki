@@ -3,3 +3,5 @@ This wiki is running [ikiwiki](http://ikiwiki.info) on CentOS 6 with an [RPM](ht
 After installing the RPMs, I ran `ikiwiki --setup wiki.setup` on [[/wiki.setup]].
 
 The source of this wiki ([[markdown]], mostly) is available at http://git.greptilian.com/?p=wiki.git
+
+That's where you can find my tweaks to the default page template, for example: http://git.greptilian.com/?p=wiki.git;a=history;f=templates/page.tmpl
