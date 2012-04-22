@@ -2,5 +2,6 @@
 * http://git.greptilian.com
 * http://yum.greptilian.com
 * http://thinkup.greptilian.com
+* [[about]]
 * [[ubuntu]]
 * [[sitemap]]
