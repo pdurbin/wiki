@@ -1,5 +1,7 @@
 ## Package management
 
+[[!toc]]
+
 https://help.ubuntu.com/community/AptGet/Howto
 
 [Ubuntu comparison of apt-get vs. yum commands](https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora)
