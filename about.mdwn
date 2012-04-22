@@ -5,3 +5,20 @@ After installing the RPMs, I ran `ikiwiki --setup wiki.setup` on [[/wiki.setup]]
 The source of this wiki ([[markdown]], mostly) is available at http://git.greptilian.com/?p=wiki.git
 
 That's where you can find my tweaks to the default page template, for example: http://git.greptilian.com/?p=wiki.git;a=history;f=templates/page.tmpl
+
+
+I order to get autolinking working (MKD_AUTOLINK per http://www.pell.portland.or.us/~orc/Code/discount/ ), I made this change to http://cpansearch.perl.org/src/SEKIMURA/Text-Markdown-Discount-0.02/Discount.xs before running `make`:
+
+    [pdurbin@server1 Text-Markdown-Discount-0.02]$ diff -u Discount.xs.orig Discount.xs
+    --- Discount.xs.orig    2012-01-01 20:51:51.000000000 -0500
+    +++ Discount.xs 2012-04-21 23:12:45.376580002 -0400
+    @@ -46,7 +46,7 @@
+             char *text;
+         PREINIT:
+             SV* r = &PL_sv_undef;
+    -        int flags = MKD_NOHEADER|MKD_NOPANTS;
+    +        int flags = MKD_NOHEADER|MKD_NOPANTS|MKD_AUTOLINK;
+             char *html = NULL;
+             int szhtml;
+             Document *doc;
+    [pdurbin@server1 Text-Markdown-Discount-0.02]$ 
