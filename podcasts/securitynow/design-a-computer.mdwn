@@ -1,3 +1,7 @@
+[[!toc levels=99]]
+
+## Machine language (Security Now 235)
+
 From http://www.grc.com/sn/sn-235.htm around ([46:00](http://wiki.twit.tv/wiki/Security_Now_235#Machine_Language)):
 
 Leo: Where do we start?
@@ -99,6 +103,8 @@ Steve: Yeah.
 Leo: This'll be fun. Oh, I'm really enjoying this, Steve. And it's bringing back memories, and it makes me want to drag out my copy of MSM.
 
 Steve: Well, and, I mean, what we just described, I mean, that is - what I described is a working computer that has everything it needs to get something done. And I think the mystery or the surprise is that just that, I mean, that's all our computers do. They load and store and perform simple operations on little bits of data. And, I mean, look what we get as a result. Because they're able - because there's enough of these little bits of data, and it's able to do stuff so fast, that they perform magic, really.
+
+## Links to Security Now transcripts
 
 - Transistors: http://www.grc.com/sn/sn-233.htm
     - images: http://wiki.twit.tv/wiki/Security_Now_233#Lets_Design_a_Computer
