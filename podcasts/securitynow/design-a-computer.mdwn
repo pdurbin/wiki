@@ -104,6 +104,168 @@ Leo: This'll be fun. Oh, I'm really enjoying this, Steve. And it's bringing back
 
 Steve: Well, and, I mean, what we just described, I mean, that is - what I described is a working computer that has everything it needs to get something done. And I think the mystery or the surprise is that just that, I mean, that's all our computers do. They load and store and perform simple operations on little bits of data. And, I mean, look what we get as a result. Because they're able - because there's enough of these little bits of data, and it's able to do stuff so fast, that they perform magic, really.
 
+## Incrementing the program counter (Security Now 236)
+
+http://www.grc.com/sn/sn-236.htm
+
+Leo: Let's see, here. Dan White in Winchester, VA wonders about incrementing the program counter. Oh, good. We got some programming stuff here. Just listened to the last episode on machine language, thoroughly enjoyed it, he says. It brings back memories of when I programmed in Z80 machine language for a computer my dad and I built based on the S-100 bus, if you remember that.
+
+Steve: Oh, yeah.
+
+Leo: Oh, yeah. I'm looking forward to your discussion of indirection next week and wherever you go after that. My question relates to - I want you to do recursion, too.
+
+Steve: Yeah, we're going to.
+
+Leo: Oh, good, okay. That's the one I'm still wrapping my head around.
+
+Steve: Yup, because we need to talk about stacks.
+
+Leo: Right.
+
+Steve: And so the plan is to talk about adding various types of complexity onto the very simple model that we built last week.
+
+Leo: Yeah. My question relates to something you just glossed over in your jump from the previous discussion of simple gates and flip-flops - which was excellent, by the way - to this discussion of machine language. You spoke of the program counter to allow the program to step through instructions. But doesn't that require more than just simple gates? Seems like it would involve an adding function, a timer, and a looping mechanism to continually add one to the counter. But that seems to require more complex functions of a program which depend on the program counter. So would you then need a program to create a program? How do you get this chicken-and-egg thing started? Is the program counter all done in hardware? Did I miss something in your previous discussion, or is this something you plan to address in future episodes? Thanks for Security Now! and for SpinRite. No great stories, just the normal maintenance of my drives. Dan.
+
+Steve: Well, I thought that was a neat question. I did sort of just talk about the program counter incrementing and never talked about how that's done. It's not worth a whole episode, so I thought this made a great question for a Q&A. Counting in binary is a process that is interesting and sort of fun to work out on the back of a napkin, or on the front of a napkin, for that matter.
+
+It turns out that a binary counter has a very simple logic to it. If you have a string of bits, say individual bit cells, and say that it's initially all set to zero, well, to turn it to a one we invert the lowest order bit. And so now we've got all zeroes and then a one. To increment again, we invert that first, the rightmost bit again. But when we invert the bit, and the bit goes from a one to a zero, we invert the next bit to the left. And what's really cool is that simple logic. You just - you invert a bit. And when you invert it, and it goes from one to zero, you invert the bit to the left that is the most, the next most significant bit. If you apply that, that counts. So you start off with all zeroes.
+
+Leo: "Counts" in the sense of counts one, two, three, four; not "counts" as in is significant. It's counting.
+
+Steve: Yes.
+
+Leo: It's adding, yeah.
+
+Steve: It's essentially, it's adding one every time. So we start off with all zeroes. We invert the least significant bit. That goes to a one. And then we invert it again. Well, that bit goes to zero, which kicks the next one, causes it to invert. So that goes - now you have a one zero, which is the number two in binary. Now we invert the least significant bit again, so now we have a one one. Now, when we do it again - and a one one is a three - now we invert the least significant bit. So that one goes to zero, which kicks the next one over. It's a one. It goes to zero. Which kicks the next one over, forming a one. So now you have one zero zero, which is binary four.
+
+So the logic in our machine, this program counter is a register of flip-flops that I talked about before. And there's some logic you can put on a flip-flop such that you're able to cause it to toggle. It flips. If it's on, it flips off. If it's off, it flips on. And so just by wiring those sort of in series, you get a counter. And that allows our machine to address successive incrementing memory locations in sequence.
+
+And we also talked last week about altering the instruction flow, that is, this notion of skipping an instruction if the result of an operation was zero or had some particular characteristics. Well, skipping an instruction merely requires incrementing twice, rather than once. So you just send two pulses in, in the event that you want to skip over an instruction, and it adds two to the program counter instead of adding one. So it's a very elegant, very simple solution. And it works.
+
+Leo: It's amazing. I just love the - elegant's the word. In fact, that's one of the - I mentioned art. That's why programming is an art. Because it's not, if it's done right, it's not a struggle. It falls into place in a way that's elegant. And you know immediately that's the correct solution because of the elegance of the solution.
+
+Steve: Yes. I think that's - that really says it well. I've seen that when I don't really grasp the problem that I'm trying to solve, but I just sort of start writing code because I'm in a hurry or I'm anxious or impatient, I can sometimes code myself into a corner. I get myself tangled up where I think, oh, wait, I forgot about this. And so I add some code to fix that. It's like, oh, wait, I forgot about that, and add some code over here. And then before long you end up with just this big mess.
+
+And in fact one of my very best friends once said something to me. This is, oh, I am an old man. This is about 30 years ago maybe. More than that, actually. He said that sufficiently complex problems need to be coded three times because the act - and you have to solve it all the way three times. Because his observation had been that when he - and this was, like, a big system, like a CAD/CAM PC board routing problem. It's like, you know, you start off, and you think you know how to solve it. So you start programming. And the act of reducing this abstract problem to individual instructions to reach a solution, that act teaches you so much about the - more than you knew in the beginning about the problem you're trying to solve, that when you're done you really need to scrap it. You just need to throw it away and start again.
+
+And when you're starting the second time you know, you understand the problem you're trying to solve so much more clearly than you did the first time, even though you thought you understood it then. Now you do it the second time, and again you still haven't got it. You got it better. But now you're solving it sort of almost at a meta level because you really do have a grasp of it, having solved it once before already.
+
+And then his point was the third time's the charm. I mean, and here's the problem. The real world never lets us do this. The real world has managers and marketing schedules and timelines and commitments and all this. And so it's so difficult to ever have an environment where - except as you said, Leo, as an artist, where fundamentally you don't have a commercial goal. You have an artistic sort of aim. And there you can say, okay, wait a minute, I'm just going to throw this away because I don't like it, and I'm going to start again.
+
+Leo: You have to do that.
+
+Steve: Yeah.
+
+Leo: It's part of the process.
+
+Steve: Yeah.
+
+Leo: I've got to do, I keep wanting to do - and we've got people like Randal Schwartz and you who are just topnotch, best in breed programmers. And I just would love to do a programming show. It's such an abstract subject that I don't know how we would do it. I mean, I guess it's no more abstract than what you and I talk about every week. But I would like to do a show about programming as art. And there are people like Paul Graham. Paul Graham's fascinating on this. He wrote a book, in fact, called I think "Hackers and Painters," that compares fine artists and great programmers. It's just a fascinating subject. Anyway, maybe someday.
+
+## Indirection: The Power of Pointers (Security Now 237)
+
+From http://www.grc.com/sn/sn-237.htm
+
+Leo: So there's a word in programming, "indirection," that is one of the fundamental programming concepts. And I remember very well when I first started studying C. I mean, I remember PEEK and POKE from Basic, which is essentially the same idea. But when I first started studying C, that was the hardest thing to get was indirection.
+
+Steve: Yes.
+
+Leo: And that's what you're going to teach us.
+
+Steve: We're going to talk about it. It is - it's something I didn't want to get into week before last when we laid out the fundamental architecture for how simple a computer is because it begins to add a little more complexity. But it existed back then on a PDP-8, on the PDP-11, the early Data General Nova machines. It's always been there. And it's a very powerful concept, but the power is the problem. So we're going to cover the whole issue of indirection and pointers.
+
+Okay, so if we turn back two weeks to where we talked about machine language, we'll remember and recall from that that we have a bunch of memory, which is organized in words, each word containing a set of bits; and that a program counter is used to address a particular word in main memory, which it reads from memory. The bits then determine what the machine does in that step. And everything is done sort of step by step.
+
+So, for example, in the machine we sort of - the virtual machine we designed two weeks ago, the upper four bits are opcode, and that would give us one of 16 different possible operations. And so, for example, if it was 0000, if those first, the left-most four bits were all zeroes, that might be the add instruction. And the balance of the bits in the word would be sort of, where the opcode is the verb, the balance of the bits would be the noun, that is, add what? That is to say, add the contents of a certain location, where those bits in the word would specify the address. Or we might load from a location, or store to a location, or AND the contents of the accumulator, which is sort of our scratch pad storage, with a certain location.
+
+So once doing that, the program counter would increment to the next word in memory and do whatever that said, whatever the opcode in that word specified. And so, if you really think about it, it's a script. This program is a script of step-by-step instructions which the computer executes. And it gets a little more complicated because it's able to step out of sequence using skip and jump instructions to go somewhere else. So there's our computer.
+
+Now, imagine a problem, as the designers of this early computer and all early computers did, where for example we have a document that's living in the computer's memory, and we want to search it for a certain word, which, you know, and we use FIND in our word processors all the time, the idea being that the computer needs to scan down through memory, through this document, to find what we've told it we want it to locate. So with this simple computer that we've got, how do we specify a succession of different addresses in memory? That is, the word contains the address we want to load, but it just contains that one address. It doesn't, like, how do we scan through memory?
+
+Well, if we only had what we've described so far, there would be two ways to do this. You could have individual instructions, one after the other, that loaded successive locations in memory into the accumulator to see whether it had what we were looking for, that is, an instruction would be "load location 100," and then it would check to see, then it would be "load location 101" and would check to see, and "load location 102." Well, obviously that's a hugely long program because you're needing several instructions in order to check each location in memory. So that's arduous.
+
+Now, another approach, the other approach would be something that is generally frowned on, and that is self-modifying code. That is to say, since the instruction itself is in memory, and for example it said "load location 100," then the program could change the actual data for that instruction from 100 to 101 and then load it, see if we found it. If not, then increment that location, the actual specified in the program, to 102. So the problem is that it requires that the program is modifying itself, which becomes messy pretty quickly. So what the original architects of these early machines decided is instead of the instruction, like said load 100, instead of that instruction specifying what to load, the instruction would have an option of specifying the location that contains the address of what to load.
+
+Okay, so now - and we have to be careful, even like the way we talk about this, because it's amazing how easy it is to get tangled up. But in these early instruction sets, as I talked about it so far, we had for example a four-bit opcode, and the rest of the bits specified what the opcode acted on, what address in memory was loaded or stored or added or whatever. These early computers used one more bit, that is, so there was an opcode of four bits, and then for example another bit right next to it called the "indirection bit." And then the rest of the bits that were remaining specified the location. That is to say that the designers of these machines took one more bit for this purpose from the instruction.
+
+So what this meant was, if it was a so-called, for example, an indirect load, if it said "load indirect 100," what that meant was the computer would get the contents of location 100 and treat the contents as the address to load the data. In other words, that the location, the contents of location 100 was a pointer to the data that should be loaded. And that is an incredibly powerful concept. That is...
+
+Leo: It seems so simple.
+
+Steve: Well, yes. And the reason it, I mean, it is simple, and it was even simple to do in hardware. I mean, all they had to do was they were going to load the contents of 100 anyway, so they did. They loaded the contents of location 100, for example. So the question is, do you use what you just loaded, or do you treat it as the pointer to what you want to load? And that's - so the logic in the computer was, I mean, it was inexpensive for them to implement this. And they got something so powerful as a result.
+
+So if we return to our simple example of searching memory, all we need to do now is the program refers to location 100, but we're using the value of that as the address of the data that we're going to load. So we simply increment that location. And in fact the early machines, like the PDP-8 and the PDP-11 and even the Data General Novas that was another machine of that time, they had what was called "auto-incrementing memory," that is, auto-incrementing locations, literally a reserved block of memory, typically down at the beginning of memory. In the case of the Data General Nova it was location, I think it was 78 - I'm trying to think of which location. I don't remember now. I think it might have been octal 10 through octal 17.
+
+Leo: It's so funny that you remember it.
+
+Steve: So it was the eighth through the 15th locations. And the way that worked was, if ever you referred to those locations indirectly, the computer itself would increment the value for you. And what was really neat - remember we talked two weeks ago about this notion of memory which destroys its contents when you read it, like core memory, which is what was used back then - in order to read the contents of the memory, you needed to destroy what was there. Essentially you wrote all zeroes into the memory word. And the inductive pulse caused by the core's switching from one to zero is what let the computer know what had been stored there.
+
+But in the process you wrote zeroes. So it was necessary to have a second memory cycle to write back what you had just destroyed. Ah, but in the case of auto-incrementing, you wanted to write back one greater. So what was so clever is that you sort of got this auto increment, or auto decrement, for free. That is, it sort of folded it right into the recovery of the prior contents of the core memory so that, again, very simple logic to just increment the value by one. We talked about that last week in one of our Q&A questions about how do you increment something. And it's very simple logic to do.
+
+So now, with this very bare-bones instruction set, we're able to easily scan through as much memory as we want to. We simply say, instead of using location 100, for example, on a PDP-8 or even in the early Data General Nova, the Nova also had auto-decrement, a block of memory. And when you referred to it indirectly, the computer would decrement so that you're able to sort of scan from high memory down, as opposed to low memory up.
+
+And so in the case of our little project here to locate something in memory, we would establish the beginning of the buffer that we want to scan. We would put its address into, say, location octal 10. Then we would say "load indirect 10." So we're not loading the contents of 10. The computer reads the contents of location 10 and increments it and puts one more than that back in 10. Then it uses the value that it read from location 10 as the address containing the data to be loaded. And so our program can be very small, very efficient. And every time it does this load indirect octal 10, it gets - what actually is loaded is a word somewhere else in memory, and it's the successively next word every time we do this. So again, very simple, tiny steps, but very powerful.
+
+Now, what we've done is to empower the programmer with a concept which is needed for the sake of programming efficiency. But it's tricky because even today we're talking about security problems all the time that contemporary software has. And Leo, you were talking about you've done programming.
+
+Leo: Yeah.
+
+Steve: And, for example, in C, pointers are used...
+
+Leo: It's built into the language. It's...
+
+Steve: Well, exactly, it's intrinsic property of the language. And in fact pointers have historically caused so much problem that there are languages that boast they don't have them. Because it's like, oh, if you don't have this, you can't get yourself in trouble. And what happens is, programmers can easily make the mistake of whether they are referring to something or they're referring to where that something points to. And it's funny, I think the problem is there isn't a good analogy in life, that is, we're used to seeing something, and you reach out and grab it. And there's, you know, there's no indirection most of the time.
+
+And so I don't think mentally we humans model something as abstract as a pointer. I mean, we understand intellectually what it is. But in the years I've been programming, I'm always having to be very careful. And programmers who have used pointers extensively know they have to be very careful to make sure that there isn't a gap between what they mean and what they tell the computer. Because the computer, as we know, is very literal. It'll do exactly what you tell it. So one of the, for example, in C or any of these pointer-based languages, you need to be able to get the address of an object as opposed to the contents of the object. And if you think about it, if you had a language, say like Basic, the Basic language, until you had, for example, PEEK and POKE, as you were referring to, Leo...
+
+Leo: Yeah, yeah. Which is - that's indirection in a way, right, because you can...
+
+Steve: Oh, it absolutely is. Yeah. If you just have the Basic language, where you say A equals 1, B equals 2, C equals A plus B, you cannot get yourself in trouble. I mean, there's no notion of pointing to something else. You know, A and B are variables. The language takes care of that for you. If you say C equals A plus B, then, again, the compiler is completely hiding that.
+
+Leo: Right.
+
+Steve: But as soon as you say A equals where B is pointing to, now, I mean, you have let the genie out of the bottle because, as a pointer, that B, where B is pointing to, it can point to anything. I mean, it could point to outer space. It can point to the operating system. It can point, I mean, to data structures inside the program. I mean, suddenly there is an awesome amount of responsibility that comes with that power. And frankly, it's one of the things that makes C, that allows people to regard C as a relatively low-level language. It was designed from the beginning to be a language close to the machine in which you could implement system-level software. You know, UNIX was written in C.
+
+Leo: It's huge, yeah. Huge.
+
+Steve: Yeah. And so it is a - it's an intrinsic of machine language. It's always been there. One of the variations as we evolved is the notion of what was called "index registers." You could - or "indexing," which is just another way of saying the same thing, where you could, in some of the early machines that had, for example, like the Data General Nova had four accumulators, AC0, 1, 2, and 3. And the last two accumulators, AC2 and 3, could be treated as so-called index registers, which is exactly what we're talking about. We're saying that they contain the address of the target location rather than their contents being used directly. And index registers are a component, and indirection is a component of all contemporary machines today. They come in different shapes and sizes and additional complexity. But this basic structure has been around from the beginning and is really powerful.
+
+Leo: Indirection. Next, recursion. I mean, I tell you, pointers was hard for me, even though I'd had, as I said, had experience with PEEK and POKE. The little caret and little ampersand in C, it was like, I use what, when? But once you get it, it is so powerful. And it's really not that hard. You just did a great job in 15 minutes of explaining it.
+
+Steve: Well, it's not hard. What I think, though, is it is mistake prone.
+
+Leo: Ah, well, okay. Now the security issues arise, yeah.
+
+Steve: Exactly. Because this is what we see. And in fact if you - remember, one of the things that the bad guys do is they are able to confuse data and instructions. The bad guys, when we talk about remote code execution exploits, the idea is that data in a GIF image or in a buffer that is moved across the Internet, it is not supposed to be executable. But because of the power of pointers, literally for this reason, because of the power of pointers, it is possible for data to get confused with code and for the bad guys to leverage this power to get the data that they provided to be executed as code. And at that point all bets are off.
+
+Leo: Yeah. That's why you have this feature in Windows where you can't execute code out of the data stack.
+
+Steve: Right, DEP, Data Execution Protection.
+
+Leo: Right.
+
+Steve: The idea is that there are regions of memory which a programmer can, when they're setting things up, they're able to say, okay, I intend for this buffer to be data, not executable. And that was a feature added relatively recently to, in the case of Intel, to the Intel architecture so that blocks of memory that were being allocated by the operating system could be marked as read-only, writeable, or executable. Or not, in the case of leaving this bit off. So that literally, if your program attempted to jump, that is, again, we have a program counter in today's processors, just like we did back then.
+
+So if your program counter attempted to be set to the address of an address inside this block of memory, there are gates in the chip which check the privilege bits associated with this allocation of memory and say, oh, wait a minute, the execute bit is off on this block of memory. We cannot execute from this memory. Therefore the program counter is not allowed to fetch from that. And what that does is it pulls an exception, essentially, a violation deliberately that returns control to the operating system, saying whoops, this program just tried to do something it should not try to do. We don't know why. We don't know that it's a bad guy. It could just be a mistake in the code. But...
+
+Leo: Or it could be intentional. Programmers do this all the time. They stick program code on the stack which is, as we now know, bad.
+
+Steve: Yes. And in fact Windows depended upon that in the old days. Back before hardware graphics acceleration, where you were wanting to move rectangles of data around from one place to another on the screen, it was too slow if you had a general purpose chunk of code that would say move this many bits, and then is counting down the bits as you move them, and then goes back over and does another line, and so it's like that does line by line in a raster scan order. The problem was that was just too slow.
+
+So what Windows did was, when you said I want to move a rectangle of data from one place on the screen somewhere else, it actually wrote custom code on the stack in order to do just that one operation one time, much faster than you could execute a much more general piece of code to do that. And then it would just discard it. And in fact we're going to be talking about what is a stack week after next because it's one of the next...
+
+Leo: Oh, good. Oh, yay, yay, yay.
+
+Steve: ...the next evolution of fundamental technology that - and actually the early machines did not have a stack. The machine we've been talking about, our little hypothetical machine, there was no stack. But the introduction of that concept was another sort of crucial, critical addition to the way computers work that it was so good, no one would do one without them these days.
+
+Leo: Yeah, yeah. It's these little abstractions that advance computer science in big leaps. And it's wonderful when you get it because your brain and your understanding of how this stuff works advances in a big leap, too. You really feel it. You go, I get it, pointers. Or, I get it, stacks.
+
+Steve: And the abstraction is fun.
+
+Leo: Oh, I love it.
+
+Steve: I mean, it's fun to, well, in fact it is, I think that's one of the hooks for people who love to program is that they just - they get off on this kind of true abstract thinking. It's just great.
+
 ## Links to Security Now transcripts
 
 - Transistors: http://www.grc.com/sn/sn-233.htm
