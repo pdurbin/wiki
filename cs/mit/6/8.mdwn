@@ -42,11 +42,11 @@ http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-intr
         numCompares = 0
         while i < len(s) and answer == None:
             numCompares += 1
-        if e == s[i]:
-            answer = True
-        elif e < s[i]:
+            if e == s[i]:
+                answer = True
+            elif e < s[i]:
                 answer = False
-            i += 1
+        i += 1
         print answer, numCompares
 
     def bsearch(s, e, first, last):
