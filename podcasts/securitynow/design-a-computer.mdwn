@@ -1,5 +1,135 @@
 [[!toc levels=99]]
 
+## Let's Design a Computer: Transistors, Logic Gates (Security Now 233)
+
+From http://www.grc.com/sn/sn-233.htm ([42:00](http://wiki.twit.tv/wiki/Security_Now_233#Lets_Design_a_Computer)):
+
+Leo: That's all I can say without giving away a very critical part of that book. What a fun book that is, too. All right, Steve. Let us talk about computers. How far back do we have to go to understand this?
+
+Steve: Well...
+
+Leo: When you say "first principles," are you talking silicon? What are we talking about?
+
+Steve: Before that, actually. If we wind ourselves back in time, get into our Wayback Machine and want to understand the first successful computers - and I'm talking about, frankly, the PDP DEC machines. There was Honeywell and Burroughs, Digital Equipment Corporation, IBM. These early machines were pre-integrated circuit. So there wasn't this notion of multiple components that could be mass produced. That was an amazing breakthrough which is very easy to take for granted. I mean, lord knows everybody, well, everybody listening to this has integrated circuits surrounding them. And I would say throughout the day we're surrounded by integrated circuits doing different things.
+
+But before that, before it was possible to integrate different types of components onto a single piece of silicon, which allowed then mass production, all of these components were separate. And it was the separateness of them and the need to interconnect them which put a tremendous limiting factor on the feasible complexity of these early machines. So what I want to do is really start at the beginning with, if you have resistors and transistors, how do you create logic from that?
+
+We know that computers use ones and zeroes. There were computers, analog computers, which people tinkered with, which for a while could - they had the benefit of being able to, with a lower degree of accuracy, do things in the analog world where currents and voltages conveyed meaning. They were able to do things far more easily than digital computers of the era, within the same timeframe, except that what ended up happening was we needed more accuracy. Things like temperature could affect the accuracy of an analog computer.
+
+And so it turned out that just treating everything as collections of binary information, ones and zeroes, even though you needed a lot of them in order to get the same resolution that you could get sort of for free with the voltage on a wire, you could represent that voltage with a sufficiently large number of ones and zeroes and get the resolution you needed, and also get absolute accuracy that would not drift over time. You didn't have to worry about calibration and temperature and super closely controlled power supply voltages. There was just all this forgiveness by taking the binary approach. So now analog computers are sort of long gone, and they've been completely supplanted by digital technology.
+
+So one of the simplest, most basic components of digital logic is called an inverter. And I want to explain - here's where we wish we had GoToMeeting. But we're in a podcast, an audio format, so I'm going to need people to sort of...
+
+Leo: To visualize here.
+
+Steve: Yeah. If you're driving...
+
+Leo: You're proving my point.
+
+Steve: Exactly. If you're driving while you're listening to this, do not close your eyes. But anybody else, I'm going to draw a picture for you. We have to do a little bit of schematic work with electricity and early electronics to explain the principles. But when I'm done, I think everyone's going to get a kick out of what they understand. I'm going to simplify things a little bit here and there. But fundamentally this is the way all of this stuff began to work.
+
+Imagine in this visual slate that there's a wire running along the top which carries a voltage, and another wire running along the bottom which is the ground. And this is the way most of these logic diagram schematics are drawn, is you'll have sort of a bus running across the top that has a voltage, which is just a pressure, essentially, created by a power supply. And anchored at the bottom is another wire, sort of a bus running horizontally that is the ground. You then - you interconnect things in between this positive power supply potential at the top and the ground at the bottom.
+
+If we had two resistors - a resistor is a component with two wires coming out of each end which, as the name sounds, resists the flow of current through it. Essentially what it does is you run current through it, and it gets hot. It dissipates current in the form of heat. So imagine in this circuit diagram that we have two resistors connected, the first one at the top, coming down to the second one, which then connects to the ground at the bottom. So that we have a circuit formed just with two resistors in series. And for the sake of simplicity we'll assume that they have the same amount of resistance. Well, this forms something called a "voltage divider" because essentially, when we make this circuit with just two resistors in a series, voltage will flow through this circuit.
+
+And the direction of voltage flow is sort of controversial. I can't remember now, I was trying to remember which direction I learned in high school. Some people think of voltage flowing from the negative to the positive. Some people think of it from the positive to the negative. It really doesn't matter. Technically one direction is current flow, the other is the flow of the electrons, which sort of goes, being negative, goes in the other direction. So either way, all you have to have is a consistent system, since it's really sort of an arbitrary designation which way the current is flowing.
+
+So we have this what's called a "voltage divider." So at the very top is our power supply voltage. What happens is the resistors share this voltage drop, as it's called, between the positive power supply voltage and ground, so that the junction where they're connected in the middle will be at half of that power supply voltage because they evenly divide it. And so that's sort of the first thing to see is you have two resistors connected together. They form what's called a voltage divider. And the voltage in the middle, or the voltage at their junction, where they're connected, is half of the total voltage.
+
+So now we take out the bottom resistor, and we replace it with a switch, just a standard mechanical switch. It's got two wires; and, depending upon whether the switch is open or closed - "open" means they're not connected, "closed" means they are. If we close the switch, then the switch is essentially a short circuit. So now that resistor that's still on the upper half of this little circuit, its lower lead is connected through the closed switch to ground. So its lower lead is now at zero voltage, at ground, when this switch is closed. If we open the switch, then we've disconnected the circuit, and the lower lead now has the same voltage as the power supply because there's no current flowing through this resistor. There's no voltage drop across the resistor.
+
+So now we go to the next step, and we replace the switch with a transistor. A transistor is a three-lead device, a three-terminal electronic device. We've all heard of transistors, of course. The way it works is it's like a - it works like an electronic switch. We put this transistor in the circuit. And so the transistor has an input on what's called the base lead of the transistor such that, when we put a positive voltage on that base lead, on the input of the transistor, the switch closes. That is, the transistor sort of works like the switch that we just took out. But it's controlled with the voltage on its base.
+
+Actually voltage and current get complicated here, and I want to keep this sort of simple so we can stay to what's important. But the idea is that, if we put a positive voltage on the base of the transistor, that is, the input of the transistor, some current will flow through the base, which turns the transistor on. But remember that when the transistor is on, it pulls the lower end of that resistor that's coming down from the supply voltage, it pulls it down to ground, that is, down to zero. So what we have is an inverter because, when we put a positive voltage on the input of the transistor, it turns on, which pulls that junction between the resistor and the transistor down to zero. So a one goes in, and a zero comes out. And if we move the voltage on the base of this transistor, the input of the transistor down to ground, then the transistor turns off. And with the transistor off, then that junction between the resistor and the transistor goes up to the power supply voltage. In other words, a one.
+
+So what we have is this, with just two components, this resistor that goes up to the positive power supply with a transistor hooked to it going down to ground. We have an input into the transistor, and the output is that junction between the resistor and the transistor. And that creates an inverter. So we have with these two components probably the most basic logic system that you can have.
+
+So that's an inverter. It doesn't, I mean, it's certainly useful by itself. But we can do something, make one additional change to it to begin to create some logic gates. And that is, we take another transistor and hook it to the same place. That is, we put these two transistors in parallel with each other. Another transistor hooked to the same place so that either of them are able to be turned on and pull this output down to ground, that is, hook the bottom of the resistor down to ground. So now look what we have. If we turn either transistor on by putting a one, binary one into either of the inputs, then that transistor will turn on and pull the output down to ground. And they can both be turned on. We get the same result. So what we have is a, in logical terms, is called a NOR gate. Which NOR stands for "not or." So if either input is a one, the output is a zero. So we have the beginning of logic.
+
+Now, we know how an inverter works. The inverter was just the transistor and the resistor. So we could take one of those and hook it to the output of this little NOR gate, and that would invert its output, turning it into an OR gate. So now if either of the inputs is high, the output of the first part is low. And then that's inverted so that the output of the final thing is high. So if either input is high, the output of our little OR gate, composed of this NOR followed by an inverter, is high. We have an OR gate. Or, conversely, we go back to this NOR gate, where either input is high, and the output is low. If we put inverters on the inputs, on each input, then look what we have. If we just, with the NOR itself, if either input is high, the output is low.
+
+The other way of saying it is, only if both inputs are low is the output high. So if we invert the inputs, then only if both inputs are high will the output be high. Which is an AND gate. So we could have two inverters that feed into the NOR gate, and we end up with an AND gate. So it's possible just with this, just using simple components of transistors and resistors - and this is actually a family of logic called RTL. RTL stood for Resistor Transistor Logic. And circuits that were exactly like this were very popular. And this is the way digital logic was originally created. So it's clear that, by assembling these little building blocks in different configurations, we're able to create sort of fundamental logical connections.
+
+Now, one of the core things that a computer has is registers. It needs to have, it needs to somehow hold data that it's working on. We need to be able to, for example, load data from memory into something called a register. You know, an accumulator. Well, what is that? How do we go from having AND and OR things, which we know now how to build, how do we have memory? How do we store something?
+
+Well, there's an interesting trick. It would be fun to know who actually was the first person to come up with this because it's clever. And that is, we've seen how we create an inverter, where we just have a resistor coming down from the power supply to a transistor such that, if we put a one in, we get a zero out. Well, if we connect another inverter to the output of the first one, and then connect the output of that second inverter back into the first one, so essentially we have two inverters that are connected in a chain, or in a ring. Look what happens. If we have a one input going into the first inverter, we know that it gives us a zero out. Well, that zero goes into the second inverter, giving us a one out, which we feed back into the first inverter. So it's stable. That is, it just sits there like that. And it'll sit there forever like that.
+
+But if something were to briefly, for example, pull the input of that first inverter, which is a one, pull it down to ground, to zero, well, then, its output would go to one. So the input to the second inverter, which would now be one, it turns into a zero, which it feeds back into the beginning, and that will be stable. So whatever state these two inverters are in, they stay in. And that's the basis for another fundamental logical thing called a flip-flop because it flips or flops in either direction, and it stays that way.
+
+Now, when I talked about like if something pulled that input down, the way this is actually implemented is with something like a NOR gate. So if - and this circuit gets a little bit more complicated, and I'm about to sort of start waving my arms around and not going into the same level of detail as we pull back from this. But if we, instead of hooking these inverters to each other, we hooked our NOR gates to each other, then imagine that both - so the circuit is we have a NOR gate - we have two NOR gates. The output of the first one goes to one of the inputs of the second one. The output of that second NOR gate goes to one of the two inputs of the first one.
+
+So we still have the notion of these things being connected to each other in a ring. But now we have each of those NOR gates has the other input, which is not participating in this circular interconnection. And that's actually where we're able to briefly change one, briefly, like, put a pulse on one to flip this flip-flop from one state to the other. And that's the basis for a register bit.
+
+Now, we want to do other things like add bits together, add numbers. It turns out that addition of a binary number is essentially synthesizable just from these fundamental logic blocks. And we've sort of talked about this a few weeks ago where, if you look at adding two bits together, if both are zero, the result is zero. If either one is a one, then the result is one. If they're both one, then the result is zero with a carry. And so binary math works exactly the same as, for example, the decimal base 10 math that we're used to where, for example, if you had five, you were adding five and zero, you'd get five. If you add five and five, you get 10, meaning that the units is zero, and we've carried a one into the tens position. Well, binary works the same way, where if we have two ones, the result is zero, and we carry the one into the next position. So it's possible to express that logic with just the gates that we've seen designed here.
+
+What I just described is known in logical terms as a "half adder" because it's able to take two binary bits and produce a result with a carry. Now, the tricky part is, the next bit over, the next highest bit, it needs to be able to add its two bits, but also accept the carry from the position to the right, the one less significant bit. That's a little more complex nest of logic which is called a "full adder" because it's able to take two inputs and the possibility of the carry from the prior result and incorporate that into its output and also send a carry to the next one.
+
+So essentially, by stacking enough of these full adders together and interconnecting them so the carry-out of one goes into the carry-in of the next, and the carry-out from that goes into the carry-in of the next, you're able to take two binary numbers; and, after this thing settles down, there's like a ripple effect. If you imagine that you put the two numbers in, well, the result of the first two will produce a carry that goes into the second two. And that may produce a carry that goes into the third two and so forth. So this carry ripples down through these full adders to produce a result.
+
+And then the final stage of this full adder, it produces a carry which in computers is often called the "overflow bit." Because the idea is, if we were adding 16-bit numbers together, the result of adding 16-bit numbers could be a 17-bit result, that is, a number that would not fit in 16 bits. And that's exactly the same as in decimal. If we're adding, like, single decimal digits, well, we know that a single digit can hold up to nine. So we could be adding any two decimal digits that sum up to nine. But if we try to add seven and seven, well, we know that that's 14. Well, that 14 won't fit in a single digit. It needs two.
+
+Similarly, it's possible to add two binary numbers where the result won't fit in the same size as the binary numbers, so you have that final - that's what happens with that final carry bit that overflows outwards. So that's sort of the fundamental architecture for the way bits are managed in a computer.
+
+Leo: Do you think that people figured that out a priori? I guess, you know, Alan Turing did all this, long before hardware was available to do it, in his head. And maybe even going back to Ada Lovelace; right? I mean...
+
+Steve: Well, I mean...
+
+Leo: But we didn't have this binary thing until we knew it was going to be a switch.
+
+Steve: Right. That's a very good point. And all of this can be expressed mathematically rather than electrically.
+
+Leo: It's Boolean logic; right?
+
+Steve: Exactly. Boolean algebra, Boolean logic, allows you to do all of this kind of stuff and work out these problems. I mean...
+
+Leo: And that's well known. I remember studying that in college, before there were personal computers. And it's fun. You do it all on paper. And you have AND, OR, NOT. I can't remember if you have things like NAND and NOR. But you learn all those. And there's even symbols for all of that.
+
+Steve: Right.
+
+Leo: So it makes sense that then, if you give somebody some hardware, and you say, well, okay, you have a switch and you have inverters and all that stuff, now, how do you duplicate those functions in this hardware? And that's really what you're talking about.
+
+Steve: Exactly. And at the time, now, if we think about the cross-connected inverters with some additional logic around them, one of the things which basically forms a storage register. And then you want the ability to load them with a value that's coming in on a set of signal lines for however many bits. Well, that's going to take, oh, maybe, call it 20 transistors and some resistors. So that's for, like, one bit of NOR gates cross-connected with some other gates to gate their inputs. So that's maybe 20 transistors.
+
+Well, back in 1960 a transistor cost a couple dollars. I mean, like, one transistor was a couple dollars. And it was a little, sort of a little silver can, smaller than a dime, sort of like a pencil eraser. Think of it like the end of a regular pencil eraser, sort of like that, with three leads. So it's a couple dollars. Well, say that the resistors that are also going to be scattered all over the place are free. We'll just toss them in because they were always pretty inexpensive. But 20 transistors at $2 each is $40 for the logic to implement one bit of a register. So there's - and that's not - that's just, like, raw cost. That's not even burdened with all the other costs.
+
+The other thing then you have is the need to interconnect all of these because you've got 20 of these little eraser head things with three wires and a bunch of resistors. Now they have to physically live somewhere, on a circuit board. And that's got to have interconnections, which are traces on a circuit board. But now you've got to interconnect them into a family of these. So you need connectors to allow this little circuit board that represents, remember, just one bit of storage forming one bit of a register. It's got to be - you've got to be able to plug that into some sort of a back plane where wires then go from one to the other to connect them into a multi-bit conglomeration.
+
+So maybe this is $50 by the time you're done for this one-bit register. And you want to do a, what, a 20 - you want 20 bits of binary resolution. So now you've got $1,000 that you've spent for 20 binary bits of storage. That's all this is, is just, you know, it can store a 20-bit value. But you haven't been able to do anything else with it yet, and you've spent $1,000. So, and that's not profit. I mean, that's not $1,000 of sale price, that's $1,000 of cost, including something for the interconnection.
+
+So from the beginning the engineers who were trying to design a computer that could do something useful, they were designing them with these individual switches called transistors, and resistors that sort of go along with them, at a cost that meant that literally every single bit that they used was expensive. And they were trying to bring the costs down as quickly as they could, as far as they could, to make these computers much more accessible to people.
+
+What I want to do next week, since we sort of understand this, is take a look then at the next stage, which is what do you do when you've got memory, and you've got a register like this, how do you turn this thing into something that can get some work done? And that's what we'll do in two weeks.
+
+Leo: I love it. I love it. You know, it's so interesting to think, what, you said a thousand bucks for 20 transistors, something like that...
+
+Steve: 20 bits.
+
+Leo: 20 bits.
+
+Steve: One 20-bit register.
+
+Leo: And now we've got, somebody pointed out in the chatroom, we've got NVIDIA GT200 cards which cost about $100, $200 for, get ready, 1.3, what is it, 1.4 billion transistors. Billion. Billion. It's amazing, isn't it. But it was a huge insight to say we can do this. And then that began, with Moore's Law behind it, that began the amazing revolution that we've seen today.
+
+Steve: I read a really interesting book last summer about the invention of the integrated circuit. And the breakthrough, it was actually there were some people in Texas, at Texas Instruments, and also at Fairchild in California. And there was some argument about who actually got it first. But at about the same time there was parallel invention because what happened was everybody was running up against what they called the "interconnection problem." It's like, we are dreaming big. We're ready to, like, do more.
+
+But what happened was, just the physical need to interconnect the pieces, that became the limiting factor. They just, you know, the individual components were so big, and that they physically took up so much room, that you just - you needed to lay out the space. And there was - before long it got too big to run wires all around it. And so the interconnection problem was what the integrated circuit solved when it was able to say, hey, you know, I mean, they even knew they could make resistors out of silicon, they could make diodes, they could make transistors, the fundamental pieces they knew how to synthesize. But they didn't know how to, even on silicon, how to interconnect them. That breakthrough then opened the floodgates.
+
+Leo: It's amazing. Eden in our chatroom sent me a link to the Wikipedia article on transistor count, which has a remarkable graph that shows how rock-solid Moore's Law is. It's a logarithmic chart that starts in 1971 with the 4004 which had 2,300 transistors. Essentially a transistor's a switch; right, Steve?
+
+Steve: Yes. Exactly as we just covered, it is just like - it replaces a switch.
+
+Leo: So it's 2,000 switches. Going up to 2008, where a 2 billion-switch quad-core Itanium - and but look how straight that line is, if you go to this curve, and because it's a logarithmic scale that means doubling. Incredible. I mean, it's such a - it's one of the most remarkable predictions of all time because it's held true for almost 40 years. And, I mean, true. I mean, right-on true.
+
+Steve: Yeah.
+
+Leo: Almost self, maybe self, I don't know, self-inflicting because in fact Gordon Moore was the chairman of Intel, so maybe they said, well, we have to do this. I don't know. But amazing. Just amazing.
+
+Steve: Yeah.
+
+Leo: Really remarkable. What an age we live in. And it all starts where we just started.
+
+Steve: Well, and what is so remarkable, and this is what we'll look at in two weeks, is I'm going to - I hope to be able to demonstrate with such crude tools, with something so simple as a really basic computer, it is possible to do an amazing amount. Again, as we said at the beginning, like a dumb box of rocks. But really fast rocks.
+
 ## Machine language (Security Now 235)
 
 From http://www.grc.com/sn/sn-235.htm around ([46:00](http://wiki.twit.tv/wiki/Security_Now_235#Machine_Language)):
@@ -268,12 +398,6 @@ Steve: I mean, it's fun to, well, in fact it is, I think that's one of the hooks
 
 ## Links to Security Now transcripts
 
-- Transistors: http://www.grc.com/sn/sn-233.htm
-    - images: http://wiki.twit.tv/wiki/Security_Now_233#Lets_Design_a_Computer
-- http://www.grc.com/sn/sn-234.htm
-- http://www.grc.com/sn/sn-235.htm
-- http://www.grc.com/sn/sn-236.htm
-- http://www.grc.com/sn/sn-237.htm
 - http://www.grc.com/sn/sn-238.htm
 - http://www.grc.com/sn/sn-239.htm
 - http://www.grc.com/sn/sn-240.htm
