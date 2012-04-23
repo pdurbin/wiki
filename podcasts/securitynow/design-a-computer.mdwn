@@ -1,8 +1,8 @@
 [[!toc levels=99]]
 
-## Let's Design a Computer: Transistors, Logic Gates (Security Now 233)
+## Let's Design a Computer: Transistors, Logic Gates (Security Now 233, 42:00)
 
-From http://www.grc.com/sn/sn-233.htm ([42:00](http://wiki.twit.tv/wiki/Security_Now_233#Lets_Design_a_Computer)):
+From http://www.grc.com/sn/sn-233.htm http://wiki.twit.tv/wiki/Security_Now_233#Lets_Design_a_Computer
 
 Leo: That's all I can say without giving away a very critical part of that book. What a fun book that is, too. All right, Steve. Let us talk about computers. How far back do we have to go to understand this?
 
@@ -130,9 +130,9 @@ Leo: Really remarkable. What an age we live in. And it all starts where we just 
 
 Steve: Well, and what is so remarkable, and this is what we'll look at in two weeks, is I'm going to - I hope to be able to demonstrate with such crude tools, with something so simple as a really basic computer, it is possible to do an amazing amount. Again, as we said at the beginning, like a dumb box of rocks. But really fast rocks.
 
-## Machine language (Security Now 235)
+## Machine language (Security Now 235, 46:00)
 
-From http://www.grc.com/sn/sn-235.htm around ([46:00](http://wiki.twit.tv/wiki/Security_Now_235#Machine_Language)):
+From http://www.grc.com/sn/sn-235.htm http://wiki.twit.tv/wiki/Security_Now_235#Machine_Language
 
 Leo: Where do we start?
 
@@ -234,9 +234,9 @@ Leo: This'll be fun. Oh, I'm really enjoying this, Steve. And it's bringing back
 
 Steve: Well, and, I mean, what we just described, I mean, that is - what I described is a working computer that has everything it needs to get something done. And I think the mystery or the surprise is that just that, I mean, that's all our computers do. They load and store and perform simple operations on little bits of data. And, I mean, look what we get as a result. Because they're able - because there's enough of these little bits of data, and it's able to do stuff so fast, that they perform magic, really.
 
-## Incrementing the program counter (Security Now 236)
+## Incrementing the program counter (Security Now 236, 51:43)
 
-http://www.grc.com/sn/sn-236.htm
+http://www.grc.com/sn/sn-236.htm http://wiki.twit.tv/wiki/Security_Now_236#Question:_.5B_07_.5D
 
 Leo: Let's see, here. Dan White in Winchester, VA wonders about incrementing the program counter. Oh, good. We got some programming stuff here. Just listened to the last episode on machine language, thoroughly enjoyed it, he says. It brings back memories of when I programmed in Z80 machine language for a computer my dad and I built based on the S-100 bus, if you remember that.
 
@@ -292,9 +292,9 @@ Steve: Yeah.
 
 Leo: I've got to do, I keep wanting to do - and we've got people like Randal Schwartz and you who are just topnotch, best in breed programmers. And I just would love to do a programming show. It's such an abstract subject that I don't know how we would do it. I mean, I guess it's no more abstract than what you and I talk about every week. But I would like to do a show about programming as art. And there are people like Paul Graham. Paul Graham's fascinating on this. He wrote a book, in fact, called I think "Hackers and Painters," that compares fine artists and great programmers. It's just a fascinating subject. Anyway, maybe someday.
 
-## Indirection: The Power of Pointers (Security Now 237)
+## Indirection: The Power of Pointers (Security Now 237, 27:45)
 
-From http://www.grc.com/sn/sn-237.htm ([27:45](http://wiki.twit.tv/wiki/Security_Now_237#The_Power_Of_Pointers)):
+From http://www.grc.com/sn/sn-237.htm http://wiki.twit.tv/wiki/Security_Now_237#The_Power_Of_Pointers
 
 Leo: So there's a word in programming, "indirection," that is one of the fundamental programming concepts. And I remember very well when I first started studying C. I mean, I remember PEEK and POKE from Basic, which is essentially the same idea. But when I first started studying C, that was the hardest thing to get was indirection.
 
@@ -396,10 +396,278 @@ Leo: Oh, I love it.
 
 Steve: I mean, it's fun to, well, in fact it is, I think that's one of the hooks for people who love to program is that they just - they get off on this kind of true abstract thinking. It's just great.
 
+## What assembler software to use (Security Now 238, 40:28)
+
+From http://www.grc.com/sn/sn-238.htm http://wiki.twit.tv/wiki/Security_Now_238#Question:_.5B_02_.5D
+
+Leo: So forget the hash. Steve's promising nothing. You're asking too much. Paul Scribbans in Cumbria, UK wonders how to play with machine code. He says: Steve and Leo, I've been a listener since Episode 1. I think the work you do is excellent. SpinRite owner, as well. My father tried to get me into machine code when I was about 12 years old in 1982 after we purchased our first computer, a ZX81.
+
+Remember the Sinclair? They also bought a book, "How to Program in Machine Code." It never really took off for me, but through the proceeding years I've always wanted to give it another go, so your episode on the subject really interested me.
+
+I do have one request, though. Would you do a bit on which assembler package or software to use? I'm currently using Windows 7 and plan on buying a MacBook Pro soon, as well. But I have no idea what software to download to enable me to play with assembler based on your teachings. Keep up the good work. Scrib.
+
+Steve: There have been a number of people, listeners who have said, hey, you've got me interested. Where do I start? And the problem is there really isn't a, that I'm aware of, a starting-from-ground-zero tutorial.
+
+Leo: There's a good book. Wait a minute, let me see if I can find it because I have it, I think, on my shelf. There's a number of very good books on this.
+
+Steve: Well, there's a site.
+
+Leo: Oh, good, all right.
+
+Steve: There's a site for Windows called MASM32.com. And this is relatively high-level stuff. I mean, it's, again, if you want to play with assembly code in Windows, I know of no better resource. There's lots of links, lots of samples. They have a complete SDK, as it's called, a Software Development Kit, that provides all the pieces that you need, linkers and help files and header files and include files that provide the definitions and all sorts of stuff. None of this existed back when I was doing assembler in 16-bit code, but it has come together now for the 32-bit world. So MASM32.com for people who are interested in beginning to poke around. I mean, again, it's not what I would create if I were going to create a from-the-beginning tutorial. But I haven't had a chance to do that yet.
+
+Leo: I'm going to try to find this book. It's a thick book, I think. It comes with MASM in the back. And it's all about assembly language. And it - yeah. And there used to be a wonderful assembler on the Macintosh that Apple made. I don't know if they still do it anymore. But I do believe they offer free, you know, they have all the free developer tools, and I believe they offer...
+
+Steve: The whole Xcode system...
+
+Leo: Xcode; right.
+
+Steve: ...is on the disk.
+
+Leo: And it's probably got an assembler. I'm sure it has an assembler.
+
+Steve: Oh, absolutely it does.
+
+Leo: Yeah. So you're set on the Mac, as well. It's the education that's hard.
+
+Steve: Well, I haven't ever talked yet about my long-term plan legacy project. I will tell everyone about that when we're through talking about computers.
+
+Leo: Now you have intrigued me, Mr. Gibson. Question 3 from Eric Stearns in Denver, Colorado. He wants to know how a computer starts up from the very beginning: Steve and Leo, I've enjoyed the discussion so far on the basics of how a computer works. After the first two podcasts I feel I largely understand the basics of how a computer works once it is operating. But one point that's never been clear to me is how a computer starts to work. So we have this dumb box of rocks that's powered off. Now we provide it with a flow of electrons. Well, maybe not a flow, but at least a voltage that can provide a flow. But how exactly does this lead to the ability to do something useful like executing some very basic instructions to eventually be able to run a program? How does it start?
+
+Steve: Yeah, it was a neat idea, I mean, a neat question, which we never talked about.
+
+Leo: No.
+
+Steve: And this is something which has evolved over time. The very early machines, the mini computers, my favorite the PDP-8 or the 11, those early machines which used core memory, because the memory itself was magnetic and could and would persist across a power-off and power-on, it was often the case that the computer still had the program in it when you turned it back on. I mean, it's magnetic in the same sense that a hard drive is magnetic. And of course we know that the intention of hard drives, they don't always succeed, but the intention is that they will retain their data, even when they've been powered off.
+
+So mini computers would typically - you'd turn it on, and it would come up just sort of sitting there saying, okay, I'm beginning to burn up power and making whirring sounds. What do you want me to do? And so the operator would put the starting address of the program, like timesharing basic or something, if you had a bunch of teletypes in a classroom of kids, you'd put the starting address in, load that into the program counter and press Run, and it would just pick up sort of where it left off.
+
+Then some machines of that era, specifically, like, doing process control work or real-time stuff, there was something called Power Fail Restart, where there was typically an option that you could get such that, if Power Fail Restart was installed, then once the computer's power levels came up and stabilized, this option would simply jam a starting address into the program counter and sort of electronically do the equivalent of pressing the start button. So it would just - it would just start itself up.
+
+And in fact you might have a power fail occur while it was running, in which case this power fail sensing auto restart, when it would see the power beginning to fail, it would interrupt what the computer was doing. And we're going to be talking about interrupts here before long because that's a huge issue, and it's the problem that Toyota is having at the moment. And it would interrupt what the computer was doing and save the state of the computer, that is, where it was, what was in the accumulator, and the carry bit, so that later when power was restored the state of the computer could be restored to exactly where it was. So these things would be stored in core, and then the computer would stop itself before the power levels had dropped to a level that it was no longer reliable.
+
+And then similarly, when the power came back on and what was stored in memory would tell this power fail option that the computer had been running when power was interrupted, and so read from core memory these things like the original content of the accumulator, the original content of the carry flag at the time of this interruption, put those back, and then resume execution from literally the instruction immediately following the last one that had been executed before the power failed. And so it would be just as if nothing happened.
+
+So now we move forward decades to our current machines. And
+
+our current machines all have some code in them separate from RAM, that is, they have ROM, and that's traditionally called a BIOS, which is - BIOS is an acronym, Basic I/O System. And the startup code for the machine is in the BIOS. So to directly answer Eric's question about contemporary machines, how our computers that we're using now start up, it's as simple as the chip, the actual processor chip is designed so that when it comes out of reset, when reset is over - and, now, reset is the state the machine is in when it's powered up, or if your computer still has a reset button on the front, that's a physical hardware reset button that typically pulls a wire down, pulls the voltage on a wire down that's going into the chip that just stops everything.
+
+And essentially, when you remove your finger from the button or when power levels have come up and stabilized, the processor is hardwired in its hardware to start executing code at a certain location. We've talked about how the program counter steps through locations in memory, reading instructions one at a time. So it's simply a matter of the chip always starting from, it might be zero, it might be FFFF, you know, like all ones. It'll be some predefined hardware location. And at that location is a little bit of ROM, a little bit of Read-Only Memory. That is, the rest of the machine's memory, RAM, will just be random. It'll be not necessarily zeroes.
+
+It's interesting, too, when you power up RAM, it generally comes up in some noisy state, but not all necessarily zero. One of the first things that the BIOS normally does is go and clear out the RAM in order to start it. And it also begins refreshing the RAM in order to keep its contents alive. So there's housekeeping being done. But literally it's just a matter of the processor always going to a predefined hardware, defined in its hardware, starting location, where there'll be a little bit of memory, a little bit of ROM that will be the first instruction that executes, and the second, and the third, and the fourth, and the rest is Windows or Mac or whatever.
+
+Leo: [Laughing] And the rest is Windows.
+
+Steve: And the rest is Windows.
+
+Leo: Question 4 from PDP-10 Programmer - hmm, I like that - regarding - is the PDP-8 different than the PDP-10? Or is it pretty much...
+
+Steve: Oh, yeah. They had different - the PDP-10 was a 36-bit, really long word machine, a beautiful, beautiful computer. But much bigger. I mean, it was like one of those raised-floor, forced-air cooling sort of machines, a beautiful machine.
+
+Leo: You wouldn't have it blinking behind you, with the blinking lights.
+
+Steve: No. Or if you did, you wouldn't be able to hear me talking.
+
+Leo: PDP-10 programmer writes: Steve and Leo, with respect to the Lower Marion School District (LMSD) spying case, I heard you mention on the podcast that kids in the district had become so suspicious that they started putting post-its over the camera. I also read on some Mac-related web forums posts by the IT guy at LMSD regarding this. He said if Macs came to the IT with post-it notes over the camera, the IT guy should just put a pinhole in the post-it, but leave it in place so the student thinks the camera is still covered. With info coming out like this, seems they've got these guys dead to rights. They were spying on the students. Boy, that is shocking.
+
+Steve: Yeah. We have another interesting question a little bit later on because this news really stirred up our listeners.
+
+Leo: Rightly so.
+
+Steve: And lots of people had some questions, but more about the technology. This is more about the ethics of it. I just - I wanted to put this in the podcast because, I mean, assuming that it's true, it really does seem wrong. You can argue that, well, that the camera technology was there to be used by the district to recover stolen and lost laptops. The problem of course was that there's evidence that is conclusive that non-stolen, non-lost laptops were having their cameras turned on. And whoever was doing the looking was feeding information back to the assistant principal, who was then confronting the kids who were registered to this laptop about their behavior at home.
+
+So given that that's the case, the notion that the IT people were being told to poke a little hole in the post-it note so that the camera would be reenabled - I'm not really sure how well that would work, by the way. I mean, it sounds a little apocryphal to me. But given that that was what they were doing, that seems extra annoying and slimy. If you were to defend the whole practice, that is, if notification had been provided, if students and family knew that this was a feature of the laptop, certainly they would have reason to believe that no one was going to be spying on them unless the laptop was lost or stolen. But at the same time, then I guess you could argue, and you could imagine the school district's attorney arguing, that, well, this is a security feature which we need as part of our laptop loaning program. So cutting a hole in a post-it note is necessary and justified in order to keep the security feature functioning.
+
+Leo: Oh, please.
+
+Steve: I know. I'm not defending it, I'm just saying this is, you know, you can imagine what the LMSD attorney would be doing. But still...
+
+Leo: Uh, Your Honor - it's just pretty hard to explain.
+
+Steve: It's bad.
+
+Leo: Yeah, it's not good. All right, get ready for a long one about assembly language, once again. Jeff in Washington, DC wonders about assembly language, CryptoLink, and Intel Macintoshes; and, as long as we're throwing everything in, how the computer works series. Steve, first I'd like to thank you and Leo for a terrific podcast. I thoroughly enjoy listening each and every week. The information covered and so elegantly presented is truly a gift to the world of computing.
+
+He says he's found the "How a Computer Works" series very informative. While reviewing the "Machine Language" module - oh, they're modules now, not episodes - I discovered I had a few questions. One, a general question. I'm wondering how well assembly language lends itself to multiple platforms and OSes - Linux, Mac, OS X, and Windows - as well as various architectures, 32-bit versus 64-bit. Does assembler compare with other languages like C, C++, et cetera, that have odd nuances when deploying on different OSes? That is, does it require heavy modification, depending on the OS in which it's used? C code on a Unix system doesn't really mirror a Windows implementation of the same C code. Does a change from a 32-bit to 64-bit architecture generally require major changes to the assembly source code? Why don't you answer - you want to answer this one first, and then I'll give you the next part?
+
+Steve: Yeah, I think I'll probably end up covering his specific example as part of this.
+
+Leo: Okay, well, I'll give you his specific example, then. Knowing that you write the majority of your programs, including the upcoming CryptoLink, in assembler, and most of your applications are ultimately delivered in an EXE file format, I'm wondering if your ASM-developed applications easily lend themselves to other non-Windows platforms. For example, will CryptoLink be available on the aforementioned various platforms - Mac, Linux, 64- and 32-bit Windows? I really hope that will be the case. If not, will it run well under an emulator like Wine, like your DNS Benchmark does? Keep up the phenomenal work. Jeff.
+
+Steve: So we could shorten this by sort of asking, what's the relative portability of assembly code compared to higher level code? And the answer is they're pretty much equally portable and not. That is, C code is portable from one processor architecture to another. That is to say, it was designed so that the same code could be compiled to different machine language where the compiler would be doing the translation between the C code and the specific hardware architecture, how many registers the chip has and so forth.
+
+But C code is not portable across operating system families, that is, for example, Linux, Mac, Windows, because the operating systems provide radically different sets of services. That is, the operating systems - and we're going to talk about in detail in the future what is an operating system as we continue moving up the abstraction hierarchy from diodes and resistors where we began all the way to a working system. But essentially operating systems provide an abstraction to the software running in or on the operating system of the outside world. It's the operating system provides an abstraction for the I/O and for memory and for storage and for the passage of time.
+
+Sort of the application itself in a modern operating system does not actually connect or contact the hardware. Rather, the operating system publishes services which the program takes advantage of. For example, the program says, hi there, operating system. I need a block of memory for my own purposes. Can I have one, please? And the OS looks at its pool of available memory, which is shared among all the applications, and has a chunk that's free, and provides a descriptor back to the program saying, oh, yeah, here's a chunk of memory. Let me know when you're done with it because we want to put it back into the common pool once you're through.
+
+And so that's the case regardless of what language you're programming in. That is, for example, I'm talking to Windows, "I" meaning Steve who writes in assembly language. My assembly language code is using the same services that someone writing in C uses. So I'm using the same operating system services as someone in C. But if we took either me and my assembly language or a program in C over to a Mac, while you could recompile the C program under Mac's assembler to create machine language that would technically run on the Mac, that program would be lost. It would be trying to - it would be expecting Windows-oriented services when none are available because the Mac has an entirely different view, it presents a completely different abstraction of the outside world to the programs that run on it.
+
+So relative to CryptoLink, for example, I'm already aware that I will be under immediate pressure to make this thing run on platforms other than Windows. And this has been discussed already in the GRC newsgroups. Because I really do want to serve as large a market and offer this solution to as many people as possible, my plans are already to carefully modularize my code so that the bulk of CryptoLink will be portable to different platforms, which they will all have to be Intel chipsets because this is largely going to be assembly language.
+
+But I could still deliberately, for example, keep the code that deals with the LAN adapter, that deals with the kernel driver. I'll have a very different one on a Mac and a very different on a Unix or Linux system. But if I'm careful, rather than just mixing all of that code together in a big stew, if I'm knowing that I'm going to be moving this thing other places, then it behooves me to deliberately keep some modules to this so that, for example, when I do want to port it to the Mac, most of my code was carefully written so it doesn't care where it is. But then it then asks a network module to do the network magic on that particular platform. So there would be some things that are OS-specific. But they would be well encapsulated from the beginning.
+
+So it's possible even for assembly language to be as portable as C, as long as you're not changing processor platforms. C allows you to jump from one processor, you know, PowerPC to Intel to any other type of microprocessor relatively easily because you're abstracting the architecture of the hardware in C, whereas you're absolutely not doing that in assembly language. The language is the language of the hardware, exactly as we've been discussing.
+
+Leo: Yeah, that was the point of C was to create a non-processor-specific portable language. Back in the days when you didn't have GUIs, you didn't have really a lot of interfacing with the operating system.
+
+Steve: Yeah, and Unix was written on a PDP-11.
+
+Leo: Right.
+
+Steve: The PDP-11 was the first Unix machine.
+
+Leo: So they, I mean, they provided libraries for low-level file access, things like that, so you didn't have to see anything that - but you can do that with assembler, too. As you said, encapsulate it.
+
+Steve: Right.
+
+Leo: Just separate it out.
+
+Steve: Just plan ahead.
+
+Leo: Yeah. So that's a revelation to me. I had no idea that you were planning portability because you've never done that before. You've only written for Windows.
+
+Steve: And I'm already getting heat...
+
+Leo: Or DOS.
+
+Steve: ...for it about SpinRite. So I'm not going to make that same mistake.
+
+Leo: Yeah, wow, that's very interesting. Well, SpinRite relies on, what, N13? A BIOS call; right? So you can't really do that on a Mac.
+
+Steve: Yeah. The Mac has the EFI BIOS. And so it just, you know, it would be neat at some point for me to move SpinRite over. I know that there are a lot of people who would like it. It's just right now it's down on the queue a little ways, yeah.
+
+Leo: But CryptoLink, because it is not relying on the OS so much, or the BIOS so much, you could do - that's portable, you can make that portable. It's the UI that wouldn't be portable.
+
+Steve: Well, I mean, frankly, SpinRite could talk to the Intel hardware just as easily. It's just because of its history it doesn't. But were I to do it today, I would be talking to the hardware directly.
+
+Leo: Sure.
+
+Steve: And get a lot more power and flexibility.
+
+## Stacks, Registers & Recursion (Security Now 239, 1:01:00)
+
+From http://www.grc.com/sn/sn-239.htm http://wiki.twit.tv/wiki/Security_Now_239#Stacks.2C_Registers_and_Recursion
+
+Leo: Not getting better. So, Steve, we're ready for more in our Computer 101 series.
+
+Steve: Yeah, we've done an hour of security news and updates and stuff, so let's talk about how computers work. This is the fourth installment. And what people will eventually recognize is that I've been very carefully and deliberately laying a foundation which I believe will end up in everyone really getting how computers function in a fundamental way, that is, demystifying this really by showing that, in my opinion, there's not that much to it. I mean, the complexity comes from refinement over time, not from the fundamentals.
+
+So in the first installment we talked - we went to the very beginning and talked about resistors and transistors and how they could be connected to create simple logic gates and inverters, and how, for example, when you connect two inverters to each other in sort of a ring, that's an inherently stable device called a flip-flop which forms a bit of a register which is able to be loaded and remember a binary value, one or zero. And you concatenate a bunch of those in order to be able to store more complex, larger values.
+
+We then, in the second installment, looked at machine language, the idea that machine language is nothing other than some form of storage which is addressable, where the address is stored in a program counter, which is just the address of the current instruction we're executing, and that the instruction itself is a collection of bits. We read a word out of memory, and the individual bits have specific assignments. Like, for example, in the instances I've been using, the top four might be the opcode, the operation code that says what this instruction instructs the computer to do. For example, add the contents of another location in memory, specified by the rest of the bits in the instruction, to an accumulator, called the "accumulator" because it accumulates things. Or store the value of the accumulator into a location in memory, or add or subtract, you know, whatever. So it's just that simple.
+
+And then in our third installment we looked at indirection, which is a very powerful concept. We looked at the power of pointers because in the machine language, at the machine language level, we might sacrifice one of those bits, one of the precious bits in our machine language word, to be an indirection flag. That is to say, if this bit is off, then the address specified by the rest of the bits is the address of the data that we want to load or store or add. But if that indirection bit is a one, then that says that that location contains the address of the location to work from. That is, it's indirect. It's not a direct access, an indirect access. And the other way of saying that is that that location is a pointer to the actual data. So two weeks ago we looked at what that means to have pointers.
+
+So this week I want to introduce the next major advance in the notion of how sort of the fundamentals of how computers work at the hardware level with the introduction of the concept of a stack which uses this notion of indirection in order for it to function. We need to back up a little bit, though, and talk about multiple register machines because that sort of factors into the value of the stack. So far we've talked about a simple machine which had a single accumulator. And many of the early machines did because the point I was early making was that all of this hardware was so expensive in the beginning. Transistors and resistors and the space they required, the power they consumed, the problem of interconnecting them all meant that the designers had to be extremely lean with the design of their systems. So a register was a luxury to have.
+
+At the same time, it turns out that it's really convenient for a programmer to have more registers, that is, more than one accumulator. Now, remember, though, that we don't get these things for free. That is to say that bits in the instruction word, if we're going to have more than one register, bits have to be consumed in order to specify which register. So the advantage of having one was that you didn't need to specify which one because there was only one. So it was implied, there was this implication that if you're loading, well, there's only one place to load it into, and that's the accumulator. And if you're storing, there's only one place to store it from, which is the accumulator.
+
+So when machines began to have multiple accumulators, which was extremely handy to programmers, some bits of that instruction word needed to be dedicated to specifying which accumulator. So, for example, one of them, one of the early machines at the time was the family of machines from a company called Data General that was an early competitor to DEC, Digital Equipment Corporation, called the Nova minicomputers. The Nova was also one that I programmed back in the day when computers had control panels, you know, front panels with lights and switches. And it had four accumulators, four accumulator registers, which were designated AC0 through AC3.
+
+And so the instructions in the Nova instruction set had two bits to specify which one of the four accumulators the instruction would act on. So there was load accumulator and store accumulator. But now you had four accumulators, not just one. So two bits in the instruction needed to be sort of taken away in order, well, needed to be dedicated to that purpose for specifying which accumulator you meant. Typically that meant that you were taking bits from the rest of the word, like from the addressing range. So you were able then to address less memory with the instruction, but that was made up for by the fact that having multiple registers was so convenient.
+
+So the way the early machines handled subroutines was originally very awkward. The notion of a subroutine, probably our listeners are familiar with the concept, is that you would have some piece of code located somewhere in the computer which performs some useful function. For example, the original PDP-8 didn't have a multiply instruction. You could "add," and you could "and," and you could "shift," but there was no multiply.
+
+So the multiplication process, which is very useful to a computer, you had to simulate a multiplication out of the much smaller instructions. So typically what a programmer would do, and in fact I did this on the code that I wrote for my little PDP-8 front panel toys, I wrote a multiply because the PDP-8 chip that I was using had no multiply built in, but I needed one. So I created a multiply subroutine where it was a series of the available instructions, which had the effect of performing multiplication. Well, if I was only doing that one place in my program, then the program would just - it would execute into this multiplication operation and then continue.
+
+But say that I wanted to be able to multiply from various locations in the program. Well, were it not for having this concept of a subroutine, I would have to duplicate that multiplication code everywhere I wanted to perform a multiplication. But the cool thing about this notion of a subroutine is you could have one instance of it in memory, and you could jump to it from all the places in your program where you want to perform a multiply.
+
+The problem is getting back because, if you're going to jump to this routine from various locations in memory, different locations in your program, then once the multiply routine is done executing, it needs to know where to go back to. You can't hardwire that back to one location because you're jumping to it from different locations, and you want to return to the instruction right after you have jumped to the subroutine so that you can continue executing where you were.
+
+Leo: Too bad there's no way to kind of store that place that we came from, just temporarily keep it somewhere.
+
+Steve: Well, what the original designers of the PDP-8 did was they kind of came up with what we would now regard as a real kludge. They stored the location of the instruction after the subroutine call in the first word of the subroutine and then started executing from the second word of the subroutine. That meant that the subroutine always sort of knew who had jumped to it, where it had been jumped to from, because that address was in its first word. So there's a perfect example of where indirection comes in. It would, when it was all through doing its work, or in this case this multiply, it would jump indirectly through the first word of the subroutine. Since that first word contained the address that it had come from, that took it back to the place, the instruction underneath the one that had called it. So it was very, I mean, it was elegant from that standpoint.
+
+But it turns out that this approach has a problem. And that is, if the subroutine were doing something more complicated, like calling other code somewhere else, what if that code needed a multiply? Well, then the other code would call the multiply, and its return address, the location from which it called, would overwrite the first call of the multiply. In other words, well, the way to say this is that this was not recursive. You could not nest these calls.
+
+Leo: Yeah, because you'd overwrite the first call when you did the second call.
+
+Steve: Exactly.
+
+Leo: You could never get back to the beginning.
+
+Steve: Exactly. So programmers, if they knew that their code needed to be recursive, that is, if there was a chance that the work they were doing might cause, through any means, might cause them to be executed again, before they returned they would have to go to all kinds of extra work, for example, save that return address at the beginning of the subroutine somewhere else so that, if they got called again, it would be safe against replacement.
+
+Well, what eventually was developed is a brilliant concept called a "stack." A stack is a complete abstraction, that is, we can think of it, and people have, in describing how it worked, have talked about, for example, a stack of plates in a cafeteria. There's a buffering acronym that people may have heard, "last in, first out," or "first in, first out," or "first in, last out" or various combinations of that. What it really is, the way to think of it in concrete terms is there's a register called the "stack pointer."
+
+So remember we have the program counter, which is a register that points to the current instruction that we're executing. Imagine now that this computer has another register called a stack pointer which is, at the beginning of the program, say that it just points at the very end of memory, like way, way up high at the end of the computer's memory, where nothing is going on. And so essentially, we'll call that all ones, you know, 111111111 is the highest value of the computer's storage. So that value is put into this stack pointer register.
+
+Now, a few instructions are used. For example, in common terminology they would be called "push" and "pop," where the conceptual notion is you push something onto the stack, or you pop something from the stack. What pushing on the stack does is it stores the value of what you're pushing in the location pointed to by the stack pointer, and then subtracts one from the stack pointer. So again, we're using this powerful concept of indirection so that the stack pointer - it's called a stack pointer because it's pointing at a location in memory.
+
+So say that we had something in an accumulator that we just needed to put somewhere safe for a while. We do what's called "pushing it on the stack," which merely says we ask the computer's hardware, the processor hardware, to sort of deal with it. Here, take this. And...
+
+Leo: I like that. Deal with it.
+
+Steve: Deal with it, exactly. So the idea is, the stack pointer, which is pointing at the end of memory in the beginning, we say, here, store this on the stack. Push this on the stack. So that value is copied to where the stack pointer is pointing, at the very last word of memory. And then the stack pointer is decremented by one. Well, that decrementing by one is this concept, the concept of pushing it on the stack because, notice if I say, oh, now deal with this, something new has come along, deal with this. So, again, we push this new thing on the stack. Same stack, but this time the stack pointer that was decremented by one last time, well, it's now pointing to the second-to-the-last word of memory. So we store this second thing that came along in the second-to-the-last word of memory, and so on.
+
+So we're able to say, deal with it, deal with it, deal with it. And we don't really care where these things are being stored because that housekeeping is being done by the hardware. Eventually, though, we say, hey, I need that back. And so that's called "popping the value" from the stack. Popping the value does the reverse. It copies the contents of where the stack pointer is pointing back to wherever we're telling it to go, like we want to load that, we want to - if we're popping the stack into a register, it copies where the stack pointer is pointing, back to our register.
+
+Well, I stepped a little bit on this. I'm sorry. Since we store something, in order to push the stack, we store something and then increment the pointer. If we pop the stack, we first decrement the pointer. So it's now pointing at the top of the stack, and then we copy where that is pointing back to our register. That sequence is important because it's got to be at the exact reverse to pop as what we do when we push. But the advantage is that, again, we told the computer to accept some data in a certain sequence of pushes. When we tell it we want that data back through a series of pops, it returns them in reverse order because the stack is being popped, and the pointer is incrementing back towards what's called the bottom of the - back toward the bottom of the stack, back to the beginning. So we get this data in reverse sequence.
+
+So, okay. There's sort of the fundamentals. Well, now, look at this in terms of subroutines. Because if the computer is set up, as all computers today are, to store that return address on the stack, then this problem of recursion completely goes away. If our jump-to subroutine instruction, instead of storing the address of the instruction which follows it, and as the PDP-8 did, at the beginning of the subroutine, it simply pushes it on the stack. That's the phrase, "pushes it on the stack." Then we don't have to worry about it. The return address has been "stacked," as again is the way it's referred to. We execute the subroutine.
+
+And the last instruction of the subroutine is called a "return," a "return from subroutine" instruction. And it does the reverse, essentially, of this jump-to subroutine. It removes the last thing that was put on the stack and uses that as the address to return to. So the value of this, the reason this is recursive, is that if this subroutine called some other subroutine and executed some other code, which came back and called the original subroutine, that is, it would stack that address also, then now two return addresses are on the stack, one for each time the subroutine was called. And in fact other subroutines could be called in any order, the only requirement being that they are returned from in the reverse order that they're called, which is normally the way a programmer would design things. You always - you finish up what you're doing, and then you return from the subroutine.
+
+So the beauty of this is that the series of return instructions properly remove the addresses from the stack in the reverse order that they were stored, which is exactly what you want in order to sort of unwind yourself and get back to where you came from. So that technology is now intrinsic to the design of our computers. One of the other things that the stack is useful for is saving the state of the computer. Say that this multiply subroutine needs to use the registers, which were probably being used by the person that called the subroutine. Well, it can't mess them up. It needs to leave them alone.
+
+So one of the things that this multiply subroutine could do is save those registers which it will be altering, but which it wants to be able to restore, on the stack. So at the beginning of the subroutine it'll say, push register zero, push register one, push register two, which stores their contents on the stack. The subroutine doesn't care where the stack is, what the stack pointer is currently pointing to. It just sort of said "deal with it" to the computer. Then it's able to use those registers any way it wants to as scratchpads for its own work. And once it's done, it needs to put things back the way they were so that the routine which called the subroutine doesn't have things messed up.
+
+So it says pop register two, pop register one, pop register zero, remember, in the reverse order that it pushed them. And so, successively, the values that were stored are restored into these registers. Then it says return from the subroutine, and the stack will be pointing at that point at the proper return address, so long as the same number of registers were popped as were pushed because, again, you need to keep these things balanced, which is some of the problems programmers get into if they're working at a low level and are not careful. You do have to be careful because with this power comes, not surprisingly, responsibility.
+
+Leo: A compiler will do it automatically. It's only if you're managing the stack yourself.
+
+Steve: Well, yes. Except that many of the security flaws that we have talked about are a consequence of stack overflow.
+
+Leo: Right.
+
+Steve: We've talked about that often. So it is possible, in a powerful language like C, to allocate buffers. One of the other uses of the stack, and this is where this directly impinges on security, notice that we've been talking about pushing and popping things. Well, say that a subroutine needed some, like a buffer, it needed 256 bytes of buffer space for its own purposes, just sort of like to use for a while, while it's doing stuff. One of the ways a programmer could get buffer space is by manually subtracting, like, 256 bytes from the stack pointer.
+
+So look what that does. Essentially, it's almost like - it's like if you had said push push push push push push push, 256 times, you would have moved the stack pointer down in memory, coming down from the top. And you end up with this block of memory. So a programmer is able to say - is able to subtract a value from the stack pointer and use that area which is above the stack pointer as their own scratchpad because, if other things, for example, if this subroutine then pushed other values or called other subroutines, those would all be down lower in the stack. So the act of moving the stack pointer down creates a buffer. Sort of it's a nice, very fast and efficient way of allocating some memory that could be used.
+
+The problem is, look what happens if you were to ever write too much data in that buffer. Well, that would overwrite values on the stack which were above the buffer that you allocated. So that if you then popped values, like the register values off the stack, and even more significantly, if you did a subroutine return - remember the subroutine return's address is stored on the stack. So if a bad guy were able to cause a buffer overrun and write over any of the stack, they could put their own return address of the malicious code into the computer, and it would jump there. So that instead of returning where it was supposed to go from the subroutine, it would go into the malware. And that's exactly how much of this malware gains control over the system, just like that, by taking advantage of the stack. Powerful as it is, it does need to be treated with extreme care because it controls the execution path of the processor.
+
+Leo: If we turn - that's one of the reasons to turn on Data Execution Prevention; right? Because if you can't execute code in the data area, doesn't that prevent that kind of attack?
+
+Steve: Yes, exactly. One of the...
+
+Leo: Is the stack considered - the stack's considered data area.
+
+Steve: Yeah. Now, it is the case that some programs will deliberately put executable code on the stack, or they will allocate other data areas and, for example, load some of themselves, like they may be a modular program where only part of the program is loaded in memory at a time. And so at some point it says, oh, I need to go get another chunk of myself. So they'll load themselves another piece of themselves off the hard drive into memory, which technically is data memory, and then execute that. There's nothing preventing that, except it's regarded as poor programming to do that. And so it's the kind of thing that Data Execution Prevention would flag as an exception, which is why some benign software will not run with DEP enabled because it'll cause that problem.
+
+Leo: Good to know. Good to know. And some benign software wants to use the stack as a code area because it gives them some flexibility.
+
+Steve: Exactly.
+
+Leo: It's a kind of programmer's trick.
+
+Steve: Exactly.
+
+Leo: Push code on the stack.
+
+Steve: It's very, very handy and very efficient.
+
+Leo: And very bad. And stop doing it. Well, now, that's stacks and registers. Do you want to get into recursion today, too? So I guess in a way we talked about recursion because recursion required the stack.
+
+Steve: Yes. I'm a little self-conscious about having made everyone's eyes cross here with this stuff.
+
+Leo: No, that was great.
+
+Steve: But it's a crucial concept because what we're going to do in two weeks is discuss how computers are able to do everything at once. That is, one thing we've never talked about, and it's...
+
+Leo: Selecting, yeah.
+
+Steve: ...crucial, is interrupts, this notion of interrupts and the way that sounds can play, the mouse can move, the pointer can move, the hard drive is reading and writing, I mean, there's so much happening at once. And this concept of being able to interrupt code, which we're going to cover in two weeks, absolutely requires the stack in order for no matter what's going on to have its state saved. That is, we talked about one instance, for example, where the subroutine, in my example of multiply, needed to use some of the registers, that there aren't an infinite number of registers. So if it was going to be modifying them, it needed to be able to save and restore them. Well, so does a system where anything could happen at any time.
+
+So I wanted to explain, both from a security standpoint, but also sort of from this fundamental architecture, how vital this concept of a stack is, how cool it is that you're able just to say stack this, stack this, stack this, stack this, and not have any specific concern with where exactly it's been stored.
+
+One of the reasons this is so efficient, remember we talked about the notion of a register being implicit in an instruction, when we're not having to specify the stack pointer because that's implied by the push and pop instructions. They know how to do the work. We just sort of say, we say to the computer, take the data, I don't care where you put it, just as long as you can give it back to me when I tell you that I want it. And the key is that it's this notion of it being in the - we get it in the reverse direction than we gave it allows all of this power and essentially allows this recursion because, as long as we sort of unwind our self in the reverse direction that we wound up, we end up right back where we're supposed to be. So it works.
+
+Leo: That's very cool. Love it. I love talking about the deep roots of computer science. From a guy who was there at the beginning, frankly. Pretty close.
+
+Steve: Well, there are just a couple more key concepts. And we will have really pretty much everything we need in order to understand where we are today. Because I want to quickly, probably the episode after we talk about interrupts, talk about today's microprocessors, the whole CISC versus RISC controversy, the issue of how many registers is enough, how Intel got itself tangled up as power continued to be consumed with the design of its processors, and the insane things that designers have done in order to squeeze every last bit of processing power out of these chips. Now that people, now that our listeners have a sense for exactly how these things run, there's enough understanding to understand very cool technology like out-of-order execution and superscalar and pipelining and the stuff that we've all got in today's processors, not just the way PDP-8s used to work.
+
 ## Links to Security Now transcripts
 
-- http://www.grc.com/sn/sn-238.htm
-- http://www.grc.com/sn/sn-239.htm
 - http://www.grc.com/sn/sn-240.htm
 - http://www.grc.com/sn/sn-241.htm
 - http://www.grc.com/sn/sn-242.htm
