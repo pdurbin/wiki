@@ -1,3 +1,5 @@
+[[!meta title="wiki.greptilian.com"]]
+
 You can read [[about]] this wiki or check its [[sitemap]].  There's not a lot of content yet, though I am taking a few notes about [[ubuntu]].
 
 http://greptilian.com has additional content.
