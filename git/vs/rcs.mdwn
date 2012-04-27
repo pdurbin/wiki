@@ -1,4 +1,4 @@
-Should I avoid using git to track individuals files with separate history, such as in /var/named?
+Should I avoid using git to track individual files with separate history, such as in /var/named?
 
 In January 2012 [Randal Schwartz](http://serverfault.com/users/5879/randal-schwartz) gave a talk called [Introduction to Git](http://vimeo.com/35778382) that I very much enjoyed, but I was left confused about his admonition *not* to use git to track individual files with unrelated or separate history.
 
