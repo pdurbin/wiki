@@ -22,6 +22,6 @@ Personally, I have no plans to track my /etc with git, but I recently started us
 
 I'm influenced by the [scm_track_enabled](https://github.com/cobbler/cobbler/commit/5e94a41b283f6491fc5ca60f5262e29cab557147#cobbler/modules/scm_track.py) feature of [Cobbler](http://cobbler.github.com) which says "enables a trigger which version controls all changes to /var/lib/cobbler when add, edit, or sync events are performed.  This can be used to revert to previous database versions, generate RSS feeds, or for other auditing or backup purposes.  git is the recommend SCM for use with this feature."  My use of git with /var/named is very similar to this.
 
-(As a side note, I've never used RCS and can't imagine bothering to learn it, even if it is easy, when I already have a decent understanding of git.)
+(As a side note, I've never used [RCS](http://en.wikipedia.org/wiki/Revision_Control_System) and can't imagine bothering to learn it, even if it is easy, when I already have a decent understanding of git.)
 
 Specifically, I'm wondering about using git to track /var/named, but I welcome answers about best practices for using git to track directories like it.
