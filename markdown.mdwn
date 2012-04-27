@@ -1,1 +1,3 @@
-Markdown can be written [[as-yaml]].
+Markdown is better than the alternatives, I guess.
+
+One nice trick is that it can be written [[as-yaml]].
