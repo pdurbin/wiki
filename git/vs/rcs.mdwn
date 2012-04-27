@@ -10,7 +10,7 @@ In January 2012 [Randal Schwartz](http://serverfault.com/users/5879/randal-schwa
 > * Tracking individual files with separate history
 > * Making things painful
 
-. . . and here is what he says:
+. . . and here is what he says, around 4 minutes in:
 
 >It is not optimized for any kind of metadata about the files.  It does not, *it does not*, track file permissions or file ownership.  That is not its job.  It's managing source files, and sources don't have owners, sources don't have permissions.  Sources are used in recipes to build the real thing that you are going to deploy.  So git does not have technology about that.  People have tried to build structures on top of it to do that, with some degree of success, but really let's look at basically what git is meant for and not what people are building on top of it.
 >
