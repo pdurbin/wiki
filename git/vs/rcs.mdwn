@@ -1,4 +1,4 @@
-Are there any downsides to tracking /var/named with git?
+Should I avoid using git to track individuals files with separate history, such as in /var/named?
 
 In January 2012 [Randal Schwartz](http://serverfault.com/users/5879/randal-schwartz) gave a talk called [Introduction to Git](http://vimeo.com/35778382) that I very much enjoyed, but I was left confused about his admonition *not* to use git to track individual files with unrelated or separate history.
 
@@ -12,13 +12,16 @@ In January 2012 [Randal Schwartz](http://serverfault.com/users/5879/randal-schwa
 
 . . . and here is what he says:
 
-
 >It is not optimized for any kind of metadata about the files.  It does not, *it does not*, track file permissions or file ownership.  That is not its job.  It's managing source files, and sources don't have owners, sources don't have permissions.  Sources are used in recipes to build the real thing that you are going to deploy.  So git does not have technology about that.  People have tried to build structures on top of it to do that, with some degree of success, but really let's look at basically what git is meant for and not what people are building on top of it.
 >
->It's also not meant for tracking individual files with unrelated or separate history.  For example, you may think, "Oh, I really like this.  I want to track all my et cetera with it.  But et cetera is really a bunch of separate, unrelated files.  You wouldn't be doing branching and merging, add this change to that change and eventually want to back out both of them at the same time.  It doesn't really work that way.  So it's not good for individual files.
+>It's also not meant for tracking individual files with unrelated or separate history.  For example, you may think, "Oh, I really like this.  I want to track all my et cetera with it.  But et cetera is really a bunch of separate, unrelated files.  You wouldn't be doing branching and merging. . . add this change to that change and eventually want to back out both of them at the same time.  It doesn't really work that way.  So it's not good for individual files.
 >
 >I still use RCS to track individual files in my /etc.  It's really fast, it's cheap, and I can get back to the data I need to. It's also not optimized for making things painful.  Ok?  It's designed to be easy and stuff.
 
-Personally, I have no plans to track my /etc with git, but I recently started tracking /var/named with it (BIND configs).  Given what Randal has to say above, should I stop using git for this purpose?  Is there a downside, a problem I'm not anticipating?  So far everything is working just as I expect, and I've had no problems, but I actually hesitated to start using git to track /var/named because of the warning above.
+Personally, I have no plans to track my /etc with git, but I recently started using git to track /var/named (BIND configs).  Given what Randal has to say above, should I stop using git for this purpose?  Is there a downside, a problem I'm not anticipating, a gotcha?  So far everything is working just as I expect, and I've had no problems, but I actually hesitated to start using git to track /var/named because of the warning above.
 
-As a side note, I've never used RCS and can't imagine bothering to learn it (even if it is easy) when I already have a decent understanding of git.
+I'm influenced by the [scm_track_enabled](https://github.com/cobbler/cobbler/commit/5e94a41b283f6491fc5ca60f5262e29cab557147#cobbler/modules/scm_track.py) feature of [Cobbler](http://cobbler.github.com) which says "enables a trigger which version controls all changes to /var/lib/cobbler when add, edit, or sync events are performed.  This can be used to revert to previous database versions, generate RSS feeds, or for other auditing or backup purposes.  git is the recommend SCM for use with this feature."  My use of git with /var/named is very similar to this.
+
+(As a side note, I've never used RCS and can't imagine bothering to learn it, even if it is easy, when I already have a decent understanding of git.)
+
+Specifically, I'm wondering about using git to track /var/named, but I welcome answers about best practices for using git to track directories like it.
