@@ -396,7 +396,9 @@ Leo: Oh, I love it.
 
 Steve: I mean, it's fun to, well, in fact it is, I think that's one of the hooks for people who love to program is that they just - they get off on this kind of true abstract thinking. It's just great.
 
-## What assembler software to use (Security Now 238, 40:28)
+## Listener feedback (Security Now 238, 40:28)
+
+### What assembler software to use
 
 From http://www.grc.com/sn/sn-238.htm http://wiki.twit.tv/wiki/Security_Now_238#Question:_.5B_02_.5D
 
