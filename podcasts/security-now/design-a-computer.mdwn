@@ -456,7 +456,7 @@ And essentially, when you remove your finger from the button or when power level
 
 It's interesting, too, when you power up RAM, it generally comes up in some noisy state, but not all necessarily zero. One of the first things that the BIOS normally does is go and clear out the RAM in order to start it. And it also begins refreshing the RAM in order to keep its contents alive. So there's housekeeping being done. But literally it's just a matter of the processor always going to a predefined hardware, defined in its hardware, starting location, where there'll be a little bit of memory, a little bit of ROM that will be the first instruction that executes, and the second, and the third, and the fourth, and the rest is Windows or Mac or whatever.
 
-Leo: [Laughing] And the rest is Windows.
+Leo: (Laughing) And the rest is Windows.
 
 Steve: And the rest is Windows.
 
@@ -665,6 +665,216 @@ One of the reasons this is so efficient, remember we talked about the notion of 
 Leo: That's very cool. Love it. I love talking about the deep roots of computer science. From a guy who was there at the beginning, frankly. Pretty close.
 
 Steve: Well, there are just a couple more key concepts. And we will have really pretty much everything we need in order to understand where we are today. Because I want to quickly, probably the episode after we talk about interrupts, talk about today's microprocessors, the whole CISC versus RISC controversy, the issue of how many registers is enough, how Intel got itself tangled up as power continued to be consumed with the design of its processors, and the insane things that designers have done in order to squeeze every last bit of processing power out of these chips. Now that people, now that our listeners have a sense for exactly how these things run, there's enough understanding to understand very cool technology like out-of-order execution and superscalar and pipelining and the stuff that we've all got in today's processors, not just the way PDP-8s used to work.
+
+## Listener feedback (Security Now 240 48:16, 1:01:21)
+
+From http://www.grc.com/sn/sn-240.htm http://wiki.twit.tv/wiki/Security_Now_240
+
+### Forth
+
+Leo: All right, moving on to Question 4. G. Wade Johnson in Houston, Texas comments about write-only programming languages: Steve, I've been enjoying Security Now! for a while. Particularly I like the way you carefully explain concepts that may be new to your listeners. I've been a professional programmer for a number of years in several languages and find that many of your programming comments really match my experience.
+
+However, I recently listened to Episode 236, where you made a comment that I had to disagree with. After talking about programming in assembler, C, and Perl, you stated that Forth really was a write-only language, meaning that it was easy to write, but difficult or impossible later to read. Many moons ago I was actually a professional Forth programmer. For eight years I helped develop and maintain a very large codebase in Forth. It was no more unreadable than code I've maintained in C, C++, Java, or Perl, before or since that time. While it is possible to write unreadable code in Forth, that's true about any programming language. Given some good design skills, you can write truly elegant code in Forth - that's kind of been my experience, too - much like it's possible to write elegant assembler, I would bet.
+
+Throughout my career I have regularly heard people claim languages that I've used were write-only - Perl, C, C++, Lisp, et cetera. In every case I've also seen really clean and readable code in each of those languages. I suspect most of the problem has to do with the commenter not being familiar with the idioms of the language, rather than a failing of the language itself. Sorry for the rant. Keep up the good work. I really am enjoying the "computer from the ground-up" series. It takes me back.
+
+Now, Forth, the problem with Forth is it doesn't have much of an idiom. The idiom is created as you create the dictionary. But if you do it sensibly, it looks like English.
+
+Steve: I guess I'll temper my comment. And I thought a lot about why I'm feeling that where he's not. And I guess so what I'll say is that I do think it's fair to say that different languages encourage and facilitate different degrees of, I'll call it transparency. For example, my experience with Pascal has been that I can come back long after I wrote some Pascal, and it just seems so clear to me what I did.
+
+Leo: Well, yeah, but Niklaus Wirth designed that as a teaching language. So it was intended that way.
+
+Steve: Which is my point.
+
+Leo: Right.
+
+Steve: Is that it succeeds in just - in having - in being transparent. And when I'm thinking about trying to understand some Forth code that someone else wrote, the problem for me is that there is, well, the problem is the elegance and the power of Forth is its use of the stack. So we ought to talk a little bit about Forth and the stack because that was the context in which I mentioned Forth last week also was when we were talking about the whole concept of a stack. In Forth, you don't have arithmetic expressions that are algebraic the way you often have in other languages, where you say A equals five plus four. Instead you push five on the stack, and then you push four on the stack, and then you do a plus sign, which adds the top two things on the stack, leaving the sum of them on the stack. And it's very powerful in the way that, like, the early HP calculators, which used RPN, Reverse Polish Notation, which were also stack-based calculators. They were very powerful.
+
+But for me, you can't look at Forth code and see what's going on. You have to follow along with Forth code because there's this hidden state, that is, the current state, the current contents of Forth's execution stack completely affects the result of the verbs which you are using to apply against the stack. So, I mean, I respect a professional Forth programmer, and I will take our listener's word for the fact that, if you embed yourself in Forth long enough, you can read it. I find it difficult to read, but I have not spent any great length of time programming in Forth. I think it's interesting, and I learned it and used it for a while.
+
+And as you say, Leo, the nature of, at a much higher level, viewing Forth at a much higher level, the way you create - you essentially sort of build your own little environment by creating a meta language with your own verbs out of the lower level intrinsic language and verbs in Forth. And it's really neat. I mean, it's an interesting development environment, unlike anything else. And by the way, if any listeners are curious, there's all kinds of free Forths around for all the different platforms. I mean, it's an interesting enough language that it's been implemented many times on all kinds of processors. So it's...
+
+Leo: It's also very spare. It's small.
+
+Steve: Yes. And in fact that's one of the reasons - in fact, is it Sun? Somebody uses Forth to boot their machines.
+
+Leo: Oh, really.
+
+Steve: Yeah. Forth is used as, like, the BIOS language.
+
+Leo: Yeah. It's a great embedded language. You can have a Forth interpreter in a few K, maybe even less. And then of course everything that Forth does is in a dictionary. So it can be very, very small. It was written for telescopes. It was written to control telescopes by Charles Moore.
+
+Steve: Yes.
+
+Leo: I interviewed him when we were at Tech TV. And he was stunned that I even knew who he was or what Forth was. It was - poor guy, I mean, he really created an amazing thing, which is still I think used in robotics a little bit. I'm sure it must be. Wonderful language.
+
+Steve: Yeah. It has not died. And as you say, if someone were to create a new chip, and with a random instruction set, and needed to quickly get something up and going, one of the quickest ways to bootstrap a system is to write a small Forth interpreter and then start writing Forth code. Especially if you've got a body of Forth code you want to immediately port over. You can get it up and running on an arbitrary architecture very quickly. But still, I would - my feeling is it's the fact that you have to follow along with the code to track in your mind what's currently on the stack, and that that's a completely opaque thing. You can't see that in the language. You have to execute the language in your mind in order to see what's on the stack, to know what's going on.
+
+To me that's very different than looking at a language like Pascal or even like C, where there isn't anything hidden based on, I mean, I guess the contents of variables would be in a sense hidden. But to me you're seeing it - I guess it's just that I'm not used to Forth. But you see what I mean, that there is this state of the Forth machine which the language affects. And you have to know what that is in order to be able to read the code. So I think it's a little different. 
+
+### Question about language virtual machines
+
+Leo: Question 6, as we move along through the list. Luke in Boston, Massachusetts asks: Why a language virtual machine? Steve, I've really enjoyed your current "how to build a computer" episodes. Your detailed discussion of how computers work in hardware has made me wonder what the story is with virtual machines, in particular the virtual machines that show up in various language implementations. I understand how a full system VM like VMware works, and what the value is. But I'm not sure what a language virtual machine, like a JVM, the Java Virtual Machine, or Google's V8, or Parrot, which is the new platform for Perl 3, is, or why - I'm sorry, Perl 6 - or why a language designer would want one.
+
+It's all about cross-platform portability. Is it all about cross-platform portability, or are there other benefits? Are language VMs just software simulations of a particular existing chip, or at least simulations of a chip that could exist? This is - I love this question. Or if not, and the instruction set has surpassed what could be done with the transistor logic you described in Episode 233, why are they virtual machines instead of just programs that read other programs? Thanks for making such a great show. Luke. Well, you mentioned Pascal. Pascal was originally a P machine.
+
+Steve: Yes, p-code was what the compiler produced. It is the case that a language virtual machine is different, as he says, like for example from a VMware system where we're virtualizing an operating system, so to sort of create a containment or a duplicate of the operating system. In a language virtual machine the virtual machine is designed for any of a number of different purposes. It is normally a sort of an idealized processor, that is, you would, if you were implementing a language like, well, we'll take the example of Pascal, but Java is a good one, too. You're implementing a language.
+
+So as a compiler designer you can say, gee, wouldn't it be great if the processor that we were running on, we were able to just, like, design our own, that it had the following characteristics. And so the virtual machine is created to emulate that environment. I don't want to say a processor because it could sort of be more than a processor. So the virtual machine is, exactly as the name says, a virtual machine. It is an emulated pseudo computer which doesn't necessarily exist in hardware. But, for example, there actually was a Forth chip created which implemented the Forth language virtual machine in hardware. So it is possible, in fact I think there were some p-machines that were implemented in hardware, too, so...
+
+Leo: Yeah, I think so, yeah.
+
+Steve: Yeah. So you can, if you wanted to, devirtualize the virtual machine, make it a real machine, and you get all kinds of speed advantages if you were to do that.
+
+Leo: This might go back to Donald Knuth, who wrote his classic books on programming in a pseudo-language called...
+
+Steve: MIX.
+
+Leo: ...MIX.
+
+Steve: MIX was what Don created, yes.
+
+Leo: Because he didn't want to make it machine dependent, I guess.
+
+Steve: Well, he wanted his books to be able to survive through the years.
+
+Leo: Smart man.
+
+Steve: And he also wanted to illustrate his concepts in actual instructions, not just sort of an algebraic abstraction. So he had to create something that the students could read. In the inside front covers of his books is the MIX machine language, sort of as a handy reference as you're reading his texts, so that it's always there.
+
+So anyway, to answer Luke's question, or to continue, probably the reason this is done, it's done because the boundary between the virtual machine and the compiler can be set by the language designers so that the virtual machine is very powerful or not very powerful. But as he suggests about cross-platform portability, and as we were talking about in the case of Forth, if you had something like a Java technology - or Perl, Perl's another great example because it's wildly cross-platform - if you implement the language against a custom-designed virtual machine, you can first of all design the virtual machine so that it's really good at doing the things the language needs, that is, it provides the facilities to, like, real-time garbage collection and memory management and very high-level constructs, much more than you would get from actual hardware. So that makes implementing the language on top of that virtual machine much easier and more convenient.
+
+And all you have to do to move that whole blob that you've created, the whole implementation, to a different platform is rewrite a much smaller portion of it, that is, just the virtual machine for a different platform, and everything else that you've written runs. Because you've virtualized that the actual hardware into something which is not only non-specific for the platform, but also a close match to the things the language wants to do. So you can design a computer yourself that your language will run well on. And then you only have to implement that virtual computer that you've designed on the actual hardware.
+
+Leo: So cool.
+
+Steve: Yeah, it's just - look at all the cool technology we've come up with in computers over the years.
+
+## Hardware Interrupts (Security Now 241 42:25)
+
+From http://www.grc.com/sn/sn-241.htm http://wiki.twit.tv/wiki/Security_Now_241
+
+Leo: All right. Are you ready to take a look now at hardware interrupts?
+
+Steve: We're going to move forward, yes. I'm going to do a quick little review of where we've come. And then, building on everything we've done so far, talk about how computers have become very deft at doing many things at once.
+
+Leo: Well, in fact, if you think about it, if you're a computer and you need to communicate to the outside world, you've got to find a way to do it while you're busy doing other stuff. We see, it's funny, we see it all the time where a computer gets tied up. On the Mac you call it "beachballing," where it's just - it's busy doing something, and it won't pay any attention to you.
+
+Steve: Actually I'm going to talk about that, too. I've got it here in my notes. There's a simple thing that some Windows programmers don't quite get right involving something called the "Windows message loop" that is part of what we're going to cover today.
+
+Leo: Great. All right, we're talking with Steve Gibson, the security guru, the head honcho at GRC.com. And we're going to continue on in Steve's series on building, kind of building a computer up from scratch by solving kind of the fundamental problems that you have to solve to make the computer work.
+
+Steve: Yeah. I don't - you know that famous cartoon with a professor on the blackboard who's trying to balance his equation, and gets to a certain point, and he can't figure out how to make it go, and he says, "And then a miracle happens." And...
+
+Leo: (Laughing) We're not going to have any miracles here.
+
+Steve: Yes. I don't want at any point to just sort of wave my hand and say, oh, and just take my word for it; or, oh, that just kind of, you know, happens. There is nothing that requires we do that. We've got intelligent listeners who have been paying attention. The fact is, mysterious as the inner guts of computers are, they're just not that complicated. By choice it's where I live, programming in assembly language, because I like dealing with the truth. I mean, with the actual raw capability of the machine. And it's easy to sort of say, oh, that's just sort of beyond me. But the fact is it's not beyond any of us.
+
+So this is the fourth in our series of sort of laying down a foundation of understanding what the exact operation, the true functioning of the computers that we're all using now in our daily lives. In the first installment we looked at the whole concept of having a programmable machine where we had just a block of memory that was addressable, word by word, and something called a program counter, which counted through the steps of the program, advancing word by word; and that these words that were read were broken down into fields of bits where one group of bits was the so-called "opcode," the operation code, which instructed how the computer would interpret the rest of the bits in the word, which for example might have been another address in memory telling, for example, the computer to add the contents of that memory address into an accumulator, or subtract them, or invert them, or rotate them, or a number of different things, maybe send them out to a peripheral device or read something from a peripheral device into the accumulator, so you had I/O, input/output instructions. And that's really, at that level, that's all that's going on.
+
+Then in the second installment we introduced the notion of indirection, which is a very powerful concept, the concept of a pointer where, instead of the instruction directly specifying an address from which you did some transaction, the instruction specified an address which contained the address with which you did the transaction. In other words, it was a pointer to the actual target of the operation, a very powerful concept, which we then advance to the next stage with our third installment, which was our discussion of having multiple registers and a stack.
+
+The multiple registers gave the programmer more flexibility. He wasn't spending all of his time loading and storing things to and from memory using a single accumulator. If he had multiple accumulators, multiple registers, then it was possible to sort of have little temporary scratchpads. He could keep things in various registers as part of the algorithm he was doing.
+
+And then we introduce the notion of a stack, which was the focus of the last episode in this series, as a hugely important and hugely powerful concept, the idea being that this was sort of a sequence-oriented storage concept, storage facility, where you could say, place a value on the stack, and then place another value on the stack, and then recover a value from the stack, and recover the prior value from the stack. The idea being that, as long as you put things on a stack and removed them in the reverse order, you're able to not worry about the immediate history of the stack as long as you have some discipline about always "popping," as is the jargon, popping something from the stack in the reverse order that you pushed some things on the stack. You were able to restore the contents that you had used the stack as a temporary storage to contain.
+
+Well, that's an incredibly powerful idea because it allows us then, for example, to call to a subroutine, to jump to a subroutine to perform some work for us. And the subroutine knows that it's going to use, for example, a certain number, a certain subset, maybe, of the registers that's in this computer hardware. But it knows that, when we call the subroutine, we don't expect it to mess up the work we're doing. We just want some service from it. So it is able to use the stack to save the contents of the registers that it might be changing. And then, just before it returns to us, it restores them, it pops them, pops these values off the stack back into the registers so that, when it comes back to us, it's very much like nothing happened. I mean, we got a little work done. But if we were in the middle of doing things, then we were able to continue, trusting that subroutine to clean up after itself. And that's sort of the key concept.
+
+So, moving forward, we have a computer which is able to do work. If we wrote some software, it could compute pi for as long as we allowed it to work on computing pi, or do polynomials, or do roots and cubes and sort of pure math computational stuff. Well, that's useful, except that computers really came into their own when they began interacting with the physical world, with so-called peripherals. We wanted them to interact with a teletype where we can type things in. We want them to be able to interact with storage facilities, where they're able to not only store things in their main core memory, but sort of have more like an archival storage, to magnetic tape or to disk drives. So that comes back to this notion of input/output devices, or input/output instructions, where we're able to say, take the contents of an accumulator and send that out to a device.
+
+Well, in order to do that, since the computer can typically run vastly faster than the physical devices that it's using for input and output, it needs some way of pacing itself so that it's able to provide data to a device as the device is able to accept it. And it's similarly, going in the other direction, it's able to wait around for new data to arrive from a device. If we take the case, for example, of a keyboard, somehow the computer needs to know when we press a key and then to read the value of the key we pressed and accept it, store it somewhere, and then somehow be notified when we press another key.
+
+Well, the original computers did this in a very awkward way, but it was all that they really had. There was an instruction, part of the input/output instructions, which would allow them to sense the readiness of a device to receive data or the availability of data from a device. And so the computer would essentially, it would execute an instruction to read the - say that it was trying to read data from the keyboard. It would execute an instruction which would allow it to sense whether new data was available. And, if so, it would branch in the program to a series of instructions that would read the data and then reset that little sensor so that it could then start waiting for the sensor to again say, oh, we've got new data available, in which case it would read that and reset the sensor and so forth.
+
+So essentially, the computer would loop, like in a tight little loop, just reading the status, checking to see if that status said there was new data available, and if not it would go back and read it again. Now, the problem is, the computer is completely occupied while that's happening. That is, while it's reading data, waiting for us to press keys one after the other, it can't get anything else done because it's spending all of its time sitting there just waiting for data to become available.
+
+So some early programmer said, well, we could get some work done if we sort of, like, went away and did some work, and then checked to see if data was available and, if not, go back to kind of to what we were doing again. And so the idea would be, they would take responsibility for polling the status of the keyboard every so often. Now, that was clever, and it would work, in theory. But it required a great deal of discipline from the programmers who were wanting to get sort of work done on the side while being ready to accept data from the outside because, if they got too busy, for example, just doing computational work, then the computer would seem unresponsive to the user. Or maybe two keys would get pressed one after the other, and the computer would have missed the first one. It would only see the second one when it came back, if it didn't come back often enough. So people writing code like that had to make sure that they didn't spend - they never, didn't ever spend two months' time not checking to see if something new was available.
+
+So the programmers complained to the hardware guys and said, okay, look, this is crazy. We can write code to keep things moving. But it's really hard to do that. There's got to be a better way. Well, what was invented was the concept of a hardware interrupt, which is an incredibly powerful and, as always when I start talking about "incredibly powerful," you know that what's going to follow is "and dangerous," I mean, with power comes responsibility. Like we were talking four weeks ago when we talked about pointers, and I said pointers are incredibly powerful; but, oh, boy, can they be trouble if you're not very careful with them.
+
+Similarly, hardware interrupts are very powerful, but I would be - I would not be surprised to learn that, for example, Toyota has had a problem with that kind of power, because it's the way computers become asynchronous. If you didn't have any interruptions, if all you were doing was running code like computing pi, then the computer is entirely - what the computer does is entirely deterministic. You start it in the morning, and it starts working on pi. And eight hours later, if you were to stop it, then it's done a certain amount of work.
+
+If the next morning you started it at the same time, and if you checked on it in exactly the same length of time later in the second day, it is doing exactly the same thing. It's in exactly the same place. It's been - every single thing would have been predetermined based on its starting state. The entire future was determined by the way it started because, with simple software, it's entirely deterministic.
+
+Well, that immediately goes out the window as soon as you start interacting with the real world. What hardware interrupts allow is they allow an electrical signal of some sort, an electrical signal representing some sort of physical event, like a key being pressed on the keyboard, to interrupt at any time the normal flow of instructions. So now, with a hardware interrupt system in this computer that we were just talking about, the main code, the main work that's being done, never has to check to see if a character is available on the keyboard. It doesn't have to explicitly check.
+
+Instead, before it gets busy doing whatever it's going to do, it sets things up so that hardware, a hardware event that occurs can interrupt it anywhere it is, literally in between instructions. So what the hardware in the computer does is, as it's stepping its program counter, word by word, through memory, reading each instruction in turn and doing that, some additional logic is added to the hardware which, just as it finished executing an instruction, there's a hardware check to see if the interrupt signal is active. If not, it just proceeds as it normally would have to read the next instruction in turn and execute that. And again, after that instruction it - it takes no time to do this in hardware. So there's no overhead in testing this hardware interrupt line between every instruction. It happens at light-speed in the logic. The computer either moves forward; or, if the hardware interrupt is active, it suspends, essentially doesn't execute the next instruction it would have in sequence. Instead it does something different.
+
+Now, what it does in detail is a function of sort of the generation of the hardware. For example, the PDP-8, my favorite machine to use as sort of an example of in the beginning, did have hardware interrupts. And in fact I used them in the programs I wrote for blinking the lights and playing games and things. What the PDP-8 did was, when a hardware interrupt occurred, wherever it was executing in main memory, it forced that next - the location of that next instruction it would have executed to instead be stored in location zero in main memory. And it changed the program counter to a one. So what that did was, suddenly the instruction at program location one got executed, and the computer followed the trail from there with the exact location where it had been interrupted stored in memory location zero. Of course, that allowed - storing it in zero allowed the computer to get back to, to return eventually to exactly where it was.
+
+So this was a huge innovation. Suddenly you could set things up so that, for example, when a key is pressed, no matter what you're doing at the time, suddenly you are where you were, it's stored in location zero, and you start executing at location one. And the formal name for that location one is an interrupt service routine, or an ISR, as it's abbreviated. Interrupt service routine, meaning that that routine, that code is going to service this interruption that the computer has just experienced.
+
+So what does it have to do? Well, we have no idea now where we were. We don't know what we were doing when we got interrupted. So now what we've introduced is nondeterministic computing, where real-time events occurring in any time change the flow of code through the computer. Well, if we want to, for example, read the data from a keyboard and store it in a buffer somewhere, we have to make sure that, almost like a physician that promises to do no harm, we have to make sure we don't change anything. That is, the computer was in the middle of work of some kind. But now we've got to use the computer's own resources to read the keyboard and figure out where we were in the buffer and store what we read in the next byte of the buffer. And so we - but then we need to return to what we were doing when we were so rudely interrupted with - but leave the machine in exactly the same condition as we found it.
+
+So this is where the stack, brilliantly, comes in because, remember, it's this beautiful sort of flexible scratch pad, which as long as we pull things back from it in the reverse order we stored them, we get them all back. And what's cool is that the program we interrupt can be using the stack, too. We just need to make sure we put everything back the way it was. So our interrupt service routine knows that it's going to use some of the registers in the computer which were probably in use when it got - when this interrupt service routine got invoked. So it pushes the values stored in those registers onto the stack in a certain careful sequence and says, okay, I have saved things. Then it reads the data from the keyboard, figures out where it needs to store it in the buffer, does so. And then it needs to clean up after itself. So what is to say is, it needs to restore the state of the machine to exactly what it was when it got interrupted. When it does...
+
+Leo: Now, Jimmy has an interesting question in the chatroom.
+
+Steve: Uh-huh?
+
+Leo: Is this recursive? In other words, what happens when you interrupt an interrupt?
+
+Steve: Ah, well, that's a very good point. Now, in this PDP-8 model, there is a problem, which is that, when the interrupt occurred, remember where we were got stored in location zero. So imagine that, while we were doing this work in this interrupt service routine, another interrupt were to occur. Well, what would happen is where we were would get stored in location zero, and we'd start executing at location one, like we said. Well, that's horrifying because we had already stored in location zero where we were when the first interrupt occurred. Now another one has happened, while we were still in our interrupt service routine, which wiped out the record of the first one.
+
+Well, naturally there was a way, there are several mechanisms that come into play here. The first is that the hardware disables interrupts as part of its servicing of the interrupt. So even in the very earliest machine, like the PDP-8, they understood that there was a danger with the architecture that they had. So the act of the computer doing this interruption, storing where it was at location zero and then executing from location one, the act of it doing that disables further interrupts. So what that does is it prevents exactly the problem that I just stated of an interrupt occurring while we're still in the process of servicing an existing interrupt. So that prevents there being a problem with recursion.
+
+Now, what happened as we moved forward in architectures is things naturally got more complicated. It was recognized, for example, that there were some peripherals that were high-speed, like a tape drive or a disk drive, which were generating data or requiring data at a much greater rate than, for example, a teletype or a keyboard. And so the notion of priorities of interrupt, interrupt priority came into being, where an interrupt would be serviced only if the interrupt - if any interrupt was in the process of being serviced, if the new interrupt coming in was a higher priority than the interrupt that we were in the middle of working on. So that's confusing unless you listen to it a few times.
+
+But what that meant was that you could have a low priority interrupt assigned to the keyboard, and a higher priority interrupt assigned to the disk drive or the tape. And by agreement of the architecture and the programmers, a higher priority interrupt could interrupt the work being done by a lower priority interrupt. And that required a fancier architecture. For example, rather than having just a single location, like location zero, you might have a block of locations, call it 100, 101, 102, 103, 104, 105, that is, a location for each priority of interrupt. So that would allow - that meant that different priorities of interrupts stored their interrupted data in different locations to prevent a collision.
+
+So again, mechanisms were created that allowed that. But the concept here, the main concept is that we've gone from a system where the starting state determines the entire future of the computer - which would be the case, for example, of us computing pi, where we're just following instructions, one after the other, ad infinitum - to a very different system where we're now able to respond in, essentially, in real-time to physical events happening in the real world.
+
+And thanks to this ability for the flow of our instructions to be interrupted at any time, suddenly other code - completely unrelated, perhaps, to what we were doing - is being executed. It, that other code, it promises that when it's done it will put the machine exactly back to the way it was. Then it returns - because the location where we were has been stored in memory, it treats that like an indirect pointer, remember, so it's not the location but the contents of the location. So it does, for example, an indirect jump through location zero, where the location that we were executing has been stored, which actually takes us back to where we were. The program that was running has no idea that that all just happened.
+
+If it were really fancy, it could sense that time had been lost. And in fact that's the way some of the anti-hacking technology that has existed, like anti-copy protection or copy defeating or anti-debugging. Because things like debuggers will be breaking the normal flow of execution, time is lost. And so it's technically possible for that software to sense that, wait a minute, some time has been lost between this instruction and the next one. But in terms of sort of its own sense of the machine and the contents of the registers and what's going on, it would have no knowledge that what had just gone on had happened. It was completely separate from it.
+
+It could look around the computer and see evidence of things. For example, it might be keeping an eye on the buffer which is being filled. The fact that it's being filled is sort of magical to it. Every so often it looks at the input buffer, and it sees characters, new characters are appearing. And there's, like, a buffer pointer that says, here's how full the buffer is. And that's changing magically, sort of by itself. It's actually being done by an interrupt service routine reading those characters from the keyboard. But that activity no longer needs to be monitored that closely. The actual main program can just kind of keep an eye on it lazily and decide if there's enough characters yet for it to, like, get them all at once and go maybe move them somewhere else or do whatever it's doing.
+
+So it's an incredibly powerful advance in the technology of the way computers work, which has been responsible for taking us sort of to the next level of allowing computers to interact with us in a very rich way.
+
+Leo: It's amazing how this all pieces together.
+
+Steve: Yeah, and not that tough.
+
+Leo: No, it's not at all.
+
+Steve: I mean, if our listeners listened carefully, they now understand what hardware interrupts are. And it's sort of, like, duh, I mean, that's how they ought to work, and that's how they do. That's all there is to it.
+
+Leo: Well, I think the thing I like about this series is that it just - it's almost that it has to be this way. It's like, well, these are the problems you have to solve. And one by one you solve the problems. And it just kind of inevitably almost is this way. I guess there are other ways you could solve it. But this is such an easy, straightforward, logical way to do it. It's like there's a certain inevitability to it, is I guess what I'm saying.
+
+Steve: Right, right. I think it follows logically. One concept follows logically from the next. I mean, some of these innovations were brilliant. The notion of a stack, the idea that you could have a stack pointer where you'd sort of give it a region of memory for it to worry about, and you could just kind of give it things. And then as long as you took them back in the reverse order, it would remove them from the stack in the reverse order that it had pushed them on the stack, creating this incredibly flexible facility for having, like, temporary storage in the computer. I mean, that was a brilliant addition.
+
+Leo: I love the stack.
+
+Steve: Yeah.
+
+Leo: I just love it.
+
+Steve: I did mention that I would talk a little bit about Windows when we were talking about applications freezing.
+
+Leo: Right. The message event, or the event...
+
+Steve: Yeah, the message loop, it's called.
+
+Leo: Loop, right.
+
+Steve: One of the first things a Windows programmer learns, and this may be less true now than it was, things like Visual Basic and some of the more recent languages sort of obscure the reality of what's going on inside of Windows. But the original concept with Windows was that programs would - that Windows itself, the Windows environment, before it was even an operating system, when it ran on top of DOS, it would hand programs tokens that were called "messages." It would hand them messages, which was just a value from zero to something which represented an event. And so it was also called the event loop sometimes, or the message loop.
+
+And the idea was that the code that the programmer, a Windows programmer would write would ask Windows for the next event. And in doing so, it was turning control back to Windows. That is, it would say, give me the next event. Well, if there wasn't a next event that affected that window, then the software would just sort of wait. It would wait for another event to occur. And that was how you could have multiple windows on the screen that sort of seemed to all be alive at once, all active at once. That is, you could grab it and move it, or you could type in one, you could do different things. In fact, only one was receiving these Windows events. And so as the application processed these events, displaying text or moving the window around or resizing itself, whatever the event told it to do, the window was animated.
+
+Well, one of the things that could happen is some applications take time to do something. Maybe they're copying a file to the hard drive, or they're doing some encryption, for example, some serious number crunching that's going to take many seconds. Well, if a Windows programmer didn't really understand the way to program Windows, they might, upon receiving, like, an event saying do the work from a button, because buttons, when you press buttons or you select menu items, those just generate messages. Everything in Windows is a message. So the programmer might just go off and do that work, like start doing some big encryption project.
+
+The problem is, while he's doing that, he's no longer asking Windows for any new messages. So when Windows sends a message saying, hey, someone's trying to drag you to a different location, that window won't move because - not because anything's broken, not because anything's hung, it's just that the programmer of that Windows application didn't consider that something else might still be going on while he's busy doing work. It's very much like this polling problem we just talked about where, if the program - if we didn't have interrupt system, and the program wasn't going and checking back often enough to see if a new character had been typed, it could miss some.
+
+So the proper way to write a Windows application is with something called "multiple threads." And in fact the next topic we're going to cover, in two weeks, after next week's Q&A, I call it the "multiverse" - multicore, multiprocessing, multitasking, multithreading. It's multi everything, what is all of that multiness at all the various levels that it can occur. We now have enough of an understanding of how computers function to tackle that.
+
+But the idea, briefly, of multiple threads, which we're going to cover in detail in two weeks, is that it's possible to sort of split off another execution ability from sort of within your program, so that you could still - you sort of split it so that you could still be asking Windows for any new messages while at the same time you are inside the same program, you're able to be doing the math or the long, time-consuming copy operation or whatever it was you were doing. And if programs are written that way, then they do not freeze when they're just busy doing something. If you don't write your program that way, even if there's nothing wrong with the program, it freezes. And people are so used to programs not freezing, that is, staying responsive to the user interface, that they immediately think something's broken.
+
+And in fact this was such a problem that Microsoft added technology to sense whether a program was not responding to its message loop. And that's where we've seen, I don't know when it popped in, like maybe it was Windows 98, where Windows itself will put up "not responding" in the message bar, I mean, in the bar at the top of the window, as if we didn't know that it wasn't responding. It's like, yes, we know it's not responding because we're clicking on buttons, and nothing's happening. Again, nothing necessarily is broken. It's just that the program wasn't written with enough flexibility in mind.
+
+Leo: Very interesting stuff. It's very helpful to understand the underlying principles so that when your programs go south, you know what's going on. It's not a mystery.
+
+Steve: And again, there are reasons for all of this.
 
 ## Links to Security Now transcripts
 
