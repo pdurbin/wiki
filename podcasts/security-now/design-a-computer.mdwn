@@ -234,9 +234,11 @@ Leo: This'll be fun. Oh, I'm really enjoying this, Steve. And it's bringing back
 
 Steve: Well, and, I mean, what we just described, I mean, that is - what I described is a working computer that has everything it needs to get something done. And I think the mystery or the surprise is that just that, I mean, that's all our computers do. They load and store and perform simple operations on little bits of data. And, I mean, look what we get as a result. Because they're able - because there's enough of these little bits of data, and it's able to do stuff so fast, that they perform magic, really.
 
-## Incrementing the program counter (Security Now 236, 51:43)
+## Listener feedback (Security Now 236, 51:43)
 
 http://www.grc.com/sn/sn-236.htm http://wiki.twit.tv/wiki/Security_Now_236#Question:_.5B_07_.5D
+
+### Incrementing the program counter
 
 Leo: Let's see, here. Dan White in Winchester, VA wonders about incrementing the program counter. Oh, good. We got some programming stuff here. Just listened to the last episode on machine language, thoroughly enjoyed it, he says. It brings back memories of when I programmed in Z80 machine language for a computer my dad and I built based on the S-100 bus, if you remember that.
 
@@ -398,9 +400,9 @@ Steve: I mean, it's fun to, well, in fact it is, I think that's one of the hooks
 
 ## Listener feedback (Security Now 238, 40:28)
 
-### What assembler software to use
-
 From http://www.grc.com/sn/sn-238.htm http://wiki.twit.tv/wiki/Security_Now_238#Question:_.5B_02_.5D
+
+### What assembler software to use
 
 Leo: So forget the hash. Steve's promising nothing. You're asking too much. Paul Scribbans in Cumbria, UK wonders how to play with machine code. He says: Steve and Leo, I've been a listener since Episode 1. I think the work you do is excellent. SpinRite owner, as well. My father tried to get me into machine code when I was about 12 years old in 1982 after we purchased our first computer, a ZX81.
 
