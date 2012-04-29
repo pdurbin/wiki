@@ -2,7 +2,7 @@
 
 ## Let's Design a Computer: Transistors, Logic Gates (Security Now 233, 42:00)
 
-From http://www.grc.com/sn/sn-233.htm http://wiki.twit.tv/wiki/Security_Now_233#Lets_Design_a_Computer
+From http://www.grc.com/sn/sn-233.htm http://wiki.twit.tv/wiki/Security_Now_233
 
 Leo: That's all I can say without giving away a very critical part of that book. What a fun book that is, too. All right, Steve. Let us talk about computers. How far back do we have to go to understand this?
 
@@ -132,7 +132,7 @@ Steve: Well, and what is so remarkable, and this is what we'll look at in two we
 
 ## Machine language (Security Now 235, 46:00)
 
-From http://www.grc.com/sn/sn-235.htm http://wiki.twit.tv/wiki/Security_Now_235#Machine_Language
+From http://www.grc.com/sn/sn-235.htm http://wiki.twit.tv/wiki/Security_Now_235
 
 Leo: Where do we start?
 
@@ -236,7 +236,7 @@ Steve: Well, and, I mean, what we just described, I mean, that is - what I descr
 
 ## Listener feedback (Security Now 236, 51:43)
 
-http://www.grc.com/sn/sn-236.htm http://wiki.twit.tv/wiki/Security_Now_236#Question:_.5B_07_.5D
+From http://www.grc.com/sn/sn-236.htm http://wiki.twit.tv/wiki/Security_Now_236
 
 ### Incrementing the program counter
 
@@ -296,7 +296,7 @@ Leo: I've got to do, I keep wanting to do - and we've got people like Randal Sch
 
 ## Indirection: The Power of Pointers (Security Now 237, 27:45)
 
-From http://www.grc.com/sn/sn-237.htm http://wiki.twit.tv/wiki/Security_Now_237#The_Power_Of_Pointers
+From http://www.grc.com/sn/sn-237.htm http://wiki.twit.tv/wiki/Security_Now_237
 
 Leo: So there's a word in programming, "indirection," that is one of the fundamental programming concepts. And I remember very well when I first started studying C. I mean, I remember PEEK and POKE from Basic, which is essentially the same idea. But when I first started studying C, that was the hardest thing to get was indirection.
 
@@ -400,7 +400,7 @@ Steve: I mean, it's fun to, well, in fact it is, I think that's one of the hooks
 
 ## Listener feedback (Security Now 238, 40:28)
 
-From http://www.grc.com/sn/sn-238.htm http://wiki.twit.tv/wiki/Security_Now_238#Question:_.5B_02_.5D
+From http://www.grc.com/sn/sn-238.htm http://wiki.twit.tv/wiki/Security_Now_238
 
 ### What assembler software to use
 
@@ -550,7 +550,7 @@ Steve: And get a lot more power and flexibility.
 
 ## Stacks, Registers & Recursion (Security Now 239, 1:01:00)
 
-From http://www.grc.com/sn/sn-239.htm http://wiki.twit.tv/wiki/Security_Now_239#Stacks.2C_Registers_and_Recursion
+From http://www.grc.com/sn/sn-239.htm http://wiki.twit.tv/wiki/Security_Now_239
 
 Leo: Not getting better. So, Steve, we're ready for more in our Computer 101 series.
 
