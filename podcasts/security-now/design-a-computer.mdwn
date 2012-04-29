@@ -754,7 +754,7 @@ Leo: So cool.
 
 Steve: Yeah, it's just - look at all the cool technology we've come up with in computers over the years.
 
-## Hardware Interrupts (Security Now 241 42:25)
+## Hardware Interrupts (Security Now 241, 42:25)
 
 From http://www.grc.com/sn/sn-241.htm http://wiki.twit.tv/wiki/Security_Now_241
 
@@ -880,24 +880,818 @@ Leo: Very interesting stuff. It's very helpful to understand the underlying prin
 
 Steve: And again, there are reasons for all of this.
 
-## Links to Security Now transcripts
+## Listener feedback (Security Now 242, 59:27)
 
-- http://www.grc.com/sn/sn-240.htm
-- http://www.grc.com/sn/sn-241.htm
-- http://www.grc.com/sn/sn-242.htm
-- http://www.grc.com/sn/sn-243.htm
-- http://www.grc.com/sn/sn-244.htm
-- http://www.grc.com/sn/sn-245.htm
-- http://www.grc.com/sn/sn-246.htm
-- http://www.grc.com/sn/sn-247.htm
-- http://www.grc.com/sn/sn-248.htm
-- http://www.grc.com/sn/sn-249.htm
-- http://www.grc.com/sn/sn-250.htm
-- http://www.grc.com/sn/sn-251.htm
-- http://www.grc.com/sn/sn-252.htm
-- http://www.grc.com/sn/sn-253.htm
-- http://www.grc.com/sn/sn-254.htm
-- http://www.grc.com/sn/sn-255.htm
-- http://www.grc.com/sn/sn-256.htm
-- http://www.grc.com/sn/sn-257.htm
-- http://www.grc.com/sn/sn-258.htm
+From http://www.grc.com/sn/sn-242.htm http://wiki.twit.tv/wiki/Security_Now_242
+
+Leo: Question #8. David W. Griffin in Atlanta, Georgia comments about programming in assembly language: I respect your abilities to program in assembly language, but much of the world's software these days is designed for large-scale software for which high-level solutions rather than low-level solutions are the right way to go. Developing large software projects with large staffs and then maintaining them for a decade is not a job for which you would select assembly language, not if you could help it, anyway. I'm not sure I agree with that.
+
+Software engineering has made little progress toward reusable components, but at least high-level languages have some effect on achieving reliability. Nothing you have said contradicts this. You, after all, are doing small, well-focused applications with a single author. But I thought I'd make the point that much of the world's software today has other design considerations. I enjoy the podcast and your lectures on computer science.
+
+Steve: And largely I completely agree. When I talk about my use of assembly language, I regard it as a personal preference. I'm not pushing it on people. I'm not suggesting that the world would be a better place if people programmed in assembly language. Well, maybe I am. But I completely recognize that high-level languages are here to stay; that they make much more sense for many applications. I mean, it's just - it's programmer productivity. I guess the metric that I've seen which is most compelling is that, no matter what level of language you're programming in, programmers generally produce the same number of lines per day. So if a high-level language line of code does much more than an assembly language line of code, and both programmers are going to be equally productive when measured in lines of code, then it's clear that more functionality is being written per day by someone whose lines of code do more per line because they're using a high-level language.
+
+So I have no problem with that. I'm sticking with what I love and like and know and I'm so comfortable with, assembly language. But by no means have I been intending to denigrate in any way the value of high-level languages. We wouldn't have nearly as much stuff if we didn't have high-level languages. I would argue maybe we'd have better stuff, but much less of it. So would that be a bad thing? I'm not so sure that would be a bad thing.
+
+Leo: Yeah. I mean, I guess my thinking is, you can make assembly look just like a high-level language with macros, and probably make it very efficient.
+
+Steve: Well, mine is very clean, and I write a lot of it in a day. So again, it might be a little bit like, you know, the guy who wrote in about Forth, who took exception to my saying, "I can't read that. How can anybody read that? Nobody can read that." And he said, "I can read that." It's like, okay. So it's what you know.
+
+Leo: It really is.
+
+Steve: Yup.
+
+Leo: To each his own. It's like arguing which human language is the best. I mean...
+
+Steve: Yeah.
+
+Leo: They're all - they can all be equally expressive. But I think I like the metric, which is the more you can - assembly language does require more typing.
+
+Steve: To get the same job done, you're absolutely doing more typing, yes.
+
+## The Multiverse: multi-threading, multi-tasking, multi-processing, multi-core (Security Now 247, 47:15)
+
+From http://www.grc.com/sn/sn-247.htm http://wiki.twit.tv/wiki/Security_Now_247
+
+Leo: The multi-verse. This is part of our basics of computing; right?
+
+Steve: Yes. We discussed two episodes ago the concept of a stack, which is one of the fundamental core principles that underlies all current computing. I mean, there just isn't anything you could replace it with. And visually, just to remind our listeners, you can sort of model it on the stack of dishes in a cafeteria, where there's like it's spring-loaded, the idea being if you were to place dishes on this stack, they sort of are absorbed by it. That is, they go down into this well. And as you remove them, you naturally get them in the reverse order that you put them on.
+
+So the way the computer uses this, say that you had four registers, and you needed to put their - you needed to save them somewhere safe while you were doing something else with them, and then later you wanted to restore them. Well, you could simply say, push register one on - the contents of register one on the stack. Push the contents of register two on the stack, the contents of register three on the stack, the contents of register four on the stack. And you don't have to worry about where the contents went. This abstraction, this cool idea of a stack where it's a region of memory with its own pointer, the stack pointer, which automatically advances to always be pointing at the top of the stack.
+
+Then in our example you do anything you want to with these four registers, not worrying about disturbing their contents, because you've saved them on the stack, as the jargon goes. And then when you're done, you would - where "pushing" something is the term for putting it on the stack, "popping" it is the term of removing it from the stack. So you would pop the stack into the contents of register four, pop the stack into the contents of register three, pop the stack into the contents of register two, pop the stack into the contents of register one. That is, in the reverse order. So just as the plates would go down and come off in the reverse order, so does the contents of the stack.
+
+And the point is that this is sort of a place that, as long as you always back out of what you're doing in the reverse sequence that you went in, the stack is your friend. It always provides you what you're expecting. And so that's a - that's one fundamental principle. The second we talked about in the last episode, which was hardware interrupts, the idea being that, if you wanted to do a couple things at once, if you wanted, for example, if your software program wanted to be printing, well, a printer operates vastly slower than the code running in the computer. And that means the printer can at some level only accept one character at a time.
+
+Say that it was like an old-style teletype where you're going chung-chung-chung-chung-chung-chung-chung, you know, 10 characters per second, typing them out on a yellowish kind of roll of paper. You don't want to sit around in your program waiting for the teletype to say, oh, I finally got through printing the A, now I'm ready for the next character, whatever it is, because that would require that your program could do nothing else at the same time. It would just have to sit there watching the status of the teletype until it's ready to accept the next character.
+
+So this notion of hardware interrupts was generated where you could have the hardware interrupt your program, which is off doing something else. And that interrupt, what's called an interrupt service routine, which services the hardware interrupt, it would yank control away from your program, just right in between the execution of any two instructions. You would never know when it was going to happen. In fact, that program running in the foreground, it would sort of even be unaware that anything had happened because, in between successive instructions, control would get yanked away from it by the hardware interrupt, which would save the registers, whatever they happened to have in them at the time, which would then free up those registers for its own use to, for example, get the next character in an I/O buffer and hand it to the teletype and start that being printed. Then it would restore the previous interrupted state of the machine and jump right back to the instruction that was about to be executed in the normal main foreground process. So hardware interrupts were the beginning of allowing us to do multiple things at once.
+
+Well, the next evolution of that is when we said, wait a minute, we actually do want to do more things with a computer at once, not just printing in the background, but what about timesharing? What about having multiple users who are all able to use the same computer? And of course timesharing was a big innovation that we saw in the early '70s because these computers were many tens of thousands of dollars. And it became clear that, well, we've got this hardware which is much faster than a single user. I mean, even someone, Bill Gates in 1973, at Harvard, using the teletype on one of these early machines, he was typing relatively slowly, I mean, because you couldn't type fast on those machines. You could only input things at 10 characters per second, no matter how fast a typist you were.
+
+And so what they realized was, wait a minute, the computer is sitting around waiting for the next character to be typed in. We could have 10 teletypes connected to this computer, and each user would feel like they had the computer to themselves. The question was, how do you share a machine among multiple users? How do you do timesharing?
+
+And what they realized was, we'll have hardware interrupts generated by a timer. And that was, just that little change, that was a massive innovation because now what this meant was that part of the hardware, part of the fundamental hardware of the computer would be some piece of hardware, a little timer chip, or a divider which was dividing down the frequency of the main clock crystal, down into something like maybe 100 Hz, or maybe it used the AC line, actually used the AC current, which is 60 cycles in the U.S., 50 cycles in Europe. And every time the AC waveform crossed through zero, which would be 120 times a second, or 100 times a second, that could generate a hardware interrupt.
+
+And the idea was that software, you could essentially have five programs, say, all loaded into memory at the same time. And then you'd have a supervisor. And here we begin to get the concept of an operating system. At that point we'd have a supervisor which would be supervising the execution of more than one program at once. Well, you needed some way to get control, to sort of yank control back from any one of these programs back to the supervisor. And hardware interrupts was the secret for doing that.
+
+So when you started up the computer, you'd have the supervisor, sort of an early form of an operating system, which would initialize the hardware interrupt on the so-called "counter timer," or a periodic interrupt which occurred very often, but not too often, typically several hundred times a second, something like that. Maybe a thousand in later, faster machines. But initially you were basically slicing up time based on these interrupts. And every time the timer expired or the AC line crossed through zero volts, like 100 or 120 times a second, that would generate an interrupt that would give control back to the supervisor. It would look to see how much time had gone by and decide if the same program should keep executing, or maybe if it was time to give somebody else a chance.
+
+And so essentially all of the programs which were running at once, sort of - as we know, computers don't actually run things, well, actually they do later on, when you have multi-core. They actually are running more than one thing at once, which we'll get to in a second. But back then they were just - they were time slicing. They were giving, often in a round-robin fashion, that is, program one, then program two, then program three, then program four, then program five, then back to program one, they would - this supervisor would get control and then hand control back to the next successive program. Meanwhile, each of those five programs had essentially been interrupted.
+
+So execution would start on the program. And after this period of time, this clock interrupt would occur, yanking control away from that program, so putting it in sort of an interrupted state, which was fine. It would just sort of patiently sit there until the supervisor decided it was time for it to get another time slice, to get some more slice. And so the supervisor would essentially return from that interrupting event back to the program, having restored the state of the machine, the way the program had left it, and then it would continue executing just like nothing had ever happened. So this was sort of the first notion of there being sort of a nascent operating system, the supervisor, that would start up programs. And the supervisor was able to keep track of the passage of time by these periodic interrupts which had the power, thanks to the hardware architecture, of yanking control away from anything going on at any time.
+
+Now, later on, programmers said, okay, well, I've got a program here, and it's nice to be able to have other programs running at the same time, but I'd like my own one program to be able to do multiple things at once. And what was invented was the notion of a thread, the idea being that a traditional original sort of older style program could only be inside of itself, could only be doing one thing at a time. That is, you'd have - you'd call it a single-threaded program, which is to just sort of say a non-threaded program. That is, it's only doing one thing at a time.
+
+But what we realized was you could - the same abstraction which allowed us to apparently be running five programs at a time, could also give you the ability to apparently be actually in many places of a single program at a time, each one of those places being a thread. And so essentially it's like timesharing or multi-tasking, which is timesharing, but within a single program. Thus that's called multi-threading. And so what happens is, when the program starts, it always starts with just one thread. That is, you know, it starts at the beginning of the program. And so it goes along until it decides it wants to sort of branch out. It wants to be able to, for example, maybe it wants to be in charge of sending characters out to a device while it's doing something else, much like I was talking about before. And so it's literally able to spawn a thread that is, like, it's able to, within the program, it's able to say, okay, create another thread and start executing it at this location.
+
+So because in a traditional single-core system the CPU actually only has a single program counter, which can only be in one location at a time, we know that we're not actually executing multiple threads, or in this case these two threads at the same time. But once again we have a timer as part of the hardware which is able to get control back to the supervisor. And so whereas before the supervisor was dividing all time up into, for example, five main programs, now it's more granular. Now it's dividing time up, not only among whatever programs may be running, but within those programs, among whatever threads each individual program may have created. So this is a tremendous benefit and very powerful thing that modern programs are able to do because it sort of gives the individual programmer within an individual application the ability to set different things running and let them sort of handle themselves.
+
+You have to be careful, I mean, and this is where some of the skill of programming comes in because we're, as we do this, we're escalating complexity, in some cases dramatically. For example, you need to be careful about not having the threads collide with each other or not having multiple threads trying to do something that conflicts with each other because essentially the threads don't know, they have no awareness of when they're running and when they're not. Each thread sees itself as if it's running all the time, when in fact that time is being chopped up among all the threads in a system. You could have many different threads in different processes, that is to say, different programs, and from sort of a thread-centric view they just sort of see that they're running along executing, unaware that chunks of time are missing during which time other threads in the system have the actual access to the processor, and they're running moving forward.
+
+So Intel at one point said, you know, this is all well and good, but what if we actually supported multiple threads in the hardware? What if, instead of this threading being a complete abstraction, what if we actually created hardware that could do sort of more things at once? And so this was before multi-core, but this was what they called "hyper-threading." And the idea was that you could have multiple program counters and share a lot of the resources of the processor; but, for example, have multiple sets of registers. And the idea would be that, so long as the programmers set these things up right, you could actually be doing multiple things at once. That is, the hardware could.
+
+And so we went for a couple years like that. And then of course Intel went to the next stage and gave us multiple cores, where now you actually had full processors which, again, had their own program counters; they had their own registers; they had all their own resources. They shared memory. So that was the common thing that they shared, as well as the hardware, like the display and so forth. That is, they had common access to the system's I/O and also to its memory resources. But otherwise they were independent.
+
+Well, by the time that this happened, operating system technology had evolved substantially. I mean, we already had Windows and multiple tasking and multiple threads. And what was so cool about this notion, first of hyper-threading and then of this multiple core, was that you'll notice that our operating system software and the applications we were running, nothing changed. That is, we didn't have to have different applications. We didn't have to have a dramatically different operating system. That is, there was this, sort of this notion of multi-core support. But from the user's standpoint, our systems just got faster. Things worked better.
+
+Well, and the reason that happened was that we had already, before that time, there was this mature concept of multiple processes and multiple threads. And the operating system was given the task of deciding what the computer was actually doing at any one instant. And the operating system was jumping the program counter all over the place, giving all these different threads a chance to run until the next hardware interrupt yanked control back to the operating system, where it would decide what to do. And it was the so-called "scheduler," the operating system scheduler is, I mean, it alone, the optimal strategy for that is the subject of doctoral theses and whole books on computer science, how to maximally schedule all of these things that are going on simultaneously in the computer. Do you want to allow some things to run with high priority? Do you want some things to run in the background? Do you - how do you manage the simultaneous demand across all of this?
+
+But what was so interesting was that the abstraction of all these threads essentially running at the same time, that is, in a given program, the threads were set up so they thought they were all going at once. And individual programs in the operating system thought they were all going at once. So when we added multiple cores, they actually could be going at once. And the way we got away with this was there was already the discipline in place about not having them conflict with each other. That is, there was already some interprocess containment so that processes couldn't stop on each other's memory. And within a process there was already inter-thread discipline to make sure that these threads that conceptually were all running at the same time behaved themselves and didn't mess with each other's business, essentially.
+
+So when we added hardware that actually was able to run multiple things at once, first through this hyper-threading that was sort of poor man's multi-core, and then real multiple core, well, everything just got faster. It scaled beautifully because everything we already had, the whole structure was oriented toward the simultaneity which initially we were faking out, but later we were actually able to do it.
+
+So that's basically the multi-verse of contemporary computers. And what we're all sitting in front of right now is all of that going on at once, all behaving itself, for the most part. When it doesn't, things definitely go sideways. But when everybody plays their part and behaves themselves, we end up with just an incredibly powerful facility for computing.
+
+Leo: It's been fun watching Intel slowly add these capabilities, as you say, with hyper-threading and multi-cores. And they also use something called QPI, interprocess communications now in the new i3, 5, and 7 chips. They've really gotten very sophisticated about how to do this. It's no longer just time slicing. They're really getting sharp about it. And it does make a difference. And I think the reason that they put so much effort into it is they realized that they couldn't put more megahertz out, that they were getting all sorts of problems past 3 GHz. And so they backed off and said, well, we're not going to have a 6 GHz processor. How else can we improve speed? Multiple processors.
+
+Steve: Well, and Leo, I mean, 3 GHz.
+
+Leo: Is a lot.
+
+Steve: Three billion. Three billion cycles per second. I mean, it's nuts. The first IBM PC was 4.77 MHz. And we were all thinking, whoa, this puppy just - it cooks.
+
+Leo: I remember very well when we first started doing TV for Ziff-Davis in the early, I guess it was between '92, '93, '94. And Bill Machrone came in, and he brought in the new Pentium. And it was 90 MHz. Megahertz. And we were all saying, oh, it's so fast. And I remember using it, saying, wow, it feels slippery, it's so fast. It's moving around. That was 90 MHz.
+
+Steve: Yeah.
+
+Leo: I mean, we are now more than 30 times faster. In just clock cycles. And then you double the core or quadruple the core until it's got six core processors coming out. Each is hyper-threaded. That's 12 processes, 12 threads at a time.
+
+Steve: Well, and what's really interesting, too, is that while the processor performance has been able to scale generation after generation after generation, main memory stalled, essentially. The so-called DRAM, Dynamic Random Access Memory, its technology turned out to be stubbornly non-scalable. So, and it's just due to the way, just due to the nature of the way DRAM operates. There are, you know, we hit essentially the physical fundamental limits of its speed much sooner than we did processors. And so what's been done is, we've made it wider, that is, so that one memory access is fetching many more bits, sort of in width, at a time.
+
+And then we've also had - we've gotten very sophisticated with caching. Because one of the things that the early researchers noticed was that computers would sort of go over here in memory for a while and work in some loops and do some work in a certain region. And then they'd go over somewhere else for a while and do some work in a different region. I mean, it wasn't like they were, like the actual execution was randomly occurring throughout all of memory. There was a regionality to it.
+
+And so what they realized was that, if you had a much smaller but much faster memory, a so-called cache, a stack memory that was able to be made to be kept at the same speed as the registers of the computer, where they could run in a single cycle, what they realized was, well, you might have to wait, essentially, to read what's in main memory into the cache to get it into the cache. And that would take a while. The processor would essentially, it might be stalled while you were painfully slowly pulling main memory into the cache. But once you got the cache loaded, then the processor could run again at full speed, full sort of local speed, as long as there were, as the term is, a high percentage of cache hits as opposed to misses. So that while the processor was doing things locally, staying there, it was able to execute again at full speed.
+
+And so that's - and they extended this notion, not to just a single level of cache, but to then two levels of cache, having a very high speed, but smaller; and then a semi high speed, but larger; and then, like, finally, main memory, where we just can't make it any faster, unfortunately.
+
+Leo: Yeah, in fact we know L2 cache, that Level 2 cache, the amount of that makes a huge difference in overall processor speed.
+
+Steve: Yes. And when people are selecting processors, it's also expensive because it takes up chip real estate, and it takes up power. And so one of the things that purchasers do is they decide, oh, yeah, how much speed do I really want, because the chips with the larger Level 2 cache, the L2 cache, they're going to be more pricey.
+
+Leo: Right. It's a great subject. At some point maybe, I don't know if there's enough for a whole show, but I'd love to talk or hear you talk about cache, the concepts behind caching. Because we see cache all over computing. We used to see hard drive caches, there's browser caches, and of course there are these processor level caches. And it's all the same idea, I would guess.
+
+Steve: It's absolutely, it's very similar.
+
+Leo: And there's a lot of computer science into how you do this; right?
+
+Steve: Oh, well, yes. And there's also write-back versus write-through. And there's this notion of the cache being dirty. That is, the processor also wants to be able to write into the cache. It's not only that data from main memory is pulled into the cache, but the processor may be modifying the cache. So the question is, do you start writing back to main memory when the cache is changed? Or do you wait until you have, like, a different flush event? That is, for example, the cache may be changed a whole bunch of times, in which case you wouldn't want to be writing it back all the time. But then you've got a problem, for example, with multiple cores, multiple processors, because they need to have a coherent view of what's in memory. And if one processor's got modified memory in its local cache on its chip, then the other processor can't see into that. It's seeing main memory. And so it gets very tricky.
+
+## Listener feedback (Security Now 249, 1:30:21)
+
+From http://www.grc.com/sn/sn-249.htm http://wiki.twit.tv/wiki/Security_Now_249
+
+Leo: Question 7, Richard Doyle in Sydney, Australia stumbled upon your legacy project. I don't know what that is. Dear Steve, I'm 32, and I've only been listening to Security Now! for a few months, but I'm quickly catching up. Your explanation over the last several weeks of the fundamentals of computer architecture, organization, design and evolution over time has been accessible enough to inspire me to genuinely want to learn more and more about this entire area myself, from very first principles.
+
+Have you ever thought of writing and publishing a book encompassing in greater detail everything you've explained - and would like to explain - in the current Security Now! series on the Fundamentals of Computing? Every other resource out there, mostly books, are dry, boring, and many assume a level of knowledge that most people just don't have. And for the most part every other resource out there is techie from the start. Not a bad thing, but we are badly in need of something that can begin to explain a thing in an extremely simple way, then scale up in plain language to the relevant level of detail. Other authors seem to enjoy an abundance of technical jargon for its own sake. And the people you've inspired through your current series in Security Now! are left with no entry point into this wonderful and amazing field.
+
+Please consider, Steve - blah blah blah blah blah. How a computer works - the substance is there. Kindest regards, Richard. I don't have a Twitter account. You know, there is - my good friend wrote and has kept up to date a wonderful book called "How Computers Work." I think you probably know him. I'm trying to remember his name. He's been doing it for years. Let's see if I can find it on Amazon. And it's beautiful. It's a very - it's Ron, Ron White. He's been doing it for years.
+
+Steve: Oh, my goodness, yeah.
+
+Leo: You know Ron; right?
+
+Steve: Yeah.
+
+Leo: This is kind of the definitive book on this. And it's done with great illustrations. It may not be as tech- it's not as technical, in fact, as what you're talking about, Steve. But it is definitely aimed at the nontechnical, and it's a good start, if you're looking for that kind of thing. Incredible illustrations. But Ron is a smart guy. I mean, the detail in here is fantastic, and he has kept it up to date, which I really admire. So I think this would be a good start.
+
+Steve: I agree. And it's available today.
+
+Leo: Right. Would you like to do a book?
+
+Steve: Well, no.
+
+Leo: Yeah, I didn't think so.
+
+Steve: But I've wondered what - this is going to sound strange, and I'm 55 and still have a lot of life left in me. But I've wondered what I'm going to do when I'm 75. That is, you know...
+
+Leo: A good question.
+
+Steve: And because I really do believe that, if you retire and sit on the patio in a rocking chair, you expire not long afterwards.
+
+Leo: Seems to be the case in many cases.
+
+Steve: And we know that I spent a chunk of time in the last year sort of looking at antique machines. I built the PDP-8s. And I also spent a lot of time researching instruction sets. I looked at field-programmable gate arrays, which I referred to last week as being these fantastic electronic building blocks which can be used for defining hardware out of software. And, for example, one of the things that people are doing is they're implementing processor instruction sets in field-programmable gate arrays, FPGAs, like taking classic instruction sets and creating computers out of these field-programmable gate arrays. There's something called OpenCores.com or .org, OpenCores.org, which has a lot of these. And so I thought about that.
+
+And I also thought about these antique machines, the PDP-8 and the PDP-11s that I have. The problem is, they're not interfaced to any contemporary peripherals. I mean, you have to have a teletype, or maybe a serial interface. But what are you really going to do with them? And so I've sort of just - everything was sort of in a big mashup. And then I looked at instruction sets. And I sort of, like, surveyed the evolution of instruction sets over time. And all of this sort of ended up giving me the incentive to do this Fundamentals of Computer series that we've embarked on.
+
+And for a while I was thinking, well, I was thinking the PDP-11 was the right instruction set, sort of like something that would be fun to program. And then I thought maybe the VAX. There was one instruction set from a company called National Semiconductor. They had the NS32000 series, which unfortunately never got off the ground. But in many ways I think it's the best instruction set ever designed. It was fun and nice to program, eight general purpose registers, a very regular instruction set, just beautiful. And then I thought, okay. I'd like to program the instruction set. But the chips don't exist anymore.
+
+So then for a while I was thinking, okay, I could write the software to put this chip into an FPGA, a field-programmable gate array, basically create this chip that no longer exists out of contemporary silicon. The problem is that, when I thought about, okay, what kind of performance would I get, well, the things that have been done by, like, Intel and AMD to squeeze performance out of current processors are just over the top. I mean, it's unbelievable the technology that is in these things, with multiple parallel execution paths and multi-cores and pipelining, and even optimization of instruction sequences, and branch prediction, where it guesses based on local knowledge what path your code's going to take. And it's just daunting.
+
+So I realized that, if I were to create this idealized processor that would start off probably as the instructions that National Semiconductor designed - five years after DEC's VAX, by the way, so they had five years of experience with the VAX instruction set and sort of tweaked it a little bit to make it better - I might do the same, you know, tweak it some more. The idea would be to create this ideal instruction set. And but if I put it into hardware, it would never perform like a contemporary machine because there's no way I'm going to invest the unbelievable resources that an Intel or an AMD has.
+
+And then it hit me that, if I emulated that instruction set, this ideal instruction set, in a contemporary processor, like the current Intel, the current Intel architecture, then I'd be, in machine language, I would emulate another machine, sort of like PASCAL, and we've talked about p-code, like a pseudomachine. But because I was writing the emulator in machine language, and because I was writing it for hardware, the Intel architecture, which is already so unbelievably powerful, I would end up with an amazing amount of performance of this, like, the most beautiful instruction set I've ever seen, that I've, I mean, like, that there is, in my opinion. And so then I thought, okay. That's what I would want to write my operating system in. And that's what I would want to create an environment in.
+
+And so my plan for retirement, my legacy, is to essentially create an entire open source free environment around the most ideal, beautiful instruction set that we've ever had, and write an entire world, a computing world in that - meaning assembler, editor, operating system, environment - with the goal of teaching a low-level operation of all of this stuff. Because it's hosted on contemporary hardware, everyone gets to play with it for free. And because it's a virtual machine, it gets to live forever. All anyone would have to do to port it into the future is write that little interpreter for the instruction set, and then everything else is available. So at this point, 20 years before I'm ready to start, that's what I think I'm going to do.
+
+Leo: That's exciting. I look forward to it. I thought - so you've got a few projects, actually, for when you retire. I think you're going to be very busy in your 70s.
+
+Steve: I want to be busy in my 70s.
+
+## Operating Systems (Security Now 250, 43:22)
+
+From http://www.grc.com/sn/sn-250.htm http://wiki.twit.tv/wiki/Security_Now_250
+
+Leo: Well, I'm ready if you are. We're going to get to our fundamentals of computing series. Kind of the final, although I think networking really counts as still part of it. But the operating system is about as high a level as you can get in the PC.
+
+Steve: Right.
+
+Leo: So let's hear how operating systems work.
+
+Steve: Okay. We began back in the '50s, so operating systems are - today here we are in 2010 recording this. As of this day, or date, or year, rather, not specifically this particular day, they're 60 years old. Originally computers back at the beginning had no notion of an operating system. They were just these very expensive, rather limited machines. Typically they had, like, word sizes of 32K. Sometimes big ones were 64K. But, I mean, that's as big as they got back then. That wasn't a small machine. That was a big, multi-hundred-thousand-dollar installation in a university would have 32K.
+
+And so the problem was, how do you make use of this machine? And in fact over time, as machines grew larger and also a lot more expensive, keeping them busy was the biggest problem because it would take time to load a program into the operating system. Then the OS would spend some time running, and of course you've got the debugging of the program to deal with, too. I mean, the thing to remember is that computers at this time were rarified. I mean, this was the men in the silver - silver - in the white smocks on elevated floors with air conditioning. And you had one machine that basically held hundreds of people in thrall because their jobs were about keeping this very, very expensive, half-a-million-dollar piece of equipment busy.
+
+So the original model was what was called an "open shop," where the people who had a job to run on this machine would sit down and load their code, load their program into the machine over some length of time and then work with it for however long it took. Meanwhile, everyone else was standing around tapping their feet, wondering when they were going to be through, because it was their turn. Again, the goal was to keep this thing that was so expensive somehow busy all the time.
+
+So this open shop model switched to a so-called "closed shop," where instead of the actual people who wanted the work done doing it themselves on the machine, you created sort of a layer of separation. Now, instead, people submitted their jobs to the staff, who were more adept and more expert at using the machine more quickly. So we got a level of efficiency that way. And also there would be a queue of jobs to be run that had been submitted, so there was a backlog. Well, of course this meant that people often had to wait longer to get their results. But in general the goal of keeping this machine busy, being better at keeping it busy was achieved that way. And so that sort of introduced this notion of batch processing, where there would be a queue of things to do, and people would submit their work into the beginning of the queue, and then experts who were better at processing the data or these jobs in the queue would then do the work.
+
+Well, the problem still was that there was a large setup time in between these jobs. So, for example, programs might take a few minutes to run, but would take half an hour to get themselves set up and going. So people looked at these systems and saw that they were still being very inefficiently used. And the problem was the I/O, that is, typing up punch cards and then having a stack of cards would take a long time to read a deck of cards into the machine because the machine was much faster than the card reader.
+
+And similarly, on the backside, ultimately you were trying to print out reports of some sort, and the printer was much slower than the computer. And we've talked about this when we were talking about interrupts and I/O, the I/O systems, the idea that the computer could be busy doing other things, and every so often send a character to the printer, the printer being so much slower. But here, in a system that was - there was no concept yet of timesharing, of multiprocessing, of doing more than one thing at once. That just hadn't occurred to anyone. Well, and frankly the systems at the time, they weren't capable architecturally of doing that. They didn't have stacks. That didn't come along until later with Burroughs, the early Burroughs machines, the 5000 series machines, first introduced a stack architecture.
+
+So here we've got this machine that is 100 percent I/O bound. It's sitting around waiting for cards to get read. When the program is finally loaded in, then it takes a short time to run it compared to the time it took just to read it in. And then on the backside, once it's done, now the computer sits around waiting for the printer. So again, looking at this, it's like, okay, how do we solve this problem?
+
+Well, what they used was they used magnetic tape in order to decouple the slow speed of the physical I/O devices from the much faster speed of the computer. So now what happened was, people would punch their cards as sort of like the slowest step of the process. So now you'd have card decks. Then there would be a number of machines which read cards and wrote them to mag tape because mag tape was much faster than cards. So jobs would get punched on cards, and that would happen by some keypunch operator that was skilled at running keypunch. Then those would get written to mag tape. And as many jobs as possible would be put on the tape.
+
+So the tape would be filled up with jobs to do until it was full. Then that would be mounted on a - taken from this machine that its sole purpose was just to read cards onto tape. Then the tape would be stuck on a large mag tape drive connected to the computer. And it had several mag tape drives that were being used in round-robin fashion for input, and another set used in round-robin fashion for output. So this mag tape would get loaded. And as soon as the computer was done with the previous mag tape on a different drive, it would start reading in jobs from mag tape drive number two. Meanwhile, the first one would be rewinding. It would get pulled off and stuck back on the card-reading machine.
+
+And so you could see, I mean, literally it's like, I mean, the people were running around spending all their time trying to keep this machine busy. And you can sort of think of it as like a hierarchical funnel where slow processes fed into a faster process that then fed into a finally very fast process. The upshot of this was that you finally had this very expensive machine. Thanks to having funneled all the I/O into it, you had solved that speed problem. You were still running everything one at a time. That is, again, still no notion of the machine doing more than one thing at a time. But at least now you had solved the input problem so that this thing was - the machine itself was now very quickly loading programs off mag tape, running the programs, and then dumping the output back onto one of a number of output mag tapes.
+
+The printers weren't capable of keeping up with that. And so you had sort of the same sort of, in the way that you have a funnel on the input, you had an expansion on the output. The computer would fill up a mag tape with output and then switch to the next mag tape that was waiting. The operators would pull that full mag tape off, now take it to offline printing, where that mag tape would then be servicing a number of printers that would print the results out. And so that was sort of like the next level of how to keep this extremely expensive machine busy.
+
+So that notion, this whole thing was called "spooling." And it's funny, I didn't realize until recently, when I was doing some buffing up on the history, that "spooling" was actually an acronym. It just seemed to me, I mean, and I'm sure you, Leo, have heard of, like, spooling this off to tape, spooling it off to the printer. Spooling seemed like a thread on a spool, where you were just storing it somewhere. Turns out that it's an acronym. SPOOL stands for Simultaneous Peripheral Operation On Line.
+
+Leo: Oh, you're kidding. SPOOL is an acronym?
+
+Steve: Yeah.
+
+Leo: I never knew that.
+
+Steve: I know, I didn't either. I ran across it.
+
+Leo: It makes sense because it's spooling something out like it's a thread. So I thought that that's what it was doing.
+
+Steve: I always just assumed it was a verb, but it's an acronym.
+
+Leo: Holy cow.
+
+Steve: Simultaneous Peripheral Operation On Line, that's where the word came from.
+
+Leo: How funny.
+
+Steve: So it was in 1959 that, essentially after 10 years of this fire drill of trying to keep a very expensive single machine busy, that John McCarthy at MIT, who of course famously gave us the LISP programming language and lots of other computer science in between, he wrote a memo first suggesting the notion of timesharing, the idea being that - which was radical at the time - the idea being that, rather than the entire machine being committed to a job, to a single thing, we would slice up time and handle it in a round-robin fashion or in some sort of a priority fashion. But the idea being, have many different jobs operating in the machine at the same time.
+
+And in fact McCarthy proposed the notion of terminals being connected to the machine in such a way that the individual users all thought they had exclusive use of the machine. He recognized that the duty cycle of someone typing characters, and how rarified character typing is, would allow essentially the same kind of funneling as was being done with keypunch operators concentrating onto cards, concentrating onto tape, concentrating onto the machine. He said hey, you know, you could achieve the same thing if you had real-time connection among many different consoles, all feeding into a machine which was able to look at them all at the same time. And so which was at the time a huge change, conceptually a big leap in the way systems operated.
+
+So we talked last time, when we talked about the episode called "The Multi-verse" - I guess that was actually three weeks ago because we had a Q&A, and then we had the portable dog killer episode. Oh, and a Q&A before that, so I guess four weeks ago. Anyway, we talked about in the multi-verse this notion of - we've looked at this concept of the stack, which is able to store the state of the machine; and that hardware interrupts that were caused by people pressing keys or a printer saying I'm ready for another character, they could steal tiny bits of time just to fill an input buffer or to empty an output buffer, and then switch right back to what was being done before. And so this notion of interrupting the flow of instructions, and saving the state of the machine so that you can restore it when you come back, and jumping somewhere else and doing something, it's the growth of that that created what we now have with the current operating systems.
+
+So operating systems over time have had various structures. Before there was a theory, sort of, of operating systems, before we had enough experience, they were just sort of big, monolithic things. The idea was that programs would be clients of the operating system. There would be sort of this code in the machine which is always there. That's the part that's not changing. Programs would be transient. They would come and go and run for some length of time while their user was running them, and then they would be terminated, releasing their resources.
+
+And one of the things that quickly happened with this notion of timesharing was that the designers, the people wanting to use these resources were a little bit aggressive because notice that one thing happens when we chop time up, which is different from when we process jobs sequentially. If we process jobs sequentially, each job has the entire machine to itself while it's running. That is, however much RAM, for example, the machine has, the job can fill all of that RAM. But with McCarthy's notion of timesharing, things get a little complicated because, if you're going to have many programs running at once, then they've all got to be in RAM. That is, now - and I'm saying RAM because I'm used to today. But that was core.
+
+Leo: Core, yeah.
+
+Steve: Yeah. And 64K, remember, was the kind of size of core these machines had. So one of the notions that was created was this notion of swapping. And swapping was a sort of an early form of what we now call "virtual memory." We'll talk about virtual memory and how that works a little bit later in this episode. But with swapping the idea was that you would have fixed-size partitions in core. And you might have, say, 16 users, using the machine at once, at terminals. And the single computer that was being shared might have an operating system that used some piece of core.
+
+And again, back then the operating systems were all written by hand in assembly language, which we know is sort of just an ASCII-ized version of machine language. So a one-to-one correspondence between instructions that had been manually written by the operating system creators and the code that's being executed. And then whatever memory was left over might be, for example, divided into four partitions. So you might have, say in a 64K machine, you might have - normally these operating systems were relatively small because they weren't doing that much. You might have 8K taken up by the operating system, and then the balance of that memory, like, what, 56K would be divided into four equal-size pieces. Those would be partitions.
+
+And you'd have, however, four partitions and 16 people. So obviously we've got a problem because what these four partitions mean is that the system can only actually be running, can be quickly jumping between four programs at once. So swapping was the solution they came up with. They said, okay, we'll have a drum, and drum memory was - this predates disk memory. And we will have partitions on the drum to essentially hold all 16 of these partitions. And we'll swap them one by one, or actually four at a time, essentially, into the machine's memory. So four programs can be running. And after a program had run its allotment of time, it would be sort of frozen and put out, swapped out onto the drum. And another waiting program would be swapped into one of these partitions. And then it would be, being now in core memory, it had the opportunity of running.
+
+So that was the way, back then, they solved the problem of needing to have essentially more resources because now they were trying to do this timesharing. They needed to have more resources than the machine could technically support because oftentimes you couldn't just add memory, even if you had the budget. Remember that the instructions were so short that the instructions themselves couldn't address more than 64K words of memory at the time.
+
+So originally there was no sort of theory of operating system design because no one had ever designed one before, or written one before. So operating systems started as sort of big, monolithic systems. And they sort of grew awkwardly and not very elegantly. And back at this time a lot of this research was being done, if not all of it, primarily in universities. So the university sort of model is one to say, okay, wait a minute, time to reset. This thing, this operating system has gotten unwieldy. No one really - the people who wrote it graduated from - got their Ph.D.s and left a couple years ago, so we've got these huge chunks of code that no one here knows about anymore. We need to just start over.
+
+One of the approaches that was taken was called a "layered" approach. As people began to apply real sort of academic discipline and thinking to the design of an operating system, they said, okay, wait. Let's try and do this in, like, a layered fashion. The bottom layer will be just the processor's own usage and allocation and the division of time. Then on top of that layer we'll write the sort of the management of memory and the drum swapping code. And then on top of that we need to have an operator, some operator interface that is able to control starting and stopping these jobs running. And then on top of that we need to have input/output so that the operator's console can receive input and then display the output. And then on top of that is user programs that are running. So there was this attention, they began to get the concept of some sort of structure, a hierarchy, a layering of the way things were being built on the OS.
+
+The next problem they ran into, as systems became larger, was again one of complexity. The problem was that they recognized quickly that mistakes that were made in the operating system brought the whole system down. And the operating systems were continuing to sort of grow without end. So at one point this notion of a microkernel was proposed, the idea being to recognize that the kernel is this privileged resource where it's sort of the supervisor, the monitor of all the programs that are running on it. And it provides services, which we'll be talking about in a second, to the programs that are running on the operating system.
+
+The problem with it getting big is that there's a given number of mistakes are going to be made per thousand lines of code, and that just sort of seems to be an immutable fact of the way software is being written. So if that's the case, and if mistakes are bad, and they're especially bad in the kernel because a mistake in the kernel brings the whole system down, as opposed to just a user program being aborted, but everybody else gets to keep running, a mistake in the kernel and it's game over. So the logic was, make it as small as possible. If it's as small as possible, it'll have as few lines of code as possible; and, based on the average number of mistakes per line of code, there'll be fewer mistakes. So the microkernel approach was specifically designed in order to minimize the number of bugs that could bring the system down.
+
+On top of that, then, was created this notion of a client-server model. And that's what we now see in modern-day, for example, UNIX systems and in Windows, where you have a relatively small kernel which provides the fundamental services to both user programs and services which are running on the system. So the idea is that the kernel is very small, and then - but also not very capable. It does the fundamental sort of lowest common denominator things like handling processes, dealing with threads, slicing up time, managing memory, managing file systems. Sort of the core services of the operating - that everything uses in the operating system. And then you've got two classes of programs essentially running on top of that, that is, using those services. You've got service programs which provide additional features, much richer features. And then you've also got the actual client programs that are clients of those services. And that's sort of the model of operating systems that has evolved.
+
+We've sort of been talking, we were talking originally about mainframe operating systems and evolved into this notion of personal computer operating systems. But it's worth noting that there are operating systems of some sort in a microwave oven. As we were talking about complex systems running in cars, there's operating systems in cars. I mean, there's operating systems literally in anything today that is complex enough to have a computer in it. There will be some sort of operating system. So there's also a hierarchy sort of in OS scale. Mainframe operating systems still exist today, running big Cray hardware. Large insurance companies will have huge mainframes, still with the - I don't know if the guys run around in white coats anymore. But large-scale systems that are still doing oftentimes batch processing, that are producing reams of reports and data, and also lots of communications. They tend to be very I/O heavy.
+
+Coming down smaller we've got server operating systems which are still large, capable hardware that are then servicing the needs of many people at once. Then we come a notch down to the personal operating system, running on our computers. We're having many, typically, many things going on at once, but generally serving one person at a time. And then handheld operating systems that are running smart phones and PDAs still have a computer. There's still a core set of services that those are offering to programs that run on them.
+
+And then the notch down are embedded operating systems. And that's the class of OS where you don't think in terms of there being an operating system. There isn't, often there's no file system. There's no sort of generic user interface. This is an embedded OS, for example, what's probably in our cars and microwave ovens, consumer appliances, DVD players and things. We see a very purpose-specific user interface where there's a display of remote control, buttons that you can push. But back there, in there is an OS.
+
+There are a number of companies that license these for the common chips. And they're embedded in also sometimes real-time. An RTOS, a Real-Time Operating System is typically a small system that prioritizes time over features. That is, it guarantees that code that's running on it will be responsive, and that nothing else going on in the OS will tie up the computer's resources more than a certain amount of time. So there's a guaranteed latency in the operating system's ability to respond to the tasks that are running on top of it.
+
+So what do all these operating systems do? What features do they offer? Well, one way or another the mainframe operating systems, server operating systems, personal operating systems, even handheld operating systems, that is, everything above sort of the embedded operating system, they provide a means for loading a program from mass storage into memory. We know now that programs, processes, are typically composed of, well, at least one, but many times many more than one, threads, where threads are sort of an abstraction of a series of instructions that are being executed.
+
+A program could very well just be single-threaded, as is the terminology, where it starts, and the program executes only conceptually one thread of execution at a time. So there's only, for example, one program counter associated with that process because there's only one thread that is at a specific location at any point in time. And as we explained in the multi-verse, you can have multiple threads because a thread is able to spawn or fork another, essentially another conceptually asynchronous stream of execution so that it's able to go, this forked or spawned thread is able to go off on its own and do something else. For example, it may be responsible for reading the keyboard or updating the display or doing some other things that are sort of asynchronous to the main work that the primary thread of the process is doing.
+
+So the operating system is the thing that oversees all that. It has, somewhere, some hardware, a timer which is generating interrupts at a given frequency. That interrupt is what's responsible for yanking control away from individual threads running in individual processes and getting control back to the operating system. When that happens, the operating system takes a look at what's going on and decides if the thread should continue running, if it's time to give it to a different thread in the same process, or if that process has used up its allotment of time, time to bring back to life a thread in a different process that was previously suspended. In which case it restores the state of a given thread as if that thread had never been stalled and just continues executing where that thread let off.
+
+So that's the job of scheduling, which is the subject all by itself of books on operating system theories. Scheduling is amazingly complex, and it's easy to sort of stand back from a distance and say, okay, well, this just has to divide time up among all these threads. But it turns out that when you start actually doing it, there's all kinds of complexity with deadlocks and stalls and competing priorities. And if something has a low priority, and the things with higher priority never take a breath, then the things with low priority never get a chance to run, so that's not good. So it's like an amazing mess of special cases and, again, has been the topic of many doctoral theses over the years.
+
+One of the other things that operating systems do is allow interprocess communication. That is, they support a means for allowing processes to communicate with each other, which is often something that co-working processes want to be able to do. You want to be able to have some sort of communications between them. Even though the operating system is all about interprocess isolation, in some cases you do need to facilitate communication. The operating system provides that mechanism because there is otherwise no direct means, for example, for one program to mess with another program's memory. You want to manage that carefully to prevent mistakes from happening, and also of course to prevent deliberate abuse from being possible.
+
+One of the other things that all of this relies on is memory management, which we've talked a little bit about but never really directly. The idea is that, in every case, all these operating systems basically produce an abstraction of the machine's underlying resources and of time. Time and the passage of time is an abstraction, as well, because from a thread-centric standpoint, a thread just thinks it's executing all the time. The thread has no awareness that time isn't all its own, that it isn't running all the time because control is yanked away from it, and its state is saved. Then the state is restored, and it picks up exactly where it left off. So from its standpoint it's just running all the time.
+
+In fact, we know that's not the case. There's thousands of threads in a typical system that all believe they're running all the time, when in fact on a single-core system only one is actually running at any time. In a multi-core system you can have as many actual threads running as you have cores. So the operating system is essentially creating an abstraction of the underlying resources. One of the resources is memory. Processes can, much as was the case back in the days of early timesharing, where it was possible for a process to be sharing memory with other processes. Back then you could only have as many partitions of a certain size as there was room left over after the operating system had been accounted for.
+
+In this day and age we've got this notion of virtual memory and the ever-present, for example, Windows users are familiar with the paging file, or sometimes still called the "swap" file, the idea being that processes believe they have a much larger amount of memory than they actually do. And this is hidden from them. This reality of how much memory they have is hidden by the operating system. If the process attempts to execute or read or write memory outside of what's currently loaded in the system, the operating system, using this virtual memory technology, will get control, literally at the instant of a program's attempt for read or write memory that is not physically loaded at this time. That creates what's called a "page fault."
+
+The operating system gets control at that instant, sees what's going on, and says, ah, the program is trying to access memory which we've had to swap out to the hard drive because of limited resources. Other programs needed to use physical memory. So what happened was that memory was paged out, as is the term, onto the hard drive while another program that was running was actually using the underlying physical memory. So when a program attempts to use memory which doesn't physically exist, it's been paged out, the operating system gets control, sees what's going on, decides, okay, do we page this in, do we suspend the process, there's a whole bunch of decisions to be made. As I said, scheduling is itself a huge issue for operating systems.
+
+Typically what happens is, because physical I/O is necessary and always takes time, the act of the process touching memory that isn't physically located or that isn't physically present in the system, suspends it. The memory is cued up to be written or to be read from the system, except that there's no doubt some other process using the physical memory that's in use right now. So that needs to be written out to the swap area so that the memory which had been swapped out could be brought back in. Like I said, this gets really complicated very quickly.
+
+But the bottom line is, what ultimately happens is, the so-called swap file or paging file or virtual memory file, it's an oftentimes very large extension of the physical memory in the system. And we talked last week, or last time we were talking about this, about the notion of caching, where the processor had very fast access to its own registers. And then it would also have a cache of maybe 8, 16, 32K in the old days, megs now, maybe several megabytes. And that would be a copy of what was in physical memory that would be maybe hundreds of megabytes or a gigabyte. Well, you can see that that forms a hierarchy, from the register in the chip to the cache. And oftentimes there's a Level 1 cache and a Level 2 cache - Level 1 being smaller and instantly fast, Level 2 being larger and not quite so fast. And then you have physical memory.
+
+Well, virtual memory is the last largest layer of this hierarchy, where it represents sort of this super physical memory that is really slow inasmuch as it's written out on mass storage, which is typically a rotating medium in this day and age. And so it's very slow to read and write, but it's very large. And so that sort of - the virtual memory forms the final layer of this multilayered memory hierarchy where we get smaller and faster all the way up to the individual register of the machine. And the operating system manages all of that.
+
+One of the other things that the OSes do is support a file system so that the programs running on the operating system are able to, again, see an abstraction known as files which exist only because the operating system creates that abstraction for the programs that are running on the OS. It knows about the physical organization of the media, the mass storage on the system, but hides all of those details from the programs that are running under it.
+
+Leo: Steve is taking a small drink at this point. For those of you listening at home.
+
+Steve: My throat was getting scratchy. Believe it or not.
+
+Leo: Well, you said it wasn't a lecture, but this is a lecture, but a great lecture I'm really enjoying. It's fascinating.
+
+Steve: So one of the things that happens is that, notice that we've got floppy disks, which are small, 1.44MB, for example, in the famous instance of the IBM PC, and have a physical organization with some small number of sectors around some small number of cylinders on two sides. But we might have a multi-platter hard disk that's got thousands of sectors arranged around millions of cylinders and multiple platters. Well, the operating system's drivers understand the specifics of the hardware that they're driving. All of that is hidden from the programs that run under the OS. The program sees this abstraction of named files, and so it's able to say to the operating system, hi, open for me this file of this name and let me read it.
+
+And one of the main innovations that operating systems had was that this concept of I don't care where it is, I don't care what media it's on. And in fact, even as far back as remember UNIX and CPM, there was this notion of this could be paper tape, or this could be a hard drive. There was this disconnection with the I/O system and the physical devices that were running underneath the operating system. So this abstraction is provided by the operating system. And then there's also an abstraction provided by I/O drivers, where the operating system would have a defined mechanism for interfacing to, for example, file system devices. And different drivers would be used to interface the operating system to very different storage mechanisms.
+
+So you'd have a floppy driver which is able to answer specific uniform requests from the operating system, translating them into the instructions needed to work with the physical floppy drive hardware. And you'd have a mass storage driver, for a given hard drive, which is able to take the same operating system requests as the floppy driver, but in this case translate them into very different specific functions for its hard drive. So again, we create these boundaries of abstraction where the entities on each side of the boundary have agreed upon a protocol that is uniform, typically documented, and not changing. So drives can get bigger. The drivers may need to change over time. But that agreed-upon protocol at the boundary of the driver and the operating system, or even the operating system and the application program, that doesn't change. And so that allows things on either side to evolve over time, which was another major innovation in operating system design.
+
+And then finally, the last thing that's come along in recent operating system architecture, on top of file systems and I/O, is security, where there's an increased notion of both wanting to prevent mistakes from compromising the system and wanting to prevent deliberate malicious intent from compromising the system. So there's this notion, which is layered on top of everything, of privilege. The idea that certain files can be privileged, certain memory regions can be privileged, essentially there's this notion of ownership and rights which are applied to all of the objects within the operating system, right down to and including the individual thread of execution. Threads can own, objects can have rights, and everything's scaled all the way up from threads. And all the other abstractions that the operating system creates can have rights.
+
+And so, in addition to everything else the operating system is already doing, it also has to check the security. It has to make sure for, I mean, at the level of the individual action, it has to make sure that that action is permitted, that the thing asking for something to be done has rights to do that to whatever it is asking for it to be done to. So OSes have gone from starting off being basically a loader of code, for a system which was struggling to be used enough, to what we have today. I mean, we're all sitting right now, I mean, you're hearing this through probably a device with an embedded operating system.
+
+Leo: Almost guaranteed. I don't think you can play it back any other way.
+
+Steve: No, there's no other way to play it back. Leo and I are sitting in front of computers that are right now, as we sit here, have thousands of threads all running, all competing for resources, using the hardware, somehow staying out of trouble. And to me it's amazing.
+
+Leo: Amazing. Absolutely. Absolutely. It's truly a miracle that these things even work. It's amazing. Are you done?
+
+Steve: I think that's it.
+
+Leo: Wow.
+
+Steve: That's operating systems.
+
+Leo: I tell you, you've got to put these all together on a DVD or something, and we'd have the complete set of building a computer from scratch.
+
+## Listener feedback (Security Now 251, 1:00:22)
+
+From http://www.grc.com/sn/sn-251.htm http://wiki.twit.tv/wiki/Security_Now_251
+
+Leo: Yeah. Question 2. Actually 3. No, 2. Gary Robinson in, now, this is a good one, Magherafelt, Ireland, asks a question: What happens after arbitrary code execution? Hey, Steve and Leo. Thanks for the great show in Security Now!, especially the ground-up computer principle series. I've been listening for just over a year now and have finally caught up on all 250+ episodes. Leo's right, I'd much rather listen to podcasts during my hour-and-a-half daily drive than the same boring thing on radio. It's true. That's our plan, anyway, our evil plan.
+
+I've a question about what happens after a bad guy has found a vulnerability in an application and gets that arbitrary code to run. Based on your descriptions of this subject, bad guy uses some buffer overflow or some other vulnerability to get the arbitrary code into memory, causes the program counter to jump to that arbitrary code instead of returning to the previous function, or however else they've corrupted the program counter. When the bad guy's arbitrary code finishes, does the application crash? Is the bad guy smart enough to populate the arbitrary code with the correct return address so the application continues as normal? If the app will always crash after arbitrary code execution, isn't that a good indicator for us to know something bad may have just happened?
+
+I know it could be hard to tell this application crash apart from the other standard common application crashes, but might be one way you could kind of be aware that something may have gone wrong, and we should run some diagnostic tool or virus checker before going to that banking site. I would be delighted to know what you think on this. Please keep up the good work on Security Now!. Gary.
+
+Steve: I thought it was a great question because we've absolutely not even once discussed that.
+
+Leo: We've talked about the mechanics of it, but not what happens afterwards.
+
+Steve: Yeah, exactly. And the answer is, we don't know.
+
+Leo: Well, couldn't they just push the return code on the stack?
+
+Steve: Precisely. I love the fact that in his question he was talking about the program counter and setting it to something. And you're exactly right, Leo. It may very well be that the attack could look like a subroutine. In which case, if it was clever, I mean, if it deliberately wanted not to crash the application, it could push the current program counter on the stack, immediately push any registers it was going to modify on the stack, do whatever nefarious things it wants to do and then, just like a subroutine, pop the registers off the stack that had been modified and do a return instruction, which will continue just like nothing happened.
+
+Leo: In fact, exactly how a subroutine works.
+
+Steve: That's a subroutine. Now, in practice, it's more often the case that whatever function was trying to execute fails. That may be the whole app crashing, as Gary suggests. Or it may be that, like, edit/copy doesn't work. That's a bad example because edit/copy often doesn't work for other reasons. But it might be that what you try to do fails, and you kind of think, oh, well, I wonder why that was. Maybe it's not feeling good today.
+
+Leo: We'll never know.
+
+Steve: We'll never know. So there isn't a definitive answer because three things could happen: nothing at all, the application runs, meanwhile something bad happened in the background and you never noticed; or part of the application no longer works, but the rest of the application manages to continue limping along and sort of doesn't need to be restarted; or the application completely just crashes. It disappears from the screen, it locks up, something bad happens. And again, I got a kick out of him saying, but, you know, that happens all the time anyway, so would we really know. I would say more likely, from what I've seen, it's more common that the application does die after having achieved the hacker's goal. The hacker is generally much less concerned about a smooth exit than they are about getting their stuff to run, figuring, exactly as most of us would, oh, well, it just crashed.
+
+Leo: Yeah, crash.
+
+Steve: I mean, it's funny, I've sometimes spent hours working in a graphics editor on something, and then thought, oh, goodness, I haven't saved. Then I'll quickly save my work because, similarly, I've spent hours working on some graphic stuff, and then it just disappears from the screen. It's like, (groan), why didn't I, you know, save it.
+
+Leo: Right.
+
+Steve: So both things happen.
+
+Leo: And I believe, correct me if I'm wrong, but this special code only has to execute once. It executes to install the trojan horse, which will then continue to execute normally without crashes. So it's not like you're going to crash all the time. You're going to crash once when the bad guy gets the code injected. And after that the trojan will run.
+
+Steve: Correct. For example, it would establish a connection to a remote server, which it turns out is very simple to do, just a few instructions because Microsoft in the case of Windows provides an API for that. Then it would download a block of code which allows it to get much more of its own code into your machine. And that code might - just might be another process. It would spawn another process with that code in it, which it would then run. And none of that takes up that much space. I looked at shell, as it's called, shell code, which is this kind of stuff that does this. And it's, you know, it's written in assembly language, and very tight, and doesn't take up much space. But by the time the app crashes, the other thing is now running in your system. It then tends to be a bootstrap to go and get much more code from the remote server, and it just starts shuttling stuff into your computer in the background while you're thinking, huh, I wonder why my word processor just died. I'll just fire it up again and hope I saved a copy recently.
+
+## RISC vs CISC (Security Now 252, 53:31)
+
+From http://www.grc.com/sn/sn-252.htm http://wiki.twit.tv/wiki/Security_Now_252
+
+Leo: That's the gift. All right, Steve. I'm ready. I've got my thinking cap on. Some may call this a dunce cap, but it's a thinking cap. And I'm prepared to think. Tell me, tell me, sir, how do we - where do we go now that we've been building a computer?
+
+Steve: We've established a beautiful foundation over the series that we've covered so far, the idea being, of course, to demystify what a computer is, how it works, what it does. We know that there's a main memory, and there's a program counter that points to a current address of a word in memory, and that that word is composed of a bunch of bits, and that those bits are broken into fields, the most important field being the so-called "opcode," the operation code. The pattern of bits in there describes to the computer or specifies what the computer should do with that instruction, each one of these being an instruction. And the rest of the bits in this word provide the parameters for the instruction. For example, it might be "clear the accumulator." Or it might be "load from a location in memory into a register," or "store the contents of a register into a location in memory."
+
+So, and we've looked at what the stack does, the notion of the convenience of being able to have sort of a scratchpad where we can push things on, and we can pop them off in the reverse order so that as long as we kind of keep track of our own housekeeping, we don't have to pre-set aside areas to read and write into. Everybody's able to share this as long as they do so carefully. And so we've talked about subroutines. We talked about hardware interrupts and how interrupts from physical I/O devices which are much slower than the computer is running very fast, are able to be used to yank control away, yank the program counter to somewhere else, allowing the computer to service this interruption, send characters out to a slow printer, for example, and then return to the code that was running as if nothing had happened.
+
+So we've got this architecture, and that's where everything began. What I want to do today is describe the evolution from there to now. That is, what happened after this and what were the pressures that were on the industry and on the engineers and on the companies that evolved this from that very clear and sort of basic beginning to present-day machines. So one of the things that happened, as hardware became less expensive, and programmers were complaining to the engineering team that, you know, like hey, be nice to have some more registers here. We've got the accumulator, but we're having to use it sort of as a scratchpad for main memory. We can't really hold much of what's going on in the accumulator. So they said we need some more - we need more registers, more accumulators.
+
+And so the engineers said, okay, well, that means we're going to have to make the word longer because we're going to need some more bits in the instruction to specify which register you want to load and store and add and so forth. And so if the engineer says yeah, okay, fine, do whatever you - or the programmer said that, oh, that'll be fine. So words got longer. And then some of the engineering guys said, well, you know, a simple instruction like "clear a register," that doesn't have a memory address. It doesn't need a memory address. So that one could be shorter. And how about, the engineer said to the programmers, what about if, like, you could add two regions of memory and store it in a third. And the programmer said, oh, you mean like with one instruction? And the engineering guy said, yeah, why not? And then the programmer said, well, that would be fantastic.
+
+Well, of course that would mean that the instruction, a single instruction, would need to contain three memory addresses for an add. It'd have to be, you know, the address of one of the operands, the address of the other operand to be added, and the address of the location where the result would be stored. Well, memory addresses take lots of bits in order to address a region, you know, enough memory. So this kind of an instruction would be really long.
+
+So what evolved was, and this was a major break, was the notion of variable-length instructions. We started off with fixed-length instructions on our very simple machine, where most of the instructions were memory reference, and only referencing one piece of memory at a time - load from this memory, store to this memory, add from this memory to the accumulator, or/and from the memory to the accumulator as we've discussed. But as machines became more powerful, essentially because hardware prices were coming down, integrated circuits were happening, it was possible, it was practical to put more complexity into the systems. The programmers were demanding more features.
+
+And so if you were going to have an instruction which had three memory addresses in it, it was going to be really long, multiple bytes of memory. But if you had an instruction that was going to just say "clear an accumulator," that could be one or two bytes. So we broke from this notion of fixed-length instructions into variable-length instructions. And at that point all bets were off because now we could make our computers very complex. They could have, for example, you could have an instruction that was a prefix byte that said, you know that opcode we had, well, here's a whole 'nother set of opcodes. So now we weren't limited to eight or nine or 12 opcodes. We could have hundreds. It was practical to have many more possible operations.
+
+So the engineers said, okay, well, what are we going to do with all this power? And the programmers said, well, since you're asking, there's some other instructions we'd like to have, like how about - we do a lot of things with linked lists, so how about an instruction to do linked lists? And the engineers said, wow, that'll take, like, a lot of manipulation. And the programmers said, well, what are you guys doing? Go do that for us. And so the engineers said, okay, write that down, Harvey. We've got to go implement that.
+
+And then they said to the programmers, what else do you want? And they said, well, we do a lot of subroutine calling. And we know that when we call a subroutine we need to save all the registers. But it's tedious to have to, like, push this register and push that one, then push the next one, and push the one after that, and then before we exit to pop them in reverse sequence. How about an instruction for calling subroutines where, like, we had bits in the instruction which specified which of the registers to preserve in the subroutine call. And the engineers said, oh, we like that, that's cool. Write that one down.
+
+So the programmers got very creative with the stuff they wanted. But then the engineers who left that imaginary meeting went back to their own area and said, okay, now we're in trouble. How in the world are we going to arrange to implement instructions this complicated? I mean, these things had sort of gotten out of control. And remember that the very simple fixed-length instruction computers were, for example, in the case of a PDP-8, they were contained on just three 8x10 circuit boards that weren't very dense, that just had simple AND and OR gates on them because everything happened in a single cycle.
+
+Well, that's one of the other things that changed. As these instructions got more complex, no way were you able, for example, in the case of pushing a random, well, not a random, a specified subset of registers, well, this instruction was going to take, could take a long time to execute, one instruction, because the instruction would specify some number of registers get pushed. So it's going to have all these memory cycles after it reads the instruction, all these memory cycles to push these registers in succession. And there's going to be a reciprocal instruction to pop some subset back off. So that's going to take many cycles. And an instruction for managing a linked list, there actually was such a thing in the VAX. The DEC VAX had a linked list.
+
+Leo: Really. That's such a...
+
+Steve: Oh, yeah.
+
+Leo: ...high-level primitive, I mean, golly.
+
+Steve: Yeah, it was amazing how complicated these instructions got. There were some that were like, the programmers said, well, you know, we spend a lot of time trying to find the first bit which is set in a long run of memory. We want to, like, find a bit. How about an instruction that just reads memory until it finds a bit set?
+
+Leo: Oh, geez.
+
+Steve: I mean, and there is such a thing. There is that instruction. And so, for example, in the famous Intel x86 instruction set, instructions can range from one byte long to 17 bytes long.
+
+Leo: Wow.
+
+Steve: There's that kind of range. So the engineers who actually had to create a machine that would deliver this kind of power said, okay, look. We cannot...
+
+Leo: Give us a break.
+
+Steve: Yeah. We cannot design hardware that, I mean, do you know how many AND and OR gates it would take to do this?
+
+Leo: We're not going to do your job for you, for crying out loud.
+
+Steve: So what they said was - I mean, and it was probably an instruction like this pop multiple registers thing. They said, well, now that we've got all these cycles that it's going to take, we need microcycles. We need something like a computer in the computer, which can be smart enough to implement very complex instructions. And so someone said, what are we going to call that? Well, we'll call it "microcode." And it's like, oh, okay. So what they did was, and this was a revolution in computer architecture, was they actually - they dropped the idea of unbelievable rats nests of AND and OR gates, essentially, to try to implement this ever-expanding aggressive instruction set. And they said, wait a minute, computers have sort of flow paths. There's an adder that can get its data from different places, and there's a memory buffer that has the contents of memory, and there's maybe a multiplier that has its input.
+
+So imagine a very different kind of instruction word, probably long, many bits. But the bits in this so-called microcode, they just enable the flow of data along these different data paths at different times. And so just by sort of opening and closing these data paths in sequence, we can implement a complex instruction in multiple small steps so the outside world still sees it as a single instruction. Inside, the microcode has many small steps which it goes through to pull off this complex instruction. So the programmers don't see it on the outside, but the engineers who engineer the microcode, they came up with a whole new way of thinking about how to engineer a computer by...
+
+Leo: I always assumed that all processors had microcode. I didn't realize that was a later invention.
+
+Steve: Yeah, it was. And it was something that was developed through this necessity of they just couldn't, you know, it was like how are we going to do this with just AND and OR gates?
+
+Leo: Right.
+
+Steve: And so the idea was that you'd have the so-called "microstore" was very fast because it had to run in, like, much faster than main memory. Main memory was chunking along, just reading instructions. But the microcode had to run many times faster in order essentially to have all those little microcycles fit within one major instruction cycle in order to get the job done. And that also meant that the instructions no longer all took the same amount of time. As we said, more complex instructions would take more time. But that allowed this flexibility of instruction length, for example. The microcode, if you were doing a fancy operation like adding two words, both in main memory, and storing them to a third, that was no problem now. That instruction had many more microcode steps in it in order to get the job done.
+
+And so this really changed the way the system was working, the internal design of the computers. And so what that also of course did was create a renaissance in complexity because, when the programmers heard that now there was like a computer in the computer, then they went hog wild with instructions they wanted because it was like, I mean, it was very much like, you know, we all have heard the slogan Apple has, "There's an app for that."
+
+Leo: Right. There's a microcode for that. There's an instruction for that.
+
+Steve: There's an instruction for that. You know, anything these guys, these programmers could think of, they'd say, hey, how about one that does this?
+
+Leo: Right.
+
+Steve: And the engineer said, really? You need that? Oh, yeah, yeah, I needed that yesterday, and I wish I had that. Okay, fine. Well...
+
+Leo: So it does operate faster if you put it in microcode in the chip than if you wrote it. I mean, it's easy to write a linked list in a higher level language, or even assembler. But it's faster if you put it in microcode.
+
+Steve: Well, and, see, that - the perfect question. Because remember that main memory was still very slow.
+
+Leo: Ah.
+
+Steve: And it was very expensive.
+
+Leo: Got it.
+
+Steve: So what had happened was computers turned into interpreters. It was...
+
+Leo: Right. To save memory.
+
+Steve: Well, exactly. So what you had was super powerful instructions that then inside the computer it ran around and pulled it off. But that meant that you were saving main memory and you didn't have to fetch it that often. That is, if fetching from memory was time constrained, and it was, because main memory was slow still, then - it was core. Remember, every time you had to read, reading was a destructive process. So then you had to rewrite what you'd read because reading, the way to read from core is to set everything to zero, and you see where pulses come out in the cores that switched from a one to a zero, meaning that those were ones before you set them to zeroes.
+
+Leo: And now they're nothing.
+
+Steve: Now they were nothing, so you had to reset them to ones again.
+
+Leo: Holy moly.
+
+Steve: So this gave a lot of opportunity for the microcode to run much faster, and it meant that your code density and main memory was very high. Essentially, we'd created an interpreter. And we know that an interpretive system allows very dense interpreted instructions where the instructions themselves are doing a lot.
+
+Leo: Ironically, we do have a constrained hardware environment these days with mobile devices, with cell phones. And they, for the most part, use interpreted virtual machines to save space.
+
+Steve: Well, so, yes. What happened was, as technology moved forward, memory became faster. And more than that, it became cheaper. We just got better production rates, and we got more clever, and we began to not be memory constrained. And at some point some engineers said, you know, let's profile actual code that's in the wild out there that's running. Let's analyze the code and see what instructions are being used. The other thing that had happened during the same period of time is compilers came into use. Back in the beginning it was the programmers writing all this in machine language/assembly language that said, oh, I'd love to have an instruction for doing linked lists. Then I wouldn't have to be writing that all the time.
+
+And so over time compilers came into play. It just made sense to create a higher level language that itself would then create the assembly language, the machine language that would drive the machine. And but here was a problem. Compilers, it turns out, couldn't make use of all this fancy stuff. The compiler, the nature of the compiler - see what I mean?
+
+Leo: Yeah, yeah.
+
+Steve: Yes. Humans could; but the compiler was like, wait a minute.
+
+Leo: I don't want to do that.
+
+Steve: Yeah. Well, it just - it didn't make sense. What had happened was instruction sets had become very specialized. And individual...
+
+Leo: Right. So it's great for assemblers, for people who write, like you, who write machine language. But not for an automated system.
+
+Steve: Not for a mechanized code generator that would sort of always be using the least common denominator. And so...
+
+Leo: Well, that's a good point, too, since not every chip would have that capability.
+
+Steve: Right. So when the computer architects of the past profiled the actual instructions that were being used, they discovered the familiar 90/10 rule. You know, 10 percent of the instructions were used 90 percent of the time.
+
+Leo: Right, right.
+
+Steve: And then they said, wait a minute. If these fancy instructions are not being used, look at the expense in this machine for a linked list instruction. Or these wacky bit search nonsense that we ended up getting talked into by the programmers. Compilers never use these. Yet even though they're not using them, they're in the machine. Every one that we push out the door has very expensive-to-implement instructions that nobody uses because we fired the assembly language programmers, and we hired Fortran programmers or Cobol programmers. And the compilers now do the job that the assembly language guys used to do, and the compilers aren't using any of these instructions, which every single time we push one off the assembly line we're paying for all this microcode store to implement things that no one's using. So there was a complete rethink at that point. And...
+
+Leo: Where does this happen? Does it happen at Intel, or is it happening elsewhere?
+
+Steve: It was happening in - this was sort of - it was happening in universities, actually. The SPARC came from Stanford and Sun, or Sun later. And the MIPS RISC machine was at Berkeley. And the ARM from Acorn was in the U.K. And so that's where this notion - they said, hey, let's reduce the instruction set complexity. And someone said, ooh, RISC, R-I-S-C, Reduced Instruction Set Complexity, or Reduced Instruction Set Count, it's sometimes known as. The idea was that they realized they'd sort of gotten way off track with these incredibly expensive instruction sets because, they said, wait a minute, let's - hold on. Let's instead kind of go back to where we were. That is, let's have very simple instructions which, now that main memory was fast, had caught up in terms of the speed we needed, and it got cheap.
+
+The other thing is that memory costs dropped through the floor. So you no longer had to have an entire operating system and 20 shared timesharing partitions all fitting somehow into 64K, which actually was done once. No, now we had, at this point, megabytes of memory, easily, so code didn't have to be as dense. And essentially there was this wave of simplification that said, wait a minute, let's go back to - oh, the other thing is that, remember, we went to a - we had variable-length instructions? Well, the only way you could handle a variable-length instruction was in microcode, having microcode that knew that, oh, look, this particular opcode requires these different parameters so we've got to go fetch those now. And that means this instruction has more bytes after the opcode of parameters for the opcode.
+
+Well, all that was thrown out the window. They went back to a radically simplified architecture. One of the most popular is called a load-store architecture, which is now, currently, today, the most popular of architectures, the idea being that you have exactly one instruction for loading something from memory. You have exactly one instruction for storing something into memory. And all the other instructions deal with a much richer set of registers, maybe 32 is the number that most of these architectures have now. So you've got 32 registers. And you can do things like add register one to register two and store it in register three. You cannot add register one to the contents of memory. The other thing, again, in a code analysis, what was seen was that that wasn't being done that often.
+
+So they said, okay, let's try a whole different approach. Instead of instruction, instead of, like, having all instructions able to add and subtract and multiply and do things with main memory, let's have a load instruction and a store instruction. And then everything else, our jumps and our branches and our map and logical things, those only work with the contents of what's in the registers. And we're going to have - oh, that allows us to go back to a fixed length. And that means that every single instruction, like back in the old days, is a single cycle. That is, one cycle. So now that main memory can catch up - or, if not, then caching had come into vogue.
+
+So then there was this notion of they noted that programs tend to sort of stay in the area where they're executing a lot. And so the concept of caching came in. In order to provide a RISC processor that was able to ask for an instruction every single cycle because it was able to execute an instruction in a single cycle, the cache would feed instructions at that rate. And so the idea was lots of little simple instructions executed very fast. And then other things could be done, like you could, if you knew that the instructions were all the same length, you could fetch a block of them ahead of time and bring them into the cache so that they were ready in case the processor wanted them.
+
+So that's the - there's a little bit of, like, coming back where we came from, but with a much more mature understanding of how to get the most bang for the buck. And the major thing that happened is that this rethink of architecture allowed for a dramatic simplification. Now, Intel was, and even to this day is stuck with this insane instruction set, which I happen to...
+
+Leo: How interesting.
+
+Steve: ...know by heart.
+
+Leo: Yeah. The x86. They wanted to get out of it. They wanted to stop.
+
+Steve: Yes. The x86, with its variable byte length between one and 16 bytes, they're stuck. The problem is, the reason they're stuck is backward compatibility. It matters too much, I mean, they've always wanted to, like, break free. But how can they ever do an incompatible chip that, like, didn't run everything? And they've just...
+
+Leo: In fact, they were going to, and AMD was the one that put the screws to them by saying, well, we're going to keep doing x86.
+
+Steve: Exactly, yes. And so what happened was, it was, for example, a company like Acorn, back in the late '80s, that was trying to come up with a successor. Acorn was the preeminent personal computer company in the U.K. There was Sinclair, and Commodore, and then also some U.S. companies had strong sales. But Acorn was the number one. They had a system based on the 6502, which was originally the processor technology - I'm sure that was the company. Although processor technology was a different company also.
+
+Leo: Yeah, there was - oh, my. You know, it's funny how blurred it all starts to get. The 6502 was in the Apple II and the Atari, I remember.
+
+Steve: Oh, yeah, yeah, exactly.
+
+Leo: A crappy chip, by the way, the worst instruction set. Oy.
+
+Steve: Careful, there, Leo.
+
+Leo: I liked the 68000 instruction set, the Motorola instruction set. That was a very clean..
+
+Steve: Well, but that was a whole different generation. It's really not fair...
+
+Leo: It was, you're right. Oh, no no no, I know. But even the Z80 I think was a little bit cleaner than the 6502.
+
+Steve: Well, that, too, was a different generation. What the 6502 was, was incredibly inexpensive.
+
+Leo: Right.
+
+Steve: And it had a beautifully...
+
+Leo: It was MOS Technology.
+
+Steve: M-O-S, that's it, MOS Technology, thank you.
+
+Leo: Thank the chatroom.
+
+Steve: MOS being Metal Oxide Semiconductor, of course. It had a beautiful instruction set. And what that allowed was it had just enough to get the job done, which meant it had a low transistor count, which meant it had a small die size, which meant your yield on wafers of the time, that is, you got many more processors per silicon wafer because the individual dies were so small because the transistor counts were so low. And that meant that made these processors incredibly inexpensive. And that's why Commodore, Apple, and everybody jumped on the 6502. So what the Acorn guys did was they took a similar approach. Because they'd been 6502 users, they took a similar approach to a brand new design, and they were going to do a RISC processor. So naturally they called theirs the Acorn RISC Machine, ARM.
+
+Leo: Oh, my goodness. I had no idea.
+
+Steve: And they ended up with a beautiful, lean design.
+
+Leo: Right, right.
+
+Steve: It was the small transistor count. Now, the other thing that is expensive in large dies and large transistor counts is every transistor you've got not only takes up space, but it takes up a little bit of power. And so the other problem Intel has been fighting valiantly all along is they've got this insane instruction set that they can't get away from which they're trying to make faster and faster somehow. The problem is they are just dogged by power consumption because this complex instruction set requires a huge amount of power, I mean, like, disproportionately so. Just to feed the latent complexity in the instruction set takes its toll. Whereas the ARM, the Acorn RISC Machine chip, because they had the idea, I mean, they came a little bit after the SPARC and the MIPS, so they were able to learn from those designs. But they also came from a 6502 era of understanding low complexity. And interestingly, they were a small company with a small design team. And they didn't have fancy tools. So they also had no choice but to do a simple, small, RISC machine.
+
+Well, even though it couldn't compete then with the SPARC and the MIPS, it competes now because of its low power consumption. And what happened was, in the evolution of Acorn, they ended up renaming themselves Advanced RISC Machines Ltd. Again, ARM. And they're a licensing company that licenses the intellectual property of the ARM RISC core and allows other people - they don't produce them themselves. That's why, for example, Qualcomm has the Snapdragon, which is an ARM-based chip. And it's why Apple with their A4 is an ARM-based chip.
+
+So Advanced RISC Machines is an intellectual property licensing company, licensing this beautiful core which has, because of its - it was always an efficient design, but it was a small design because that's the only thing they could design. But "small" means very inexpensive, just like it did on the 6502; and it means there just aren't that many transistors. The first ARM had only 25,000 transistors, compared to now you've got hundreds of millions of transistors. So you had very low power and, because it was a relatively state-of-the-art design, the right architecture. And that's why everybody who's doing handheld devices has ARM-based technology.
+
+Leo: Makes sense.
+
+Steve: You get a lot of - you get the processing power you want, and it's inexpensive because it's a small die, and it's inexpensive in power consumption because it doesn't have that many transistors hungrily burning up power. And the ones it has are all in use. The other problem with the Intel instruction set is, as we saw, it's inefficient due to the 90/10 rule. So you have all these transistors sitting around not doing much because they just end up being the exception rather than the rule. Whereas this lean RISC design has all your transistors busy all the time, so that's efficient, too. You get a lot of use out of the power that the transistor is using. And that's the story of RISC.
+
+Leo: I love it. And very timely because of course here we are sitting, looking at RISC processors all the time now, in our phones, in our iPad, and all these small devices.
+
+Steve: Yup.
+
+Leo: You know, Android, which is originally running on an ARM processor, is being ported to the Intel Atom processor so that Google TV can run on an Atom-based system. Of course, it runs on a Java Virtual Machine, so it's probably a simple port to make. You just need a virtual machine to do it. But I wonder what kind of efficiency hit they're going to take.
+
+Steve: It'll be interesting to see. In two weeks what I want to talk about, and I think this exhausts me in talking about technology, is the need for speed. Because there's a fascinating story that's the last thing I want to cover on what has been done inside these machines to give us the speed they have. People are not going to believe, I mean, it is - it just grays your hair to think of the engineering that has gone into this. We're going to talk about pipelining and multiple issue and out-of-order execution.
+
+Leo: Ooh, I love that stuff.
+
+Steve: Branch prediction, superscalar stuff. I'm going to lay that out. And at the end of that episode everyone's just going to look at their little, their iPod or their pad or their phone and think...
+
+Leo: Oh, my.
+
+Steve: ...that stuff is in there. And, I mean, it makes you appreciate, I mean, I'm just stunned by what went into the technology that we so easily take for granted today.
+
+Leo: It's really true. It's so complex. And yet it works.
+
+Steve: It does.
+
+## Listener feedback (Security Now 253, 50:38)
+
+From http://www.grc.com/sn/sn-253.htm http://wiki.twit.tv/wiki/Security_Now_253
+
+Leo: John Hughan with Question 2 in Austin, Texas, wonders why microcode reduces complexity. This is from the last episode where we talked about "RISCy Business." Hey, Steve. Great show, as always. I'm hoping in the upcoming Q&A that you might be able to explain in a bit more detail how having microcode made engineers' jobs easier in terms of the number of AND and OR gates required to implement complex instructions. Why is it not the case that having a "computer within a computer" just meant that those AND and OR gates had to be implemented in the microcode area in order to run those instructions and manage the "main" area? Or, if microcode allows those types of instructions to be executed in a fundamentally different way that doesn't require those AND and OR gates, why can't the rest of the instruction set be implemented that way? Keep up
+
+the great work.
+
+So he's saying really, when you were saying that one of the things that came up was that they were building into the silicon these fancy instructions, like linked lists, so they came up with microcode as a way to implement it within the silicon, almost in software. But was it software? Or is it - does it require actual AND and OR gates?
+
+Steve: Yes, exactly. And I liked John's question. I thought it was a really good one because he's saying, well, okay, all you've really done is move the complexity from one place to somewhere else. Why is it any less complex? There's two things that microcode does. The first is that, as I described it, the microcode which is used to implement instructions is generally a long word, that is, it's many, many bits wide. And the bits are turned on and off in order to open and close paths through the system in order to implement the instruction. So you route some bits of the instruction word to the adder. And then you route some, like the memory fetch results to the adder, and those get added. And then they go into a buffer.
+
+And so one of the real powers of using a ROM, a Read-Only Memory, is as a lookup table. If you imagine a matrix, a two-dimensional grid, where you have a bunch of inputs on one side, that is, like on the horizontal, and a bunch of outputs on the vertical. And this grid is filled with a collection of ones and zeroes at the intersections such that when you select one of these addresses, some number of bits change on the output. What a ROM does, it allows you to have an arbitrary association between the inputs and the outputs. And if you were to implement that same arbitrary association in discrete logic, you'd just pull your hair out trying to, with standard ANDs and ORs and NANDs and NORs, inverters and all that, trying to wire up what you can do so easily with a simple table.
+
+So the first part of this is that a table lookup, as it's called, can beautifully, with almost no components, just like a little ROM, can allow you to map an arbitrary combination of inputs into a different combination of outputs. So that's a huge simplifying thing, which is one of the things that microcode is, is a table.
+
+And the second part is that, by doing a big job in steps, you don't have to do it all at once. So microcode implies multiple steps to achieve some end. So without this notion of multiple steps, all the instructions you had, no matter how complex they were, were just going to have to happen, bang, just in a single cycle. I mean, it would be like an amazing amount of work somehow almost magically being done, bang, all at once. Instead, if you've got microcycles, then you're able to break up a complex job into many smaller steps, each of which is more simple. So that's the second way that you get simplicity is by sort of factoring all the kinds of things the computer might do into simpler, smaller steps, and then allowing yourself multiple steps to achieve a bigger result. And as a consequence, the savings are dramatic, such that virtually all systems today have used microcode in order to get the job done.
+
+Leo: All right, are you ready for another question, my friend?
+
+Steve: Yeah. Or an observation, in this case.
+
+Leo: In this case, from Simon in Canada, with a security data point from a hospital operating room: Hi, Steve. This week my five-year-old daughter underwent a relatively minor surgical procedure, but still one that required full anesthetic. Oh, that's always scary. Standard operating procedure - literally in this case - dictates that when possible one of the parents attend until the point the child is unconscious, which is why I found myself standing in an OR of a well-known children's hospital, clad in a surgical gown, mask, and paper booties.
+
+After the anesthesiologist had done his stuff, and my little angel was peacefully sleeping, I had time to take in a little more of my surroundings. It was then I noticed - oh, dear - that the rest of the nurses and doctors, who currently had nothing to do, were watching a World Cup game streaming live on one of the operating room computers via a Flash player. Now, I obviously have no idea whether this PC was segmented from the more critical systems in the OR, but I do know that the screen immediately next to it was displaying the medical imaging. I also know that, A, there is at least one computer with a Internet connection in that operating room; and, B, it's got Flash installed - one of the most fertile attack vectors for recent malware. Just an interesting observation I thought you might be interested in sharing with your listeners and viewers. Thank you, Steve and Leo, for your great work. Wow.
+
+Steve: Yeah. You know. Not surprising, unfortunately. I don't know what it will take for the word to get out that this kind of thing is a problem. I mean, we had, remember, UK hospitals that were almost shut down by Conficker getting into their networks, into their operating room computers...
+
+Leo: It's amazing, just amazing.
+
+Steve: ...and causing problems. So you've just got to shake your head. I mean, there's nothing we can do about it. But it's worth just sort of being aware of it.
+
+Leo: Question 4, James Truesdale in St. Louis, Missouri had a RISCy question: Listening to the podcast, heard your explanation of how instruction sets grew due to programmer requests for more complex instructions to make their life easier. I had this thought: Instead of adding instructions, why not just use macros - you mean, do more work? - for commonly used operations?
+
+Steve: Well, you just answered the question, Leo.
+
+Leo: You mean work harder? No.
+
+Steve: Yeah. The idea was that back then, memory was very expensive. And so it really wasn't the program, I mean, the programmers wanted more powerful instructions, rather than using more, less powerful, instructions.
+
+Leo: Right.
+
+Steve: So, for example, in the case of, for example, the VAX that has a linked list instruction, which is like doing all this amazing pointer moving around, programmers were able already to manually manage linked lists, and they could have certainly hidden all of the instructions that they were using underneath a macro. Of course, that would have been dangerous because it's very easy to forget how much work a macro is doing, specifically because it's hiding all the work it's doing from you. It's convenient from a programming standpoint. But the problem is it would be expensive in terms of time, and also the memory that it would take up.
+
+So back then, different from now, where you might say, hey, wait a minute, you know, RISC approaches are much more many small, simple instructions than CISC machines were back then. Back then memory was expensive and slow. So what the programmers were saying was, hey, we're expending all these instructions to manipulate pointers in a way that it'd be really convenient if we just had an instruction that could do it for us. Then we'd save all of this expensive memory and all the time it takes to fetch from this expensive memory. So macro doesn't do the job that implementing complex instructions in microcode does.
+
+Leo: Yeah, I think we kind of touched on that last week, but just it's worth reiterating. It isn't laziness, it's a response really to scant resources, as a lot of this stuff is. And as resources change, you change what you do. It's why we don't need RISC so much anymore.
+
+## What we'll do for speed: pipelining, branch prediction (Security Now 254, 29:30)
+
+From http://www.grc.com/sn/sn-254.htm http://wiki.twit.tv/wiki/Security_Now_254
+
+Leo: I feel the need, Mr. Gibson, for speed.
+
+Steve: Well, so we've established sort of the original technology of computers, looking at the way, for example, early minicomputers like my favorite old PDP-8 operate, where memory is a bunch of words, and the words are broken into fields of bits, and the bits specify, for example, the opcode, the operation code, what the word of instruction is going to cause the hardware of the machine to do. And even then, even though the machine went from one instruction to the next, the execution of that instruction internally took several phases.
+
+You would fetch the instruction from main memory into the - we talked about the IR, the Instruction Register, where the machine would then look at the opcode to determine what this instruction was telling it to do. So there was a fetch of the instruction. Then there was a decode, where you'd decode what it is that you fetched.
+
+Then comes to execute the instruction, whether it's incrementing the accumulator or adding a register to another, maybe jumping to somewhere else. And then in some cases you would be writing the results back, maybe writing the result of incrementing the accumulator back into the accumulator, or writing it back into main memory, if you were storing.
+
+So from the programmer's view, the programmer sees this as atomic events, one instruction per word. The engineer who's designed the computer to do this sees that there's more going on. A single execution of an instruction actually requires many different phases - fetch, decode, execute, and then write back the results. So machines were being produced like that. And people naturally wanted them to go faster.
+
+And what the engineers saw was that, well, you know, we fetched an instruction. Then we're decoding it, and we're executing it. But while we're doing those things we're not using main memory. That is, it's waiting for the next fetch. And so the concept dawned on them, and this actually happened on the mainframe level in the late '60s, this notion of sort of overlapping things. And the best example, sort of I think the model that's clearest is, because we've all seen examples of it, is the automobile assembly line - which, as I understand it, Ford invented to create his cars, the idea being...
+
+Leo: Just a side note, by the way, we're going to be going to visit the Ford assembly line on July 30th.
+
+Steve: Who, "we"?
+
+Leo: Me. Who, "me."
+
+Steve: Oh, cool.
+
+Leo: Yeah, and I'm going to bring the live camera, and we're going to actually show the state of the art in modern assembly, which I can't wait, their Dearborn plant.
+
+Steve: I would love to see that because you only get little snapshot snippets of...
+
+Leo: I know.
+
+Steve: ...pictures with robot arms swinging stuff around in the air.
+
+Leo: I know, I'm so excited.
+
+Steve: That will be really cool.
+
+Leo: I'm going to go see where my Mustang was born. Anyway, sorry, didn't mean to interrupt, go ahead.
+
+Steve: So the idea with an assembly line is that, at every stage of assembly, you do a little bit of work towards producing a finished car. The time required to produce one car is the time it takes to go the length of the assembly line. But once the assembly line is full of partial cars being assembled, the rate at which cars come out is much faster than the total time it takes for a car to move through the assembly line. So...
+
+Leo: Wait, now, let me think about that. The cars come out faster than it takes for a car to go through the assembly line.
+
+Steve: Yes. So say that you had an assembly line of 10 stages.
+
+Leo: Yeah.
+
+Steve: And that each stage took a minute.
+
+Leo: Okay.
+
+Steve: Well, when you start making a car...
+
+Leo: It takes 10 minutes.
+
+Steve: It's going to take 10 minutes for that car to go all the way through the assembly line.
+
+Leo: Oh, but then cars will come out one every minute.
+
+Steve: Exactly.
+
+Leo: Cool.
+
+Steve: Once the assembly line is full, then they come out every single minute.
+
+Leo: Got it, okay. I'm glad - sorry. I'm stupid, but I needed to understand that. Okay.
+
+Steve: And so in processor technology we call this a "pipeline." And virtually every machine now being made, and actually made for the last two decades, has been "pipelined" to one degree or another. So let's first apply that to the very simple model of this machine which fetches the codes, executes, and writes back. The idea with a pipeline there would be that you fetch an instruction, then you start decoding it. Well, while you're doing that, memory is free. You're not using memory. So most instructions, most code is sequential. That is, we know that after normal instructions are executed, the program counter is incremented by one for the next word, which is then fetched. And the one after that and so forth.
+
+That changes in the case of jump instructions, which jump us to somewhere else; or branch instructions, which may or may not branch to somewhere else. But in general it's a safe bet that we're going to be moving forward. So the engineers who wanted more performance out of the system basically - and this will be a recurring theme through this podcast. You look at the various components of your system and think, how can we keep them busy all the time? How do we get the most performance out of it? Well, it's by keeping all the pieces busy.
+
+So if, while we're decoding an instruction we just fetched, we assume that we're going to be executing the next one here in a while, well, go ahead and fetch it. Get it read from memory. And similarly, after that first instruction's been decoded, then it's time to execute it. Well, meanwhile, at that point the decoder is not busy because it just did its work on the first instruction. Well, now we've got the second instruction that we fetched while the first one was being decoded. It can now be decoded.
+
+And so the analogy is exactly similar to the assembly line where instructions move through several stages. And once they get going, rather than an instruction having to go all the way through before you even start on the next one, you're able to make some assumptions that allow you to basically create an assembly line for computer instructions, just like you do for cars.
+
+Now, it gets, from that simple sort of start, then things really get interesting because one of the things that happens is that instructions may interact with each other. That is to say, if we were to add two registers - say that we had a machine with multiple registers, as all contemporary machines have now. Back, you know, that PDP-8 had just the one accumulator, which you sort of ended up using as a scratchpad. Now we've got 8, 16, 32, lots of registers. So say that an instruction that you read was adding two registers together, that is, adding one into another, and that the instruction that followed took the value from that add and stored it. Well, so now we have a problem because we have instructions in this pipeline which interact with each other.
+
+So over time engineers have made these pipelines longer because they'd like to get as much simultaneity going as possible. But they've also had to deal with the fact that there can be interactions, and often are, between instructions that are in the pipeline at the same time. So the first thing that's done is that instructions are broken into smaller pieces. They're called "micro ops" (uOps).
+
+So, for example, say that we had a simple instruction. We've talked about how the stack works; how, for example, when you push something on the stack, what happens is the stack pointer is decremented to point to a new, lower location in memory. And then the value that you're pushing is written to the location where the stack pointer is pointing, sort of in this scratch pad. So that operation, a single instruction, "push a register," can actually be broken into two micro operations. The first one is decrement the stack pointer. The second one is copy the register to where the stack pointer is pointing.
+
+And imagine another instruction, like adding a register to what's in memory. Well, to do that you have to read out what's in memory. Then you have to add the register to what you read out and then write that sum back to that same location in memory. Well, that's three micro operations. So what the processors do now is they take these sort of what look - the programmer sees them as instructions, but they're actually complicated enough that they require - they can be broken down into smaller pieces. So the processor fragments these single instructions into multiple micro operations and then basically pours them into this pipeline, which is getting increasingly long, in some cases as long as, like, 20 stages of, like, staging of instructions.
+
+Now, one of the things that engineers noticed was that some instructions, like this - imagine the instruction I talked about where we're wanting to add a value to something in memory, where we're having to read the thing out of memory, then sort of into some internal temporary location that isn't even named. Then we add a register to that and then write it back out. Well, so we've taken that single instruction and broken it into these three micro operations.
+
+Now imagine that there's an instruction behind it, that is, it actually is later in the code, that's doing something else entirely. It's adding two registers that aren't related to these micro operations. What the engineers realized was, while the computer was out fetching the value to be added to, it had already fetched more instructions behind. And the ones it had behind were independent of the outcome of the instructions that it was working on currently. And, for example, while fetching something from memory, the machine's adder, the ALU, the Arithmetic Logical Unit, was idle.
+
+So the processors of today are able to realize that they've got other things they can be doing which are independent of the outcome of earlier instructions. So why not execute them out of order? That is, literally rearrange these micro operations in the pipeline so that things that are taking longer can literally be passed by instructions which can take advantage of resources in the chip which are not currently in use.
+
+And so what we've ended up with is this amazing technology which pours instructions in the front end of the pipeline, fractures them into smaller sort of individual granules, which need to be executed in order for that to happen. Then logic which is sophisticated enough to look at the interdependencies between these micro operations and reorder them on the fly so that the assets that the chip has, like Arithmetic Logical Units, like a floating point processor, like instruction decoders, all these assets are being maximally used.
+
+And in fact one of the things that happened was that processers went so-called "superscalar." What I've described so far is a scalar processor. A superscalar one is one which is actually able to execute more than one instruction per cycle. That is, normally you would be retiring instructions when you're done out of this pipeline, sort of at a given speed.
+
+Well, if you have enough assets to execute instructions, there's no reason you can't go faster than a hundred percent. And so superscalar processors go faster than a hundred percent. They've got, for example, there are some that have four ALUs and two Floating Point Units. And so they're literally able to be doing four additions at once. Sometimes those are part of a very complex instruction, or sometimes they're part of different instructions.
+
+The point is, the processor has become smart enough to break all of these down into little subfunctions and then sort through them, analyzing the interdependencies among these subfunctions and taking advantage of anything that might require a delay in order to say, oh, wait a minute, we've got a guy back further here who isn't dependent upon any of our outcomes. And we've got a free adder. Let's do that addition right now. And if you think for a minute about the logical complexity of any instructions which you might encounter, and having to, on the fly, I mean, we're talking - there's no time to do this, either. This is not slowing things down. The goal is to speed everything up.
+
+So there's no - you can't even catch your breath. This is all happening billions of times a second. At gigahertz speeds this is all being managed. So now we have a system which is able to do, literally, sucking instructions in, cracking them down, rearranging them on the fly, looking at interdependencies. Well, that wasn't enough for the engineers. Management said "faster, faster, faster." And so the engineers are like, wait a minute. We're going as fast as we can.
+
+Well, what they realized was that wasn't true because there was still a way they could get a little more clever. I used the word "retiring an instruction" before. And that's a term used in this art where you finally say - you, like, write the results of the instruction back out. So inside this pipeline you've got an amazing amount of resources. You've got unnamed registers. By that I mean they're not like the register 0, register 1, register 2, or AX, BX, CX. That is, they're not the registers that the programmer sees. These are like temporary scratchpad registers which are not visible to the outside world, not visible to the instruction stream. But they're used, for example, if you were adding something to memory where you've got to read that into somewhere in order to add something to it. So that's an unnamed register.
+
+So when you retire an instruction, you're sort of writing its results back out to, like, the real registers, to the programmer-accessible registers. But the engineers realized that in some cases they did have a result which a later instruction was waiting for, even though they hadn't yet retired the earlier instruction out to, for example, writing to, like, the AX register. They did have it in the pipeline.
+
+So they added a whole 'nother layer of nightmare by allowing results to be forwarded, and that's the term that's used, within the pipeline to, like, track this so that partially executed instructions which had not yet been retired could have their results sent sort of back into the future in order to allow instructions that had stalled because they were dependent upon an outcome which hadn't been resolved yet. And all of that exists also. So what we have now is something unbelievably complicated.
+
+Now, what happens if you hit a branch? Because branching, any change of linear flow is the worst possible thing that can happen. Think about it. We've got all this happening. We've got 20 instructions maybe that have been taken apart, all under the assumption, remember we made one fundamental assumption at the beginning, which was we're going to go linear. All of this sucking in things ahead of where we are assumes we're going to use them. All of this work says that we know where we're going.
+
+Except when we come to a conditional branch, or even a jump that's going to go somewhere, suddenly everything changes. We now don't know whether we're going to keep going or go somewhere else until later in that instruction's phasing. Remember, now instructions are being cracked apart. They're being decoded. They're being executed. There's, like, all this work being done before the outcome of the instruction is known.
+
+The problem is, if it's a branch instruction that might change the sequence, if it does change, if it's branching us to somewhere else, well, everything behind that instruction has to be scrapped. So the entire pipeline has to be dumped. And we stall until we are able to then load a series of instructions from the new location and sort of get all this going again.
+
+Leo: And that's what screwed up Prescott because I think their prediction wasn't good, or their pipelines were too long, and they got a lot of dumps.
+
+Steve: Well, yes. So having developed this amazing complexity for dealing with, I mean, like, just incredible acceleration of performance, as long as you go straight, the second you change away from that, that linear execution, you're in serious trouble. So engineers realized that branch prediction was crucial, that is, literally being able to guess without knowing what a branch was going to do.
+
+Well, the way they've come up with doing this, there was a first level. You can imagine a simple-minded way which says, okay, let's assume that the branch that we encounter, if we've ever encountered it before, is going to do the same thing. So that sort of makes an assumption that branches generally do whatever they're going to do. In fact, microprocessor designers realized that many branches that are branching backwards are at the bottom of a loop, sort of a loop of code which tends to get executed a lot, and then finally isn't executed. So the branch, a branch backwards tends to be taken, as opposed to a branch forward. So there was some simple-minded sort of branch guessing that way.
+
+Then they said, well, wait a minute. Let's record the last outcome of the branch and assume that it's going to do the same thing again. So an early branch predictor simply did that. And the idea was that you would take a chunk of the lower address bits, so like the least significant address bits in the instruction counter; and you would, for every one of those address bits, you'd create a table that had a single bit in it, which recorded a branch at this location did the following thing last time. It was taken or it wasn't taken.
+
+Now, we're not talking about having a bit for every branch in the computer. We're saying that we're going to have sort of a bit, maybe 256 bits, for, like, the lowest byte of the instruction. So branches could collide with each other. A branch that was exactly 256 words further down would end up having the same least significant byte of address. So its bits would collide with each other. There's nothing we can do about that. But the probability of that is relatively low. And so there was always this cost versus performance tradeoff that's being made.
+
+But the engineers weren't happy with just using a single bit because imagine that you had a branch which, in the code, literally alternated what it did every other time. It turns out that's also very common. Well, that would literally mean that every prediction you would make was wrong. If you remembered what it did last time, and you assumed it was going to do it again, and the logic in this branch was in every other logic, then you'd always be guessing wrong. And so the performance would just be abysmal. You'd get no benefit from your pipeline. You'd be constantly dumping the pipeline and then needing to refill it.
+
+So the developers came up with a two-bit branch predictor, which they call a saturatable or a saturating counter, the idea being that - so two bits could obviously have four states. You could be zero zero. And then if you count up, you go to zero one. You count again, you go to one zero. And again, you go to one one. So those are the possible values. So the idea of a two-bit branch predictor was that, if you took the branch, you would increment this two-bit counter, but never more than one one. So that's the saturating part. It would saturate, it would go to one one and then just stay there. If you did not take the branch, you would decrement the counter down to zero zero, but then you never go below zero zero. It saturates at the bottom end also.
+
+So what this gave you was a better, sort of more of a probability. You could, if you generally took the branch, but not always, this counter would - it would still make a mistake, but it wouldn't change its mind completely. So if you generally took a branch, even if you occasionally didn't, it would still remember that you generally took it. So it would, again, it would generally be guessing correctly. And so that increased the performance of branch prediction substantially. But there was still a problem, which was that there were patterns of branching which this simple-minded two-bit predictor couldn't handle.
+
+And so in real-world applications it was better than nothing, way better than nothing. But some other engineers realized, hey, we can do something even more clever. We can do a two-level prediction. So what they created was a shift register of bits which was whether the branch was taken or not, in history. And it wouldn't be very long. Maybe let's say for a discussion that it's only four bits long. So the shift register is remembering whether branches actually were taken or not. And every time we come to a branch, we first of all look at the least significant byte of the address to choose one of 256 whole worlds.
+
+So each possible location in memory, with this 256 cycle, has its own entire little branch prediction world. Okay, so within that world is a four-bit shift register that remembers for that branch, or branches at that location in memory, whether the branch was taken or not. Okay, those four bits, we know that four bits gives us 16 possibilities. Those four bits are used to choose one of 16 of our little two-bit saturating counter predictors.
+
+And what we end up with is literally pattern recognition, where over time this acquires a knowledge of any sequence of up to four long of branches and not branches being taken. That will be recorded in the two-bit predictor which will tell the computer with very good probability whether the branch will be taken again or not. And these predictors have grown in length and in size. And so remember that there's one of these whole predictors for each of a number of different locations in memory where these branches could fall.
+
+So now what we've done is we've got this pipeline sucking in instructions, cracking them down, looking at their interdependencies, reorganizing them on the fly, taking it - we've decoupled the Arithmetic Logical Units and the floating point processors and the instruction decoding and all of this so that those are all now separate resources which are being assigned and used as soon as they can. As soon as we're able to see that we know enough to allow one of these micro operations to proceed, we do.
+
+At the same time, the system is filling up the pipeline at the top using the results, assuming we're going linearly, unless we hit a branch or a jump, and then recording the history and literally learning the pattern of the past sequence of branches in the code and sort of heuristically developing an awareness of pattern recognition of whether - I mean, so that it's able to guess with as much as, it turns out, 93 percent probability whether a given branch will be taken or not, only missing about 7 percent of the time. And when it's wrong...
+
+Leo: Is that the average for all processors, or...
+
+Steve: Yes, state-of-the-art prediction now.
+
+Leo: That's amazing.
+
+Steve: I know. It's just incredible.
+
+Leo: Just amazing. It's like that old joke, how do it know? It's like predicting the future, really.
+
+Steve: It's like 6.75 percent misprediction, so about 7 percent misprediction. 93 percent of the time they're able to guess right.
+
+Leo: Wow.
+
+Steve: And so making a mistake is expensive in prediction because we have to flush all the work we were doing, and then go somewhere else. But 93 percent of the time we're able to get it right.
+
+Leo: Somebody's asking in the chatroom, this isn't security. Well, in a way it is. This is a series Steve's been doing all along on the basics, the fundamentals of computing. In fact, from day one on Security Now! you've really done a great job, I think, of getting people up to speed with these fundamentals, things you have to understand to understand security; right? These are not completely incidental to security.
+
+Steve: It certainly is the case that everything is interrelated. For example, I'm thinking as I'm working toward getting going on CryptoLink, the VPN product that I'm going to do next, well, encryption performance and decryption performance is very important. And understanding the internals of what the chip is doing really does allow a developer who wants to truly optimize their code to arrange the instructions so that the logic in the chips have the most latitude for working. And certainly performance has been something that we've been questing after forever.
+
+Leo: Yeah. And we're getting it with this amazing pipelining and parallelism and so forth.
+
+Steve: So the engineers have got this incredible pipeline built. They've got now this amazing branch prediction system. And then they realize that they've still got a problem because they suck in a return instruction into the top of the pipeline. Well, we know from having discussed this before what a subroutine return does. When we call a subroutine, we're using the stack. We decrement the stack pointer and put the address of the instruction after the call on the stack so that later, once that subroutine has finished, it's able to do a return instruction which looks on the stack for where to return to, which has a beautiful effect from a programmer's standpoint of bringing us right back to the instruction following the one which invoked a subroutine.
+
+Well, one of the first things a subroutine does, because most subroutines don't want to mess up what was going on when they were called, they'll push a bunch of registers value onto the stack themselves so that they can be popped off the stack and restored prior to returning. That allows them to have sort of those registers to work with and then not mess up what was going on in the main code that called the subroutine. Okay, so with that in mind, visualize what's going on in the processor now with the pipeline, where the pipeline is full of instructions toward the end of the subroutine, and then the subroutine is finished, and it does a return.
+
+Now, the problem is that the return uses the value on the stack. But the thing that the subroutine is doing just before it returns is cleaning up its registers, getting their values off the stack in order to restore them to what they were. And this is happening further down in the pipeline. Which means the stack pointer is going to be changing a lot, and there's no way we can use, there's no way we can execute any of the return instruction until literally we get - we know what the stack pointer's going to be. And then we have to go read where it's pointing, get that value. That tells us where to return to.
+
+So then we start fetching instructions from there. Which means a return instruction is deadly. It literally brings everything to a halt because we don't - we don't know where the stack pointer will be because the instructions typically occurring, all of those instructions just before the return are changing the stack pointer as they pop the values of the registers back off the stack into the registers so that they're restored when we go home.
+
+So the engineers scratch their head for a while, and they say, wait a minute. What we need is an internal call stack. We need our own private stack because we know that, more often than not, subroutines nest perfectly. That is, some code calls a subroutine, which will return. Or maybe that subroutine calls a subroutine, but that one returns to the one that called it, and then it returns to the one that called it. In other words, there's a nesting which is almost always followed. Which means that this incredible execution unit in the processor now maintains its own call stack. When it sees that it has been jumped to a subroutine, it records internally the address of the instruction after that call on its own little stack. There's no instructions to get to it. Programmers can't see it. It's completely invisible.
+
+The call stack ranges from 4 to 32 entries in modern processors now. And so what happens is, since the internal pipelining miracle has recorded this, the second a return instruction is seen, which is just a byte, for example, in an Intel instruction is just a 60 hex, a six zero hex, the second that byte is seen, the system says, ah, that's a return instruction. We don't have to wait for anything. We can immediately pull where we know it's ultimately going to return to off of our own internal stack and continue without interruption sucking in more data from the point we're going to be returning to, without missing a beat. So that's another level of what was added.
+
+Now, once all of this was finished, and this was maybe, oh, about a decade ago we had this level of technology, there was still some unhappiness with the contention for resources. That is, there was still not what's called "instruction-level parallelism." There still was, like, the ALUs and the Floating Point Units. They were sitting around not being used all the time. The engineers weren't able to get them busier because there was still too much interdependence among these micro operations that they were just - they couldn't get enough, they weren't able to use the resources fully.
+
+Well, this is when this notion of simultaneous thread execution occurred to them, which Intel calls "hyper-threading." I mentioned it a couple weeks ago in passing. I couldn't do it justice because we didn't have enough foundation to understand what hyper-threading is. Well, we do now, after the last 45 minutes of this. What hyper-threading is, is the recognition that there is what's called "register pressure." There is not enough freedom of value assignment among registers. There's just too much interdependency. But if we had a whole second set of registers, if we duplicated everything, then where some microinstructions are fighting with each other, too interdependent, where they're having to wait for results to finish before the later ones can start, therefore assets like the Arithmetic Logic Unit and Floating Point Unit are sitting around being unused, if we have another physical thread, that is, we have another whole set of registers, well, there, because it's a different thread, they're logically disconnected from the first thread's registers. There is no conflict at all possible between these separate banks of registers.
+
+So what hyper-threading does is, I mean, and this - talk about it being confusing already. This literally pours instructions from two entirely different threads of execution down into the same pipeline, breaking them all up, keeping them all straight, realizing that these micro ops and these registers are actually different from those micro ops and those registers. So now we have - we've doubled the opportunity for exploiting these fixed assets, the Arithmetic Logical Unit and the Floating Point Unit, being able to keep them busy much more of the time, which is what hyper-threading does. Essentially, it doesn't duplicate the entire system, but it allows us to pour two different threads of execution into the same pipeline and get a tremendous boost, I mean, it's not like doubling. We don't get double because the resources weren't that underutilized. Typically it's about a 25 percent gain, which in this quest for performance is better than a kick in the head.
+
+So, lastly, with all of this, sort of with this much industry having been expended in order to satisfy essentially CISC, that is, Complex Instruction Set Computers, the guys designing the RISCs were just dizzy. They said, okay, wow. Do we want to do the same thing? Are we going to basically duplicate this insanity? RISC architecture is different in a number of ways. Fundamentally, the RISC concept was designed to prevent there from being a lot of this kind of like available performance boost because the instruction design just doesn't get itself into trouble so much.
+
+One of the very clever things that RISC instructions do is there's something called "conditional instructions" and something called an "explicit condition code update." Now, what that means is that, notice that we have a stream of instructions that are being executed by the processor, and then a branch instruction is often skipping over some. There'll be something that, like, you don't want to execute in this certain case. So you jump ahead 10 instructions or five instructions or something. You're skipping over them. Which is many times what a branch will do.
+
+What the RISC designers realized was, at the expense of some more bits in the instruction word, and it does widen the instruction word a bit, they could make what's called "conditional instructions" instead of branches, that there are still branches and jumps, and those are being optimized still very much the way they are in CISC instructions, with branch prediction and so forth. There's no way around that. But essentially the RISC guys said, wait a minute. If we just want to skip over five or six instructions, for example, if the result of an add was zero, or if the result did not overflow and the carry bit was set, why not add to any instruction some additional bits that say "execute this unless the condition code is zero." Which means that we've saved ourselves a branch. We don't have to branch over those instructions. We can make the instructions themselves just sort of skip over themselves. The instruction says "only execute me in this certain case," that is, the case where we wouldn't have taken the branch.
+
+So what this did was, this allowed a very aggressive forward-fetching pipeline to go in a straight line. And we understand why pipelines like to go in a straight line. We were talking about that before. This allows the pipeline to fetch ahead. And even though it may not be executing instructions, it saves all of the possibility of a branch misprediction because we don't have a branch at all.
+
+Now, the other trick is, if you had a group of instructions which you collectively wanted to execute or not in a certain case, if you were executing them, you wouldn't want them to change, like, the state of the carry bit or the zero bit or any of the condition codes because then that would mess up the conditional execution of the instructions that followed. So the other thing that was added, in addition to this notion of a conditional, conditionally executed instruction, is the ability for the instruction not to modify the condition code when normally it would. You might be, like, doing some addition. And normally the add instruction will set a flag saying, oh, the outcome was zero, the outcome sent the carry bit, the outcome was not zero, you know, various condition code situations like that.
+
+So what was done was a bit was added that said, do the add, but don't change the condition code because we're wanting to continue the instructions afterwards along the same - to have the same effect as the one we just executed based on a condition code which was set deliberately earlier in the path. And so that was essentially the final optimization that the RISC guys brought into the design of the instruction set, which further made pipelines able to absorb this huge number of instructions, sort through everything, and perform really this just overwhelming job of making processors incredibly fast.
+
+Leo: It is such an amazing, mind-boggling thing, especially when you think that we're operating now at the microscopic - microscopic - at the level of a molecule's width, in some of these newer 45-nanometer processors. It's truly amazing.
+
+Steve: Well, yeah, and I would imagine that probably everyone listening to the podcast has at one time or another seen one of those very cool photomicrographs just of a processor chip, sort of as if it was taken - it looks like a satellite photo of a city. And you look at that, and you think, my goodness, look at that, I mean, you can just tell by the level of detail in there that an incredible amount of something is going on. Well, what we've just described is what that something is. This technology is what has increased the power consumption, increased the size, increased the cost, but dramatically allowed the performance of these processors to increase.
+
+And this, what we described today, this kind of incredible, out-of-order execution, branch prediction, internal call stack, register renaming, all of this is in all of today's processors. It's just being taken for granted now. It's the way we have the kind of performance that we do. Without any of this stuff, we'd be back with an 8088 running at 4.77 MHz.
+
+Leo: There was a really good book, must be 10 years ago now, called "The Silicon Zoo," where they had those little pictures, the pictures of the stuff. Of course, it's so old now, it's changed a lot. But these photomicrographs, if you search for Silicon Zoo, they're still online. Some pretty amazing pictures. You can tell how old this site is, though, because it says "This is going to take a minute at 28.8." It's a big image. But you can do a little googling, and you'll find it. Fascinating stuff, Steve. Once again, you've done a great job of explaining how this stuff works. And networking next. But next week we're going to do a Q&A, I think; yes?
+
+Steve: Yup. We have a Q&A, and then I'm going to - many listeners have said, hey, Steve, I thought you were going to tell us about LastPass. We're using it. We want to know we should be and it's safe. So that's queued up for two weeks from now. We'll do a Q&A next week, and then I'm going to explain in detail the cryptographic protocols for LastPass and how the whole system works.
+
+Leo: Oh, great. That's great. If you have Q&A questions, GRC.com/feedback is the place to go. He's got a feedback form there. GRC is a great place to go for not only SpinRite, the world's best hard drive maintenance and recovery utility, but also this show. 16KB versions are there for bandwidth-impaired fellas and gals. Of course I love the transcripts, it's a great way to follow along. And I suspect more than one teacher is using your lectures on computer fundamentals in their classes. So I think transcripts would be very helpful in that case, as well. You're more than welcome to do that.
+
+I hope that you understand you don't have to get our permission to use these podcasts. They're Creative Commons licensed. Attribution-Noncommercial-Share Alike is the license. You can find out more at TWiT.tv at the bottom of the page there about our license. And you're more than welcome to use these. In fact, I think it's great if you do in courseware. Somebody was asking in the chatroom.
