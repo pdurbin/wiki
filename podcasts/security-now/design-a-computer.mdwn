@@ -1701,3 +1701,7 @@ Steve: Yup. We have a Q&A, and then I'm going to - many listeners have said, hey
 Leo: Oh, great. That's great. If you have Q&A questions, GRC.com/feedback is the place to go. He's got a feedback form there. GRC is a great place to go for not only SpinRite, the world's best hard drive maintenance and recovery utility, but also this show. 16KB versions are there for bandwidth-impaired fellas and gals. Of course I love the transcripts, it's a great way to follow along. And I suspect more than one teacher is using your lectures on computer fundamentals in their classes. So I think transcripts would be very helpful in that case, as well. You're more than welcome to do that.
 
 I hope that you understand you don't have to get our permission to use these podcasts. They're Creative Commons licensed. Attribution-Noncommercial-Share Alike is the license. You can find out more at TWiT.tv at the bottom of the page there about our license. And you're more than welcome to use these. In fact, I think it's great if you do in courseware. Somebody was asking in the chatroom.
+
+## See also
+
+* http://stackoverflow.com/questions/10324835/what-does-actual-machine-code-look-like-at-various-points/10369149#10369149
