@@ -884,6 +884,8 @@ Steve: And again, there are reasons for all of this.
 
 From http://www.grc.com/sn/sn-242.htm http://wiki.twit.tv/wiki/Security_Now_242
 
+### Assembly vs. high level languages
+
 Leo: Question #8. David W. Griffin in Atlanta, Georgia comments about programming in assembly language: I respect your abilities to program in assembly language, but much of the world's software these days is designed for large-scale software for which high-level solutions rather than low-level solutions are the right way to go. Developing large software projects with large staffs and then maintaining them for a decade is not a job for which you would select assembly language, not if you could help it, anyway. I'm not sure I agree with that.
 
 Software engineering has made little progress toward reusable components, but at least high-level languages have some effect on achieving reliability. Nothing you have said contradicts this. You, after all, are doing small, well-focused applications with a single author. But I thought I'd make the point that much of the world's software today has other design considerations. I enjoy the podcast and your lectures on computer science.
@@ -999,6 +1001,8 @@ Steve: Oh, well, yes. And there's also write-back versus write-through. And ther
 ## Listener feedback (Security Now 249, 1:30:21)
 
 From http://www.grc.com/sn/sn-249.htm http://wiki.twit.tv/wiki/Security_Now_249
+
+### Steve hopes to create an ideal, beautiful instruction set
 
 Leo: Question 7, Richard Doyle in Sydney, Australia stumbled upon your legacy project. I don't know what that is. Dear Steve, I'm 32, and I've only been listening to Security Now! for a few months, but I'm quickly catching up. Your explanation over the last several weeks of the fundamentals of computer architecture, organization, design and evolution over time has been accessible enough to inspire me to genuinely want to learn more and more about this entire area myself, from very first principles.
 
@@ -1197,6 +1201,8 @@ Leo: I tell you, you've got to put these all together on a DVD or something, and
 ## Listener feedback (Security Now 251, 1:00:22)
 
 From http://www.grc.com/sn/sn-251.htm http://wiki.twit.tv/wiki/Security_Now_251
+
+### How buffer overflows and similar attacks work
 
 Leo: Yeah. Question 2. Actually 3. No, 2. Gary Robinson in, now, this is a good one, Magherafelt, Ireland, asks a question: What happens after arbitrary code execution? Hey, Steve and Leo. Thanks for the great show in Security Now!, especially the ground-up computer principle series. I've been listening for just over a year now and have finally caught up on all 250+ episodes. Leo's right, I'd much rather listen to podcasts during my hour-and-a-half daily drive than the same boring thing on radio. It's true. That's our plan, anyway, our evil plan.
 
@@ -1450,9 +1456,9 @@ Steve: It does.
 
 From http://www.grc.com/sn/sn-253.htm http://wiki.twit.tv/wiki/Security_Now_253
 
-Leo: John Hughan with Question 2 in Austin, Texas, wonders why microcode reduces complexity. This is from the last episode where we talked about "RISCy Business." Hey, Steve. Great show, as always. I'm hoping in the upcoming Q&A that you might be able to explain in a bit more detail how having microcode made engineers' jobs easier in terms of the number of AND and OR gates required to implement complex instructions. Why is it not the case that having a "computer within a computer" just meant that those AND and OR gates had to be implemented in the microcode area in order to run those instructions and manage the "main" area? Or, if microcode allows those types of instructions to be executed in a fundamentally different way that doesn't require those AND and OR gates, why can't the rest of the instruction set be implemented that way? Keep up
+### Does microcode reduce complexity?
 
-the great work.
+Leo: John Hughan with Question 2 in Austin, Texas, wonders why microcode reduces complexity. This is from the last episode where we talked about "RISCy Business." Hey, Steve. Great show, as always. I'm hoping in the upcoming Q&A that you might be able to explain in a bit more detail how having microcode made engineers' jobs easier in terms of the number of AND and OR gates required to implement complex instructions. Why is it not the case that having a "computer within a computer" just meant that those AND and OR gates had to be implemented in the microcode area in order to run those instructions and manage the "main" area? Or, if microcode allows those types of instructions to be executed in a fundamentally different way that doesn't require those AND and OR gates, why can't the rest of the instruction set be implemented that way? Keep up the great work.
 
 So he's saying really, when you were saying that one of the things that came up was that they were building into the silicon these fancy instructions, like linked lists, so they came up with microcode as a way to implement it within the silicon, almost in software. But was it software? Or is it - does it require actual AND and OR gates?
 
