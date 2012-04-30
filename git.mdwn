@@ -1,3 +1,5 @@
+[[!toc]]
+
 ## Howto
 
 ### How to tell which files git is tracking
