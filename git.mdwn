@@ -1,0 +1,7 @@
+## Howto
+
+### How to tell which files git is tracking
+
+    git ls-files
+
+See also http://stackoverflow.com/questions/2405305/git-how-to-tell-if-a-file-is-git-tracked-by-shell-exit-code
