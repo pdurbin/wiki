@@ -1,0 +1,7 @@
+## How can I query a WINS server for the IP address of a NetBIOS name?
+
+Useful in case a Windows host isn't in DNS.
+
+    [pdurbin@beamish ~]$ nmblookup -U 10.0.0.10 -R 'SERVER1'
+    querying SERVER1 on 10.0.0.10
+    10.0.0.20 SERVER1<00>
