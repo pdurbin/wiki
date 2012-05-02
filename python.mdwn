@@ -1,0 +1,9 @@
+## Python code checkers
+
+### pep8 - Python style guide checker
+
+http://pypi.python.org/pypi/pep8
+
+### pylint - Python code static checker
+
+pylint tutorial: http://www.logilab.org/4736
