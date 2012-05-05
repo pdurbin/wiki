@@ -1,0 +1,102 @@
+On my ThinkPad X220T running GNOME 3 it's pretty easy to be typing along and accidentally bump the touchpad, causing some window other than the one you're typing into to be raised.
+
+Ostensibly, the solution to this problem is to click your name in the upper right, then click "System Settings", then "Mouse and Touchpad", and then "Disable touchpad while typing" under as shown the screenshot at http://www.thinkwiki.org/wiki/Synaptics_TouchPad_driver_for_X .
+
+This will cause `syndaemon` ( http://linuxcommand.org/man_pages/syndaemon1.html ) to start up with the following options:
+
+    syndaemon -i 2.0 -K -R
+
+Here's what the options mean:
+
+    -i <idle-time>
+           How many seconds  to  wait  after  the  last  key  press  before
+           enabling the touchpad.  (default is 2.0s).
+
+    -k     Ignore modifier keys when monitoring keyboard activity.
+
+    -K     Like -k but also ignore Modifier+Key combos.
+
+    -R     Use  the  XRecord  extension  for  detecting  keyboard  activity
+           instead of polling the keyboard state.
+
+Having syndaemon running with those options eliminates the original problem, but it absolutely kills my productivity because the `-t` option is **not** enabled:
+
+    -t     Only disable tapping and  scrolling,  not  mouse  movements,  in
+           response to keyboard activity.
+
+Without `-t`, as soon as I stop typing and try to move the pointer, I can't.  I have to wait 2 full seconds before the pointer will move.
+
+Now, back at that "Mouse and Touchpad" interface, I do not see any way to configure which options are given to `syndaemon` and from what I can tell, the options are hard coded:
+
+http://git.gnome.org/browse/gnome-settings-daemon/tree/plugins/mouse/gsd-mouse-manager.c?id=5ee48ce8aa66f6c4fdc4aa2c07bc03bdb83bcb65#n540
+
+The solution is twofold.  I can't abide `syndaemon` with its default options, so I leave "Disable touchpad while typing" unchecked.  Then, to get `syndaemon` to start with the options I want, I run `gnome-session-properties` to open the "Startup Applications Preferences" dialog.  From there, I click Add, fill in a name (I called mine "0pdurbin-disable-touchpad-while-typing" so it would appear at the top), and a command, which for me is the following:
+
+    syndaemon -i 1.0 -K -R -t
+
+Again, the major change is the addition of `-t` so `syndaemon` doesn't paralyze my pointer, but while I was in there I reduced the idle time to one second.
+
+I hope this helps someone because this was driving me crazy.
+
+To avoid using a GUI tool like `gnome-session-properties` it looks like you could set up a file like this, which was created in my case:
+
+    [pdurbin@tabby ~]$ cat ~/.config/autostart/syndaemon.desktop 
+
+    [Desktop Entry]
+    Type=Application
+    Exec=syndaemon -i 1.0 -K -R -t
+    Hidden=false
+    X-GNOME-Autostart-enabled=true
+    Name[en_US]=0pdurbin-disable-touchpad-while-typing
+    Name=0pdurbin-disable-touchpad-while-typing
+    Comment[en_US]=
+    Comment=
+    [pdurbin@tabby ~]$ 
+
+Incidentally, this seems to be a pretty complete list of applications that are autostarted, the ones listed in `gnome-session-properties`:
+
+    [pdurbin@tabby wiki]$ find /etc/xdg/autostart /usr/share/autostart /usr/share/gdm/autostart/ /usr/share/gnome/autostart
+    /etc/xdg/autostart
+    /etc/xdg/autostart/abrt-applet.desktop
+    /etc/xdg/autostart/gnome-keyring-secrets.desktop
+    /etc/xdg/autostart/nautilus-autostart.desktop
+    /etc/xdg/autostart/xfce-polkit-gnome-authentication-agent-1.desktop
+    /etc/xdg/autostart/user-dirs-update-gtk.desktop
+    /etc/xdg/autostart/tracker-store.desktop
+    /etc/xdg/autostart/vino-server.desktop
+    /etc/xdg/autostart/at-spi-registryd.desktop
+    /etc/xdg/autostart/tracker-miner-fs.desktop
+    /etc/xdg/autostart/pulseaudio.desktop
+    /etc/xdg/autostart/gnome-sound-applet.desktop
+    /etc/xdg/autostart/imsettings-start.desktop
+    /etc/xdg/autostart/gnome-fallback-mount-helper.desktop
+    /etc/xdg/autostart/at-spi-dbus-bus.desktop
+    /etc/xdg/autostart/xfconf-migration-4.6.desktop
+    /etc/xdg/autostart/deja-dup-monitor.desktop
+    /etc/xdg/autostart/gnome-keyring-ssh.desktop
+    /etc/xdg/autostart/orca-autostart.desktop
+    /etc/xdg/autostart/gsettings-data-convert.desktop
+    /etc/xdg/autostart/bluetooth-applet.desktop
+    /etc/xdg/autostart/xfce4-power-manager.desktop
+    /etc/xdg/autostart/evolution-alarm-notify.desktop
+    /etc/xdg/autostart/xfce4-tips-autostart.desktop
+    /etc/xdg/autostart/xfce4-settings-helper-autostart.desktop
+    /etc/xdg/autostart/print-applet.desktop
+    /etc/xdg/autostart/gdu-notification-daemon.desktop
+    /etc/xdg/autostart/gnome-keyring-pkcs11.desktop
+    /etc/xdg/autostart/gnome-keyring-gpg.desktop
+    /etc/xdg/autostart/tracker-miner-flickr.desktop
+    /etc/xdg/autostart/caribou-autostart.desktop
+    /etc/xdg/autostart/gnome-screensaver.desktop
+    /etc/xdg/autostart/nm-applet.desktop
+    /etc/xdg/autostart/sealertauto.desktop
+    /etc/xdg/autostart/gnome-settings-daemon.desktop
+    /etc/xdg/autostart/pulseaudio-kde.desktop
+    /usr/share/autostart
+    /usr/share/gdm/autostart/
+    /usr/share/gdm/autostart/LoginWindow
+    /usr/share/gdm/autostart/LoginWindow/libcanberra-ready-sound.desktop
+    /usr/share/gnome/autostart
+    /usr/share/gnome/autostart/gnome-authentication-agent.desktop
+    /usr/share/gnome/autostart/libcanberra-login-sound.desktop
+    [pdurbin@tabby wiki]$ 
