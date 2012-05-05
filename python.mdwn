@@ -7,3 +7,9 @@ http://pypi.python.org/pypi/pep8
 ### pylint - Python code static checker
 
 pylint tutorial: http://www.logilab.org/4736
+
+## Writing command line tools in Python
+
+http://docs.python.org/library/optparse.html
+
+http://www.ibm.com/developerworks/aix/library/au-pythocli/
