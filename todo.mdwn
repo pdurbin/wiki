@@ -1,0 +1,3 @@
+- add to DNS:
+    - http://munin.greptilian.com
+    - http://data.greptilian.com
