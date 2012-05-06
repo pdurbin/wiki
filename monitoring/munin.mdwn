@@ -1,0 +1,5 @@
+Official site: http://munin-monitoring.org
+
+Demo site: http://munin.greptilian.com
+
+Plugins: https://github.com/munin-monitoring/contrib/
