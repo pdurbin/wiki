@@ -3,3 +3,34 @@ Official site: http://munin-monitoring.org
 Demo site: http://munin.greptilian.com
 
 Plugins: https://github.com/munin-monitoring/contrib/
+
+## Trouble with the munin yum plugin
+
+    [root@server1 ~]# grep yum /var/log/munin/munin-update.log | tail -1
+    2012/05/06 10:20:07 [WARNING] Service yum on server1.greptilian.com/127.0.0.1:4949 returned no data for label pending
+    [root@server1 ~]# 
+    [root@server1 ~]# rpm -qf /usr/sbin/munin-run 
+    munin-node-1.4.7-1.el6.noarch
+    [root@server1 ~]# rpm -q --qf '%{VENDOR}|%{BUILDHOST}\n' munin-node
+    Fedora Project|x86-12.phx2.fedoraproject.org
+    [root@server1 ~]# 
+    [root@server1 ~]# munin-run yum
+    Can't open /var/lib/munin/plugin-state/yum.state for reading: No such file or directory
+    Please read 'munindoc yum' to understand why if the file does not exist.
+    [root@server1 ~]# touch /var/lib/munin/plugin-state/yum.state
+    [root@server1 ~]# chown munin:munin /var/lib/munin/plugin-state/yum.state
+    [root@server1 ~]# munin-run yum
+    pending.value 0
+    [root@server1 ~]# 
+    [root@server1 ~]# file /var/lib/munin/plugin-state/yum.state
+    /var/lib/munin/plugin-state/yum.state: empty
+    [root@server1 ~]# 
+    [root@server1 ~]# tail -1 /var/log/audit/audit.log
+    type=USER_END msg=audit(1336315212.521:29175): user pid=9668 uid=498 auid=498 ses=1746 subj=system_u:system_r:crond_t:s0-s0:c0.c1023 msg='op=PAM:session_close acct="munin" exe="/usr/sbin/crond" hostname=? addr=? terminal=cron res=success'
+    [root@server1 ~]# 
+
+See also #806 (yum plugin in 1.4.x does not cope with update from 1.2.6) - Munin - Trac - http://munin-monitoring.org/ticket/806
+
+http://munin-monitoring.org/wiki/Debugging_Munin_plugins
+
+
