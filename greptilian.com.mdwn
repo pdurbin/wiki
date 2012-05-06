@@ -5,3 +5,11 @@ http://greptilian.com is a domain owned by Philip Durbin
 ### server1.greptilian.com
 
 http://munin.greptilian.com/greptilian.com/server1.greptilian.com/
+
+<img src="http://munin.greptilian.com/greptilian.com/server1.greptilian.com/df-week.png">
+<img src="http://munin.greptilian.com/greptilian.com/server1.greptilian.com/if_eth0-week.png">
+<img src="http://munin.greptilian.com/greptilian.com/server1.greptilian.com/cpu-week.png">
+<img src="http://munin.greptilian.com/greptilian.com/server1.greptilian.com/load-week.png">
+<img src="">
+<img src="http://munin.greptilian.com/greptilian.com/server1.greptilian.com/memory-week.png">
+<img src="http://munin.greptilian.com/greptilian.com/server1.greptilian.com/uptime-week.png">
