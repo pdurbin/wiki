@@ -33,6 +33,10 @@ Plugins: https://github.com/munin-monitoring/contrib/
 
 * http://munin-monitoring.org/browser/tags/1.4.7/plugins/node.d.linux/yum.in
 * http://pkgs.fedoraproject.org/gitweb/?p=munin.git;a=tree
+* http://dl.fedoraproject.org/pub/epel/6/x86_64/repoview/munin.html
+* http://dl.fedoraproject.org/pub/epel/6/x86_64/repoview/munin-common.html
+* http://dl.fedoraproject.org/pub/epel/6/x86_64/repoview/munin-node.html
+* http://dl.fedoraproject.org/pub/epel/6/SRPMS/repoview/munin.html
 * http://munin-monitoring.org/wiki/Debugging_Munin_plugins
-* Bug 786030 – Munins yum.state is not created automatically - https://bugzilla.redhat.com/show_bug.cgi?id=786030
-* #806 (yum plugin in 1.4.x does not cope with update from 1.2.6) - Munin - Trac - http://munin-monitoring.org/ticket/806
+* Bug 786030 - Munins yum.state is not created automatically - https://bugzilla.redhat.com/show_bug.cgi?id=786030
+* Ticket #806 (yum plugin in 1.4.x does not cope with update from 1.2.6) - http://munin-monitoring.org/ticket/806
