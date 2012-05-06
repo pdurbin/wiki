@@ -8,4 +8,6 @@ You might also be interested in some of these:
 
 * http://git.greptilian.com
 * http://yum.greptilian.com
+* http://munin.greptilian.com
+* http://data.greptilian.com
 * http://thinkup.greptilian.com
