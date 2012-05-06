@@ -1,3 +1,17 @@
 * https://github.com/technicalpickles/homesick
 * https://github.com/jim/briefcase
 * http://irclog.perlgeek.de/crimsonfu/2012-04-30#i_5519276
+
+## homesick
+
+    [pdurbin@server1 ~]$ gem install homesick
+    Fetching: thor-0.15.1.gem (100%)
+    Fetching: homesick-0.6.1.gem (100%)
+    Successfully installed thor-0.15.1
+    Successfully installed homesick-0.6.1
+    2 gems installed
+    Installing ri documentation for thor-0.15.1...
+    Installing ri documentation for homesick-0.6.1...
+    Installing RDoc documentation for thor-0.15.1...
+    Installing RDoc documentation for homesick-0.6.1...
+    [pdurbin@server1 ~]$ 
