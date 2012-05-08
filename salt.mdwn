@@ -6,3 +6,4 @@
 * https://github.com/saltstack/salt/issues/created_by/pdurbin?page=1&state=open
 * https://github.com/saltstack/salt/issues/created_by/pdurbin?page=1&state=closed
 * http://git.greptilian.com/?p=salt.git
+* http://salt.readthedocs.org/en/latest/topics/releases/0.9.9.html#state-syntax-update
