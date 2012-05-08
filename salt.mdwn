@@ -1,0 +1,8 @@
+* http://saltstack.org
+* http://docs.saltstack.org
+* https://github.com/saltstack/salt
+* http://irclog.perlgeek.de/salt/today
+* https://groups.google.com/forum/#!forum/salt-users
+* https://github.com/saltstack/salt/issues/created_by/pdurbin?page=1&state=open
+* https://github.com/saltstack/salt/issues/created_by/pdurbin?page=1&state=closed
+* http://git.greptilian.com/?p=salt.git
