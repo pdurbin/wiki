@@ -6,7 +6,7 @@ The source of this wiki ([[markdown]], mostly) is available at http://git.grepti
 
 That's where you can find my tweaks to the default page template, for example: http://git.greptilian.com/?p=wiki.git;a=history;f=templates/page.tmpl
 
-I order to get autolinking working (MKD_AUTOLINK per http://www.pell.portland.or.us/~orc/Code/discount/ ), I made this change to http://cpansearch.perl.org/src/SEKIMURA/Text-Markdown-Discount-0.02/Discount.xs before running `make`:
+In order to get autolinking working (MKD_AUTOLINK per http://www.pell.portland.or.us/~orc/Code/discount/ ), I made this change to http://cpansearch.perl.org/src/SEKIMURA/Text-Markdown-Discount-0.02/Discount.xs before running `make`:
 
     [pdurbin@server1 Text-Markdown-Discount-0.02]$ diff -u Discount.xs.orig Discount.xs
     --- Discount.xs.orig    2012-01-01 20:51:51.000000000 -0500
@@ -23,3 +23,5 @@ I order to get autolinking working (MKD_AUTOLINK per http://www.pell.portland.or
     [pdurbin@server1 Text-Markdown-Discount-0.02]$ 
 
 As http://ikiwiki.info/plugins/mdwn/ says, ikiwiki prefers to use Text::Markdown::Discount, if it's available.
+
+You can subscribe to a feed of updates to this wiki at http://git.greptilian.com/?p=wiki.git;a=atom
