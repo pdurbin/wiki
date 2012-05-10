@@ -1,0 +1,122 @@
+## Recovering from a domain in a strange state
+
+### Strange? How so?
+
+#### On the old hypervisor, the domain is shut off but persistent
+
+    [root@kvm01b ~]# virsh list
+     Id Name                 State
+    ----------------------------------
+
+    [root@kvm01b ~]# virsh list --all
+     Id Name                 State
+    ----------------------------------
+      - mailserver1          shut off
+
+    [root@kvm01b ~]# virsh dominfo mailserver1Id:             -
+    Name:           mailserver1
+    UUID:           b4d4b8db-13e5-4269-a40c-5c5311d8e28e
+    OS Type:        hvm
+    State:          shut off
+    CPU(s):         1
+    Max memory:     4194304 kB
+    Used memory:    4194304 kB
+    Persistent:     yes
+    Autostart:      disable
+    Managed save:   no
+
+    [root@kvm01b ~]# 
+
+#### On the new hypervisor, the domain is running but not persistent
+
+    [root@kvm02b ~]# virsh list --all
+     Id Name                 State
+    ----------------------------------
+      1 webserver1           running
+      9 dbserver1            running
+     11 mailserver1          running
+
+    [root@kvm02b ~]# virsh dominfo mailserver1
+    Id:             11
+    Name:           mailserver1
+    UUID:           b4d4b8db-13e5-4269-a40c-5c5311d8e28e
+    OS Type:        hvm
+    State:          running
+    CPU(s):         1
+    CPU time:       1136.4s
+    Max memory:     4194304 kB
+    Used memory:    4194304 kB
+    Persistent:     no
+    Autostart:      disable
+    Managed save:   no
+
+    [root@kvm02b ~]# 
+
+#### So?
+
+We want the running domain to be persistent
+
+### How did it get this way?
+
+I had run this command
+
+    [root@kvm01b ~]# virsh migrate --live --verbose mailserver1 qemu+ssh://kvm02b/system
+
+I should have used included `--persistent --undefinesource` as options to move the domain configuration information over to the target host.
+
+### How make a running VM persistent
+
+#### Dump the XML and run `virsh define` on it
+
+    [root@kvm02b ~]# virsh dominfo mailserver1
+    Id:             11
+    Name:           mailserver1
+    UUID:           b4d4b8db-13e5-4269-a40c-5c5311d8e28e
+    OS Type:        hvm
+    State:          running
+    CPU(s):         1
+    CPU time:       1141.6s
+    Max memory:     4194304 kB
+    Used memory:    4194304 kB
+    Persistent:     no
+    Autostart:      disable
+    Managed save:   no
+
+    [root@kvm02b ~]# virsh dumpxml mailserver1 > /tmp/spinal-prd.xml
+    [root@kvm02b ~]# virsh define /tmp/spinal-prd.xml
+    Domain mailserver1 defined from /tmp/spinal-prd.xml
+
+    [root@kvm02b ~]# virsh dominfo mailserver1
+    Id:             11
+    Name:           mailserver1
+    UUID:           b4d4b8db-13e5-4269-a40c-5c5311d8e28e
+    OS Type:        hvm
+    State:          running
+    CPU(s):         1
+    CPU time:       1142.6s
+    Max memory:     4194304 kB
+    Used memory:    4194304 kB
+    Persistent:     yes
+    Autostart:      disable
+    Managed save:   no
+
+    [root@kvm02b ~]# 
+
+### How to get rid of the old XML config info on the old hypervisor
+
+#### Run `virsh undefine` on the domain id
+
+    [root@kvm01b ~]# virsh list --all
+     Id Name                 State
+    ----------------------------------
+      - mailserver1          shut off
+
+    [root@kvm01b ~]# virsh undefine mailserver1
+    Domain mailserver1 has been undefined
+
+    [root@kvm01b ~]# 
+    [root@kvm01b ~]# virsh list --all
+     Id Name                 State
+    ----------------------------------
+
+    [root@kvm01b ~]# 
