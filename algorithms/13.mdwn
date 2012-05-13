@@ -4,8 +4,9 @@ Let's assume that the weights, and I'll try a really small example to start with
 
 So what we do is, we start by considering for each item whether to take it or not. For reasons that will become apparent when we implement it in code, I'm going to start at the back. The last element in the list.
 
-5,3,2
-9,7,8
+    w = [5,3,2]
+    v = [9,7,8]
+    max = 5
 
                                           .-------.
                          .----------------| 2,5,0 |-----------------.
