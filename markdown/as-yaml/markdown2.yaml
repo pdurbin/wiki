@@ -1,0 +1,7 @@
+CNAMEs:
+
+    data.greptilian.com:    server1.greptilian.com
+    git.greptilian.com:     server1.greptilian.com
+    munin.greptilian.com:   server1.greptilian.com
+    thinkup.greptilian.com: server1.greptilian.com
+    yum.greptilian.com:     server1.greptilian.com
