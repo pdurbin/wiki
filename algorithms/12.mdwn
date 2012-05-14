@@ -1,5 +1,9 @@
 http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/video-lectures/lecture-12/
 
+The summation, from i equals 1 to n, where n is the number of items.  Maximize the sum of the price of item i times whether or not I took i.
+
+\sum_{i=1}^n p_i x_i
+
 I now want to get back to algorithms. And where we've sort of been for a while, and where we will stay for a while. More fundamentally, I want to get back to what I think of as the main theme of 6.00, which is taking a problem and finding some way to formulate the problem so that we can use computing to help us get an answer.
 
 And in particular, we're going to spend the next few lectures looking at a class of problems known as optimization problems. In general, every optimization problem is the same. It has two parts. Some function that you're either attempting to maximize or minimize the value of. And these are duals. And some set of constraints that must be honored. Possibly an empty set of constraints.
