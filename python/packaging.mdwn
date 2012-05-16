@@ -1,0 +1,3 @@
+http://foobar.lu/wp/2012/05/13/a-comprehensive-step-through-python-packaging-a-k-a-setup-scripts/
+
+http://guide.python-distribute.org/introduction.html#current-state-of-packaging
