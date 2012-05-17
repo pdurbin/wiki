@@ -2,7 +2,7 @@ http://greptilian.com is a domain owned by [Philip Durbin](http://greptilian.com
 
 ## Servers
 
-### server1.greptilian.com
+### server1.greptilian.com (launched 2012-04-11)
 
 http://munin.greptilian.com/greptilian.com/server1.greptilian.com/
 
