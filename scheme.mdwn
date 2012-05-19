@@ -1,7 +1,48 @@
-From http://see.stanford.edu/materials/icsppcs107/transcripts/ProgrammingParadigms-Lecture19.html
+From [lecture 19](http://see.stanford.edu/materials/icsppcs107/transcripts/ProgrammingParadigms-Lecture19.html) of [Programming Paradigms](http://see.stanford.edu/see/lecturelist.aspx?coll=2d712634-2bf1-4b55-9a3a-ca9d470755ee), one of the [courses](http://see.stanford.edu/see/courses.aspx) offered by [Stanford Engineering Everywhere](http://see.stanford.edu):
 
-    #|kawa:17|# (car (cdr '(1 2 3 4 5)))
-    2
-    #|kawa:18|# 
+    #|kawa:1|# 4
+    4
+    #|kawa:2|# "hello"
+    hello
+    #|kawa:3|# #f
+    #f
+    #|kawa:4|# #t
+    #t
+    #|kawa:5|# 11.752
+    11.752
+    #|kawa:6|# 11/5
+    11/5
+    #|kawa:7|# 22/4
+    11/2
+    #|kawa:8|# (+ 1 2 3)
+    6
+    #|kawa:9|# (* (+ 4 4) (+ 5 5))
+    80
+    #|kawa:10|# (> 4 2)
+    #t
+    #|kawa:11|# (< 10 5)
+    #f
+    #|kawa:12|# (and (> 4 2) (< 10 5))
+    #f
+    #|kawa:13|# (car '(1 2 3 4 5))
+    1
+    #|kawa:14|# (cdr '(1 2 3 4 5))
+    (2 3 4 5)
+    #|kawa:15|# (car (cdr (cdr '(1 2 3 4 5))))
+    3
+    #|kawa:16|# (car (1 2 3 4 5))
+    Argument  (1) to 'apply-to-args' has wrong type (gnu.math.IntNum) (expected: procedure)
+            at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:170)
+            at atInteractiveLevel$7.run(stdin:16)
+            at gnu.expr.ModuleExp.evalModule2(ModuleExp.java:284)
+            at gnu.expr.ModuleExp.evalModule(ModuleExp.java:185)
+            at kawa.Shell.run(Shell.java:281)
+            at kawa.Shell.run(Shell.java:194)
+            at kawa.Shell.run(Shell.java:175)
+            at kawa.repl.main(repl.java:848)
+    #|kawa:17|# '(1 3 (4 (5)))
+    (1 3 (4 (5)))
+    #|kawa:18|# (quote (1 3 (4 (5))))
+    (1 3 (4 (5)))
 
 See also http://reprog.wordpress.com/2010/03/23/the-long-overdue-serious-attempt-at-lisp-part-1-which-lisp/
