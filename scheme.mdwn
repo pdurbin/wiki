@@ -1,0 +1,7 @@
+From http://see.stanford.edu/materials/icsppcs107/transcripts/ProgrammingParadigms-Lecture19.html
+
+    #|kawa:17|# (car (cdr '(1 2 3 4 5)))
+    2
+    #|kawa:18|# 
+
+See also http://reprog.wordpress.com/2010/03/23/the-long-overdue-serious-attempt-at-lisp-part-1-which-lisp/
