@@ -1,4 +1,4 @@
-From [lecture 19](http://see.stanford.edu/materials/icsppcs107/transcripts/ProgrammingParadigms-Lecture19.html) of [Programming Paradigms](http://see.stanford.edu/see/lecturelist.aspx?coll=2d712634-2bf1-4b55-9a3a-ca9d470755ee), one of the [courses](http://see.stanford.edu/see/courses.aspx) offered by [Stanford Engineering Everywhere](http://see.stanford.edu):
+From [lecture 19](http://see.stanford.edu/materials/icsppcs107/transcripts/ProgrammingParadigms-Lecture19.html) of [CS107: Programming Paradigms from Spring 2008](http://see.stanford.edu/see/courseInfo.aspx?coll=2d712634-2bf1-4b55-9a3a-ca9d470755ee) (taught by [Jerry](http://twitter.com/jerrycainjr)[ Cain](http://www.linkedin.com/pub/jerry-cain/0/12/a97)), one of the [courses](http://see.stanford.edu/see/courses.aspx) offered by [Stanford Engineering Everywhere](http://see.stanford.edu):
 
     #|kawa:1|# 4
     4
