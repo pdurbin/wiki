@@ -1,9 +1,9 @@
 data-liberation.git: my data from various services  
-dotfiles.git:  ~pdurbin configs  
+dotfiles.git:  $HOME sweet $HOME  
 gadfly.git:  rants  
-google-python-exercises.git: from http://code.google.com/edu/languages/google-python-class/  
+google-python-exercises.git: google-python-exercises.zip, expanded   
 grinfra.git: greptilian.com infrastructure stuff  
-remind-recurring-todo.git: define recurring todo's with remind  
-salt.git:  configs  
+remind-recurring-todo.git: demo of recurring todo's with remind(1)  
+salt.git:  greptilian.com server configs  
 wellington.git:  truth-teller, truth-lover  
-wiki.git: ikiwiki source  
+wiki.git: source for http://wiki.greptilian.com  
