@@ -7,3 +7,4 @@ remind-recurring-todo.git: demo of recurring todo's with remind(1)
 salt.git: greptilian.com server configs  
 wellington.git: truth-teller, truth-lover  
 wiki.git: source for http://wiki.greptilian.com  
+media.git: images, videos, etc.
