@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+		<title>pdurbin on Huffduffer</title>
+		<itunes:summary>pdurbin</itunes:summary>
+		<description>pdurbin</description>
+		<itunes:owner>
+			<itunes:name>Philip Durbin</itunes:name>
+		</itunes:owner>
+		<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		<image>
+			<title>pdurbin on Huffduffer</title>
+			<link>http://huffduffer.com/</link>
+			<url>http://huffduffer.com/apple-touch-icon-114x114-precomposed.png</url>
+		</image>
+		<language>en</language>
+		<link>http://huffduffer.com/pdurbin</link>
+		<atom:link href="http://huffduffer.com/pdurbin/rss" rel="self" type="application/rss+xml"/>
+		<item>
+			<title>Fresh Air interview with Maurice Sendak</title>
+			<description>Fresh Air's Terry Gross interviews children's author Maurice Sendak.  I found this touching.  Transcript: http://www.npr.org/templates/transcript/transcript.php?storyId=140435330</description>
+			<guid>http://huffduffer.com/pdurbin/52113</guid>
+			<link>http://huffduffer.com/pdurbin/52113</link>
+			<enclosure url="http://pd.npr.org/anon.npr-mp3/npr/fa/2011/09/20110920_fa_02.mp3" type="audio/mpeg" length="9562407"/>
+			<pubDate>Sat, 24 Sep 2011 16:48:55 GMT</pubDate>
+			<category>maurice sendak</category>
+			<category>fresh air</category>
+			<category>terry gross</category>
+			<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		</item>
+		<item>
+			<title>Indiana Jones and Raiders of the Lost Ark on The Incomparable Podcast</title>
+			<description>This is a very enjoyable discussion among some guys who know Raiders of the Lost Ark inside and out.</description>
+			<guid>http://huffduffer.com/pdurbin/48539</guid>
+			<link>http://huffduffer.com/pdurbin/48539</link>
+			<enclosure url="http://www.theincomparable.com/podcast/incomparable8.mp3" type="audio/mpeg" length="30740588"/>
+			<pubDate>Tue, 9 Aug 2011 11:32:48 GMT</pubDate>
+			<category>indiana jones</category>
+			<category>raiders of the lost ark</category>
+			<category>movies</category>
+			<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		</item>
+		<item>
+			<title>When Patents Attack - This American Life</title>
+			<description>I had heard this story mentioned on a couple technology podcasts I listen to and I'm very glad I listened to it.  I've heard rumblings for years that patents are a problem in the software industry, that they hinder rather than promote innovation, and this show clearly spells it out, almost shockingly.</description>
+			<guid>http://huffduffer.com/pdurbin/48447</guid>
+			<link>http://huffduffer.com/pdurbin/48447</link>
+			<enclosure url="http://podcast.thisamericanlife.org/podcast/441.mp3" type="audio/mpeg" length="28523437"/>
+			<pubDate>Mon, 8 Aug 2011 01:30:38 GMT</pubDate>
+			<category>patents</category>
+			<category>software</category>
+			<category>patent troll</category>
+			<category>intellectual ventures</category>
+			<category>nathan myhrvold</category>
+			<category>peter detkin</category>
+			<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		</item>
+		<item>
+			<title>The Tobolowsky Files Ep. 2 – Local Hero</title>
+			<description>I especially like the story about Bubbles the pygmy hippopotamus from the San Diego zoo.</description>
+			<guid>http://huffduffer.com/pdurbin/43178</guid>
+			<link>http://huffduffer.com/pdurbin/43178</link>
+			<enclosure url="http://media.libsyn.com/media/slashfilmcast/Tobolowsky2final.mp3" type="audio/mpeg" length="44659123"/>
+			<pubDate>Sun, 5 Jun 2011 13:09:18 GMT</pubDate>
+			<category>the tobolowsky files</category>
+			<category>stephen tobolowsky</category>
+			<category>storytelling</category>
+			<category>pygmy hippopotamus</category>
+			<category>davy crockett</category>
+			<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		</item>
+		<item>
+			<title>The Tobolowsky Files Ep. 46 – The Time Machine Deconstructed</title>
+			<description>This episode is interesting, a story about a piano class with Alfred Brendel and more.  I'll probably check out more episodes of The Tobolowsky Files.  The page for this episode is http://www.slashfilm.com/category/features/slashfilmcast/the-tobolowsky-files/ and I found this podcast via http://twitter.com/mattcutts/status/62017106941722625 </description>
+			<guid>http://huffduffer.com/pdurbin/41560</guid>
+			<link>http://huffduffer.com/pdurbin/41560</link>
+			<enclosure url="http://traffic.libsyn.com/slashfilmcast/Tobolowsky46.mp3" type="audio/mpeg" length="43828394"/>
+			<pubDate>Mon, 16 May 2011 17:18:56 GMT</pubDate>
+			<category>the tobolowsky files</category>
+			<category>stephen tobolowsky</category>
+			<category>storytelling</category>
+			<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		</item>
+		<item>
+			<title>Evolving English — Steven Pinker</title>
+			<description>Steven Pinker discusses the interplay of language and the mind and how psychological processes have shaped the English language. 
+
+The best stuff is about using Google's enormous database of word-from-books to track how language evolves over time, in particular the gradual erosion of irregular forms in English (keep/kept and drive/drove) in favour of their regular counterparts (beep/beeped and jive/jived).
+
+Which you WILL want to follow up with a visit to Google Ngrams - http://ngrams.googlelabs.com/ - essentially Google Trends but with all written words in the English language for the last 1,000 years (instead of all search terms in the last ten years).
+
+Mind-blowing.</description>
+			<guid>http://huffduffer.com/pdurbin/41185</guid>
+			<link>http://huffduffer.com/pdurbin/41185</link>
+			<enclosure url="http://www.bl.uk/whatson/podcasts/podcast119469.mp3" type="audio/mpeg" length="39269485"/>
+			<pubDate>Tue, 10 May 2011 02:38:32 GMT</pubDate>
+			<category>english</category>
+			<category>language</category>
+			<category>linguistics</category>
+			<category>psychology</category>
+			<category>book:author=steven pinker</category>
+			<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		</item>
+		<item>
+			<title>Phil Ochs documentary filmmaker Kenneth Bowser</title>
+			<description>Documentary filmmaker Kenneth Bowser on &quot;Phil Ochs: There But For Fortune&quot; - http://philochsthemovie.com . Interview by Ann Fisher from All Sides, WOSU Public Media.  The second half of the episode is something else.  http://www.wosu.org/allsides/?archive=1&amp;date=02/17/2011</description>
+			<guid>http://huffduffer.com/pdurbin/38313</guid>
+			<link>http://huffduffer.com/pdurbin/38313</link>
+			<enclosure url="http://streaming.osu.edu/wosu/allsides/021711b.mp3" type="audio/mpeg" length="25918497"/>
+			<pubDate>Sun, 3 Apr 2011 02:07:57 GMT</pubDate>
+			<category>documentaries</category>
+			<category>phil ochs</category>
+			<category>musicians</category>
+			<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		</item>
+		<item>
+			<title>Webcomics Weekly #79 - Reputation</title>
+			<description>A bitter fight between the creators of &quot;Doonesbury&quot; and &quot;Bloom County&quot; over plagiarism and a tour of the studio in which &quot;Garfield&quot; is created are covered in the first half hour.  The rest can be skipped. http://ww.libsyn.com/webcomics-weekly-79-reputation</description>
+			<guid>http://huffduffer.com/pdurbin/38162</guid>
+			<link>http://huffduffer.com/pdurbin/38162</link>
+			<enclosure url="http://traffic.libsyn.com/ww/ww79.mp3" type="audio/mpeg" length="115831036"/>
+			<pubDate>Fri, 1 Apr 2011 01:52:20 GMT</pubDate>
+			<category>comic strips</category>
+			<category>cartoonists</category>
+			<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		</item>
+		<item>
+			<title>The Power of Poop | Freakonomics Radio</title>
+			<description>From http://freakonomicsradio.com/the-power-of-poop.html
+
+&quot;Medical breakthroughs often follow a strange path.  The search for a cure can be advanced when one curious researcher stumbles across mold-covered dishes in the sink, for instance. Thousands of deaths in maternity wards can be forestalled when a single doctor wonders if his colleagues should disinfect their hands before making a delivery.   Some advances will inevitably be achieved by people who look in the dark corners where others have not.
+
+One of those dark corners is the stuff that we prefer to flush down the toilet.  Human feces, as it turns out, may represent a new frontier for science.  New research is unlocking the relationship between our intestinal bacteria and the factors that make us sick — and well.
+
+In this episode, we’ll hear from Dr. Thomas Borody, whose research and clinical work at the Centre for Digestive Diseases in Australia shows that fecal matter may be helpful in treating disease, especially through (hold your nose) “fecal transplants.”  And we’ll talk with Alex Khoruts at the University of Minnesota, who sees the potential therapies coming from poop as “the beginning of (a) new science … a wide-open new frontier.”&quot;
+
+See also:
+http://en.wikipedia.org/wiki/Gastroenterology
+http://en.wikipedia.org/wiki/Fecal_bacteriotherapy</description>
+			<guid>http://huffduffer.com/pdurbin/36146</guid>
+			<link>http://huffduffer.com/pdurbin/36146</link>
+			<enclosure url="http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/freakonomics_podcast/freakonomics_podcast030211.mp3" type="audio/mpeg" length="8973180"/>
+			<pubDate>Sat, 5 Mar 2011 02:43:39 GMT</pubDate>
+			<category>medicine</category>
+			<category>science</category>
+			<category>health</category>
+			<category>freakonomics</category>
+			<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		</item>
+	</channel>
+</rss>

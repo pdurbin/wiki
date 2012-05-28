@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+		<title>philipdurbin on Huffduffer</title>
+		<itunes:summary>philipdurbin</itunes:summary>
+		<description>philipdurbin</description>
+		<itunes:owner>
+			<itunes:name>Philip Durbin</itunes:name>
+		</itunes:owner>
+		<itunes:image href="http://a2.twimg.com/profile_images/1626175903/rootin8_normal.png" />
+		<image>
+			<title>philipdurbin on Huffduffer</title>
+			<link>http://huffduffer.com/philipdurbin</link>
+			<url>http://a2.twimg.com/profile_images/1626175903/rootin8_normal.png</url>
+		</image>
+		<language>en</language>
+		<link>http://huffduffer.com/philipdurbin</link>
+		<atom:link href="http://huffduffer.com/philipdurbin/rss" rel="self" type="application/rss+xml"/>
+		<item>
+			<title>Capturing the Upside, Clayton Christensen at the 2004 Open Source Business Conference</title>
+			<description>Clayton Christensen from the Harvard Business School talks about disruptive technology not long after publishing The Innovator's Solution: Creating and Sustaining Successful Growth.  This talk gave me a lot to think about: skating to where the money is, how companies are destroyed by disruptive technologies (i.e. Digital), &quot;if we lose the low end today, we'll lose the mainstream tomorrow,&quot; modular vs. integrated design.  Official notes are at http://itc.conversationsnetwork.org/shows/detail135.html and I found this talk via http://www.asymco.com/2011/10/18/clayton-christensen-and-siri/ and http://5by5.tv/criticalpath/8-in-memory-of-robert-boyle</description>
+			<guid>http://huffduffer.com/philipdurbin/54713</guid>
+			<link>http://huffduffer.com/philipdurbin/54713</link>
+			<enclosure url="http://itc.conversationsnetwork.org/audio/download/Clayton%20Christensen%20-%20Capturing%20the%20Upside.mp3" type="audio/mpeg" length="39138624"/>
+			<pubDate>Sun, 23 Oct 2011 01:12:34 GMT</pubDate>
+			<category>business</category>
+			<category>disruptive technology</category>
+			<category>clayton christensen</category>
+			<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		</item>
+		<item>
+			<title>Reproducibility in Scientific Computing: Episode 5 of inSCIght, the Scientific Computing Podcast</title>
+			<description>If the results can't be reproduced, it's not science: http://inscight.org/2011/03/23/episode_5/</description>
+			<guid>http://huffduffer.com/philipdurbin/49150</guid>
+			<link>http://huffduffer.com/philipdurbin/49150</link>
+			<enclosure url="http://www.enthought.com/~ascopatz/inscight/inscight_5_2011_03_22.mp3" type="audio/mpeg" length="30200256"/>
+			<pubDate>Wed, 17 Aug 2011 12:12:34 GMT</pubDate>
+			<category>science</category>
+			<category>scientific computing</category>
+			<category>inscight</category>
+			<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		</item>
+		<item>
+			<title>John Siracusa discusses Perl on Hypercritical #15</title>
+			<description>Episode page at http://5by5.tv/hypercritical/15 and some notes at http://blogs.perl.org/users/philip_durbin/2011/05/john-siracusa-discusses-perl-on-hypercritical.html
+</description>
+			<guid>http://huffduffer.com/philipdurbin/40777</guid>
+			<link>http://huffduffer.com/philipdurbin/40777</link>
+			<enclosure url="http://audio.5by5.tv/broadcasts/hypercritical/2011/hypercritical-015.mp3" type="audio/mpeg" length="50010240"/>
+			<pubDate>Wed, 4 May 2011 10:55:29 GMT</pubDate>
+			<category>perl</category>
+			<category>programming</category>
+			<itunes:image href="http://huffduffer.com/apple-touch-icon-114x114-precomposed.png" />
+		</item>
+	</channel>
+</rss>
