@@ -6,5 +6,6 @@ grinfra.git: greptilian.com infrastructure stuff
 media.git: images, videos, etc.  
 remind-recurring-todo.git: demo of recurring todo's with remind(1)  
 salt.git: greptilian.com server configs  
+scripts.git: random, useful scripts
 wellington.git: truth-teller, truth-lover  
 wiki.git: source for http://wiki.greptilian.com  
