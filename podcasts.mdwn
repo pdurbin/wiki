@@ -7,3 +7,5 @@ I may check out. . .
 * <a href="http://itunes.apple.com/us/itunes-u/computer-science-61c-001-spring/id354818653">Computer Science 61C, 001|Spring 2010|UC Berkeley - iTunes</a> http://www-inst.eecs.berkeley.edu/~cs61c/sp10/ taught in C
 * <a href="http://itunes.apple.com/us/itunes-u/computer-science-164-001-spring/id438297382">Computer Science 164, 001|Spring 2011|UC Berkeley - iTunes</a> http://inst.eecs.berkeley.edu/~cs164 https://sites.google.com/a/bodik.org/cs164/ http://www.youtube.com/watch?v=MjR7tQTIWbc http://www.youtube.com/playlist?list=PL3A16CFC42CA6EF4F taught in Python
 * http://surendar.chandrabrown.org
+
+http://www.programmableweb.com/mashups/directory/1?q=podcast via http://stackoverflow.com/questions/3201052/podcast-search-api
