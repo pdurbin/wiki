@@ -1,0 +1,7 @@
+* http://supybot.com
+* http://supybot.git.sourceforge.net/git/gitweb.cgi?p=supybot/supybot;a=tree;f=doc (official docs, I think)
+* http://supybook.fealdia.org
+* http://supybot.fr.cr/doc/
+* http://supybot.fr.cr/doc/use/plugins/google.html#google-lucky-snippet-search
+* http://github.com/code4lib/supybot-plugins
+* http://github.com/ProgVal/Limnoria "A modified version of Supybot with internationalization, embedded web server, bug fixes, and several other enhancements"
