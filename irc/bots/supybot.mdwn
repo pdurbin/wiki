@@ -6,3 +6,237 @@
 * http://supybot.fr.cr/doc/use/plugins/google.html#google-lucky-snippet-search
 * http://github.com/code4lib/supybot-plugins
 * http://github.com/ProgVal/Limnoria "A modified version of Supybot with internationalization, embedded web server, bug fixes, and several other enhancements"
+
+## crimsonfubot setup
+
+    [root@server1 ~]# cat /etc/centos-release 
+    CentOS release 6.2 (Final)
+    [root@server1 ~]# 
+    [root@server1 ~]# rpm -qi supybot
+    Name        : supybot                      Relocations: (not relocatable)
+    Version     : 0.83.4.1                          Vendor: Fedora Project
+    Release     : 3.el6                         Build Date: Mon 18 Apr 2011 04:12:52 PM EDT
+    Install Date: Fri 08 Jun 2012 09:54:53 PM EDT      Build Host: x86-17.phx2.fedoraproject.org
+    Group       : Applications/Internet         Source RPM: supybot-0.83.4.1-3.el6.src.rpm
+    Size        : 4081850                          License: BSD and GPLv2
+    Signature   : RSA/8, Tue 19 Apr 2011 04:55:08 AM EDT, Key ID 3b49df2a0608b895
+    Packager    : Fedora Project
+    URL         : http://supybot.com
+    Summary     : Cross-platform IRC bot written in Python
+    Description :
+    Supybot is a robust, user-friendly, and programmer-friendly Python IRC bot.
+    It aims to be an adequate replacement for most existing IRC bots.  It
+    includes a very flexible and powerful ACL system for controlling access
+    to commands, as well as more than 50 builtin plugins providing around
+    400 actual commands.
+    [root@server1 ~]# 
+    [root@server1 ~]# su - supybot
+    [supybot@server1 ~]$ supybot-wizard 
+    /usr/bin/supybot-wizard:48: DeprecationWarning: the sets module is deprecated
+      import sets
+    ERROR 2012-06-08T21:55:55 Invalid user dictionary file, resetting to empty.
+    ERROR 2012-06-08T21:55:55 Exact error: IOError: [Errno 2] No such file or directory: 'conf/users.conf'
+    ERROR 2012-06-08T21:55:55 Invalid channel database, resetting to empty.
+    ERROR 2012-06-08T21:55:55 Exact error: IOError: [Errno 2] No such file or directory: 'conf/channels.conf'
+    WARNING 2012-06-08T21:55:55 Couldn't open ignore database: [Errno 2] No such
+            file or directory: 'conf/ignores.conf'
+    This is a wizard to help you start running supybot. What it will
+    do is create the necessary config files based on the options you
+    select here. So hold on tight and be ready to be interrogated :)
+
+    First of all, we can bold the questions you're asked so you can
+    easily distinguish the mostly useless blather (like this) from
+    the questions that you actually have to answer.
+
+    Would you like to try this bolding? [y/n] (default: y) 
+
+     Do you see this in bold? [y/n] 
+
+    Sorry, that response was not an option.
+
+     Do you see this in bold? [y/n] y
+
+    Great!
+
+    We've got some preliminary things to get out of the way before we
+    can really start asking you questions that directly relate to
+    what your bot is going to be like.
+
+    We want to know if you consider yourself an advanced Supybot user
+    because some questions are just utterly boring and useless for
+    new users. Others might not make sense unless you've used Supybot
+    for some time.
+
+     Are you an advanced Supybot user? [y/n] (default: n) 
+
+    Your bot needs to create some directories in order to store the
+    various log, config, and data files.
+
+     Where would you like to create these directories? (default: .) 
+
+    Good! We're done with the directory stuff.
+
+    Now we're going to ask you things that actually relate to the bot
+    you'll be running.
+
+    First, we need to know the name of the network you'd like to
+    connect to. Not the server host, mind you, but the name of the
+    network. If you plan to connect to irc.freenode.net, for
+    instance, you should answer this question with 'freenode'
+    (without the quotes).
+
+     What IRC network will you be connecting to? freenode
+
+     What server would you like to connect to? irc.freenode.net
+
+    Found irc.freenode.net (no network available).
+
+    IRC Servers almost always accept connections on port 6667. They
+    can, however, accept connections anywhere their admin feels like
+    he wants to accept connections from.
+
+     Does this server require connection on a non-standard port? [y/
+    n] (default: n) 
+
+     What nick would you like your bot to use? crimsonfubot
+
+    Some servers require a password to connect to them. Most public
+    servers don't. If you try to connect to a server and for some
+    reason it just won't work, it might be that you need to set a
+    password.
+
+     Do you want to set such a password? [y/n] (default: n) 
+
+    Of course, having an IRC bot isn't the most useful thing in the
+    world unless you can make that bot join some channels.
+
+     Do you want your bot to join some channels when he connects? [y/
+    n] (default: y) 
+
+    Separate channels with spaces. If the channel is locked with a
+    key, follow the channel name with the key separated by a comma.
+    For example: #supybot-bots #mychannel,mykey #otherchannel
+
+     What channels? (default: ) #crimsonfu
+
+    Beginning configuration for Admin...
+
+
+    Done!
+
+    Beginning configuration for User...
+
+
+    Done!
+
+    Beginning configuration for Channel...
+
+
+    Done!
+
+    Beginning configuration for Misc...
+
+
+    Done!
+
+    Beginning configuration for Config...
+
+
+    Done!
+
+    Now we're going to run you through plugin configuration. There's
+    a variety of plugins in supybot by default, but you can create
+    and add your own, of course. We'll allow you to take a look at
+    the known plugins' descriptions and configure them if you like
+    what you see.
+
+     Would you like to look at plugins individually? [y/n] y
+
+    Next comes your opportunity to learn more about the plugins that
+    are available and select some (or all!) of them to run in your
+    bot. Before you have to make a decision, of course, you'll be
+    able to see a short description of the plugin and, if you choose,
+    an example session with the plugin. Let's begin.
+
+     What plugin would you like to look at? [Alias/Anonymous/
+    AutoMode/BadWords/ChannelLogger/ChannelStats/Ctcp/Dict/Dunno/
+    Factoids/Filter/Format/Games/Google/Herald/Internet/Karma/
+    Lart/Later/Limiter/Math/MoobotFactoids/Network/News/
+    NickCapture/Nickometer/Note/Plugin/Praise/Protector/Quote/
+    QuoteGrabs/RSS/Relay/Reply/Scheduler/Seen/Services/ShrinkUrl/
+    Status/String/Success/Time/Todo/Topic/URL/Unix/Utilities/
+    Web] Google
+
+
+    Accesses Google for various things.
+
+
+     Would you like to load this plugin? [y/n] (default: y) 
+
+    Beginning configuration for Google...
+
+    The Google plugin has the functionality to watch for URLs that
+    match a specific pattern. (We call this a snarfer) When supybot
+    sees such a URL, it will parse the web page for information and
+    reply with the results. Google has two available snarfers: Google
+    Groups link snarfing and a google search snarfer.
+
+     Do you want the Google Groups link snarfer enabled by default?
+    [y/n] n
+
+     Do you want the Google search snarfer enabled by default? [y/
+    n] y
+
+
+    Done!
+
+     Would you like add another plugin? [y/n] n
+
+    Although supybot offers a supybot-adduser script, with which you
+    can add users to your bot's user database, it's *very* important
+    that you have an owner user for you bot.
+
+     Would you like to add an owner user for your bot? [y/n]
+    (default: y) 
+
+     What should the owner's username be? pdurbin
+
+    What should the owner's password be? 
+    Re-enter password: 
+    Of course, when you're in an IRC channel you can address the bot
+    by its nick and it will respond, if you give it a valid command
+    (it may or may not respond, depending on what your config
+    variable replyWhenNotCommand is set to). But your bot can also
+    respond to a short "prefix character," so instead of saying "bot:
+    do this," you can say, "@do this" and achieve the same effect. Of
+    course, you don't *have* to have a prefix char, but if the bot
+    ends up participating significantly in your channel, it'll ease
+    things.
+
+     Would you like to set the prefix char(s) for your bot? [y/n]
+    (default: y) 
+
+    Enter any characters you want here, but be careful: they should
+    be rare enough that people don't accidentally address the bot
+    (simply because they'll probably be annoyed if they do address
+    the bot on accident). You can even have more than one. I
+    (jemfinch) am quite partial to @, but that's because I've been
+    using it since my ocamlbot days.
+
+     What would you like your bot's prefix character(s) to be? @
+
+    There are a lot of options we didn't ask you about simply because
+    we'd rather you get up and running and have time left to play
+    around with your bot. But come back and see us! When you've
+    played around with your bot enough to know what you like, what
+    you don't like, what you'd like to change, then take a look at
+    your configuration file when your bot isn't running and read the
+    comments, tweaking values to your heart's desire.
+
+    All done! Your new bot configuration is crimsonfubot.conf. If
+    you're running a *nix based OS, you can probably start your bot
+    with the command line "supybot crimsonfubot.conf". If you're not
+    running a *nix or similar machine, you'll just have to start it
+    like you start all your other Python scripts.
+
+    [supybot@server1 ~]$ 
