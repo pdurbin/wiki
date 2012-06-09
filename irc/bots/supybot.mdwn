@@ -1,5 +1,6 @@
 * http://supybot.com
 * http://supybot.git.sourceforge.net/git/gitweb.cgi?p=supybot/supybot;a=tree;f=doc (official docs, I think)
+* http://sourceforge.net/apps/mediawiki/gribble/index.php?title=Supybot_Resources
 * http://supybook.fealdia.org
 * http://supybot.fr.cr/doc/
 * http://supybot.fr.cr/doc/use/plugins/google.html#google-lucky-snippet-search
