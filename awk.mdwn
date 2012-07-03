@@ -1,6 +1,6 @@
 reordering and reformatting tab separated output:
 
-    [pdurbin@beamish ~]$ echo -e "foo\tbar\tbaz" | awk -F'[\t]' '{printf("%s %s (%s)\n",$2, $3, $1)}'
+    [pdurbin@beamish ~]$ echo -e "foo\tbar\tbaz" | awk -F'\t' '{printf("%s %s (%s)\n",$2, $3, $1)}'
     bar baz (foo)
 
 http://www.grymoire.com/Unix/Awk.html
