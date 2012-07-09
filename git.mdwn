@@ -10,6 +10,8 @@ See also http://stackoverflow.com/questions/2405305/git-how-to-tell-if-a-file-is
 
 ### Fix your email address in your commits
 
+https://help.github.com/articles/changing-author-info
+
 http://stackoverflow.com/questions/750172/how-do-i-change-the-author-of-a-commit-in-git
 
 http://git-scm.com/docs/git-rebase#_recovering_from_upstream_rebase
