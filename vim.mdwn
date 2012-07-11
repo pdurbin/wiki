@@ -1,1 +1,5 @@
 http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
+http://git.greptilian.com/?p=dotfiles.git;a=blob;f=.vimrc;hb=HEAD
+
+http://git.greptilian.com/?p=dotfiles.git;a=tree;f=.vim;hb=HEAD
