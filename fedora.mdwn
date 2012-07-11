@@ -29,6 +29,28 @@ I click "Cancel" (twice) and see this back on the console:
     Agent admitted failure to sign using the key.
     pdurbin@server1.greptilian.com's password: 
 
+For now, this is my workaround:
+
+    [root@beamish ~]# cd /etc/xdg/autostart
+    [root@beamish autostart]# grep Exec gnome-keyring-ssh.desktop
+    Exec=/usr/bin/gnome-keyring-daemon --start --components=ssh
+    [root@beamish autostart]# mv gnome-keyring-ssh.desktop gnome-keyring-ssh.desktop.disabled
+    [root@beamish autostart]# reboot
+
+    [pdurbin@beamish ~]$ ssh-add
+    Could not open a connection to your authentication agent.
+    [pdurbin@beamish ~]$ exec ssh-agent bash
+    [pdurbin@beamish ~]$ ssh-add
+    Enter passphrase for /home/pdurbin/.ssh/id_rsa: 
+    Identity added: /home/pdurbin/.ssh/id_rsa (/home/pdurbin/.ssh/id_rsa)
+    [pdurbin@beamish ~]$ ssh server1.greptilian.com
+    Last login: Wed Jul 11 09:57:51 2012 from dhcp-0164953481-93-7f.client.fas.harvard.edu
+    [pdurbin@server1 ~]$ 
+
+The problem with this, however, is that I have to run `exec ssh-agent bash` and `ssh-add` every time I open a new terminal window!
+
+See also:
+
 http://blog.bogosity.se/2010/03/01/ssh-agent-without-the-gnome-keyring/
 
 https://live.gnome.org/GnomeKeyring/Ssh
