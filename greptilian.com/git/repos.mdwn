@@ -6,6 +6,7 @@ gadfly.git: rants
 google-python-exercises.git: google-python-exercises.zip, expanded  
 grinfra.git: greptilian.com infrastructure stuff  
 media.git: images, videos, etc.  
+mysite.git: django tuturial app + tastypie
 remind-recurring-todo.git: demo of recurring todo's with remind(1)  
 salt.git: greptilian.com server configs  
 scripts.git: random, useful scripts
