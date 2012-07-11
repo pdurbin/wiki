@@ -1,3 +1,5 @@
+account-provisioning-engine.git: spec for account provisioning app
+ape.git: django app in progress for account provisioning
 data-liberation.git: my data from various services  
 dotfiles.git: ~ sweet ~  
 gadfly.git: rants  
