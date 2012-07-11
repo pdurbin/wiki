@@ -24,3 +24,7 @@ Once your submodules are all set...
 
     git submodule init
     git submodule update
+
+http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/
+
+
