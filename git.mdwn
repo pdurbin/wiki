@@ -17,3 +17,10 @@ http://stackoverflow.com/questions/750172/how-do-i-change-the-author-of-a-commit
 http://git-scm.com/docs/git-rebase#_recovering_from_upstream_rebase
 
 http://serverfault.com/questions/12373/how-do-i-edit-gits-history-to-correct-an-incorrect-email-address-name
+
+### Use git submodules
+
+Once your submodules are all set...
+
+    git submodule init
+    git submodule update
