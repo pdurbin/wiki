@@ -1,4 +1,8 @@
-How can I prevent GNOME for prompting for my ssh key password?
+Background: I'm planning to switch from a CentOS 6 workstation to one running Fedora 17.  Some things are different.  I have questions.
+
+[[!toc]]
+
+## How can I prevent GNOME for prompting for my ssh key password?
 
     [pdurbin@beamish ~]$ cat /etc/redhat-release 
     Fedora release 17 (Beefy Miracle)
