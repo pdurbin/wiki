@@ -1,5 +1,9 @@
 How can I prevent GNOME for prompting for my ssh key password?
 
+    [pdurbin@beamish ~]$ cat /etc/redhat-release 
+    Fedora release 17 (Beefy Miracle)
+    [pdurbin@beamish ~]$ echo $SSH_AUTH_SOCK
+    /run/user/pdurbin/keyring-Nq4yQX/ssh
     [pdurbin@beamish ~]$ ssh-add
     Enter passphrase for /home/pdurbin/.ssh/id_rsa: 
     Identity added: /home/pdurbin/.ssh/id_rsa (/home/pdurbin/.ssh/id_rsa)
@@ -25,7 +29,6 @@ I click "Cancel" (twice) and see this back on the console:
     Agent admitted failure to sign using the key.
     pdurbin@server1.greptilian.com's password: 
 
-This is Fedora 17:
+http://blog.bogosity.se/2010/03/01/ssh-agent-without-the-gnome-keyring/
 
-    [pdurbin@beamish ~]$ cat /etc/redhat-release 
-    Fedora release 17 (Beefy Miracle)
+https://live.gnome.org/GnomeKeyring/Ssh
