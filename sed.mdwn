@@ -1,0 +1,30 @@
+
+    # grep for string
+    sed -n '/string/p'
+
+    # double space a file
+    cat file.txt | sed G
+
+    # delete trailing whitespace (spaces and tabs)
+    cat file.txt | sed 's/[ \t]*$//'  
+
+    # put bar in quotes
+    echo "foo bar baz" | sed 's/bar/"&"/'
+
+    # replace spaces with tabs
+    sed 's/ /\t/g'
+
+    # replace foo with bar
+    sed -i -e 's/foo/bar/' ~/file.txt
+
+    # delete lines matching a pattern
+    sed -i -e '/kern/d' /etc/syslog.conf
+
+    # comment out a line (should anchor)
+    sed -i -e '/^Something.*/#&/g' /tmp/file.txt
+
+http://www.grymoire.com/Unix/Sed.html
+
+http://www.eng.cam.ac.uk/help/tpl/unix/sed.html
+
+http://sed.sourceforge.net/sed1line.txt

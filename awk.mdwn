@@ -3,6 +3,28 @@ reordering and reformatting tab separated output:
     [pdurbin@beamish ~]$ echo -e "foo\tbar\tbaz" | awk -F'\t' '{printf("%s %s (%s)\n",$2, $3, $1)}'
     bar baz (foo)
 
+    # sum the third column
+    ./foo | awk '{sum+=$3} END {print sum}'
+
+    #Print the last column
+    #(The variable NF is set to the total number of fields in the input record.)
+    ./foo | awk '{print $NF}'
+    # use : as field separator
+    ./foo | awk 'BEGIN {FS=":"}; {print $2,$1}'
+
+    [root@flanders ~]# grep selinuxfs /proc/mounts
+    none /selinux selinuxfs rw 0 0
+    [root@flanders ~]# awk '/ selinuxfs / { print $2 }' /proc/mounts
+    /selinux
+    [root@flanders ~]#
+
+    [root@beamish ~]# grep RHEL5 /etc/ghosts | awk '{print $5, $7}' | sort -u
+    RHEL5 i686
+    RHEL5 x86_64
+    [root@beamish ~]#
+
+    awk '{printf "%-30s %s\n", $1, $5 }'
+
 http://www.grymoire.com/Unix/Awk.html
 
 http://www.pement.org/awk/awk1line.txt
