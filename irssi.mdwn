@@ -28,12 +28,10 @@ http://irssi.org
 
 #### Add an ignore rule
 
-This rule says to ignore the JOINS, PARTS, QUITS, etc, except for certain channels.
-
-    /ignore -except freenode/#crimsonfu,freenode#geeknight JOINS PARTS QUITS NICKS
+    /ignore -except #crimsonfu,#geeknight JOINS PARTS QUITS NICKS
 
 #### Remove the ignore rule you just added
 
 Use the exact string as above but put a minus sign before each of the levels (JOINS, PARTS, etc.)
 
-    /ignore -except freenode/#crimsonfu,freenode#geeknight -JOINS -PARTS -QUITS -NICKS
+    /ignore -except #crimsonfu,#geeknight -JOINS -PARTS -QUITS -NICKS
