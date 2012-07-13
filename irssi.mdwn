@@ -1,0 +1,39 @@
+http://irssi.org
+
+[[!toc levels=4]]
+
+## How to avoid letting IRC distract you
+
+### Use `/set activity_hide_targets`
+
+> If you don't want to see window activity in some certain channels or queries, list them here. For example `#boringchannel =bot1 =bot2`. If any highlighted text or message for you appears in that window, this setting is ignored and the activity is shown. -- http://irssi.org/beginner/
+
+#### Show your current activity_hide_targets setting
+
+    /set activity_hide_targets
+
+#### Update your activity_hide_targets setting
+
+    /set activity_hide_targets freenode/#salt freenode/#openstack freenode/#vim freenode/##infra-talk freenode/#cobbler
+
+#### Clear your activity_hide_targets setting
+
+    /set -clear activity_hide_targets
+
+### Use `/ignore`
+
+#### Show your current ignores
+
+    /ignore
+
+#### Add an ignore rule
+
+This rule says to ignore the JOINS, PARTS, QUITS, etc, except for certain channels.
+
+    /ignore -except freenode/#crimsonfu,freenode#geeknight JOINS PARTS QUITS NICKS
+
+#### Remove the ignore rule you just added
+
+Use the exact string as above but put a minus sign before each of the levels (JOINS, PARTS, etc.)
+
+    /ignore -except freenode/#crimsonfu,freenode#geeknight -JOINS -PARTS -QUITS -NICKS
