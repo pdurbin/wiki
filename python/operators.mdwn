@@ -2,4 +2,4 @@
 
 ## % (string-formatting operator)
 
-> Given `format` % values (where format is a string or Unicode object), % conversion specifications in format are replaced with zero or more elements of values. -- http://docs.python.org/library/stdtypes.html#string-formatting
+> Given `format % values` (where format is a string or Unicode object), % conversion specifications in format are replaced with zero or more elements of values. The effect is similar to the using sprintf() in the C language. -- http://docs.python.org/library/stdtypes.html#string-formatting
