@@ -1,0 +1,5 @@
+[[!toc]]
+
+## % (string-formatting operator)
+
+> Given `format` % values (where format is a string or Unicode object), % conversion specifications in format are replaced with zero or more elements of values. -- http://docs.python.org/library/stdtypes.html#string-formatting
