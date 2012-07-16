@@ -11,3 +11,5 @@ You might also be interested in some of these:
 * http://munin.greptilian.com
 * http://data.greptilian.com
 * http://thinkup.greptilian.com
+* http://irclog.perlgeek.de/crimsonfu/today
+* http://geeknight.org/irc/log.php
