@@ -1,0 +1,11 @@
+## resize2fs for XFS
+
+For ext2/ext3/ext4 you can run `resize2fs /path/to/device` after resizing a logical volume with `lvextend --size +15G /path/to/device` but for XFS can't use `resize2fs`.  You'll get an error like this:
+
+    [root@server1 ~]# resize2fs /dev/mapper/server1_storage_vg-vm_backups
+    resize2fs 1.41.12 (17-May-2010)
+    resize2fs: Bad magic number in super-block while trying to open /dev/mapper/server1_storage_vg-vm_backups
+    Couldn't find valid filesystem superblock.
+    [root@server1 ~]# 
+
+Instead, pass `-r` or `--resizefs` to `lvextend` (which seems to call `xfs_growfs`).  If you forget to to this, you can re-run `lvextend` but of course you'll probably want to set the size explicitly (i.e. `--size 30G`) rather than as an increase (i.e. `--size +15G).
