@@ -8,4 +8,4 @@ For ext2/ext3/ext4 you can run `resize2fs /path/to/device` after resizing a logi
     Couldn't find valid filesystem superblock.
     [root@server1 ~]# 
 
-Instead, pass `-r` or `--resizefs` to `lvextend` (which seems to call `xfs_growfs`).  If you forget to to this, you can re-run `lvextend` but of course you'll probably want to set the size explicitly (i.e. `--size 30G`) rather than as an increase (i.e. `--size +15G).
+Instead, pass `-r` or `--resizefs` to `lvextend` (which seems to call `xfs_growfs`).  If you forget to to this, you can re-run `lvextend` but of course you'll probably want to set the size explicitly (i.e. `--size 30G`) rather than as an increase (i.e. `--size +15G`).
