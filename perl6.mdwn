@@ -1,0 +1,9 @@
+## Parsing JSON from the command line with `perl6`
+
+    [pdurbin@beamish ~]$ perl6 -e "use JSON::Tiny; say from-json('{ \"foo\" : \"one\", \"bar\" : \"two\" }').perl"
+    {"foo" => "one", "bar" => "two"}
+    [pdurbin@beamish ~]$ 
+    [pdurbin@beamish ~]$ perl6 -e "use JSON::Tiny; say from-json('{ \"foo\" : \"one\", \"bar\" : \"two\" }').<bar>"
+    two
+
+See also: http://irclog.perlgeek.de/perl6/2012-08-01#i_5866031
