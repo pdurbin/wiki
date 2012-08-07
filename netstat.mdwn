@@ -1,0 +1,4 @@
+    [pdurbin@server1 ~]$ netstat -ae | egrep 'Recv-Q|localhost:smtp'
+    Proto Recv-Q Send-Q Local Address               Foreign Address             State       User       Inode     
+    tcp        0      0 localhost:smtp              *:*                         LISTEN      root       12131      
+    tcp        0      0 localhost:smtp              *:*                         LISTEN      root       12136 
