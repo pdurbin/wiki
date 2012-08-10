@@ -27,6 +27,9 @@ https://help.ubuntu.com/community/AptGet/Howto
     # for clearing out unused linux-headers, for example
     apt-get autoremove
 
+    # search for packages with a given string (i.e. json)
+    apt-cache search json
+
 ### `apt-get dist-upgrade`
 
 "-y  Assume Yes to all queries and do not prompt" is not recommended for `apt-get dist-upgrade`
