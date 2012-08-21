@@ -9,3 +9,5 @@
 * http://requesttracker.wikia.com/wiki/FAQ#Where_to_get_help
 * http://admin.fedoraproject.org/pkgdb/acls/name/rt3
 * http://dl.fedoraproject.org/pub/epel/6/x86_64/repoview/rt3.html
+
+Looking for an RT 4 RPM? Click [[here|4/rpm]].
