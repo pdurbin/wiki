@@ -1,6 +1,12 @@
-Defaults for RT 4.0.6
+[[!toc levels=4]]
 
-## http://example.com/Admin/Global/Scrips.html
+## RT 4 RPMs
+
+For now some RT 4 beta RPMs are available at http://server1.greptilian.com/rpms/request-tracker/4/beta/
+
+## Defaults for RT 4.0.6
+
+### http://example.com/Admin/Global/Scrips.html
 
 Id|Description|Stage|Condition|Action|Template
 ---|---|---|---|---|---
@@ -16,7 +22,7 @@ Id|Description|Stage|Condition|Action|Template
 10|On Resolve Notify Requestors|TransactionCreate|On Resolve|Notify Requestors|Resolved
 11|On transaction, add any tags in the transaction's subject to the ticket's subject|TransactionCreate|On Transaction|Extract Subject Tag|Blank
 
-## http://example.com/Admin/Queues/
+### http://example.com/Admin/Queues/
 
 Id|Name|Description|Address|Priority|DefaultDueIn| |Lifecycle
 ---|---|---|---|---|---|---|---
