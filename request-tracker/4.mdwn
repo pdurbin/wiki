@@ -2,7 +2,7 @@
 
 ## RT 4 RPMs
 
-For now some RT 4 beta RPMs are available at http://server1.greptilian.com/rpms/request-tracker/4/beta/
+[[rpm]]
 
 ## Defaults for RT 4.0.6
 
