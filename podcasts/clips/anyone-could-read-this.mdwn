@@ -1,0 +1,21 @@
+Anyone Could Read This
+
+This transcription is an excerpt of Linux Outlaws 129 ( http://old.linuxoutlaws.com/podcast/129 ) starting at 01:11:46. and ending at 01:15:24.
+
+Reactions and remixes are welcome, but please note that the original podcast was released under the Creative Commons BY-SA 3.0 license ( http://creativecommons.org/licenses/by-sa/3.0/ ).
+
+Fab: Basically, when I use the Internet, I assume that people see what I'm doing.  If I don't want them to see, which really, really rarely happens, I'll use Tor, but I know that I'm not a typical person because I've got a pretty thick skin; I don't care.  I surf porn.  So what?  Like if they would publish a newspaper article "Fab surfs these porn sites" I would be like, "So what?"  You know?  Other people do that too.  If you deny. . . if you're a guy and you're on the Internet and you deny you surf porn, I mean, come on, that's just hypocritical.  I don't believe that one second.  I think you have to control. . . in your head, you have to make up for yourself how much information you want to get out there, and you have to be aware that it gets out there.  That's the point.  I know that when I use Gmail, that Google can read all my email.  But I also know that I don't do anything important by. . . I would never send. . . let's say I'd have a conversation with my lawyer.  I would never do that over unencrypted email.  I'd probably not even do it over a cell phone if it would be really bad stuff.
+
+Dan: This is something I always say.  I think a lot of people don't realize when they're using things like microblogs or blogs or whatever it might be. . . or Facebook is a massive one, people writing things on walls on Facebook not realizing everyone can see that.  My kind of attitude whenever I'm using the Internet is, "Ok, anyone could read this."  Unless, as you said, you're using encryption, and you're using Tor, and all the rest of it.  I don't post anything that I wouldn't be happy for someone to say, "You said that," and bring it up because then I shouldn't have posted it.  If I didn't want people to know, I shouldn't have posted it.
+
+Fab: Exactly, and people are saying on microblogs, "Aren't you afraid that somebody who might hire you in the future will read this?"  And I'm like, "No."  I mean, you can Google me. . . I don't want to work for a company that wouldn't hire me because of what I'm posting there, I mean, lots of that's private. . . there's some political stuff on there. . . but I mean, if I work for.  I work for the company.  I'm outside doing tech support.  I'm not talking to people about politics there.  I know how to. . . basically, behave, let's put it that way, when you're in front of a customer.  So, for example, that, and I don't want a company that wouldn't hire me because I said something like that.  I would basically have to put on a mask every time I go to the office, which I can't do either.  I'd rather flip burgers at McDonald's.
+
+Dan: You do get people who post really stupid things like, "I can't stand my boss and he's a dickhead and he's done this and he's done that."  But you and I would not do that because we'd think, "Ah, everyone in the world is going to see this."  But you do hear stories of people who post things on Facebook like, "My boss has robbed the. . ." and stupid things that you would not want to share with the entire world, but for some reason they are.
+
+Fab: That's what I mean.  You have to be acutely aware of. . . basically I go there, like you probably. . . like you said, with the expectation that everybody could read this.  Even on Facebook when you have privacy settings.
+
+Dan: It doesn't work.
+
+Fab: Whenever I do something on the Internet, it doesn't matter, I say, "Everybody could read this."  Because you can't just. . . their software could break or they have a bug and then everybody can read it.  So, I go there with that in mind, and, as you said, stuff that I don't want my boss to read I'm not gonna put on the Internet.
+
+Dan: Not gonna post it. . . yeah, exactly.
