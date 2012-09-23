@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="600"
+   id="svg3771"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="greptilian1.svg"
+   inkscape:export-filename="/home/pdurbin/art/greptilian1.png"
+   inkscape:export-xdpi="2.4000001"
+   inkscape:export-ydpi="2.4000001">
+  <defs
+     id="defs3773" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="566.35657"
+     inkscape:cy="193.37385"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="30"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata3776">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-161.2121,-168.59325)">
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;stroke:#004600;stroke-width:60;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:160"
+       id="path3779"
+       sodipodi:cx="245.71428"
+       sodipodi:cy="498.07648"
+       sodipodi:expansion="1.136"
+       sodipodi:revolution="1.8833474"
+       sodipodi:radius="253.04674"
+       sodipodi:argument="-9.8191757"
+       sodipodi:t0="0.22361609"
+       d="m 274.77144,462.21373 c 35.88227,10.14113 45.50152,54.41109 31.83365,85.19846 -22.20272,50.01246 -86.11136,62.00138 -131.58347,37.91413 -64.74959,-34.29882 -79.222202,-119.55168 -43.9192,-180.1121 46.62638,-79.98509 154.27539,-96.99786 230.30153,-49.92351 95.62964,59.21256 115.22816,190.02867 55.95554,281.8583 -59.33953,91.93325 -178.82773,126.24957 -280.2167,89.49886"
+       transform="translate(191.42857,-54.285714)" />
+  </g>
+</svg>
