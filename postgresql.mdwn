@@ -1,0 +1,96 @@
+
+    [root@git2 ~]# yum install postgresql-server
+    [root@git2 ~]# psql 
+    psql: could not connect to server: No such file or directory
+            Is the server running locally and accepting
+            connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+    [root@git2 ~]# /etc/init.d/postgresql 
+    Usage: /etc/init.d/postgresql {start|stop|status|restart|condrestart|try-restart|reload|force-reload|initdb}
+    [root@git2 ~]# /etc/init.d/postgresql start
+
+    /var/lib/pgsql/data is missing. Use "service postgresql initdb" to initialize the cluster first.
+                                                               [FAILED]
+    [root@git2 ~]# service postgresql initdb
+    Initializing database:                                     [  OK  ]
+    [root@git2 ~]# 
+    [root@git2 ~]# /etc/init.d/postgresql start
+    Starting postgresql service:                               [  OK  ]
+    [root@git2 ~]# psql 
+    psql: FATAL:  Ident authentication failed for user "root"
+    [root@git2 ~]# 
+    [root@git2 ~]# su - postgres
+    -bash-4.1$ psql
+    psql (8.4.13)
+    Type "help" for help.
+
+    postgres=# \l
+                                      List of databases
+       Name    |  Owner   | Encoding |  Collation  |    Ctype    |   Access privilege
+    s   
+    -----------+----------+----------+-------------+-------------+-------------------
+    ----
+     postgres  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+     template0 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres
+                                                                 : postgres=CTc/postg
+    res
+     template1 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres
+                                                                 : postgres=CTc/postg
+    res
+    (3 rows)
+
+    postgres=# 
+    postgres=# \q
+    -bash-4.1$ 
+    -bash-4.1$ pwd
+    /var/lib/pgsql
+    -bash-4.1$ wget -q http://www.commandprompt.com/ppbook/booktown.sql
+    -bash-4.1$ ls -lh booktown.sql 
+    -rw-r--r-- 1 postgres postgres 42K Jan 11  2005 booktown.sql
+    -bash-4.1$ psql -f booktown.sql 
+    CREATE DATABASE
+    (snip)
+    -bash-4.1$ psql
+    psql (8.4.13)
+    Type "help" for help.
+
+    postgres=# \l
+                                      List of databases
+       Name    |  Owner   | Encoding |  Collation  |    Ctype    |   Access privilege
+    s   
+    -----------+----------+----------+-------------+-------------+-------------------
+    ----
+     booktown  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+     postgres  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+     template0 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres
+                                                                 : postgres=CTc/postg
+    res
+     template1 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres
+                                                                 : postgres=CTc/postg
+    res
+    (4 rows)
+
+    postgres=# 
+    postgres=# \q
+    -bash-4.1$ 
+    -bash-4.1$ pg_dumpall > /tmp/pg_dumpall.`date +%s`.sql
+    -bash-4.1$ ls -lh /tmp/pg_dumpall.1349195444.sql 
+    -rw-r--r-- 1 postgres postgres 44K Oct  2 12:30 /tmp/pg_dumpall.1349195444.sql
+    -bash-4.1$ 
+    -bash-4.1$ pg_dump --clean booktown > /tmp/pg_dump-booktown.`date +%s`.sql 
+    -bash-4.1$ ls -lh /tmp/pg_dump-booktown.1349196164.sql 
+    -rw-r--r-- 1 postgres postgres 46K Oct  2 12:42 /tmp/pg_dump-booktown.1349196164.sql
+    -bash-4.1$ 
+    -bash-4.1$ psql booktown
+    psql (8.4.13)
+    Type "help" for help.
+
+    booktown=# 
+    booktown=# \d
+    (snip)
+     public | subjects              | table    | postgres
+     public | text_sorting          | table    | postgres
+
+    booktown=# SELECT * FROM subjects;
+      0 | Arts             | Creativity St
+      1 | Business         | Productivity Ave
+    (snip)
