@@ -145,3 +145,5 @@ http://crankstations.com/vagrant
     vagrant@precise64:~$ 
 
 http://blog.vandenbrand.org/2012/02/21/creating-a-centos-6-2-base-box-for-vagrant/
+
+pdurbin gets religion about vagrant: http://irclog.perlgeek.de/crimsonfu/2012-10-29#i_6108381
