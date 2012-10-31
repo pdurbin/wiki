@@ -103,3 +103,13 @@ Here's are the ethernet interfaces on the two Ubuntu hosts:
     --
     virbr0    Link encap:Ethernet  HWaddr de:d5:4a:6b:e0:48  
               inet addr:192.168.122.1  Bcast:192.168.122.255  Mask:255.255.255.0
+
+I tried using a CentOS base box but the network config didn't work... the VMs didn't get the IP addresses from the Vagrantfile. Here is the error:
+
+    [controller] Configuring and enabling network interfaces...
+    The following SSH command responded with a non-zero exit status.
+    Vagrant assumes that this means the command failed!
+
+    /sbin/ifup eth1 2> /dev/null
+
+Other users of CentOS base boxes report similar problems here: https://github.com/mitchellh/vagrant/issues/997
