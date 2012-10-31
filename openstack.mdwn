@@ -113,3 +113,5 @@ I tried using a CentOS base box but the network config didn't work... the VMs di
     /sbin/ifup eth1 2> /dev/null
 
 Other users of CentOS base boxes report similar problems here: https://github.com/mitchellh/vagrant/issues/997
+
+For some discussion of my situation: http://irclog.perlgeek.de/crimsonfu/2012-10-31#i_6116485
