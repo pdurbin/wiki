@@ -1,0 +1,8 @@
+"before running this Vagrantfile, run `gem install librarian`, then create a Cheffile with the following contents:
+
+    site 'http://community.opscode.com/api/v1'
+    cookbook 'apache2'
+
+then, run `librarian-chef install` to populate the cookbooks directory"
+
+--agoddard in https://gist.github.com/67a2ee70c88f93ee2f88
