@@ -68,3 +68,38 @@ Once you're ssh'd in, you can run a `virsh list`:
      Id Name                 State
     ----------------------------------
       1 instance-00000001    running
+
+Here's are the ethernet interfaces on the two Ubuntu hosts:
+
+**controller**:
+
+    vagrant@controller:~$ ifconfig | grep 'inet addr' -B1
+    br100     Link encap:Ethernet  HWaddr 08:00:27:3f:9f:60  
+              inet addr:192.168.100.1  Bcast:192.168.100.255  Mask:255.255.255.0
+    --
+    eth0      Link encap:Ethernet  HWaddr 08:00:27:88:0c:a6  
+              inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+    --
+    eth1      Link encap:Ethernet  HWaddr 08:00:27:20:6a:3f  
+              inet addr:192.168.206.130  Bcast:192.168.206.255  Mask:255.255.255.0
+    --
+    lo        Link encap:Local Loopback  
+              inet addr:127.0.0.1  Mask:255.0.0.0
+
+**compute1**:
+
+    vagrant@compute1:~$ ifconfig | grep 'inet addr' -B1
+    br100     Link encap:Ethernet  HWaddr 08:00:27:d2:d2:9e  
+              inet addr:192.168.100.131  Bcast:192.168.100.255  Mask:255.255.255.0
+    --
+    eth0      Link encap:Ethernet  HWaddr 08:00:27:88:0c:a6  
+              inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+    --
+    eth1      Link encap:Ethernet  HWaddr 08:00:27:d7:7d:cb  
+              inet addr:192.168.206.131  Bcast:192.168.206.255  Mask:255.255.255.0
+    --
+    lo        Link encap:Local Loopback  
+              inet addr:127.0.0.1  Mask:255.0.0.0
+    --
+    virbr0    Link encap:Ethernet  HWaddr de:d5:4a:6b:e0:48  
+              inet addr:192.168.122.1  Bcast:192.168.122.255  Mask:255.255.255.0
