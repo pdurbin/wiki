@@ -1,0 +1,70 @@
+[[!toc levels=99]]
+
+## Installing OpenStack via Vagrant on Fedora 17 using https://github.com/lorin/openstack-ansible
+
+The great thing about this repo is that it "just works" from Fedora 17 and quite possibly other platforms.
+
+You'll be creating VMs within VMs, but don't worry about that. At the end of `make all` you'll have the following systems:
+
+- **controller**: an Ubuntu box running the following OpenStack components
+    - Nova: https://github.com/lorin/openstack-ansible/blob/master/playbooks/nova/controller.yaml
+    - Glance: https://github.com/lorin/openstack-ansible/blob/master/playbooks/glance/setup.yaml
+    - Keystone: https://github.com/lorin/openstack-ansible/blob/master/playbooks/keystone/setup.yaml
+- **compute1**: an Ubuntu box running the following OpenStack components
+    - Nova: https://github.com/lorin/openstack-ansible/blob/master/playbooks/nova/compute-host.yaml
+- **instance-00000001**: a [CirrOS][] VM running on the **compute1** host
+
+[CirrOS]: https://launchpad.net/cirros
+
+### Install dependencies 
+
+(You'll need to install [Vagrant][] and its dependencies, of course.)
+
+[Vagrant]: http://vagrantup.com
+
+    yum install ansible
+    yum install python-nova
+
+(Fedora 17 ships with `python-nova-2012.1.3`)
+
+### `vagrant up` via `make all`
+
+    git clone https://github.com/lorin/openstack-ansible.git
+    cd openstack-ansible
+    make all
+
+### Verify that a "cirros" VM was created
+
+    source openrc
+    nova list
+
+You should see output similar to this:
+
+    +--------------------------------------+--------+--------+-----------------------+
+    |                  ID                  |  Name  | Status |        Networks       |
+    +--------------------------------------+--------+--------+-----------------------+
+    | 8b10ed50-70a4-46a5-b69e-989cfe5b91a8 | cirros | ACTIVE | private=192.168.100.2 |
+    +--------------------------------------+--------+--------+-----------------------+
+
+### Take a look at the two Openstack hosts that were created ("controller" and "compute1")
+
+    cd vms
+    vagrant status
+
+You should see output like this:
+
+    Current VM states:
+
+    controller               running
+    compute1                 running
+
+To ssh to compute1 (from the "vms" directory)
+
+    vagrant ssh compute1
+
+Once you're ssh'd in, you can run a `virsh list`:
+
+    vagrant@compute1:~$ virsh list
+     Id Name                 State
+    ----------------------------------
+      1 instance-00000001    running
