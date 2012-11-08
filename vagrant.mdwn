@@ -1,4 +1,4 @@
-In last 2012 I got [religion][] about Vagrant ( http://vagrantup.com ) after [hearing][] about it all year.
+In late 2012 I got [religion][] about Vagrant ( http://vagrantup.com ) after [hearing][] about it all year.
 
 [religion]: http://irclog.perlgeek.de/crimsonfu/2012-10-29#i_6108381
 
@@ -18,10 +18,10 @@ Vagrant operates on the file named `Vagrantfile` in your current working directo
 
     Vagrant::Config.run do |config|
       config.vm.box     = "precise64"
-      config.vm.box_url = 'http://files.vagrantup.com/precise64.box'
+      config.vm.box_url = "http://files.vagrantup.com/precise64.box"
     end
 
-Once you have Vagrant installed, you can run `vagrant init` to create a `Vagrantfile` in your current working directory. Try replacing its content with the lines above and running `vagrant up`. After the VM has booted try `vagrant ssh`. Then log out and run `vagrant destroy`.
+Once you have Vagrant installed, you can run `vagrant init` to create a `Vagrantfile` in your current working directory. Try replacing its content with the lines above and running `vagrant up`. After the VM has booted try `vagrant ssh` and sudo to root. Then log out and run `vagrant destroy`.
 
 ## Vagrantfile examples
 
