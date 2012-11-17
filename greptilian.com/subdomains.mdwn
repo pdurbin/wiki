@@ -1,0 +1,14 @@
+## Current
+
+* http://wiki.greptilian.com
+* http://git.greptilian.com
+* http://yum.greptilian.com
+* http://munin.greptilian.com
+* http://data.greptilian.com
+* http://thinkup.greptilian.com
+
+## Future?
+
+* http://irc.greptilian.com
+* http://irclog.greptilian.com (like http://irclog.perlgeek.de )
+* http://worknotes.greptilian.com (like http://worknotes.scripting.com )
