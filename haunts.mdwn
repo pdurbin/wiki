@@ -1,0 +1,9 @@
+- http://irclog.perlgeek.de/crimsonfu/today
+- http://irclog.perlgeek.de/ilbot/today
+- http://irclog.perlgeek.de/gluster/today
+- http://irclog.perlgeek.de/salt/today
+- http://irclog.perlgeek.de/puppet-openstack/today
+- http://eavesdrop.openstack.org/irclogs/%23openstack
+- http://www.puppetlogs.com/puppet
+- http://irclogger.com/.vagrant
+- http://geeknight.org/irc/log.php
