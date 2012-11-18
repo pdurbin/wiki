@@ -1,0 +1,20 @@
+http://moritz.faui2k3.org/en/ilbot
+
+https://github.com/moritz/ilbot
+
+    <VirtualHost *:80>
+
+    ServerName irclog.greptilian.com
+    DocumentRoot /var/www/irclog/ilbot/cgi
+    #SuexecUserGroup foouser foogroup
+    <Directory /var/www/irclog/ilbot/cgi >
+
+      Options +Indexes +FollowSymLinks +MultiViews
+      AllowOverride all
+
+      Order allow,deny
+      allow from all
+
+    </Directory>
+
+    </VirtualHost>
