@@ -1,1 +1,3 @@
 https://help.github.com/articles/importing-from-subversion
+
+http://www.17od.com/2010/11/11/migrating-a-sourceforge-subversion-repository-to-github/
