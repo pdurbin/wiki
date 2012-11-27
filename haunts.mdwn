@@ -1,9 +1,8 @@
 - http://irclog.perlgeek.de/crimsonfu/today
-- http://irclog.perlgeek.de/ilbot/today
-- http://irclog.perlgeek.de/gluster/today
-- http://irclog.perlgeek.de/salt/today
-- http://irclog.perlgeek.de/puppet-openstack/today
-- http://eavesdrop.openstack.org/irclogs/%23openstack
-- http://www.puppetlogs.com/puppet
-- http://irclogger.com/.vagrant
 - http://geeknight.org/irc/log.php
+- http://irclogger.com/.vagrant
+- http://www.evanchooly.com/logs/%23%23java/today
+- http://www.evanchooly.com/logs/%23%23jsf/today
+- http://www.evanchooly.com/logs/%23glassfish/today
+- http://irclog.perlgeek.de/ilbot/today
+- http://www.puppetlogs.com/puppet
