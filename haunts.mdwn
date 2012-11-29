@@ -1,3 +1,4 @@
+- http://irclog.greptilian.com/sourcefu/today
 - http://irclog.perlgeek.de/crimsonfu/today
 - http://geeknight.org/irc/log.php
 - http://irclogger.com/.vagrant
