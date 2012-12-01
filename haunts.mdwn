@@ -1,10 +1,1 @@
-- http://irclog.greptilian.com/sourcefu/today
-- http://irclog.perlgeek.de/crimsonfu/today
-- http://geeknight.org/irc/log.php
-- http://irclogger.com/.vagrant
-- http://www.evanchooly.com/logs/%23%23java/today
-- http://www.evanchooly.com/logs/%23%23jsf/today
-- http://www.evanchooly.com/logs/%23glassfish/today
-- http://echelog.com/logs/browse/netbeans
-- http://irclog.perlgeek.de/ilbot/today
-- http://www.puppetlogs.com/puppet
+[[!table format=dsv delimiter="	" file="haunts/haunts.tsv"]]
