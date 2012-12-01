@@ -1,1 +1,7 @@
 [[!table format=dsv delimiter="	" file="haunts/haunts.tsv"]]
+
+## ##java
+
+`javabot google foo bar` for http://letmegooglethatforyou.com/?q=foo+bar
+
+javabot factoids: http://evanchooly.com/factoids
