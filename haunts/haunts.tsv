@@ -1,11 +1,12 @@
 server/channel	homepage	logs
 freenode/#sourcefu	http://sourcefu.com	http://irclog.greptilian.com/sourcefu/today
-freenode/#crimsonfu	http://crimsonfu.github.com	http://irclog.perlgeek.de/crimsonfu/today
-freenode/#ilbot	http://moritz.faui2k3.org/en/ilbot	http://irclog.perlgeek.de/ilbot/today
-freenode/#vagrant	http://vagrantup.com	http://irclogger.com/.vagrant
-freenode/#glashfish	http://glassfish.java.net	http://www.evanchooly.com/logs/%23glassfish/today
+freenode/#dvn	http://thedata.org	http://irclog.iq.harvard.edu/dvn/today
+freenode/#glassfish	http://glassfish.java.net	http://www.evanchooly.com/logs/%23glassfish/today
 freenode/#netbeans	http://netbeans.org	http://echelog.com/logs/browse/netbeans
 freenode/##java	http://javachannel.net	http://www.evanchooly.com/logs/%23%23java/today
 freenode/##jsf	http://jsf.java.net	http://www.evanchooly.com/logs/%23%23jsf/today
+freenode/#crimsonfu	http://crimsonfu.github.com	http://irclog.perlgeek.de/crimsonfu/today
+freenode/#ilbot	http://moritz.faui2k3.org/en/ilbot	http://irclog.perlgeek.de/ilbot/today
+freenode/#vagrant	http://vagrantup.com	http://irclogger.com/.vagrant
 freenode/#puppet	http://puppetlabs.com	http://www.puppetlogs.com/puppet
 freenode/##infra-talk	http://infra-talk.org	None per http://twitter.com/ripienaar/status/171202817808269312
