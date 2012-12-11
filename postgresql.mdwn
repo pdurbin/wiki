@@ -1,5 +1,11 @@
 [[!toc levels=4]]
 
+## PostgreSQL community
+
+http://www.postgresql.org/community/irc/
+
+http://wiki.postgresql.org/wiki/IRC2RWNames
+
 ## PostgreSQL setup on CentOS 6 
 
     [root@git2 ~]# yum install postgresql-server
