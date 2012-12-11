@@ -1,3 +1,6 @@
+[[!toc levels=4]]
+
+## PostgreSQL setup on CentOS 6 
 
     [root@git2 ~]# yum install postgresql-server
     [root@git2 ~]# psql 
