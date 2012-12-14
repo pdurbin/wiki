@@ -1,6 +1,6 @@
 In October 2011, T-Mobile said "for $30 per month and no annual contract, customers can enjoy unlimited Web, with the first 5 GB at up to 4G speeds; unlimited text; and 100 minutes of talk, with 10 cents per minute after the first 100 minutes" at http://newsroom.t-mobile.com/articles/walmart-and-t-mobile-introduce-exclusive-no-annual-contract-4g-offering
 
-To sign up for this plan without visting Walmart, I think one should first purchase micro-SIM from http://prepaid-phones.t-mobile.com/prepaid-phone/T-Mobile-Micro-SIM-Card-Activation-Kit (or possibly in a store?) and phone of your choice, such as the Nexus 4 ( http://www.google.com/nexus/4 https://play.google.com/store/devices/details?id=nexus_4_16gb ), and then activate the SIM at http://prepaid-phones.t-mobile.com/prepaid-activate with the following three pieces of information:
+To sign up for this plan without visting Walmart, I think one should first purchase micro-SIM from http://prepaid-phones.t-mobile.com/prepaid-phone/T-Mobile-Micro-SIM-Card-Activation-Kit or mini-SIM from http://prepaid-phones.t-mobile.com/prepaid-phone/T-Mobile-Prepaid-SIM-Activation-Kit (or possibly in a store?) and phone of your choice, such as the Nexus 4 ( http://www.google.com/nexus/4 https://play.google.com/store/devices/details?id=nexus_4_16gb ) or the http://en.wikipedia.org/wiki/T-Mobile_myTouch_4G and then activate the SIM at http://prepaid-phones.t-mobile.com/prepaid-activate with the following three pieces of information:
 
 - Activation code (e.g. 8273 381 6274) from the booklet that came with the SIM card
 
