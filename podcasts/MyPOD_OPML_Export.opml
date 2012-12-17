@@ -1,0 +1,61 @@
+<opml version="1.1">
+	<head>
+		<title>MyPOD Export</title>
+		<dateCreated>Dec 16, 2012 9:52:33 PM</dateCreated>
+		<dateModified>Dec 16, 2012 9:52:33 PM</dateModified>
+		<ownerName>Various</ownerName>
+		<ownerEmail>feedback@my-pod.org</ownerEmail>
+	</head>
+	<body>
+	<outline 
+	text="Hypercritical with After Dark Post-Shows"
+	title="Hypercritical with After Dark Post-Shows"
+	type="rss"
+	imageHref="http://icebox.5by5.tv/images/broadcasts/18/cover.jpg"
+	xmlUrl="http://feeds.5by5.tv/hypercritical-afterdark"
+	htmlUrl="http://5by5.tv/hypercritical"
+/>
+<outline 
+	text="Java Pub House"
+	title="Java Pub House"
+	type="rss"
+	imageHref="http://assets.libsyn.com/content/3826818.jpg"
+	xmlUrl="http://javapubhouse.libsyn.com/rss"
+	htmlUrl="http://javapubhouse.libsyn.com"
+/>
+<outline 
+	text="JSF and Java EE Newscast"
+	title="JSF and Java EE Newscast"
+	type="atom"
+	imageHref=""
+	xmlUrl="http://blogs.jsfcentral.com/JSFNewscast/feed/entries/atom?cat=%2FNewscasts"
+	htmlUrl="http://blogs.jsfcentral.com/JSFNewscast/"
+/>
+<outline 
+	text="The GlassFish Podcast"
+	title="The GlassFish Podcast"
+	type="rss"
+	imageHref=""
+	xmlUrl="http://feeds.feedburner.com/glassfishpodcast"
+	htmlUrl="https://blogs.oracle.com/glassfishpodcast/"
+/>
+<outline 
+	text="The Java Posse"
+	title="The Java Posse"
+	type="rss"
+	imageHref=""
+	xmlUrl="http://feeds.feedburner.com/javaposse"
+	htmlUrl="http://javaposse.com"
+/>
+<outline 
+	text="This Week In Google"
+	title="This Week In Google"
+	type="rss"
+	imageHref="http://leoville.tv/podcasts/coverart/twig600audio.jpg"
+	xmlUrl="http://leoville.tv/podcasts/twig.xml"
+	htmlUrl="http://twit.tv/twig"
+/>
+
+	</body>
+</opml>
+	
