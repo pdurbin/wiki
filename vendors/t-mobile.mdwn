@@ -1,9 +1,13 @@
 In October 2011, T-Mobile said "for $30 per month and no annual contract, customers can enjoy unlimited Web, with the first 5 GB at up to 4G speeds; unlimited text; and 100 minutes of talk, with 10 cents per minute after the first 100 minutes" at http://newsroom.t-mobile.com/articles/walmart-and-t-mobile-introduce-exclusive-no-annual-contract-4g-offering
 
-To sign up for this plan without visting Walmart, I think one should first purchase micro-SIM from http://prepaid-phones.t-mobile.com/prepaid-phone/T-Mobile-Micro-SIM-Card-Activation-Kit or mini-SIM from http://prepaid-phones.t-mobile.com/prepaid-phone/T-Mobile-Prepaid-SIM-Activation-Kit (or possibly in a store?) and phone of your choice, such as the Nexus 4 ( http://www.google.com/nexus/4 https://play.google.com/store/devices/details?id=nexus_4_16gb ) or the http://en.wikipedia.org/wiki/T-Mobile_myTouch_4G and then activate the SIM at http://prepaid-phones.t-mobile.com/prepaid-activate with the following three pieces of information:
+To sign up for this plan without visting Walmart, purchase a micro-SIM from http://prepaid-phones.t-mobile.com/prepaid-phone/T-Mobile-Micro-SIM-Card-Activation-Kit or mini-SIM from http://prepaid-phones.t-mobile.com/prepaid-phone/T-Mobile-Prepaid-SIM-Activation-Kit and phone of your choice, such as the Nexus 4 ( http://www.google.com/nexus/4 https://play.google.com/store/devices/details?id=nexus_4_16gb ) or the http://en.wikipedia.org/wiki/T-Mobile_myTouch_4G and then activate the SIM at http://prepaid-phones.t-mobile.com/prepaid-activate with the following three pieces of information:
 
 - Activation code (e.g. 8273 381 6274) from the booklet that came with the SIM card
 
 - SIM card serial number (19 digits) from the plastic card that holds the SIM card.
 
 - Phone serial number (IMEI) probably after popping off the back cover phone: http://www.ifixit.com/Teardown/Nexus+4+Teardown/11781/
+
+You'll probably want to use whatever phone number they give you for a little while to make sure you have coverage in the places you care about. When you're ready to transfer your old number over, you'll want to call T-Mobile's Number Transfer Center at 877-789-3106. They make ask you for your PIN for your old carrier (i.e. Virgin Mobile) and may request that you contact your old carrier to give them a heads up that the transfer is coming. In my case, they scheduled the transfer for three days after I called at 11 a.m. Pacific Time.
+
+See also: https://twitter.com/TMobileHelp/status/274683959152087040
