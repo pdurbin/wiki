@@ -1,4 +1,4 @@
 Vim	NetBeans	Description
 %	Ctrl-[	jump to matching bracket
-Ctrl-F	PageDown	scroll window forward
-Ctrl-B	PageUp	scroll window backward
+Ctrl-f	PageDown	scroll window forward
+Ctrl-b	PageUp	scroll window backward
