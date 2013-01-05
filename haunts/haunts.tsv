@@ -1,13 +1,13 @@
-server/channel	homepage	logs
-freenode/#sourcefu	http://sourcefu.com	http://irclog.greptilian.com/sourcefu/today
-freenode/#crimsonfu	http://crimsonfu.github.com	http://irclog.perlgeek.de/crimsonfu/today
-freenode/#dvn	http://thedata.org	http://irclog.iq.harvard.edu/dvn/today
-freenode/#vagrant	http://vagrantup.com	http://irclogger.com/.vagrant
-freenode/#git	http://jk.gs/git	http://colabti.org/irclogger/irclogger_log/git
-freenode/#ilbot	http://moritz.faui2k3.org/en/ilbot	http://irclog.perlgeek.de/ilbot/today
-freenode/##java	http://javachannel.net	http://www.evanchooly.com/logs/%23%23java/today
-freenode/#glassfish	http://glassfish.java.net	http://www.evanchooly.com/logs/%23glassfish/today
-freenode/#netbeans	http://netbeans.org	http://echelog.com/logs/browse/netbeans
-freenode/##jsf	http://jsf.java.net	http://www.evanchooly.com/logs/%23%23jsf/today
-freenode/#puppet	http://puppetlabs.com	http://www.puppetlogs.com/puppet
-freenode/##infra-talk	http://infra-talk.org	None per http://twitter.com/ripienaar/status/171202817808269312
+server/channel	logs	homepage
+freenode/#sourcefu	http://irclog.greptilian.com/sourcefu/today	http://sourcefu.com
+freenode/#crimsonfu	http://irclog.perlgeek.de/crimsonfu/today	http://crimsonfu.github.com
+freenode/#dvn	http://irclog.iq.harvard.edu/dvn/today	http://thedata.org
+freenode/#vagrant	http://irclogger.com/.vagrant	http://vagrantup.com
+freenode/#git	http://colabti.org/irclogger/irclogger_log/git	http://jk.gs/git
+freenode/#ilbot	http://irclog.perlgeek.de/ilbot/today	http://moritz.faui2k3.org/en/ilbot
+freenode/##java	http://www.evanchooly.com/logs/%23%23java/today	http://javachannel.net
+freenode/#glassfish	http://www.evanchooly.com/logs/%23glassfish/today	http://glassfish.java.net
+freenode/#netbeans	http://echelog.com/logs/browse/netbeans	http://netbeans.org
+freenode/##jsf	http://www.evanchooly.com/logs/%23%23jsf/today	http://jsf.java.net
+freenode/#puppet	http://www.puppetlogs.com/puppet	http://puppetlabs.com
+freenode/##infra-talk	None per http://twitter.com/ripienaar/status/171202817808269312	http://infra-talk.org
