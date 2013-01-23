@@ -1,0 +1,19 @@
+http://lucene.apache.org/solr/4_1_0/tutorial.html
+
+https://github.com/dvn/solrpoc
+
+## *:* vs *
+
+"lucene" - search for "lucene" in the default field
+
+"name:solr" - search for "solr" in the "name" field
+
+-- http://wiki.apache.org/solr/SearchHandler#q
+
+http://wiki.apache.org/solr/SolrTerminology
+
+http://wiki.apache.org/solr/SolrResources#IRC
+
+http://colabti.org/irclogger/irclogger_log/lucene-dev
+
+"I would like for #lucene-dev to be a place where people can have zero-latency on-the-record discussions about Lucene and Solr development" -- http://mail-archives.apache.org/mod_mbox/lucene-dev/201004.mbox/%3C2D127F11DC79714E9B6A43AC9458147F3B50A7DB@suex07-mbx-03.ad.syr.edu%3E
