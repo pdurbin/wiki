@@ -2,7 +2,7 @@ http://lucene.apache.org/solr/4_1_0/tutorial.html
 
 https://github.com/dvn/solrpoc
 
-## *:* vs *
+## `*:*` vs `*`
 
 "lucene" - search for "lucene" in the default field
 
