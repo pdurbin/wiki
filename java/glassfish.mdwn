@@ -1,0 +1,10 @@
+## Glassfish asadmin commands
+
+    asadmin start-domain
+    asadmin stop-domain
+    asadmin deploy path/to/hello1.war
+    asadmin list-applications
+    asadmin undeploy hello1
+    asadmin list-log-levels server
+
+See also: Subcommands for the asadmin Utility - Oracle GlassFish Server 3.1 Administration Guide - http://docs.oracle.com/cd/E18930_01/html/821-2416/gcode.html
