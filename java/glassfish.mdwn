@@ -8,3 +8,24 @@
     asadmin list-log-levels server
 
 See also: Subcommands for the asadmin Utility - Oracle GlassFish Server 3.1 Administration Guide - http://docs.oracle.com/cd/E18930_01/html/821-2416/gcode.html
+
+## Increasing the Glassfish logging level
+
+    murphy:~ pdurbin$ cd /Applications/NetBeans/glassfish-3.1.2.2/glassfish
+    murphy:glassfish pdurbin$ cp -a domains/domain1/config/logging.properties domains/domain1/config/logging.properties.orig 
+    murphy:glassfish pdurbin$ 
+    murphy:glassfish pdurbin$ vim domains/domain1/config/logging.properties
+    murphy:glassfish pdurbin$ diff domains/domain1/config/logging.properties.orig domains/domain1/config/logging.properties
+    66c66
+    < com.sun.enterprise.server.logging.GFFileHandler.level=INFO
+    ---
+    > com.sun.enterprise.server.logging.GFFileHandler.level=FINE
+    murphy:glassfish pdurbin$ 
+
+Will affect (for example):
+
+    private static final Logger logger = Logger.getLogger("com.example.Foo");
+    ...
+    logger.fine("Did something");
+
+See also: Configuring the Logging Service - Oracle GlassFish Server 3.1 Administration Guide - http://docs.oracle.com/cd/E18930_01/html/821-2416/gklmn.html
