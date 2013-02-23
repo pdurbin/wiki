@@ -1,1 +1,3 @@
 [[!table format=dsv delimiter="	" file="netbeans/vim2netbeans.tsv"]]
+
+In a "file open" dialog box, Enter selects the hightlighted folder. To go into the folder, use Ctrl-Enter.
