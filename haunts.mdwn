@@ -5,3 +5,5 @@
 `javabot google foo bar` for http://letmegooglethatforyou.com/?q=foo+bar
 
 javabot factoids: http://evanchooly.com/factoids
+
+http://www.evanchooly.com/logs/%23%23java/2011-01-10
