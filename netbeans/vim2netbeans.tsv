@@ -5,3 +5,4 @@ Ctrl-b	PageUp	scroll window backward
 0	Cmd-Left	move cursor to beginning of line
 $	Cmd-Right	move cursor to end of line
 ?	Shift-Cmd-b	go to source
+?	Cmd-/	toggle comment
