@@ -1,0 +1,26 @@
+http://labs.adsabs.harvard.edu/adsabs/search/ is a webapp (Flask) that uses faceted search (with Solr) and is open source: https://github.com/adsabs/adsabs/tree/master/adsabs
+
+- https://github.com/adsabs/adsabs/blob/master/adsabs/modules/search/views.py
+- https://github.com/adsabs/adsabs/blob/master/adsabs/modules/search/forms.py
+- https://github.com/adsabs/adsabs/blob/master/adsabs/core/solr/request.py
+- https://github.com/adsabs/adsabs/blob/master/adsabs/core/solr/response.py
+- https://github.com/adsabs/adsabs/blob/master/adsabs/modules/search/templates/search_results.html
+- https://github.com/adsabs/adsabs/blob/master/adsabs/modules/search/templates/facets_sublevel.html
+
+## Faceted search example
+
+Search for "jupiter"
+
+http://labs.adsabs.harvard.edu/adsabs/search/?q=jupiter
+
+Under Authors, click "Clarke, J"
+
+http://labs.adsabs.harvard.edu/adsabs/search/?q=jupiter&aut_f=0%2FClarke%2C+J
+
+Under Authors, click "Gerard, J"
+
+http://labs.adsabs.harvard.edu/adsabs/search/?q=jupiter&aut_f=0%2FClarke%2C+J&aut_f=0%2FGerard%2C+J
+
+Under Keywords, click "hydrogen"
+
+http://labs.adsabs.harvard.edu/adsabs/search/?q=jupiter&aut_f=0%2FClarke%2C+J&aut_f=0%2FGerard%2C+J&key_f=hydrogen
