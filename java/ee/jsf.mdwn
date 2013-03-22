@@ -1,3 +1,5 @@
 http://www.jsftutorials.net
 
+http://www.coreservlets.com/JSF-Tutorial/jsf2/
+
 http://www.icesoft.org/java/community/documentation.jsf
