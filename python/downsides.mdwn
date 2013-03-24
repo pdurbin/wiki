@@ -1,0 +1,83 @@
+## Python's signficant white space prevents quick experimentation with code you paste in
+
+For me, one of the major downsides of Python is that it doesn't allow me to paste code into existing code and worry about reformating it (programmatically) later. Rather, Python insists that I adjust the indentation first or else the meaning of the code is changed. In my mind, this prevents me from trying quick experiements with code I've just pasted in.
+
+Let me try to illustrate with an example, contrasting Python with a language that doesn't have signficant whitespace (Perl):
+
+Let's say I have the following Perl code (with `use v5.10` for `say`):
+
+    if (1) {
+        for ( 0 .. 2 ) {
+            say "hello world";
+        }
+        # FIXME: add inner for loop?
+    }
+
+It prints the following:
+
+    hello world
+    hello world
+    hello world
+
+Now, let's say I want to nest another for loop inside the existing loop to produce the following output:
+
+    hello world
+    goodbye world
+    goodbye world
+    goodbye world
+    hello world
+    goodbye world
+    goodbye world
+    goodbye world
+    hello world
+    goodbye world
+    goodbye world
+    goodbye world
+
+Here's where you have to bear with me... let's pretend that the code to produce "goodbye world" is long enough that you grab it from some other project you've already worked on. The indenting is off but you paste it in as a quick test and it works fine. Your code is a little ugly at the moment, but it works:
+
+    if (1) {
+        for ( 0 .. 2 ) {
+            say "hello world";
+    for ( 0 .. 2 ) {
+        say "goodbye world";
+    }
+        }
+    }
+
+Since the test works, you run the code through `perltidy` to clean it up. Now it looks like this:
+
+    if (1) {
+        for ( 0 .. 2 ) {
+            say "hello world";
+            for ( 0 .. 2 ) {
+                say "goodbye world";
+            }
+        }
+    }
+
+Now, let's talk about Python. You paste the "goodbye world" code in...
+
+    if 1:
+        for x in range (0,3):
+            print 'hello world'
+    for x in range (0,3):
+        print 'goodbye world'
+
+... but it doesn't give the desired output above. Rather, it prints this:
+
+hello world
+hello world
+hello world
+goodbye world
+goodbye world
+goodbye world
+
+You have to go fix the indenting before you get the meaning you want. Here's the version that produces the desired output:
+
+    if 1:
+        for x in range (0,3):
+            print 'hello world'
+            for x in range (0,3):
+                print 'goodbye world'
+
