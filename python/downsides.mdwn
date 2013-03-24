@@ -66,12 +66,12 @@ Now, let's talk about Python. You paste the "goodbye world" code in...
 
 ... but it doesn't give the desired output above. Rather, it prints this:
 
-hello world
-hello world
-hello world
-goodbye world
-goodbye world
-goodbye world
+    hello world
+    hello world
+    hello world
+    goodbye world
+    goodbye world
+    goodbye world
 
 You have to go fix the indenting before you get the meaning you want. Here's the version that produces the desired output:
 
