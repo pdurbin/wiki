@@ -1,6 +1,6 @@
-[[!toc levels=3]]
-
 Open source applications with faceted search
+
+[[!toc levels=3]]
 
 ## Astrophysics Data System (ADS)
 
