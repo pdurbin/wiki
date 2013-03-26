@@ -51,3 +51,11 @@ Under Topic Subject, click  "History"
 Under Geographic Subject, click "Caribbean Area"
 
 [http://newburyport.mvlc.org/eg/opac/results?query=pirates;facet=subject|topic[History];facet=subject|geographic[Caribbean%20Area]](http://newburyport.mvlc.org/eg/opac/results?query=pirates;facet=subject|topic[History];facet=subject|geographic[Caribbean%20Area])
+
+## Blacklight
+
+http://demo.projectblacklight.org
+
+## VuFind
+
+http://vufind.org/demo
