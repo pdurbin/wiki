@@ -1,0 +1,21 @@
+I'm thinking of doing a podcast episode about ikiwiki, possibly for http://hackerpublicradio.org and possibly with https://twitter.com/schmonz if he's interested.
+
+I thought I'd tell the story of how I came to ikiwiki, how I was frustrated with editing wikis in textareas in browsers. I used https://addons.mozilla.org/en-us/firefox/addon/its-all-text/ for years but what I really wanted was to simply have the source files in plain text in a reasonable format (such as markdown) so I could edit them with vim and manipulate them via the command line with standard tools. I wanted to use git as the versioning system. I wanted to store the files in subfolders that made sense to me, such as java/ee/jsf.
+
+I had read http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html so I started with http://jekyllrb.com but while it's well suited for a simple blog it doesn't handle deeply nested URLs very well. I hacked together a breadcrumb solution for Jekyll at http://stackoverflow.com/questions/9612235/what-are-some-good-ways-to-implement-breadcrumbs-on-a-jekyll-site but it was too much tedious work to create new pages, set up the https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter etc.
+
+I used Jekyll for a few months but kept looking for other solutions. Gollum ( https://github.com/github/gollum ), the system that powers GitHub wikis, seemed attractive but I didn't like how it uses a flat name space. You can't have a folder hierarchy.
+
+I was lamenting to a friend, asking him to find me a wiki with a git back end and he linked me to http://ikiwiki.info saying that he searched and found it but knew nothing about it.
+
+Love:
+
+- simplicity
+- breadcrumbs
+
+Directives I use:
+
+- map (to build a sitemap)
+- meta (to change page name and title)
+- table (for tsv files)
+- toc 
