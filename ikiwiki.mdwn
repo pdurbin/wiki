@@ -25,3 +25,27 @@ In order to get autolinking working (MKD_AUTOLINK per http://www.pell.portland.o
 As http://ikiwiki.info/plugins/mdwn/ says, ikiwiki prefers to use Text::Markdown::Discount, if it's available.
 
 You can subscribe to a feed of updates to this wiki at http://git.greptilian.com/?p=wiki.git;a=atom
+
+## Installing ikiwiki on Mac OS X with local::lib
+
+I'm using `perl Makefile.PL INSTALL_BASE= PREFIX=$HOME/perl5` as suggested at http://ikiwiki.info/install/discussion/
+
+I installed dependencies with `cpanm`.
+
+`make` worked fine but `make install` showed...
+
+    /bin/sh: msgmerge: command not found
+    unable to run msgmerge
+    /bin/sh: msgfmt: command not found
+    unable to run msgfmt
+
+... so I ran `brew link gettext` per https://github.com/mxcl/homebrew/issues/7621
+
+## Previewing changes to this wiki locally before a git push
+
+    vim path/to/page.mdwn
+    ikiwiki --setup local.setup
+    cd _site
+    python -m SimpleHTTPServer
+
+Browse to http://localhost:8000
