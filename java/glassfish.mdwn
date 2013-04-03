@@ -34,3 +34,9 @@ Will affect (for example):
     logger.fine("Did something");
 
 See also: Configuring the Logging Service - Oracle GlassFish Server 3.1 Administration Guide - http://docs.oracle.com/cd/E18930_01/html/821-2416/gklmn.html
+
+## Java EE 6 Standards Support
+
+The GlassFish release notes tell you which version of Java Server Facets, Expression Language (EL), etc. you have:
+
+http://docs.oracle.com/cd/E26576_01/doc.312/e24939/release-notes.htm#gipkz
