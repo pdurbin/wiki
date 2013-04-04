@@ -29,11 +29,14 @@ See also: Subcommands for the asadmin Utility - Oracle GlassFish Server 3.1 Admi
 
 Will affect (for example):
 
-    private static final Logger logger = Logger.getLogger("com.example.Foo");
+    private static final Logger logger = Logger.getLogger(MyClass.class);
     ...
     logger.fine("Did something");
 
-See also: Configuring the Logging Service - Oracle GlassFish Server 3.1 Administration Guide - http://docs.oracle.com/cd/E18930_01/html/821-2416/gklmn.html
+See also:
+
+- Configuring the Logging Service - Oracle GlassFish Server 3.1 Administration Guide - http://docs.oracle.com/cd/E18930_01/html/821-2416/gklmn.html
+- http://stackoverflow.com/questions/80692/java-logger-that-automatically-determines-callers-class-name/104851#104851
 
 ## Java EE 6 Standards Support
 
