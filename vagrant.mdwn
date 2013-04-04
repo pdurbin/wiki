@@ -38,3 +38,7 @@ To see more complicated environments, look at the `Vagrantfile` for these projec
 - `vagrant sandbox off`
 
 After installing https://github.com/jedi4ever/sahara
+
+## Vagrant base boxes
+
+https://github.com/englishm/betterboxes/wiki
