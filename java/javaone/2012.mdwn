@@ -83,13 +83,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11881_PDF_11881_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11881_mp4_11881_001.mp4
         - review: None
-    - CON11879:
-        - title: Getting Started with the NetBeans Platform
-        - abstract: 'Initially, the NetBeans platform can be a bit daunting. It provides a large application framework that gives you a reliable and comprehensive basis for your software systems. ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=11879
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11879_PDF_11879_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11879_mp4_11879_001.mp4
-        - review: None
     - BOF4213:
         - title: Meet the Java EE 7 Specification Leads
         - abstract: 'This is your chance to meet face-to-face with the engineers who are developing the next version of the Java EE platform. In this session, the specification leads for the ... ...'
@@ -103,13 +96,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5247
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5247_PDF_5247_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5247_mp4_5247_001.mp4
-        - review: None
-    - TUT5064:
-        - title: Real-World Java EE 6 Tutorial
-        - abstract: 'This tutorial demonstrates how to use the Java EE 6 APIs together to build a portable, full-stack enterprise application and solve real-world problems. It not only focuses on ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5064
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5064_PDF_5064_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5064_mp4_5064_001.mp4
         - review: None
     - BOF5848:
         - title: Going Beyond in JSF
@@ -146,13 +132,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2424_PDF_2424_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2424_mp4_2424_001.mp4
         - review: None
-    - CON2619:
-        - title: Advanced Enterprise Architectures Using Open Source
-        - abstract: SOA is a complex subject that needs direction on how to properly architect services for enterprise implementations. Understanding the proper way to implement SOA today can be ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2619
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2619_PDF_2619_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2619_mp4_2619_001.mp4
-        - review: None
     - CON4862:
         - title: The Road to Lambda
         - abstract: Lambdas were announced as a new language feature for Java 8 in 2010 but won’t actually be in a supported release of Java until 2013. This session introduces the proposed ... ...
@@ -166,13 +145,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4627
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4627_PDF_4627_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4627_mp4_4627_001.mp4
-        - review: None
-    - BOF7955:
-        - title: Avoiding Java EE Application Design Traps to Achieve Effective Use of Cloud Computing
-        - abstract: Cloud computing and the Java EE platform have evolved to provide a runtime environment for Java EE applications with minimal architectural interference. This evolution is ... ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7955
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7955_PDF_7955_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7955_mp4_7955_001.mp4
         - review: None
     - CON4204:
         - title: Developing Best Practices for Using Hudson CI
@@ -2101,3 +2073,31 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7844_PDF_7844_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7844_mp4_7844_001.mp4
         - review: "Ok, but wouldn't listen again. Would just download the slides to see which tools were mentioned"
+    - CON11879:
+        - title: Getting Started with the NetBeans Platform
+        - abstract: 'Initially, the NetBeans platform can be a bit daunting. It provides a large application framework that gives you a reliable and comprehensive basis for your software systems. ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=11879
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11879_PDF_11879_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11879_mp4_11879_001.mp4
+        - review: A good talk but mostly about building applications on top of the NetBeans platform. It has very little to do with the NetBeans IDE itself.
+    - TUT5064:
+        - title: Real-World Java EE 6 Tutorial
+        - abstract: 'This tutorial demonstrates how to use the Java EE 6 APIs together to build a portable, full-stack enterprise application and solve real-world problems. It not only focuses on ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5064
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5064_PDF_5064_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5064_mp4_5064_001.mp4
+        - review: Great talk. Code at https://github.com/paulbakker/jfokus didn't 'just work' for me though :(
+    - CON2619:
+        - title: Advanced Enterprise Architectures Using Open Source
+        - abstract: SOA is a complex subject that needs direction on how to properly architect services for enterprise implementations. Understanding the proper way to implement SOA today can be ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2619
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2619_PDF_2619_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2619_mp4_2619_001.mp4
+        - review: 'Not very interesting to me. Too much about middleware, Enterprise Service Bus, etc.'
+    - BOF7955:
+        - title: Avoiding Java EE Application Design Traps to Achieve Effective Use of Cloud Computing
+        - abstract: Cloud computing and the Java EE platform have evolved to provide a runtime environment for Java EE applications with minimal architectural interference. This evolution is ... ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7955
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7955_PDF_7955_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7955_mp4_7955_001.mp4
+        - review: 'Not worth listening to. Audio is pretty bad, hard to understand people. Not a ton of insight.'
