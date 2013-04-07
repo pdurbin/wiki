@@ -6,13 +6,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_PDF_4930_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_mp4_4930_001.mp4
         - review: None
-    - CON2580:
-        - title: Protecting Java EE Web Apps with Secure HTTP Headers
-        - abstract: 'To address security defects, developers typically resort to fixing architectural issues and security bugs directly in the code. Finding and fixing security defects can be a ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2580
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2580_PDF_2580_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2580_mp4_2580_001.mp4
-        - review: None
     - CON3455:
         - title: Design Patterns in Modern JVM Languages
         - abstract: 'Gang of Four (GOF) design patterns were quite centered on OOP languages. Now that we have dynamic and functional languages on the JVM, there are quite a few other patterns ...'
@@ -1994,6 +1987,13 @@
         - abstract: 'Continue the dialogue with fellow members of the GlassFish Community, GlassFish architects, and Java EE spec leads in this exciting session. Take this opportunity to meet the ...'
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10360
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10360_PDF_10360_0001.pdf
+        - mp4: Not available
+        - review: None
+    - CON2580:
+        - title: Protecting Java EE Web Apps with Secure HTTP Headers
+        - abstract: 'To address security defects, developers typically resort to fixing architectural issues and security bugs directly in the code. Finding and fixing security defects can be a ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2580
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2580_PDF_2580_0001.pdf
         - mp4: Not available
         - review: None
     - KEY10744:
