@@ -1,0 +1,3 @@
+[[!map pages=java/javaone*]]
+
+I asked if a talk on [[Vagrant]] would welcome at JavaOne at https://plus.google.com/107770072576338242009/posts/7SKn4Y6yEx9
