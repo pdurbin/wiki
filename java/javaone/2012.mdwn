@@ -55,13 +55,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5312_PDF_5312_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5312_mp4_5312_001.mp4
         - review: None
-    - BOF6649:
-        - title: What’s New in the Java Transaction API for Java EE 7 and Beyond
-        - abstract: This session presents an explanation and discussion of what is planned for the Java Transaction API (JTA) in Java EE 7 and beyond. Topics include but are not limited to ... ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6649
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6649_PDF_6649_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6649_mp4_6649_001.mp4
-        - review: None
     - BOF6283:
         - title: '101 Ways to Improve Java: Why Developer Participation Matters'
         - abstract: This community brainstorming session and presentation deal with how to influence the development of Java technologies through participation. The session includes JUG leaders ...
@@ -76,26 +69,12 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11881_PDF_11881_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11881_mp4_11881_001.mp4
         - review: None
-    - BOF4213:
-        - title: Meet the Java EE 7 Specification Leads
-        - abstract: 'This is your chance to meet face-to-face with the engineers who are developing the next version of the Java EE platform. In this session, the specification leads for the ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4213
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4213_PDF_4213_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4213_mp4_4213_001.mp4
-        - review: None
     - CON5247:
         - title: Tooling Support for Enterprise Development
         - abstract: This presentation covers tooling support for Java EE applications. One of the challenges of Java EE development is managing your project within an IDE. Most Java EE books ... ...
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5247
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5247_PDF_5247_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5247_mp4_5247_001.mp4
-        - review: None
-    - BOF5848:
-        - title: Going Beyond in JSF
-        - abstract: 'If you want to extend JSF beyond what the reference implementation delivers, attend this session, in which you will find out where and how you can extend it—whether it be to ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5848
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5848_PDF_5848_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5848_mp4_5848_001.mp4
         - review: None
     - CON5134:
         - title: Rediscovering Your Architecture Through Software Archaeology
@@ -161,13 +140,6 @@
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12856_mp4_12856_001.mp4
         - review: None
 - other:
-    - BOF4670:
-        - title: GlassFish Community BOF
-        - abstract: The GlassFish Community is large and vibrant and has had a tradition of getting together at JavaOne for the past few years. Attend this BOF to meet with the key members of ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4670
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4670_PDF_4670_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4670_mp4_4670_001.mp4
-        - review: None
     - CON3470:
         - title: Scala Tricks
         - abstract: Scala is a very powerful hybrid functional pure object oriented language on the Java Virtual Machine (JVM). Scala is known for its conciseness and expressiveness. This ...
@@ -202,13 +174,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7573
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7573_PDF_7573_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7573_mp4_7573_001.mp4
-        - review: None
-    - UGF10360:
-        - title: 'GlassFish Unconference: Let Your Voice Be Heard'
-        - abstract: 'Continue the dialogue with fellow members of the GlassFish Community, GlassFish architects, and Java EE spec leads in this exciting session. Take this opportunity to meet the ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10360
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10360_PDF_10360_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10360_mp4_10360_001.mp4
         - review: None
     - CON3418:
         - title: Confident Data Transfers with Apache Camel Security
@@ -2017,11 +1982,46 @@
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4608_mp4_4608_001.mp4
         - review: None
 - unavailable:
+    - BOF4670:
+        - title: GlassFish Community BOF
+        - abstract: The GlassFish Community is large and vibrant and has had a tradition of getting together at JavaOne for the past few years. Attend this BOF to meet with the key members of ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4670
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4670_PDF_4670_0001.pdf
+        - mp4: Not available
+        - review: None
+    - UGF10360:
+        - title: 'GlassFish Unconference: Let Your Voice Be Heard'
+        - abstract: 'Continue the dialogue with fellow members of the GlassFish Community, GlassFish architects, and Java EE spec leads in this exciting session. Take this opportunity to meet the ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10360
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10360_PDF_10360_0001.pdf
+        - mp4: Not available
+        - review: None
     - KEY10744:
         - title: JavaOne Technical Keynote
         - abstract: 'Java continues the evolution of its original “write once, run anywhere” philosophy by offering developers a powerful, scalable, and open platform for application development. ...'
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10744
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/KEY10744_PDF_10744_0001.pdf
+        - mp4: Not available
+        - review: None
+    - BOF6649:
+        - title: What’s New in the Java Transaction API for Java EE 7 and Beyond
+        - abstract: This session presents an explanation and discussion of what is planned for the Java Transaction API (JTA) in Java EE 7 and beyond. Topics include but are not limited to ... ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6649
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6649_PDF_6649_0001.pdf
+        - mp4: Not available
+        - review: None
+    - BOF4213:
+        - title: Meet the Java EE 7 Specification Leads
+        - abstract: 'This is your chance to meet face-to-face with the engineers who are developing the next version of the Java EE platform. In this session, the specification leads for the ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4213
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4213_PDF_4213_0001.pdf
+        - mp4: Not available
+        - review: None
+    - BOF5848:
+        - title: Going Beyond in JSF
+        - abstract: 'If you want to extend JSF beyond what the reference implementation delivers, attend this session, in which you will find out where and how you can extend it—whether it be to ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5848
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5848_PDF_5848_0001.pdf
         - mp4: Not available
         - review: None
     - UGF10458:
