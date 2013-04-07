@@ -1,1 +1,1 @@
-[[!map pages=java*]]
+[[!map pages=java/*]]

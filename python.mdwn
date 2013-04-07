@@ -1,3 +1,5 @@
+[[!map pages=python/*]]
+
 ## Python code checkers
 
 ### pep8 - Python style guide checker
