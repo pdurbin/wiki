@@ -1,3 +1,5 @@
-[[!map pages=java/javaone*]]
+As announced at https://blogs.oracle.com/javaone/entry/javaone_highlights_videos the videos from the 2012 JavaOne are available for download at https://oracleus.activeevents.com/connect/search.ww?event=javaone
 
-I asked if a talk on [[Vagrant]] would welcome at JavaOne at https://plus.google.com/107770072576338242009/posts/7SKn4Y6yEx9
+These videos (and slides) are a tremendous resource for the Java community.  On my page for [[2012]] I include links to the videos and slides on a single page. In addition, I have begun adding mini reviews as I listen to the videos.
+
+I asked if a talk on [[Vagrant]] would welcome at JavaOne 2013 at https://plus.google.com/107770072576338242009/posts/7SKn4Y6yEx9
