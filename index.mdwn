@@ -1,8 +1,12 @@
 [[!meta title="wiki.greptilian.com"]]
 
-See the [[sitemap]] for what's here.
+The [[sitemap]] shows everything but some highlights:
 
-http://greptilian.com has more about me.
+- [[Java]] , [[Perl]] , [[Python]]
+- [[Vim]], [[NetBeans]]
+- [[Vagrant]]
+
+http://greptilian.com has more about me. I have a few [[haunts]].
 
 You might also be interested in some of these:
 
@@ -10,5 +14,3 @@ You might also be interested in some of these:
 * http://yum.greptilian.com
 * http://munin.greptilian.com
 * http://data.greptilian.com
-* http://thinkup.greptilian.com
-* http://wiki.greptilian.com/haunts
