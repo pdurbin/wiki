@@ -13,13 +13,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2580_PDF_2580_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2580_mp4_2580_001.mp4
         - review: None
-    - KEY10744:
-        - title: JavaOne Technical Keynote
-        - abstract: 'Java continues the evolution of its original “write once, run anywhere” philosophy by offering developers a powerful, scalable, and open platform for application development. ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10744
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/KEY10744_PDF_10744_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/KEY10744_mp4_10744_001.mp4
-        - review: None
     - CON3455:
         - title: Design Patterns in Modern JVM Languages
         - abstract: 'Gang of Four (GOF) design patterns were quite centered on OOP languages. Now that we have dynamic and functional languages on the JVM, there are quite a few other patterns ...'
@@ -117,13 +110,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3967
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3967_PDF_3967_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3967_mp4_3967_001.mp4
-        - review: None
-    - UGF10458:
-        - title: 'Introduction to Java: JVM, Language, and Platform'
-        - abstract: 'This session will help you make sense of the Java language, Java SE, Java EE, the Java Virtual Machine (JVM), and JDK. This material is presented in the context of the ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10458
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10458_PDF_10458_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10458_mp4_10458_001.mp4
         - review: None
     - CON2424:
         - title: 'Lessons Learned: Use of Modern JVM Languages Besides Java'
@@ -2029,6 +2015,21 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4608
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4608_PDF_4608_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4608_mp4_4608_001.mp4
+        - review: None
+- unavailable:
+    - KEY10744:
+        - title: JavaOne Technical Keynote
+        - abstract: 'Java continues the evolution of its original “write once, run anywhere” philosophy by offering developers a powerful, scalable, and open platform for application development. ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10744
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/KEY10744_PDF_10744_0001.pdf
+        - mp4: Not available
+        - review: None
+    - UGF10458:
+        - title: 'Introduction to Java: JVM, Language, and Platform'
+        - abstract: 'This session will help you make sense of the Java language, Java SE, Java EE, the Java Virtual Machine (JVM), and JDK. This material is presented in the context of the ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10458
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10458_PDF_10458_0001.pdf
+        - mp4: Not available
         - review: None
 - reviewed:
     - CON6575:
