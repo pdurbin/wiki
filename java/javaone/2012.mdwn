@@ -1,18 +1,4 @@
 - bookmarked:
-    - CON4930:
-        - title: 'GlassFish 4: From Clustering to the Cloud'
-        - abstract: 'After a short presentation about GlassFish technology, you will learn how to use GlassFish 3.1 clustering features to set up a scalable and highly available Java EE ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4930
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_PDF_4930_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_mp4_4930_001.mp4
-        - review: None
-    - CON3455:
-        - title: Design Patterns in Modern JVM Languages
-        - abstract: 'Gang of Four (GOF) design patterns were quite centered on OOP languages. Now that we have dynamic and functional languages on the JVM, there are quite a few other patterns ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3455
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3455_PDF_3455_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3455_mp4_3455_001.mp4
-        - review: None
     - CON6430:
         - title: Java EE and Spring Framework Panel Discussion
         - abstract: 'In the age of Java EE 6 and Spring 3, enterprise Java developers have many architectural choices, including Java EE 6 and Spring, but which one is right for your project? ... ...'
@@ -90,6 +76,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4862_PDF_4862_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4862_mp4_4862_001.mp4
         - review: None
+    - CON4627:
+        - title: Standardizing Web Flow Technology with JSF Faces Flows
+        - abstract: 'JavaServer Faces has established itself as a full-featured framework for building sophisticated Java EE applications. One of the key things missing from JSF, though, is ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4627
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4627_PDF_4627_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4627_mp4_4627_001.mp4
+        - review: None
     - CON4204:
         - title: Developing Best Practices for Using Hudson CI
         - abstract: 'The Hudson CI server is often used merely as an automated build system and to run tests, but is it at the heart of your development process? Is it providing the fast, ...'
@@ -110,6 +103,13 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=13284
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF13284_PDF_13284_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF13284_mp4_13284_001.mp4
+        - review: None
+    - CON12856:
+        - title: 'Java EE 7: Infinite Extensibility Meets Infinite Reuse'
+        - abstract: This session is an exploration of two bleeding-edge concepts under active consideration in Java EE 7 to greatly expand annotation reuse across the platform and drastically ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=12856
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12856_PDF_12856_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12856_mp4_12856_001.mp4
         - review: None
 - other:
     - CON3470:
@@ -2025,6 +2025,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4803_PDF_4803_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4803_mp4_4803_001.mp4
         - review: Not worth listening to
+    - CON4930:
+        - title: 'GlassFish 4: From Clustering to the Cloud'
+        - abstract: 'After a short presentation about GlassFish technology, you will learn how to use GlassFish 3.1 clustering features to set up a scalable and highly available Java EE ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4930
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_PDF_4930_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_mp4_4930_001.mp4
+        - review: Speaker seems nice but talk is a little dull
     - CON5089:
         - title: Jump-Starting Lambda Programming
         - abstract: You’ve probably heard about the new Lambda feature that’s going to be in Java 8. What might not be obvious is why Lambda is important and how you can use it effectively. This ...
@@ -2039,6 +2046,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON8049_PDF_8049_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON8049_mp4_8049_001.mp4
         - review: Great talk. See my post at https://plus.google.com/107770072576338242009/posts/Yh9RQrcXt4R for more.
+    - CON3455:
+        - title: Design Patterns in Modern JVM Languages
+        - abstract: 'Gang of Four (GOF) design patterns were quite centered on OOP languages. Now that we have dynamic and functional languages on the JVM, there are quite a few other patterns ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3455
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3455_PDF_3455_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3455_mp4_3455_001.mp4
+        - review: Great talk. Entertaining and dynamic speaker.
     - CON6238:
         - title: Powerful Analytics Apps Fueled by Java for High Performance and Scalability
         - abstract: 'eBay has grown into one of the largest online marketplaces on the internet today, serving more than 100 million active users. The number of items listed on eBay and the fact ...'
@@ -2081,13 +2095,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2619_PDF_2619_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2619_mp4_2619_001.mp4
         - review: 'Not very interesting to me. Too much about middleware, Enterprise Service Bus, etc.'
-    - CON4627:
-        - title: Standardizing Web Flow Technology with JSF Faces Flows
-        - abstract: 'JavaServer Faces has established itself as a full-featured framework for building sophisticated Java EE applications. One of the key things missing from JSF, though, is ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4627
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4627_PDF_4627_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4627_mp4_4627_001.mp4
-        - review: 'Good info on JBoss tools, OpenShift.'
     - BOF7955:
         - title: Avoiding Java EE Application Design Traps to Achieve Effective Use of Cloud Computing
         - abstract: Cloud computing and the Java EE platform have evolved to provide a runtime environment for Java EE applications with minimal architectural interference. This evolution is ... ...
@@ -2095,10 +2102,3 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7955_PDF_7955_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7955_mp4_7955_001.mp4
         - review: 'Not worth listening to. Audio is pretty bad, hard to understand people. Not a ton of insight.'
-    - CON12856:
-        - title: 'Java EE 7: Infinite Extensibility Meets Infinite Reuse'
-        - abstract: This session is an exploration of two bleeding-edge concepts under active consideration in Java EE 7 to greatly expand annotation reuse across the platform and drastically ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=12856
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12856_PDF_12856_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12856_mp4_12856_001.mp4
-        - review: 'Interesting talk. Good background on history and future of Java EE, annotations, etc. Recommends joining http://java.net/projects/javaee-spec/lists'
