@@ -4,6 +4,15 @@
     /filter list
     /filter add irc_smart * irc_smart_filter *
 
+## Key bindings
+
+    F5 buffer left
+    F6 buffer right
+    F11 scroll nick list up
+    F12 scroll nick list down
+
+http://www.weechat.org/files/doc/stable/weechat_quickstart.en.html#key_bindings
+
 ## Common commands
 
     /connect irc.freenode.net
