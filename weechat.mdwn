@@ -1,8 +1,14 @@
 ## Setup
 
     /set weechat.bar.input.size 0
+    /filter list
+    /filter add irc_smart * irc_smart_filter *
 
 ## Common commands
 
     /connect irc.freenode.net
     /join #sourcefu
+
+## See also
+
+http://dev.weechat.org/post/2008/10/25/Smart-IRC-join-part-quit-message-filter
