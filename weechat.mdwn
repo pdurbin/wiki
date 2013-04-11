@@ -1,0 +1,8 @@
+## Setup
+
+    /set weechat.bar.input.size 0
+
+## Common commands
+
+    /connect irc.freenode.net
+    /join #sourcefu
