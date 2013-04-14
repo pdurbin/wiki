@@ -18,6 +18,10 @@ http://www.weechat.org/files/doc/stable/weechat_quickstart.en.html#key_bindings
     /connect irc.freenode.net
     /join #sourcefu
 
+## To fix
+
+task #12499, filter mode changes after joins: http://savannah.nongnu.org/task/?12499
+
 ## See also
 
 http://dev.weechat.org/post/2008/10/25/Smart-IRC-join-part-quit-message-filter
