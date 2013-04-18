@@ -6,6 +6,10 @@
 
     git ls-files
 
+### How to get the short sha1 for a commit
+
+    git log --oneline
+
 See also http://stackoverflow.com/questions/2405305/git-how-to-tell-if-a-file-is-git-tracked-by-shell-exit-code
 
 ### Fix your email address in your commits
