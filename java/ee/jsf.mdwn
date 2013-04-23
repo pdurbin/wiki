@@ -3,3 +3,23 @@ http://www.jsftutorials.net
 http://www.coreservlets.com/JSF-Tutorial/jsf2/
 
 http://www.icesoft.org/java/community/documentation.jsf
+
+suggestions below from http://pastebin.com/s2W1UrMg via http://www.evanchooly.com/logs/%23%23jsf/2013-04-18
+
+Core Java Server Faces 3a edizione - Cay Horstmann, David Geary
+
+Java EE 6 reference http://docs.oracle.com/javaee/6/tutorial/doc/javaeetutorial6.pdf
+
+Pro JPA 2 Mastering the Java trade Persistence API - Mike Keith, Merrick Schnicariol
+
+Java EE 6 Pocket Guide - Arun Gupta 
+
+Exploring JSF 2.0 and PrimeFaces - Cagatay Civici
+
+PrimeFaces user guide
+
+PrimeFaces showcase - http://www.primefaces.org/showcase/ui/home.jsf
+
+Java Persistence API www.html.it/articoli/java-persistence-api-1/
+
+Simple CRUD Web Application with JSF 2.1, PrimeFaces 3.5, Maven and JPA - http://www.simtay.com/simple-crud-web-application-with-jsf-2-1-primefaces-3-5-maven-and-jpa/
