@@ -5,3 +5,5 @@ http://docs.oracle.com/javaee/6/tutorial/doc/
 https://wikis.oracle.com/display/GlassFish/Java+EE+6+Annotation+Reference
 
 http://www.physics.usyd.edu.au/~rennie/javaEE6ReferenceSheet.html
+
+http://blog.eisele.net/2012/03/java-ee-6-running-galleria-on-glassfish.html
