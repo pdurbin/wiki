@@ -4,6 +4,12 @@ http://www.coreservlets.com/JSF-Tutorial/jsf2/
 
 http://www.icesoft.org/java/community/documentation.jsf
 
+## JSF samples
+
+    git clone git://java.net/javaserverfaces~samples
+
+"The official #JSF samples Git repo is now at git://java.net/javaserverfaces~samples" -- https://twitter.com/mnriem/status/326802521525981184
+
 suggestions below from http://pastebin.com/s2W1UrMg via http://www.evanchooly.com/logs/%23%23jsf/2013-04-18
 
 Core Java Server Faces 3a edizione - Cay Horstmann, David Geary
