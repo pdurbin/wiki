@@ -1,3 +1,5 @@
 [[!table format=dsv delimiter="	" file="netbeans/vim2netbeans.tsv"]]
 
 In a "file open" dialog box, Enter selects the hightlighted folder. To go into the folder, use Ctrl-Enter.
+
+To have NetBeans open a custom URL when you run your app (i.e. deploy your war file) when you hit F6 for "Run Project", right-click your project and select Properties, go to the "Run" category and enter a "Relative URL".
