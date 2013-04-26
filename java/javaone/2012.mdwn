@@ -1,39 +1,4 @@
 - bookmarked:
-    - CON5312:
-        - title: 'Continuous Enterprise Development: Case Studies in Java EE Integration Testing'
-        - abstract: This highly technical session examines solutions for easing the testing of some of the more complex use cases within Java EE. Each example is backed by a runnable test ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5312
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5312_PDF_5312_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5312_mp4_5312_001.mp4
-        - review: None
-    - BOF6283:
-        - title: '101 Ways to Improve Java: Why Developer Participation Matters'
-        - abstract: This community brainstorming session and presentation deal with how to influence the development of Java technologies through participation. The session includes JUG leaders ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6283
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6283_PDF_6283_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6283_mp4_6283_001.mp4
-        - review: None
-    - CON11881:
-        - title: Java EE Security in Practice with Java EE 6 and GlassFish
-        - abstract: 'The hottest topic related to enterprise Java applications is security, for which Java EE provides a fair amount of flexibility. This session focuses on how the top 10 Open ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=11881
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11881_PDF_11881_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11881_mp4_11881_001.mp4
-        - review: None
-    - CON5247:
-        - title: Tooling Support for Enterprise Development
-        - abstract: This presentation covers tooling support for Java EE applications. One of the challenges of Java EE development is managing your project within an IDE. Most Java EE books ... ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5247
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5247_PDF_5247_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5247_mp4_5247_001.mp4
-        - review: None
-    - CON5134:
-        - title: Rediscovering Your Architecture Through Software Archaeology
-        - abstract: 'As Java deployments have become more complex, it has become harder and harder to get good insight into the structure and execution flow of the application. This applies ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5134
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5134_PDF_5134_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5134_mp4_5134_001.mp4
-        - review: None
     - BOF3967:
         - title: 'Tools for Java EE 7: Evolution or Revolution?'
         - abstract: 'In many ways, Java EE 7 is certainly an evolutionary revision of the Java EE platform, delivering incremental improvements of existing technologies and standards. However, ...'
@@ -2053,6 +2018,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4701_PDF_4701_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4701_mp4_4701_001.mp4
         - review: Good
+    - CON5312:
+        - title: 'Continuous Enterprise Development: Case Studies in Java EE Integration Testing'
+        - abstract: This highly technical session examines solutions for easing the testing of some of the more complex use cases within Java EE. Each example is backed by a runnable test ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5312
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5312_PDF_5312_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5312_mp4_5312_001.mp4
+        - review: Pretty good talk about testing.
     - CON7844:
         - title: 'Java: A Perfect Platform for Data Science'
         - abstract: 'The advent of big data has created a mind shift in the marketplace. Google, Facebook, and LinkedIn have changed the way products are being developed today by simply basing ...'
@@ -2060,6 +2032,20 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7844_PDF_7844_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7844_mp4_7844_001.mp4
         - review: "Ok, but wouldn't listen again. Would just download the slides to see which tools were mentioned"
+    - BOF6283:
+        - title: '101 Ways to Improve Java: Why Developer Participation Matters'
+        - abstract: This community brainstorming session and presentation deal with how to influence the development of Java technologies through participation. The session includes JUG leaders ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6283
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6283_PDF_6283_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6283_mp4_6283_001.mp4
+        - review: Not particularly interesting.
+    - CON11881:
+        - title: Java EE Security in Practice with Java EE 6 and GlassFish
+        - abstract: 'The hottest topic related to enterprise Java applications is security, for which Java EE provides a fair amount of flexibility. This session focuses on how the top 10 Open ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=11881
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11881_PDF_11881_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11881_mp4_11881_001.mp4
+        - review: Pretty good talk.
     - CON11879:
         - title: Getting Started with the NetBeans Platform
         - abstract: 'Initially, the NetBeans platform can be a bit daunting. It provides a large application framework that gives you a reliable and comprehensive basis for your software systems. ...'
@@ -2067,6 +2053,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11879_PDF_11879_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11879_mp4_11879_001.mp4
         - review: A good talk but mostly about building applications on top of the NetBeans platform. It has very little to do with the NetBeans IDE itself.
+    - CON5247:
+        - title: Tooling Support for Enterprise Development
+        - abstract: This presentation covers tooling support for Java EE applications. One of the challenges of Java EE development is managing your project within an IDE. Most Java EE books ... ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5247
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5247_PDF_5247_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5247_mp4_5247_001.mp4
+        - review: 'Nice overview of tools, especially when setting up a new Java EE project.'
     - TUT5064:
         - title: Real-World Java EE 6 Tutorial
         - abstract: 'This tutorial demonstrates how to use the Java EE 6 APIs together to build a portable, full-stack enterprise application and solve real-world problems. It not only focuses on ...'
@@ -2074,6 +2067,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5064_PDF_5064_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5064_mp4_5064_001.mp4
         - review: Great talk. Code at https://github.com/paulbakker/jfokus didn't 'just work' for me though :(
+    - CON5134:
+        - title: Rediscovering Your Architecture Through Software Archaeology
+        - abstract: 'As Java deployments have become more complex, it has become harder and harder to get good insight into the structure and execution flow of the application. This applies ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5134
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5134_PDF_5134_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5134_mp4_5134_001.mp4
+        - review: Good talk if you ever need to understand a legacy app or if you want to generate UML diagrams.
     - CON2619:
         - title: Advanced Enterprise Architectures Using Open Source
         - abstract: SOA is a complex subject that needs direction on how to properly architect services for enterprise implementations. Understanding the proper way to implement SOA today can be ...
