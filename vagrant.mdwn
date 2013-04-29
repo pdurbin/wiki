@@ -30,6 +30,8 @@ To see more complicated environments, look at the `Vagrantfile` for these projec
 - https://github.com/pdurbin/greptilian-vagrant
 - https://github.com/puppetlabs/puppetlabs-openstack_dev_env
 - https://github.com/agoddard/the-super-mini-one-click-chef-solo-apache-demo-that-just-uses-vagrant-up-
+- https://github.com/berekuk/play-perl
+- https://github.com/discourse/discourse
 
 ## Vagrant snapshots (with Sahara)
 
