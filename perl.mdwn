@@ -1,3 +1,5 @@
 Coding Amusement.: Installing Multiple Perls with App::perlbrew and App::cpanminus: http://blog.fox.geek.nz/2010/09/installing-multiple-perls-with.html
 
 Download any module documentation available on MetaCPAN, reformatted for the most popular EBook readers -- http://perlybook.org/about
+
+http://play-perl.org
