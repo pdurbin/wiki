@@ -1,0 +1,7 @@
+## Scala - A Scalable Language by Martin Odersky (FOSDEM 2009)
+
+FOSDEM 2009 Scala - A Scalable Language - YouTube - http://www.youtube.com/watch?v=zqFryHC018k
+
+http://www.slideshare.net/Odersky/fosdem-2009-1013261
+
+http://www.cs.duke.edu/courses/spring10/cps296.1/lectures/22-scala.pdf
