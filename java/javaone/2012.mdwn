@@ -13,34 +13,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2424_PDF_2424_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2424_mp4_2424_001.mp4
         - review: None
-    - CON4862:
-        - title: The Road to Lambda
-        - abstract: Lambdas were announced as a new language feature for Java 8 in 2010 but won’t actually be in a supported release of Java until 2013. This session introduces the proposed ... ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4862
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4862_PDF_4862_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4862_mp4_4862_001.mp4
-        - review: None
-    - CON4204:
-        - title: Developing Best Practices for Using Hudson CI
-        - abstract: 'The Hudson CI server is often used merely as an automated build system and to run tests, but is it at the heart of your development process? Is it providing the fast, ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4204
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4204_PDF_4204_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4204_mp4_4204_001.mp4
-        - review: None
-    - CON3852:
-        - title: 'WebSocket and Java EE: A State of the Union'
-        - abstract: 'Java EE is beginning its climb into the cloud. In addition to updates to existing technologies such as JPA and EJB, Java EE 7 is introducing new technologies such as ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3852
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3852_PDF_3852_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3852_mp4_3852_001.mp4
-        - review: None
-    - BOF13284:
-        - title: PaaS-Enabling Java EE Applications Through Service Metadata and Policies
-        - abstract: PaaS-enabling a production-grade Java EE application often requires specifying complex services metadata and service selection and provisioning policies. This metadata may ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=13284
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF13284_PDF_13284_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF13284_mp4_13284_001.mp4
-        - review: None
 - other:
     - CON3470:
         - title: Scala Tricks
@@ -2081,6 +2053,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2619_PDF_2619_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2619_mp4_2619_001.mp4
         - review: 'Not very interesting to me. Too much about middleware, Enterprise Service Bus, etc.'
+    - CON4862:
+        - title: The Road to Lambda
+        - abstract: Lambdas were announced as a new language feature for Java 8 in 2010 but won’t actually be in a supported release of Java until 2013. This session introduces the proposed ... ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4862
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4862_PDF_4862_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4862_mp4_4862_001.mp4
+        - review: 'Great talk, should check out slides.'
     - CON4627:
         - title: Standardizing Web Flow Technology with JSF Faces Flows
         - abstract: 'JavaServer Faces has established itself as a full-featured framework for building sophisticated Java EE applications. One of the key things missing from JSF, though, is ... ...'
@@ -2095,6 +2074,27 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7955_PDF_7955_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7955_mp4_7955_001.mp4
         - review: 'Not worth listening to. Audio is pretty bad, hard to understand people. Not a ton of insight.'
+    - CON4204:
+        - title: Developing Best Practices for Using Hudson CI
+        - abstract: 'The Hudson CI server is often used merely as an automated build system and to run tests, but is it at the heart of your development process? Is it providing the fast, ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4204
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4204_PDF_4204_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4204_mp4_4204_001.mp4
+        - review: Meh. Fairly intuitive advice.
+    - CON3852:
+        - title: 'WebSocket and Java EE: A State of the Union'
+        - abstract: 'Java EE is beginning its climb into the cloud. In addition to updates to existing technologies such as JPA and EJB, Java EE 7 is introducing new technologies such as ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3852
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3852_PDF_3852_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3852_mp4_3852_001.mp4
+        - review: Good discussion of websockets.
+    - BOF13284:
+        - title: PaaS-Enabling Java EE Applications Through Service Metadata and Policies
+        - abstract: PaaS-enabling a production-grade Java EE application often requires specifying complex services metadata and service selection and provisioning policies. This metadata may ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=13284
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF13284_PDF_13284_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF13284_mp4_13284_001.mp4
+        - review: Meh. Maybe look at the slides.
     - CON12856:
         - title: 'Java EE 7: Infinite Extensibility Meets Infinite Reuse'
         - abstract: This session is an exploration of two bleeding-edge concepts under active consideration in Java EE 7 to greatly expand annotation reuse across the platform and drastically ...
