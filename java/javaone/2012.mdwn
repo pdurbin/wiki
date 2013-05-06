@@ -1,18 +1,4 @@
-- bookmarked:
-    - BOF3967:
-        - title: 'Tools for Java EE 7: Evolution or Revolution?'
-        - abstract: 'In many ways, Java EE 7 is certainly an evolutionary revision of the Java EE platform, delivering incremental improvements of existing technologies and standards. However, ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3967
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3967_PDF_3967_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3967_mp4_3967_001.mp4
-        - review: None
-    - CON2424:
-        - title: 'Lessons Learned: Use of Modern JVM Languages Besides Java'
-        - abstract: 'Java is the main language for the JVM, but it has several shortcomings. In the last few years, several modern languages such as Groovy, Scala, and Clojure have emerged for ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2424
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2424_PDF_2424_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2424_mp4_2424_001.mp4
-        - review: None
+- bookmarked: ~
 - other:
     - CON3470:
         - title: Scala Tricks
@@ -2046,6 +2032,20 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5134_PDF_5134_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5134_mp4_5134_001.mp4
         - review: Good talk if you ever need to understand a legacy app or if you want to generate UML diagrams.
+    - BOF3967:
+        - title: 'Tools for Java EE 7: Evolution or Revolution?'
+        - abstract: 'In many ways, Java EE 7 is certainly an evolutionary revision of the Java EE platform, delivering incremental improvements of existing technologies and standards. However, ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3967
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3967_PDF_3967_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3967_mp4_3967_001.mp4
+        - review: An ok talk. Probably could skip it
+    - CON2424:
+        - title: 'Lessons Learned: Use of Modern JVM Languages Besides Java'
+        - abstract: 'Java is the main language for the JVM, but it has several shortcomings. In the last few years, several modern languages such as Groovy, Scala, and Clojure have emerged for ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2424
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2424_PDF_2424_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2424_mp4_2424_001.mp4
+        - review: Great talk. Very interesting.
     - CON2619:
         - title: Advanced Enterprise Architectures Using Open Source
         - abstract: SOA is a complex subject that needs direction on how to properly architect services for enterprise implementations. Understanding the proper way to implement SOA today can be ...
