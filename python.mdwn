@@ -15,3 +15,7 @@ pylint tutorial: http://www.logilab.org/4736
 http://docs.python.org/library/optparse.html
 
 http://www.ibm.com/developerworks/aix/library/au-pythocli/
+
+## Python history
+
+http://docs.python.org/2/faq/general#why-was-python-created-in-the-first-place
