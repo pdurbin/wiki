@@ -19,3 +19,5 @@ http://www.ibm.com/developerworks/aix/library/au-pythocli/
 ## Python history
 
 http://docs.python.org/2/faq/general#why-was-python-created-in-the-first-place
+
+http://svn.python.org/projects/python/branches/cnri-16-start/Misc/BLURB.LUTZ
