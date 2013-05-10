@@ -12,6 +12,16 @@
 
 See also http://stackoverflow.com/questions/2405305/git-how-to-tell-if-a-file-is-git-tracked-by-shell-exit-code
 
+### How to use git stash
+
+Undo your changes, show your stashes, and re-apply them
+
+    git stash
+    git stash list
+    git stash apply
+
+http://git-scm.com/book/en/Git-Tools-Stashing
+
 ### Fix your email address in your commits
 
 https://help.github.com/articles/changing-author-info
