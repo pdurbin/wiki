@@ -532,13 +532,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6037_PDF_6037_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6037_mp4_6037_001.mp4
         - review: None
-    - CON5774:
-        - title: 'Who’s More Functional: Kotlin, Groovy, Scala, or Java?'
-        - abstract: 'What is “functional programming” (FP)? Is it a paradigm, a mind-set, or just a buzzword? What’s good about it? How can we benefit from it? This session is about functional ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5774
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5774_PDF_5774_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5774_mp4_5774_001.mp4
-        - review: None
     - CON6094:
         - title: JavaFX on Smart Embedded Devices
         - abstract: This session presents an overview of the upcoming JavaFX release on embedded devices powered by ARM and Intel Atom chipsets. It describes the target hardware that can support ...
@@ -678,13 +671,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2813
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2813_PDF_2813_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2813_mp4_2813_001.mp4
-        - review: None
-    - CON4857:
-        - title: Improving Your Groovy Kung-Fu
-        - abstract: 'This no-slide event works you through a wide variety of Groovy moves: from hidden treasures in the language itself through Groovy helpers for your daily work as a Java ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4857
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4857_PDF_4857_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4857_mp4_4857_001.mp4
         - review: None
     - CON3253:
         - title: Monitoring and Managing a Complex Data Cloud
@@ -1070,13 +1056,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4667
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4667_PDF_4667_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4667_mp4_4667_001.mp4
-        - review: None
-    - CON6505:
-        - title: What’s New in Groovy 2.0?
-        - abstract: 'Groovy is a very popular alternative language for the JVM that continues to bring more developer productivity and more performance after each release. This session, after a ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6505
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6505_PDF_6505_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6505_mp4_6505_001.mp4
         - review: None
     - CON3138:
         - title: 'The Ins and Outs of Text for JavaFX: The Graphic Details'
@@ -1920,6 +1899,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_PDF_4930_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_mp4_4930_001.mp4
         - review: Speaker seems nice but talk is a little dull
+    - CON5774:
+        - title: 'Who’s More Functional: Kotlin, Groovy, Scala, or Java?'
+        - abstract: 'What is “functional programming” (FP)? Is it a paradigm, a mind-set, or just a buzzword? What’s good about it? How can we benefit from it? This session is about functional ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5774
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5774_PDF_5774_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5774_mp4_5774_001.mp4
+        - review: Good. Interesting history of functional programming languages.
     - CON5089:
         - title: Jump-Starting Lambda Programming
         - abstract: You’ve probably heard about the new Lambda feature that’s going to be in Java 8. What might not be obvious is why Lambda is important and how you can use it effectively. This ...
@@ -1948,6 +1934,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6238_PDF_6238_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6238_mp4_6238_001.mp4
         - review: Ok but not great. Interesting to hear that eBay wrote their own application server.
+    - CON4857:
+        - title: Improving Your Groovy Kung-Fu
+        - abstract: 'This no-slide event works you through a wide variety of Groovy moves: from hidden treasures in the language itself through Groovy helpers for your daily work as a Java ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4857
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4857_PDF_4857_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4857_mp4_4857_001.mp4
+        - review: Good if you're interested in Groovy
     - CON6430:
         - title: Java EE and Spring Framework Panel Discussion
         - abstract: 'In the age of Java EE 6 and Spring 3, enterprise Java developers have many architectural choices, including Java EE 6 and Spring, but which one is right for your project? ... ...'
@@ -2025,6 +2018,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5064_PDF_5064_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5064_mp4_5064_001.mp4
         - review: Great talk. Code at https://github.com/paulbakker/jfokus didn't 'just work' for me though :(
+    - CON6505:
+        - title: What’s New in Groovy 2.0?
+        - abstract: 'Groovy is a very popular alternative language for the JVM that continues to bring more developer productivity and more performance after each release. This session, after a ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6505
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6505_PDF_6505_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6505_mp4_6505_001.mp4
+        - review: Good if you're interested in Groovy
     - CON5134:
         - title: Rediscovering Your Architecture Through Software Archaeology
         - abstract: 'As Java deployments have become more complex, it has become harder and harder to get good insight into the structure and execution flow of the application. This applies ... ...'
