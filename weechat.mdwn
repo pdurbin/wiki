@@ -1,3 +1,5 @@
+[[!toc levels=4]]
+
 ## Setup
 
     /set weechat.bar.input.size 0
@@ -28,10 +30,8 @@ task #12499, filter mode changes after joins: http://savannah.nongnu.org/task/?1
 
 http://www.weechat.org/files/doc/weechat_faq.en.html#filter_irc_join_part_quit
 
+See also http://dev.weechat.org/post/2008/10/25/Smart-IRC-join-part-quit-message-filter
+
 ### Can't click long links
 
 "[urlgrab.py] has one obvious limitation: it doesn’t work well if you’re running weechat on a remote host" -- http://blog.lnx.cx/2012/08/14/weechat/
-
-## See also
-
-http://dev.weechat.org/post/2008/10/25/Smart-IRC-join-part-quit-message-filter
