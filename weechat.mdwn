@@ -20,11 +20,17 @@ http://www.weechat.org/files/doc/stable/weechat_quickstart.en.html#key_bindings
 
 ## To fix
 
+### Mode noise
+
 task #12499, filter mode changes after joins: http://savannah.nongnu.org/task/?12499
 
 "When you see a mode change it's not "MODE" command received but a numeric command (for example 324 for channel modes). So you may have to ignore many numeric commands to ignore all modes." -- http://forums.flashtux.org/viewtopic.php?p=106&sid=62c78f547fb166200ca839a0d08d96d4#p106
 
 http://www.weechat.org/files/doc/weechat_faq.en.html#filter_irc_join_part_quit
+
+### Can't click long links
+
+"[urlgrab.py] has one obvious limitation: it doesn’t work well if you’re running weechat on a remote host -- http://blog.lnx.cx/2012/08/14/weechat/
 
 ## See also
 
