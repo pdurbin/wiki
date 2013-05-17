@@ -30,7 +30,7 @@ http://www.weechat.org/files/doc/weechat_faq.en.html#filter_irc_join_part_quit
 
 ### Can't click long links
 
-"[urlgrab.py] has one obvious limitation: it doesn’t work well if you’re running weechat on a remote host -- http://blog.lnx.cx/2012/08/14/weechat/
+"[urlgrab.py] has one obvious limitation: it doesn’t work well if you’re running weechat on a remote host" -- http://blog.lnx.cx/2012/08/14/weechat/
 
 ## See also
 
