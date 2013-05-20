@@ -287,13 +287,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/HOL11111_PDF_11111_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/HOL11111_mp4_11111_001.mp4
         - review: None
-    - CON10656:
-        - title: 'JavaEE.Next(): Java EE 7, 8, and Beyond'
-        - abstract: 'In this session, hear from a distinguished panel of industry and open source luminaries regarding where they believe the Java EE community is headed, starting with Java EE 7. ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10656
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON10656_PDF_10656_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON10656_mp4_10656_001.mp4
-        - review: None
     - HOL10214:
         - title: Tracing Your Java Application Tuning on Oracle Solaris with DTrace
         - abstract: 'There are many good tracing tools for Java. Still, most of these tools lack the combination of extreme dynamism, nonintrusiveness, and broad capabilities of Oracle Solaris’ ...'
@@ -420,20 +413,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3615_PDF_3615_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3615_mp4_3615_001.mp4
         - review: None
-    - BOF5806:
-        - title: Doing JSF Development in the NetBeans IDE
-        - abstract: Doing JSF development in NetBeans offers you several options. This BOF session shows you how you can use NetBeans IDE in a way that will make you the most productive with JSF ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5806
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5806_PDF_5806_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5806_mp4_5806_001.mp4
-        - review: None
-    - BOF4149:
-        - title: Web Framework Smackdown 2012
-        - abstract: 'Much has changed since the first Web framework smackdown, at JavaOne 2005. Or has it? The 2012 edition of this popular panel discussion surveys the current landscape of Web ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4149
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4149_PDF_4149_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4149_mp4_4149_001.mp4
-        - review: None
     - CON7059:
         - title: Uncovering Hidden Power Tools in the JDK
         - abstract: 'This session provides a guide to the hidden gems of the JDK, knowledge usually reserved for tool authors. You will find that you don’t have to be a tool author to benefit ... ...'
@@ -497,13 +476,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4012_PDF_4012_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4012_mp4_4012_001.mp4
         - review: None
-    - CON5135:
-        - title: 'From Java Code to Java Heap: Understanding the Memory Usage of Your Application'
-        - abstract: 'When you write and run Java code, the JVM makes several allocations on your behalf, but do you have an understanding of how much that is? This session provides insight into ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5135
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5135_PDF_5135_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5135_mp4_5135_001.mp4
-        - review: None
     - CON3956:
         - title: java.nio.file for Remote Systems
         - abstract: 'The New I/O File API, introduced in Java SE 7, has overcome several shortcomings in the File API. Most importantly, it is now designed for extension. For example, you can ... ...'
@@ -545,13 +517,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6823
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6823_PDF_6823_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6823_mp4_6823_001.mp4
-        - review: None
-    - CON7357:
-        - title: Why Should I Switch to Java SE 7?
-        - abstract: 'With Java SE 7 having been available for more than a year, it is time to start using it. A common question is, “Why should I update to Java SE 7? I don’t use any of the new ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7357
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7357_PDF_7357_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7357_mp4_7357_001.mp4
         - review: None
     - CON3401:
         - title: 'Spearfish: Real-Time Java-Based Underwater Tracking of Large Numbers of Targets'
@@ -839,13 +804,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=12928
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF12928_PDF_12928_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF12928_mp4_12928_001.mp4
-        - review: None
-    - CON13584:
-        - title: 'PrimeFaces: Ultimate Component Suite'
-        - abstract: 'JavaServer Faces provides a powerful infrastructure for building RIA applications rapidly. Combined with PrimeFaces, a popular component suite, JSF unleashes its true power. ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=13584
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON13584_PDF_13584_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON13584_mp4_13584_001.mp4
         - review: None
     - CON12803:
         - title: Making the Future Secure with Java
@@ -1856,6 +1814,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6649_PDF_6649_0001.pdf
         - mp4: Not available
         - review: None
+    - CON13584:
+        - title: 'PrimeFaces: Ultimate Component Suite'
+        - abstract: 'JavaServer Faces provides a powerful infrastructure for building RIA applications rapidly. Combined with PrimeFaces, a popular component suite, JSF unleashes its true power. ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=13584
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON13584_PDF_13584_0001.pdf
+        - mp4: Not available
+        - review: None
     - BOF4213:
         - title: Meet the Java EE 7 Specification Leads
         - abstract: 'This is your chance to meet face-to-face with the engineers who are developing the next version of the Java EE platform. In this session, the specification leads for the ... ...'
@@ -1885,6 +1850,27 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6575_PDF_6575_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6575_mp4_6575_001.mp4
         - review: I'm pretty sure I listened to this and it was ok.
+    - CON10656:
+        - title: 'JavaEE.Next(): Java EE 7, 8, and Beyond'
+        - abstract: 'In this session, hear from a distinguished panel of industry and open source luminaries regarding where they believe the Java EE community is headed, starting with Java EE 7. ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10656
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON10656_PDF_10656_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON10656_mp4_10656_001.mp4
+        - review: Not bad. Good to hear from the people who make application servers
+    - BOF5806:
+        - title: Doing JSF Development in the NetBeans IDE
+        - abstract: Doing JSF development in NetBeans offers you several options. This BOF session shows you how you can use NetBeans IDE in a way that will make you the most productive with JSF ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5806
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5806_PDF_5806_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5806_mp4_5806_001.mp4
+        - review: Good. Practical advice from JSF developers.
+    - BOF4149:
+        - title: Web Framework Smackdown 2012
+        - abstract: 'Much has changed since the first Web framework smackdown, at JavaOne 2005. Or has it? The 2012 edition of this popular panel discussion surveys the current landscape of Web ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4149
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4149_PDF_4149_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4149_mp4_4149_001.mp4
+        - review: 'Great talk. Nice to hear about various web frameworks (JSF, Play, Grails, etc.).'
     - BOF4803:
         - title: Open Source Identity and Access Management Expert Panel
         - abstract: There is a growing need in the market today to provide open source identity and access management (IAM) solutions that are both comprehensive and easy to use. Despite this ...
@@ -1899,6 +1885,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_PDF_4930_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_mp4_4930_001.mp4
         - review: Speaker seems nice but talk is a little dull
+    - CON5135:
+        - title: 'From Java Code to Java Heap: Understanding the Memory Usage of Your Application'
+        - abstract: 'When you write and run Java code, the JVM makes several allocations on your behalf, but do you have an understanding of how much that is? This session provides insight into ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5135
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5135_PDF_5135_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5135_mp4_5135_001.mp4
+        - review: 'Great talk, a deep dive into how Java uses memory.'
     - CON5774:
         - title: 'Who’s More Functional: Kotlin, Groovy, Scala, or Java?'
         - abstract: 'What is “functional programming” (FP)? Is it a paradigm, a mind-set, or just a buzzword? What’s good about it? How can we benefit from it? This session is about functional ...'
@@ -1906,6 +1899,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5774_PDF_5774_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5774_mp4_5774_001.mp4
         - review: Good. Interesting history of functional programming languages.
+    - CON7357:
+        - title: Why Should I Switch to Java SE 7?
+        - abstract: 'With Java SE 7 having been available for more than a year, it is time to start using it. A common question is, “Why should I update to Java SE 7? I don’t use any of the new ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7357
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7357_PDF_7357_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7357_mp4_7357_001.mp4
+        - review: 'Great talk, lots of detail about Java 7 features.'
     - CON5089:
         - title: Jump-Starting Lambda Programming
         - abstract: You’ve probably heard about the new Lambda feature that’s going to be in Java 8. What might not be obvious is why Lambda is important and how you can use it effectively. This ...
