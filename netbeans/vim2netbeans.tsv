@@ -4,6 +4,8 @@ Ctrl-f	PageDown	scroll window forward
 Ctrl-b	PageUp	scroll window backward
 0	Cmd-Left	move cursor to beginning of line
 $	Cmd-Right	move cursor to end of line
+gg	Cmd-upArrow	move cursor to beginning of file
+G	Cmd-downArrow	move cursor to end of file
 ?	Shift-Cmd-b	go to source
 ?	Cmd-/	toggle comment
 :	Ctrl-g	go to line
