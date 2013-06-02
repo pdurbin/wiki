@@ -8,17 +8,18 @@ freenode/#northeastlinuxfest	http://irclog.greptilian.com/northeastlinuxfest/tod
 freenode/#linuxvillage	http://irclog.perlgeek.de/linuxvillage/today	http://linuxvillage.org
 freenode/#ilbot	http://irclog.perlgeek.de/ilbot/today	http://moritz.faui2k3.org/en/ilbot
 oftc/#ikiwiki	None	http://ikiwiki.info
+freenode/#indiewebcamp	http://indiewebcamp.com/irc/today	http://indiewebcamp.com
 irc.perl.org/#pdl	http://irclog.perlgeek.de/pdl/today	http://pdl.perl.org
-freenode/#indiewebcamp	http://tmp.greptilian.com/tmp/iwc.php	http://indiewebcamp.com
 freenode/##jsf	http://www.evanchooly.com/logs/%23%23jsf/today	http://jsf.java.net
 freenode/#glassfish	http://www.evanchooly.com/logs/%23glassfish/today	http://glassfish.java.net
 freenode/#netbeans	http://echelog.com/logs/browse/netbeans	http://netbeans.org
-freenode/#lucene-dev	http://colabti.org/irclogger/irclogger_log/lucene-dev	http://lucene.apache.org
-freenode/#richfaces	http://transcripts.jboss.org/channel/irc.freenode.org/%23richfaces/ 	http://www.jboss.org/richfaces
-freenode/#ubuntu-women-project	http://ubottu.com/meetingology/logs/today.php?channel=ubuntu-women-project	http://ubuntu-women.org
 freenode/#git	http://colabti.org/irclogger/irclogger_log/git	http://jk.gs/git
 freenode/#vagrant	http://irclogger.com/.vagrant	http://vagrantup.com
 freenode/##shibboleth	http://irclog.perlgeek.de/shibboleth/today	http://shibboleth.net
+freenode/#ubuntu-women-project	http://ubottu.com/meetingology/logs/today.php?channel=ubuntu-women-project	http://ubuntu-women.org
 freenode/#puppet	http://www.puppetlogs.com/puppet	http://puppetlabs.com
-freenode/##java	http://www.evanchooly.com/logs/%23%23java/today	http://javachannel.net
+freenode/#lucene-dev	http://colabti.org/irclogger/irclogger_log/lucene-dev	http://lucene.apache.org
+freenode/#richfaces	http://transcripts.jboss.org/channel/irc.freenode.org/%23richfaces/ 	http://www.jboss.org/richfaces
 freenode/##infra-talk	None per http://twitter.com/ripienaar/status/171202817808269312	http://infra-talk.org
+freenode/##java	http://www.evanchooly.com/logs/%23%23java/today	http://javachannel.net
+freenode/#linuxcnc	http://psha.org.ru/irc/%23emc/today.html	http://linuxcnc.org
