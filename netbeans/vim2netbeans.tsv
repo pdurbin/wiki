@@ -7,6 +7,9 @@ Cmd-Left	0	move cursor to beginning of line
 Cmd-Right	$	move cursor to end of line
 Cmd-upArrow	gg	move cursor to beginning of file
 Cmd-downArrow	G	move cursor to end of file
-Shift-Cmd-b	?	go to source
+Cmd-Shift-b	?	go to source
+Cmd-Alt-b	?	go to implementation
+Ctrl-i	?	insert code
+Alt-Enter	?	show hints
 Cmd-/	?	toggle comment
 Ctrl-g	:	go to line
