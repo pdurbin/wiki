@@ -1,11 +1,11 @@
-Vim	NetBeans	Description
-%	Cmd-[	jump to matching bracket
-Ctrl-f	PageDown	scroll window forward
-Ctrl-b	PageUp	scroll window backward
-0	Cmd-Left	move cursor to beginning of line
-$	Cmd-Right	move cursor to end of line
-gg	Cmd-upArrow	move cursor to beginning of file
-G	Cmd-downArrow	move cursor to end of file
-?	Shift-Cmd-b	go to source
-?	Cmd-/	toggle comment
-:	Ctrl-g	go to line
+NetBeans	Vim	Description
+Cmd-[	%	jump to matching bracket
+PageDown	Ctrl-f	scroll window forward
+PageUp	Ctrl-b	scroll window backward
+Cmd-Left	0	move cursor to beginning of line
+Cmd-Right	$	move cursor to end of line
+Cmd-upArrow	gg	move cursor to beginning of file
+Cmd-downArrow	G	move cursor to end of file
+Shift-Cmd-b	?	go to source
+Cmd-/	?	toggle comment
+Ctrl-g	:	go to line
