@@ -1,4 +1,5 @@
 NetBeans	Vim	Description
+Ctrl-Shift-o	?	go to file
 Cmd-[	%	jump to matching bracket
 PageDown	Ctrl-f	scroll window forward
 PageUp	Ctrl-b	scroll window backward
