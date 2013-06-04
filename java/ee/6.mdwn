@@ -5,3 +5,5 @@ https://blogs.oracle.com/arungupta/entry/screencast_37_java_ee_6
 Java EE 6 Development with NetBeans and GlassFish: http://www.youtube.com/watch?v=UBNaiVWwAZw
 
 http://blogs.oracle.com/arungupta/resource/MyFriends-netbeans-javaee6-webinar-jan2011.zip
+
+https://github.com/pdurbin/javaee6webinar-walkthrough
