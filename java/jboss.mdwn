@@ -1,5 +1,11 @@
-http://www.davidghedini.com/pg/entry/install_jboss_7_on_centos
+wget http://download.jboss.org/jbossas/6.1/jboss-as-distribution-6.1.0.Final.zip
 
-    wget http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.zip
+cp app.war jboss-6.1.0.Final/server/default/deploy
+
+wget http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.zip
+
+cp app.war jboss-as-7.1.1.Final/standalone/deployments/
+
+http://www.davidghedini.com/pg/entry/install_jboss_7_on_centos
 
 http://www.jboss.org/jdf/quickstarts/jboss-as-quickstart/
