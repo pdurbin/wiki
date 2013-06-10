@@ -315,13 +315,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11368_PDF_11368_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11368_mp4_11368_001.mp4
         - review: None
-    - CON7105:
-        - title: Security Vulnerabilities in Open Source Java Libraries
-        - abstract: 'Everyone knows the importance of software security. A successful attack against an application can result in a wide spectrum of negative consequences, including the cost of a ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7105
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7105_PDF_7105_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7105_mp4_7105_001.mp4
-        - review: None
     - CON4606:
         - title: Building Amazing Applications with JavaFX
         - abstract: 'Customers rank visual appearance and user experience as major considerations. Many developers believe that the #1 differentiator from the competition is how an application ...'
@@ -356,13 +349,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5039
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5039_PDF_5039_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5039_mp4_5039_001.mp4
-        - review: None
-    - UGF10466:
-        - title: 'The Bluffer’s Guide to Terminology: An Entertaining Introduction to Java and CS'
-        - abstract: This presentation provides an entertaining introduction to Java and CS terms that more people should understand.
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10466
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10466_PDF_10466_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10466_mp4_10466_001.mp4
         - review: None
     - CON6784:
         - title: JavaFX Graphics Tips and Tricks
@@ -1337,13 +1323,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7652_PDF_7652_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7652_mp4_7652_001.mp4
         - review: None
-    - UGF10470:
-        - title: 'Free Java: Introduction to the OpenJDK Project'
-        - abstract: 'Since Java’s source code was released under a free and open source license, the OpenJDK project has attracted developers and companies to push Java forward. But working on ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10470
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10470_PDF_10470_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10470_mp4_10470_001.mp4
-        - review: None
     - UGF10468:
         - title: 'Gooey and Sticky Bits: Everything You Ever Wanted to Know About Java'
         - abstract: 'Where did it come from, where will it go, what is the best tool, what framework should I use, why, where, who, when? You have questions about Java. We have answers. And more ...'
@@ -1793,6 +1772,20 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10360_PDF_10360_0001.pdf
         - mp4: Not available
         - review: None
+    - CON7105:
+        - title: Security Vulnerabilities in Open Source Java Libraries
+        - abstract: 'Everyone knows the importance of software security. A successful attack against an application can result in a wide spectrum of negative consequences, including the cost of a ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7105
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7105_PDF_7105_0001.pdf
+        - mp4: Not available
+        - review: None
+    - UGF10466:
+        - title: 'The Bluffer’s Guide to Terminology: An Entertaining Introduction to Java and CS'
+        - abstract: This presentation provides an entertaining introduction to Java and CS terms that more people should understand.
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10466
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10466_PDF_10466_0001.pdf
+        - mp4: Not available
+        - review: None
     - CON2580:
         - title: Protecting Java EE Web Apps with Secure HTTP Headers
         - abstract: 'To address security defects, developers typically resort to fixing architectural issues and security bugs directly in the code. Finding and fixing security defects can be a ...'
@@ -1842,6 +1835,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10458_PDF_10458_0001.pdf
         - mp4: Not available
         - review: None
+    - UGF10470:
+        - title: 'Free Java: Introduction to the OpenJDK Project'
+        - abstract: 'Since Java’s source code was released under a free and open source license, the OpenJDK project has attracted developers and companies to push Java forward. But working on ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10470
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10470_PDF_10470_0001.pdf
+        - mp4: Not available
+        - review: None
 - reviewed:
     - CON6575:
         - title: Polyglot for Dummies
@@ -1863,7 +1863,7 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5806
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5806_PDF_5806_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5806_mp4_5806_001.mp4
-        - review: Good. Practical advice from JSF developers.
+        - review: Good. Practical advice from JSF developers. Solr and Primefaces example.
     - BOF4149:
         - title: Web Framework Smackdown 2012
         - abstract: 'Much has changed since the first Web framework smackdown, at JavaOne 2005. Or has it? The 2012 edition of this popular panel discussion surveys the current landscape of Web ...'
