@@ -133,13 +133,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6664_PDF_6664_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6664_mp4_6664_001.mp4
         - review: None
-    - CON6152:
-        - title: Modern Software Development Antipatterns
-        - abstract: 'Following on from the popular Diabolical Developer JavaOne 2011 presentation, the Diabolical Developer returns (with Ben Evans, the voice of reason?) with a presentation full ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6152
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6152_PDF_6152_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6152_mp4_6152_001.mp4
-        - review: None
     - CON7100:
         - title: Developing with Berkeley DB and Oracle Database Mobile Server for Java Embedded
         - abstract: Using Oracle Berkeley DB and Oracle Database Mobile Server is the best way to synchronize mobile or embedded applications that utilize SQLite or Oracle Berkeley DB with an ...
@@ -203,13 +196,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3160_PDF_3160_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3160_mp4_3160_001.mp4
         - review: None
-    - CON3906:
-        - title: Stress-Testing Java EE 6 Applications Without Stress
-        - abstract: 'In the context of Java EE 6, unit tests are nice but worthless. Unit and integration tests execute chunks of the business logic in a single thread. Back-end resources and ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3906
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3906_PDF_3906_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3906_mp4_3906_001.mp4
-        - review: None
     - BOF3242:
         - title: 'Clojure/ClojureScript: One Language to Rule the Web'
         - abstract: 'Clojure is a modern dynamic language for the JVM, and ClojureScript is the same language compiled into JavaScript. This presentation introduces the ClojureScript compiler and ...'
@@ -223,13 +209,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4726
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4726_PDF_4726_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4726_mp4_4726_001.mp4
-        - review: None
-    - CON7263:
-        - title: JVM JIT for Dummies
-        - abstract: 'Most Java developers never get past -Xmx, -classpath, and -jar when learning about the flags that JVMs offer. If you’re an OpenJDK user, you know -server and -client too. But ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7263
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7263_PDF_7263_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7263_mp4_7263_001.mp4
         - review: None
     - CON11250:
         - title: Standards for the Future of Java Embedded
@@ -385,26 +364,12 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5503_PDF_5503_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5503_mp4_5503_001.mp4
         - review: None
-    - CON5243:
-        - title: Real-World Compatibility and the Java Promise
-        - abstract: 'Ever wonder how Java achieves such success in fulfilling the “write once, run anywhere” (WORA) promise? In this session, a senior member of the IBM Java team speaks candidly ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5243
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5243_PDF_5243_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5243_mp4_5243_001.mp4
-        - review: None
     - BOF3615:
         - title: The Java User Experience Team Presents the Latest UI Updates
         - abstract: 'The user experience team crafts the user interface of the Java lifecycle as seen by your end users. This includes the install, update, and default app deployment processes. ...'
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3615
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3615_PDF_3615_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3615_mp4_3615_001.mp4
-        - review: None
-    - CON7059:
-        - title: Uncovering Hidden Power Tools in the JDK
-        - abstract: 'This session provides a guide to the hidden gems of the JDK, knowledge usually reserved for tool authors. You will find that you don’t have to be a tool author to benefit ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7059
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7059_PDF_7059_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7059_mp4_7059_001.mp4
         - review: None
     - CON3519:
         - title: 'Building Hybrid Cloud Apps: Local Databases + The Cloud = Extreme Versatility'
@@ -454,13 +419,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6385
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6385_PDF_6385_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6385_mp4_6385_001.mp4
-        - review: None
-    - CON4012:
-        - title: 'Practical Performance: Understand the Performance of Your Application'
-        - abstract: This session discusses how you can maximize the performance of your application deployment with tools that are native to your server platform as well as cross-platform Java ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4012
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4012_PDF_4012_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4012_mp4_4012_001.mp4
         - review: None
     - CON3956:
         - title: java.nio.file for Remote Systems
@@ -538,13 +496,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=11072
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11072_PDF_11072_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11072_mp4_11072_001.mp4
-        - review: None
-    - CON12924:
-        - title: Social Developer Hackathon
-        - abstract: 'In this session, the staff of the Oracle Social Developer Lab presents some social development tools that make integrating social functionality into your apps easier. This ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=12924
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12924_PDF_12924_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12924_mp4_12924_001.mp4
         - review: None
     - CON12917:
         - title: 'Oracle Social Network: Extending Social into Enterprise Applications and Business Processes'
@@ -965,13 +916,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3842
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3842_PDF_3842_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3842_mp4_3842_001.mp4
-        - review: None
-    - CON7469:
-        - title: 'Apache TomEE, a Java EE 6 Web Profile on Tomcat'
-        - abstract: 'Making its Java EE 6 Web Profile certification debut at JavaOne 2011, Apache TomEE combines the simplicity of Tomcat with the power of Java EE. The first half of this session ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7469
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7469_PDF_7469_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7469_mp4_7469_001.mp4
         - review: None
     - BOF4763:
         - title: Meet the Nashorn JavaScript Team
@@ -1843,6 +1787,27 @@
         - mp4: Not available
         - review: None
 - reviewed:
+    - CON6152:
+        - title: Modern Software Development Antipatterns
+        - abstract: 'Following on from the popular Diabolical Developer JavaOne 2011 presentation, the Diabolical Developer returns (with Ben Evans, the voice of reason?) with a presentation full ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6152
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6152_PDF_6152_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6152_mp4_6152_001.mp4
+        - review: Entertaining. Some good tips.
+    - CON3906:
+        - title: Stress-Testing Java EE 6 Applications Without Stress
+        - abstract: 'In the context of Java EE 6, unit tests are nice but worthless. Unit and integration tests execute chunks of the business logic in a single thread. Back-end resources and ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3906
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3906_PDF_3906_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3906_mp4_3906_001.mp4
+        - review: A nice talk by Adam Bien.
+    - CON7263:
+        - title: JVM JIT for Dummies
+        - abstract: 'Most Java developers never get past -Xmx, -classpath, and -jar when learning about the flags that JVMs offer. If you’re an OpenJDK user, you know -server and -client too. But ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7263
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7263_PDF_7263_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7263_mp4_7263_001.mp4
+        - review: Very technical deep dive into the JVM by the JRuby guy. Good stuff.
     - CON6575:
         - title: Polyglot for Dummies
         - abstract: 'Why are people writing applications in languages other than Java? Can I really be productive with another language? Which language should I choose? Why would I use more than ...'
@@ -1857,6 +1822,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON10656_PDF_10656_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON10656_mp4_10656_001.mp4
         - review: Not bad. Good to hear from the people who make application servers
+    - CON5243:
+        - title: Real-World Compatibility and the Java Promise
+        - abstract: 'Ever wonder how Java achieves such success in fulfilling the “write once, run anywhere” (WORA) promise? In this session, a senior member of the IBM Java team speaks candidly ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5243
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5243_PDF_5243_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5243_mp4_5243_001.mp4
+        - review: Good talk. Technical.
     - BOF5806:
         - title: Doing JSF Development in the NetBeans IDE
         - abstract: Doing JSF development in NetBeans offers you several options. This BOF session shows you how you can use NetBeans IDE in a way that will make you the most productive with JSF ...
@@ -1871,6 +1843,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4149_PDF_4149_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4149_mp4_4149_001.mp4
         - review: 'Great talk. Nice to hear about various web frameworks (JSF, Play, Grails, etc.).'
+    - CON7059:
+        - title: Uncovering Hidden Power Tools in the JDK
+        - abstract: 'This session provides a guide to the hidden gems of the JDK, knowledge usually reserved for tool authors. You will find that you don’t have to be a tool author to benefit ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7059
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7059_PDF_7059_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7059_mp4_7059_001.mp4
+        - review: 'Good, technical talk.'
     - BOF4803:
         - title: Open Source Identity and Access Management Expert Panel
         - abstract: There is a growing need in the market today to provide open source identity and access management (IAM) solutions that are both comprehensive and easy to use. Despite this ...
@@ -1885,6 +1864,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_PDF_4930_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_mp4_4930_001.mp4
         - review: Speaker seems nice but talk is a little dull
+    - CON4012:
+        - title: 'Practical Performance: Understand the Performance of Your Application'
+        - abstract: This session discusses how you can maximize the performance of your application deployment with tools that are native to your server platform as well as cross-platform Java ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4012
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4012_PDF_4012_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4012_mp4_4012_001.mp4
+        - review: Nice overview of where to start looking at performance problems.
     - CON5135:
         - title: 'From Java Code to Java Heap: Understanding the Memory Usage of Your Application'
         - abstract: 'When you write and run Java code, the JVM makes several allocations on your behalf, but do you have an understanding of how much that is? This session provides insight into ...'
@@ -1913,6 +1899,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5089_PDF_5089_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5089_mp4_5089_001.mp4
         - review: Interesting. Worth listening to
+    - CON12924:
+        - title: Social Developer Hackathon
+        - abstract: 'In this session, the staff of the Oracle Social Developer Lab presents some social development tools that make integrating social functionality into your apps easier. This ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=12924
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12924_PDF_12924_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12924_mp4_12924_001.mp4
+        - review: 'A couple short talks about libraries for sharing via Twitter, LinkedIn, etc.'
     - CON8049:
         - title: The Rise of NoSQL and Polyglot Persistence
         - abstract: The rise of NoSQL is characterized by confusion and ambiguity in the absence of well-defined standards and adequate software solutions. Many questions come to mind when ... ...
@@ -2018,6 +2011,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5064_PDF_5064_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5064_mp4_5064_001.mp4
         - review: Great talk. Code at https://github.com/paulbakker/jfokus didn't 'just work' for me though :(
+    - CON7469:
+        - title: 'Apache TomEE, a Java EE 6 Web Profile on Tomcat'
+        - abstract: 'Making its Java EE 6 Web Profile certification debut at JavaOne 2011, Apache TomEE combines the simplicity of Tomcat with the power of Java EE. The first half of this session ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7469
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7469_PDF_7469_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7469_mp4_7469_001.mp4
+        - review: Nice introduction to TomEE and how it is built
     - CON6505:
         - title: What’s New in Groovy 2.0?
         - abstract: 'Groovy is a very popular alternative language for the JVM that continues to bring more developer productivity and more performance after each release. This session, after a ...'
