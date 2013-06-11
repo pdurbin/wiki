@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/5079322/is-there-any-jpa-implementation-work-well-with-sqlite-database
