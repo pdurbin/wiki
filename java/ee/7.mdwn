@@ -1,0 +1,5 @@
+http://docs.oracle.com/javaee
+
+http://docs.oracle.com/javaee/7/firstcup/doc/home.htm
+
+http://docs.oracle.com/javaee/7/tutorial/doc/home.htm
