@@ -1,0 +1,5 @@
+Derby is also known as JavaDB
+
+## Determine version of Derby you have
+
+    java -jar derbyrun.jar sysinfo
