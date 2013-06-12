@@ -3,3 +3,32 @@ Derby is also known as JavaDB
 ## Determine version of Derby you have
 
     java -jar derbyrun.jar sysinfo
+
+## Run SimpleApp (Embedded Derby) on OS X Lion
+
+http://db.apache.org/derby/papers/DerbyTut/embedded_intro.html
+
+    murphy:simple pdurbin$ sw_vers
+    ProductName:    Mac OS X
+    ProductVersion: 10.8.2
+    BuildVersion:   12C2034
+    murphy:simple pdurbin$ export DERBY_HOME=/usr/share/derby
+    murphy:simple pdurbin$ export CLASSPATH=.:${DERBY_HOME}/lib/derby.jar
+    murphy:simple pdurbin$ javac SimpleApp.java 
+    Note: SimpleApp.java uses unchecked or unsafe operations.
+    Note: Recompile with -Xlint:unchecked for details.
+    murphy:simple pdurbin$ java SimpleApp
+    SimpleApp starting in embedded mode
+    Loaded the appropriate driver
+    Connected to and created database derbyDB
+    Created table location
+    Inserted 1956 Webster
+    Inserted 1910 Union
+    Updated 1956 Webster to 180 Grand
+    Updated 180 Grand to 300 Lakeshore
+    Verified the rows
+    Dropped table location
+    Committed the transaction
+    Derby shut down normally
+    SimpleApp finished
+    murphy:simple pdurbin$ 
