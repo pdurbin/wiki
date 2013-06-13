@@ -1,3 +1,11 @@
+## Java EE 6 Tutorial and Examples
+
+http://docs.oracle.com/javaee/6/tutorial/doc/
+
+svn export https://svn.java.net/svn/javaeetutorial~svn/branches/javaee-tutorial-6/examples/ JavaEE6TutorialExamples
+
+http://stackoverflow.com/questions/6096189/where-can-i-download-java-ee-6-tutorial-examples
+
 ## Arun Gupta's January 2011 "Java EE 6 with NetBeans and GlassFish" Webinar
 
 https://blogs.oracle.com/arungupta/entry/screencast_37_java_ee_6
@@ -7,3 +15,11 @@ Java EE 6 Development with NetBeans and GlassFish: http://www.youtube.com/watch?
 http://blogs.oracle.com/arungupta/resource/MyFriends-netbeans-javaee6-webinar-jan2011.zip
 
 https://github.com/pdurbin/javaee6webinar-walkthrough
+
+## Other Jave EE 6 resources
+
+https://wikis.oracle.com/display/GlassFish/Java+EE+6+Annotation+Reference
+
+http://www.physics.usyd.edu.au/~rennie/javaEE6ReferenceSheet.html
+
+http://blog.eisele.net/2012/03/java-ee-6-running-galleria-on-glassfish.html
