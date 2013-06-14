@@ -13,3 +13,6 @@ Ctrl-i	?	insert code
 Alt-Enter	?	show hints
 Cmd-/	?	toggle comment
 Ctrl-g	:	go to line
+Ctrl-space	?	show code completion popup
+Ctrl-Alt-space	?	show all code completion popup
+Cmd-Shift-space	?	show documentation popup
