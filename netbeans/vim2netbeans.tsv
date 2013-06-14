@@ -18,3 +18,4 @@ Ctrl-Alt-space	?	show all code completion popup
 Cmd-Shift-space	?	show documentation popup
 Cmd-Shift-i	?	fix all imports
 Cmd-;	?	complete line (add semicolon)
+Ctrl-e	?	next error (or warning) in editor
