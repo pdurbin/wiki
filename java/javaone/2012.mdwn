@@ -1,88 +1,4 @@
-- queued:
-    - CON7573:
-        - title: How RESTful Is Your REST?
-        - abstract: The rise of mobile and the diversity of its technologies make exposing a RESTful API the most crucial capability of any application and the key to its success. In the absence ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7573
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7573_PDF_7573_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7573_mp4_7573_001.mp4
-        - review: ...
-    - CON7147:
-        - title: Dare to Compile Your Code with -Xlint:all -Werror
-        - abstract: 'Would you ever dare to enable all compiler warnings? Most people don’t, and some people are afraid to, because of what they might find out about their code. The Java compiler ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7147
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7147_PDF_7147_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7147_mp4_7147_001.mp4
-        - review: ...
-    - CON2818:
-        - title: A Bird’s-Eye View of the CDI Ecosystem
-        - abstract: 'Although Contexts and Dependency Injection (CDI) is so new, a lively ecosystem is already rapidly evolving around it. If you’d like to get a broad overview of this ecosystem ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2818
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2818_PDF_2818_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2818_mp4_2818_001.mp4
-        - review: ...
-    - BOF5502:
-        - title: A Platform for Studying Language Features in Java
-        - abstract: Empirical studies are critical to understanding how programming language features are used in practice. They provide answers to questions that help programming languages ... ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5502
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5502_PDF_5502_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5502_mp4_5502_001.mp4
-        - review: ...
-    - CON5141:
-        - title: 'Java DB in JDK 7: A Free, Feature-Rich, Embeddable SQL Database'
-        - abstract: 'This session provides an introduction to a not-to-be overlooked gem in the JDK: the compact, but feature-complete Java DB—a multiuser, fully transactional relational ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5141
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5141_PDF_5141_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5141_mp4_5141_001.mp4
-        - review: ...
-    - BOF6151:
-        - title: 'NetBeans.Next: The Roadmap Ahead'
-        - abstract: 'Attend this session to get a walk-through of the newest features and enhancements available in the NetBeans IDE. Discover how improvements to the editor, plus Java EE, ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6151
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6151_PDF_6151_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6151_mp4_6151_001.mp4
-        - review: ...
-    - CON6008:
-        - title: Modern Java Web Development with Play Framework 2.0
-        - abstract: 'The original version of the Play framework brought back the fun to Java Web development. Developer-friendliness, rapid application development, and agile practices were taken ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6008
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6008_PDF_6008_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6008_mp4_6008_001.mp4
-        - review: ...
-    - CON6793:
-        - title: 'What’s New in Servlet 3.1: An Overview'
-        - abstract: 'As part of the Java EE 7 platform, the Servlet specification is being revised. This session covers the new features in Servlet 3.1.'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6793
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6793_PDF_6793_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6793_mp4_6793_001.mp4
-        - review: ...
-    - CON3566:
-        - title: 'JSR 353: Java API for JSON Processing'
-        - abstract: 'JSON is a lightweight data exchange format used increasingly in RESTful Web services by highly visible Websites (Facebook, Twitter, Amazon, and the like). The format is easy ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3566
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3566_PDF_3566_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3566_mp4_3566_001.mp4
-        - review: ...
-    - CON4038:
-        - title: 'Project EASEL: Developing and Managing HTML5 in a Java World'
-        - abstract: 'Do you want to learn details of the new NetBeans Project EASEL? If so, come to this session, which discusses current trends in HTML5, CSS3, and JavaScript application ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4038
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4038_PDF_4038_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4038_mp4_4038_001.mp4
-        - review: ...
-    - BOF7664:
-        - title: 'JPA 2.1 Tips, Tricks, and Examples'
-        - abstract: 'This BOF provides insight into the features being introduced in the next JPA specification. It illustrates, through the use of code examples, why and when not to use the new ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7664
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7664_PDF_7664_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7664_mp4_7664_001.mp4
-        - review: ...
-    - BOF4608:
-        - title: JDBC Community Discussion
-        - abstract: Come to this session to share your thoughts with members of the JDBC Expert Group and with others interested in JDBC.
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4608
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4608_PDF_4608_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4608_mp4_4608_001.mp4
-        - review: ...
+- queued: ~
 - considering:
     - CON3470:
         - title: Scala Tricks
@@ -889,13 +805,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7065_PDF_7065_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7065_mp4_7065_001.mp4
         - review: None
-    - UGF10364:
-        - title: 'For You, By You: Growing the NetBeans Community'
-        - abstract: There’s more to contributing to the NetBeans Project than developing plug-ins and submitting patches. (Keep those modules and fixes coming!) Regardless of programming ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10364
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10364_PDF_10364_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10364_mp4_10364_001.mp4
-        - review: None
     - BOF5127:
         - title: 'JSR 310: What’s Taking So Long?'
         - abstract: 'This BOF focuses on JSR 310, the ThreeTen reference implementation, and the upcoming integration of ThreeTen, the new date/time library, into Java 8. The primary goal of the ...'
@@ -1112,13 +1021,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7652
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7652_PDF_7652_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7652_mp4_7652_001.mp4
-        - review: None
-    - UGF10468:
-        - title: 'Gooey and Sticky Bits: Everything You Ever Wanted to Know About Java'
-        - abstract: 'Where did it come from, where will it go, what is the best tool, what framework should I use, why, where, who, when? You have questions about Java. We have answers. And more ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10468
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10468_PDF_10468_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10468_mp4_10468_001.mp4
         - review: None
     - BOF8078:
         - title: 'Games and Java ME: Have Fun and Earn Some Money'
@@ -1766,6 +1668,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5848_PDF_5848_0001.pdf
         - mp4: Not available
         - review: None
+    - UGF10364:
+        - title: 'For You, By You: Growing the NetBeans Community'
+        - abstract: There’s more to contributing to the NetBeans Project than developing plug-ins and submitting patches. (Keep those modules and fixes coming!) Regardless of programming ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10364
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10364_PDF_10364_0001.pdf
+        - mp4: Not available
+        - review: None
     - UGF10458:
         - title: 'Introduction to Java: JVM, Language, and Platform'
         - abstract: 'This session will help you make sense of the Java language, Java SE, Java EE, the Java Virtual Machine (JVM), and JDK. This material is presented in the context of the ...'
@@ -1787,7 +1696,21 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10470_PDF_10470_0001.pdf
         - mp4: Not available
         - review: None
+    - UGF10468:
+        - title: 'Gooey and Sticky Bits: Everything You Ever Wanted to Know About Java'
+        - abstract: 'Where did it come from, where will it go, what is the best tool, what framework should I use, why, where, who, when? You have questions about Java. We have answers. And more ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10468
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10468_PDF_10468_0001.pdf
+        - mp4: Not available
+        - review: None
 - reviewed:
+    - CON7573:
+        - title: How RESTful Is Your REST?
+        - abstract: The rise of mobile and the diversity of its technologies make exposing a RESTful API the most crucial capability of any application and the key to its success. In the absence ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7573
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7573_PDF_7573_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7573_mp4_7573_001.mp4
+        - review: Nice discussion of the Richardson Maturity Model (RMM) for REST. Lots of opinion. An ok talk. No slides.
     - CON6152:
         - title: Modern Software Development Antipatterns
         - abstract: 'Following on from the popular Diabolical Developer JavaOne 2011 presentation, the Diabolical Developer returns (with Ben Evans, the voice of reason?) with a presentation full ...'
@@ -1921,6 +1844,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3455_PDF_3455_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3455_mp4_3455_001.mp4
         - review: Great talk. Entertaining and dynamic speaker.
+    - CON7147:
+        - title: Dare to Compile Your Code with -Xlint:all -Werror
+        - abstract: 'Would you ever dare to enable all compiler warnings? Most people don’t, and some people are afraid to, because of what they might find out about their code. The Java compiler ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7147
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7147_PDF_7147_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7147_mp4_7147_001.mp4
+        - review: Nice and technical.
     - CON6238:
         - title: Powerful Analytics Apps Fueled by Java for High Performance and Scalability
         - abstract: 'eBay has grown into one of the largest online marketplaces on the internet today, serving more than 100 million active users. The number of items listed on eBay and the fact ...'
@@ -1928,6 +1858,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6238_PDF_6238_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6238_mp4_6238_001.mp4
         - review: Ok but not great. Interesting to hear that eBay wrote their own application server.
+    - CON2818:
+        - title: A Bird’s-Eye View of the CDI Ecosystem
+        - abstract: 'Although Contexts and Dependency Injection (CDI) is so new, a lively ecosystem is already rapidly evolving around it. If you’d like to get a broad overview of this ecosystem ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2818
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2818_PDF_2818_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2818_mp4_2818_001.mp4
+        - review: Great talk. Very technical. Assumes a lot of familiarity with CDI.
     - CON4857:
         - title: Improving Your Groovy Kung-Fu
         - abstract: 'This no-slide event works you through a wide variety of Groovy moves: from hidden treasures in the language itself through Groovy helpers for your daily work as a Java ...'
@@ -1956,6 +1893,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7875_PDF_7875_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7875_mp4_7875_001.mp4
         - review: Very good talk. Nice and technical
+    - BOF5502:
+        - title: A Platform for Studying Language Features in Java
+        - abstract: Empirical studies are critical to understanding how programming language features are used in practice. They provide answers to questions that help programming languages ... ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5502
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5502_PDF_5502_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5502_mp4_5502_001.mp4
+        - review: Ok talk but pretty academic. Corpus analysis.
     - CON4701:
         - title: 50 Tips in 50 Minutes for GlassFish Fans
         - abstract: This fast-paced session presents 50 tips and tricks for using GlassFish Server technology. Learn about features for both GlassFish Server Open Source Edition and Oracle ... ...
@@ -1984,6 +1928,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6283_PDF_6283_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6283_mp4_6283_001.mp4
         - review: Not particularly interesting.
+    - CON5141:
+        - title: 'Java DB in JDK 7: A Free, Feature-Rich, Embeddable SQL Database'
+        - abstract: 'This session provides an introduction to a not-to-be overlooked gem in the JDK: the compact, but feature-complete Java DB—a multiuser, fully transactional relational ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5141
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5141_PDF_5141_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5141_mp4_5141_001.mp4
+        - review: Nice overview of features of Derby/JavaDB
     - CON11881:
         - title: Java EE Security in Practice with Java EE 6 and GlassFish
         - abstract: 'The hottest topic related to enterprise Java applications is security, for which Java EE provides a fair amount of flexibility. This session focuses on how the top 10 Open ...'
@@ -2026,6 +1977,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6505_PDF_6505_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6505_mp4_6505_001.mp4
         - review: Good if you're interested in Groovy
+    - BOF6151:
+        - title: 'NetBeans.Next: The Roadmap Ahead'
+        - abstract: 'Attend this session to get a walk-through of the newest features and enhancements available in the NetBeans IDE. Discover how improvements to the editor, plus Java EE, ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6151
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6151_PDF_6151_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6151_mp4_6151_001.mp4
+        - review: 'Good talk about where Netbeans is going. They seem to want feedback: Ashwin Rao, John Ceccarelli, Tinuola Awopetu"'
     - CON5134:
         - title: Rediscovering Your Architecture Through Software Archaeology
         - abstract: 'As Java deployments have become more complex, it has become harder and harder to get good insight into the structure and execution flow of the application. This applies ... ...'
@@ -2054,6 +2012,20 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2619_PDF_2619_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2619_mp4_2619_001.mp4
         - review: 'Not very interesting to me. Too much about middleware, Enterprise Service Bus, etc.'
+    - CON6008:
+        - title: Modern Java Web Development with Play Framework 2.0
+        - abstract: 'The original version of the Play framework brought back the fun to Java Web development. Developer-friendliness, rapid application development, and agile practices were taken ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6008
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6008_PDF_6008_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6008_mp4_6008_001.mp4
+        - review: Terrible audio but otherwise a nice intro to Play
+    - CON6793:
+        - title: 'What’s New in Servlet 3.1: An Overview'
+        - abstract: 'As part of the Java EE 7 platform, the Servlet specification is being revised. This session covers the new features in Servlet 3.1.'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6793
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6793_PDF_6793_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6793_mp4_6793_001.mp4
+        - review: 'Non-blocking, etc. Can probably just look at the slides for a reminder.'
     - CON4862:
         - title: The Road to Lambda
         - abstract: Lambdas were announced as a new language feature for Java 8 in 2010 but won’t actually be in a supported release of Java until 2013. This session introduces the proposed ... ...
@@ -2082,6 +2054,27 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4204_PDF_4204_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4204_mp4_4204_001.mp4
         - review: Meh. Fairly intuitive advice.
+    - CON3566:
+        - title: 'JSR 353: Java API for JSON Processing'
+        - abstract: 'JSON is a lightweight data exchange format used increasingly in RESTful Web services by highly visible Websites (Facebook, Twitter, Amazon, and the like). The format is easy ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3566
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3566_PDF_3566_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3566_mp4_3566_001.mp4
+        - review: Ok technically but not an especially exciting talk.
+    - CON4038:
+        - title: 'Project EASEL: Developing and Managing HTML5 in a Java World'
+        - abstract: 'Do you want to learn details of the new NetBeans Project EASEL? If so, come to this session, which discusses current trends in HTML5, CSS3, and JavaScript application ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4038
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4038_PDF_4038_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4038_mp4_4038_001.mp4
+        - review: Good talk about front end development. Maybe these were the guys who wanted feedback about Netbeans.
+    - BOF7664:
+        - title: 'JPA 2.1 Tips, Tricks, and Examples'
+        - abstract: 'This BOF provides insight into the features being introduced in the next JPA specification. It illustrates, through the use of code examples, why and when not to use the new ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7664
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7664_PDF_7664_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7664_mp4_7664_001.mp4
+        - review: Not sure how useful it would be to listen again. Not super focused. A lot about converters.
     - CON3852:
         - title: 'WebSocket and Java EE: A State of the Union'
         - abstract: 'Java EE is beginning its climb into the cloud. In addition to updates to existing technologies such as JPA and EJB, Java EE 7 is introducing new technologies such as ...'
@@ -2103,3 +2096,10 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12856_PDF_12856_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12856_mp4_12856_001.mp4
         - review: Good
+    - BOF4608:
+        - title: JDBC Community Discussion
+        - abstract: Come to this session to share your thoughts with members of the JDBC Expert Group and with others interested in JDBC.
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4608
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4608_PDF_4608_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4608_mp4_4608_001.mp4
+        - review: Technical info on the direction of JDBC. Maybe more info than I need.
