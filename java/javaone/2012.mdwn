@@ -1,4 +1,95 @@
-- queued: ~
+- queued:
+    - CON3468:
+        - title: 'The Good, Bad, and Ugly of Java Generics'
+        - abstract: The Generics feature of the Java language was intended to bring overall type safety to Java. This session starts at the basics of Generics and looks at its capabilities. It ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3468
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3468_PDF_3468_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3468_mp4_3468_001.mp4
+        - review: ...
+    - CON6234:
+        - title: Do You Really Get Class Loaders?
+        - abstract: 'Class loaders are at the core of the Java language. Java EE containers, OSGi, NetBeans modules, Tapestry 5, Grails, and many others use class loaders heavily. Yet if ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6234
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6234_PDF_6234_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6234_mp4_6234_001.mp4
+        - review: ...
+    - CON2983:
+        - title: 'Behavior-Driven Development on the JVM: A State of the Union'
+        - abstract: 'Behavior-driven development (BDD) is an increasingly popular variation on test-driven development, which helps developers think more in terms of “executable specifications” ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2983
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2983_PDF_2983_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2983_mp4_2983_001.mp4
+        - review: ...
+    - CON7488:
+        - title: Java Deployment on Mac OS X
+        - abstract: 'Oracle is now leading development of Java on Mac OS X, and with that you’ll get new choices for deploying your Java applications to end users. This session covers how users ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7488
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7488_PDF_7488_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7488_mp4_7488_001.mp4
+        - review: ...
+    - CON6803:
+        - title: JDK 7 Updates in OpenJDK
+        - abstract: 'In this session, you’ll learn how the JDK 7 updates project in OpenJDK works and how to work within it, track changes, get your fixes in, and follow along as new features ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6803
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6803_PDF_6803_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6803_mp4_6803_001.mp4
+        - review: ...
+    - BOF7164:
+        - title: Lessons from Mathematics
+        - abstract: 'Although the tools of discrete and continuous mathematics can seem esoteric, they offer insights into wide-ranging technical situations, including designing the Java ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7164
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7164_PDF_7164_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7164_mp4_7164_001.mp4
+        - review: ...
+    - CON7157:
+        - title: 'Graphs Are Everywhere: Neo4j for the Enterprise and Beyond'
+        - abstract: 'This session provides a close look at the graph model with Neo4j, the world’s leading graph database, with awesome Java support. Neo4j simplifies application development, ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7157
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7157_PDF_7157_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7157_mp4_7157_001.mp4
+        - review: ...
+    - CON7013:
+        - title: 'Pimp Your Productivity with Git, Gerrit, Hudson, and Mylyn'
+        - abstract: State-of-the-art application development tool stacks include a variety of systems that are disconnected from each other and lack integration with tools typically used by ... ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7013
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7013_PDF_7013_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7013_mp4_7013_001.mp4
+        - review: ...
+    - CON3383:
+        - title: Effective HATEOAS with JAX-RS
+        - abstract: Truly RESTful applications leverage media types and contextual links to make your service discoverable and self-descriptive (with hypermedia as the engine of application ... ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3383
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3383_PDF_3383_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3383_mp4_3383_001.mp4
+        - review: ...
+    - CON6173:
+        - title: Making Sense out of the Java PaaS Platforms
+        - abstract: 'Java PaaS platforms have been growing like mushrooms, and many Java developers are confused about which one to use and whether Java PaaS makes sense for their applications. ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6173
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6173_PDF_6173_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6173_mp4_6173_001.mp4
+        - review: ...
+    - CON7114:
+        - title: Pimp My RESTful Java Applications
+        - abstract: 'Jersey is not just a JAX-RS reference implementation. It also provides many additional features such as pluggable asynchronous executors, integration with various containers ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7114
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7114_PDF_7114_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7114_mp4_7114_001.mp4
+        - review: ...
+    - CON4153:
+        - title: 'Migrating Real-World Million-Line Code Bases to Java 7: Lessons Learned'
+        - abstract: 'In enterprise development, migrating to a new version of Java can be a complex endeavor. However, the swift adoption of Java 7 by the community enables a smooth transition, ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4153
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4153_PDF_4153_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4153_mp4_4153_001.mp4
+        - review: ...
+    - CON10658:
+        - title: 'The Contexts and Dependency Injection API: Next Steps for the Platform and Future Directions'
+        - abstract: 'In this session, Oracle and Red Hat discuss the future direction of one of Java EE’s hottest new APIs: Contexts and Dependency Injection. This once proprietary feature, now ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10658
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON10658_PDF_10658_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON10658_mp4_10658_001.mp4
+        - review: ...
 - considering:
     - CON3470:
         - title: Scala Tricks
@@ -6,13 +97,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3470
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3470_PDF_3470_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3470_mp4_3470_001.mp4
-        - review: None
-    - CON3468:
-        - title: 'The Good, Bad, and Ugly of Java Generics'
-        - abstract: The Generics feature of the Java language was intended to bring overall type safety to Java. This session starts at the basics of Generics and looks at its capabilities. It ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3468
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3468_PDF_3468_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3468_mp4_3468_001.mp4
         - review: None
     - CON6789:
         - title: 'Future HttpClient: A Sneak Peek into a New HttpClient API'
@@ -34,13 +118,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=13535
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON13535_PDF_13535_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON13535_mp4_13535_001.mp4
-        - review: None
-    - CON6234:
-        - title: Do You Really Get Class Loaders?
-        - abstract: 'Class loaders are at the core of the Java language. Java EE containers, OSGi, NetBeans modules, Tapestry 5, Grails, and many others use class loaders heavily. Yet if ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6234
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6234_PDF_6234_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6234_mp4_6234_001.mp4
         - review: None
     - CON3254:
         - title: Forge New Ground in Rapid Enterprise Software Development
@@ -637,13 +714,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11247_PDF_11247_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11247_mp4_11247_001.mp4
         - review: None
-    - CON2983:
-        - title: 'Behavior-Driven Development on the JVM: A State of the Union'
-        - abstract: 'Behavior-driven development (BDD) is an increasingly popular variation on test-driven development, which helps developers think more in terms of “executable specifications” ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2983
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2983_PDF_2983_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2983_mp4_2983_001.mp4
-        - review: None
     - CON4725:
         - title: Hacking TableView
         - abstract: 'TableView is a very powerful UI control, but the API can often hide useful functionality. This session works through several tweaks and API features that may not be apparent ...'
@@ -692,13 +762,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3342
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3342_PDF_3342_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3342_mp4_3342_001.mp4
-        - review: None
-    - CON7488:
-        - title: Java Deployment on Mac OS X
-        - abstract: 'Oracle is now leading development of Java on Mac OS X, and with that you’ll get new choices for deploying your Java applications to end users. This session covers how users ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7488
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7488_PDF_7488_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7488_mp4_7488_001.mp4
         - review: None
     - CON7945:
         - title: What’s New in Grails 2.0?
@@ -776,13 +839,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4244
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4244_PDF_4244_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4244_mp4_4244_001.mp4
-        - review: None
-    - CON6803:
-        - title: JDK 7 Updates in OpenJDK
-        - abstract: 'In this session, you’ll learn how the JDK 7 updates project in OpenJDK works and how to work within it, track changes, get your fixes in, and follow along as new features ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6803
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6803_PDF_6803_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6803_mp4_6803_001.mp4
         - review: None
     - BOF6308:
         - title: Showdown at the JVM Corral
@@ -917,13 +973,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6806_PDF_6806_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6806_mp4_6806_001.mp4
         - review: None
-    - BOF7164:
-        - title: Lessons from Mathematics
-        - abstract: 'Although the tools of discrete and continuous mathematics can seem esoteric, they offer insights into wide-ranging technical situations, including designing the Java ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7164
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7164_PDF_7164_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7164_mp4_7164_001.mp4
-        - review: None
     - CON5132:
         - title: 'NetBeans Plug-in Development: JRebel Experience Report'
         - abstract: 'These days we’re pretty much on the safe side to say that all Java developers have an IDE installed on their workstation. Also, it is quite safe to claim that most of the ... ...'
@@ -966,13 +1015,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5106_PDF_5106_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5106_mp4_5106_001.mp4
         - review: None
-    - CON7157:
-        - title: 'Graphs Are Everywhere: Neo4j for the Enterprise and Beyond'
-        - abstract: 'This session provides a close look at the graph model with Neo4j, the world’s leading graph database, with awesome Java support. Neo4j simplifies application development, ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7157
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7157_PDF_7157_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7157_mp4_7157_001.mp4
-        - review: None
     - CON3732:
         - title: Concurrent Programming with the Disruptor
         - abstract: 'The Disruptor is an award-winning open source concurrent programming framework developed by LMAX, a financial exchange based in London. Although it is currently fashionable ...'
@@ -1008,13 +1050,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6659_PDF_6659_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6659_mp4_6659_001.mp4
         - review: None
-    - CON7013:
-        - title: 'Pimp Your Productivity with Git, Gerrit, Hudson, and Mylyn'
-        - abstract: State-of-the-art application development tool stacks include a variety of systems that are disconnected from each other and lack integration with tools typically used by ... ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7013
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7013_PDF_7013_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7013_mp4_7013_001.mp4
-        - review: None
     - CON7652:
         - title: 'Java and OSGi: Enabling Smart Data on M2M Gateways and Aggregators'
         - abstract: 'As M2M gateways and aggregator devices continue to expand the ever-widening array sensors and sensor protocols they manage, M2M application developers are faced with the task ...'
@@ -1028,13 +1063,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=8078
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF8078_PDF_8078_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF8078_mp4_8078_001.mp4
-        - review: None
-    - CON3383:
-        - title: Effective HATEOAS with JAX-RS
-        - abstract: Truly RESTful applications leverage media types and contextual links to make your service discoverable and self-descriptive (with hypermedia as the engine of application ... ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3383
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3383_PDF_3383_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3383_mp4_3383_001.mp4
         - review: None
     - CON6630:
         - title: 'Eclipse Xtend: A Language Made for Java Developers'
@@ -1176,13 +1204,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5884_PDF_5884_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5884_mp4_5884_001.mp4
         - review: None
-    - CON6173:
-        - title: Making Sense out of the Java PaaS Platforms
-        - abstract: 'Java PaaS platforms have been growing like mushrooms, and many Java developers are confused about which one to use and whether Java PaaS makes sense for their applications. ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6173
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6173_PDF_6173_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6173_mp4_6173_001.mp4
-        - review: None
     - CON7284:
         - title: 'Implementing Ruby: The Long, Hard Road'
         - abstract: 'Over the years, JRuby has met many challenges and solved many impossible problems. From implementing its own multiencoding string and regular expression engine to binding ... ...'
@@ -1196,13 +1217,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4925
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4925_PDF_4925_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4925_mp4_4925_001.mp4
-        - review: None
-    - CON7114:
-        - title: Pimp My RESTful Java Applications
-        - abstract: 'Jersey is not just a JAX-RS reference implementation. It also provides many additional features such as pluggable asynchronous executors, integration with various containers ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7114
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7114_PDF_7114_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7114_mp4_7114_001.mp4
         - review: None
     - CON7001:
         - title: HTML5 WebSocket and Java
@@ -1253,13 +1267,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6490_PDF_6490_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6490_mp4_6490_001.mp4
         - review: None
-    - CON4153:
-        - title: 'Migrating Real-World Million-Line Code Bases to Java 7: Lessons Learned'
-        - abstract: 'In enterprise development, migrating to a new version of Java can be a complex endeavor. However, the swift adoption of Java 7 by the community enables a smooth transition, ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4153
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4153_PDF_4153_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4153_mp4_4153_001.mp4
-        - review: None
     - BOF12130:
         - title: Standardizing PaaS Application Management
         - abstract: 'This BOF session discusses a new specification, Cloud Application Management for Platforms (CAMP), a multivendor effort that is now on the way to becoming a standard. This ...'
@@ -1301,13 +1308,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10608
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF10608_PDF_10608_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF10608_mp4_10608_001.mp4
-        - review: None
-    - CON10658:
-        - title: 'The Contexts and Dependency Injection API: Next Steps for the Platform and Future Directions'
-        - abstract: 'In this session, Oracle and Red Hat discuss the future direction of one of Java EE’s hottest new APIs: Contexts and Dependency Injection. This once proprietary feature, now ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10658
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON10658_PDF_10658_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON10658_mp4_10658_001.mp4
         - review: None
     - CON11334:
         - title: 'Best of Both Worlds: Java Persistence with NoSQL and SQL'
