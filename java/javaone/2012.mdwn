@@ -83,7 +83,7 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4608_PDF_4608_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4608_mp4_4608_001.mp4
         - review: ...
-- other:
+- considering:
     - CON3470:
         - title: Scala Tricks
         - abstract: Scala is a very powerful hybrid functional pure object oriented language on the Java Virtual Machine (JVM). Scala is known for its conciseness and expressiveness. This ...
@@ -104,13 +104,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6789
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6789_PDF_6789_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6789_mp4_6789_001.mp4
-        - review: None
-    - CON4853:
-        - title: 'JavaFX for Business: Monitoring a Container Terminal'
-        - abstract: This session provides details on the container-terminal monitoring application discussed in the related technical keynote. An extended demo leads through the key ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4853
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4853_PDF_4853_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4853_mp4_4853_001.mp4
         - review: None
     - CON3418:
         - title: Confident Data Transfers with Apache Camel Security
@@ -175,13 +168,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT6361_PDF_6361_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT6361_mp4_6361_001.mp4
         - review: None
-    - BOF3482:
-        - title: 'Developing a Professional JavaFX Desktop Application: Challenges and Solutions'
-        - abstract: 'Engineers on the JavaFX Scene Builder team faced some new challenges while developing their product. Now that the tool has been released, it seems to be the best time to ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3482
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3482_PDF_3482_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3482_mp4_3482_001.mp4
-        - review: None
     - CON6703:
         - title: 'ARM: Eight Billion Served—“Want That Java Superoptimized?”'
         - abstract: 'With approximately eight billion ARM-based devices shipped in 2011, ARM-based chips are used in a wide range of embedded systems. New ARM-designed low-power multicore ...'
@@ -217,27 +203,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7100_PDF_7100_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7100_mp4_7100_001.mp4
         - review: None
-    - BOF5440:
-        - title: 'Live-Coding BOF: Writing a Game with JavaFX'
-        - abstract: 'This BOF features development of a game that uses the JavaFX 2.0 library. Starting with an empty project, all parts are coded live, step by step, while the underlying ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5440
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5440_PDF_5440_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5440_mp4_5440_001.mp4
-        - review: None
-    - CON4644:
-        - title: JavaFX Extreme GUI Makeover
-        - abstract: 'JavaFX is a UI toolkit for building beautiful graphical user interfaces. Unfortunately, user interfaces don’t simply appear—they are the result of many hours of hard work. ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4644
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4644_PDF_4644_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4644_mp4_4644_001.mp4
-        - review: None
-    - TUT5729:
-        - title: 'Angry Duke: Physics-Based Games in JavaFX'
-        - abstract: 'The Duke is angry. He wants a cup of coffee, but somebody has stolen all his JavaBeans. Get out your keyboard and slingshot, and launch Duke at his enemies’ castle. JavaFX ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5729
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5729_PDF_5729_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5729_mp4_5729_001.mp4
-        - review: None
     - CON2989:
         - title: Leverage Enterprise Integration Patterns with Apache Camel and Twitter
         - abstract: Learn how to take advantage of enterprise integration patterns with the Twitter social network as an example of datasource and destiny. This session shows how to start ...
@@ -272,13 +237,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3242
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3242_PDF_3242_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3242_mp4_3242_001.mp4
-        - review: None
-    - CON4726:
-        - title: Writing Your Own JavaFX UI Controls
-        - abstract: 'Although JavaFX 2 includes many UI controls, there is often a need to write your own. This session walks you through the options that are available to you and demonstrates ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4726
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4726_PDF_4726_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4726_mp4_4726_001.mp4
         - review: None
     - CON11250:
         - title: Standards for the Future of Java Embedded
@@ -357,13 +315,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11368_PDF_11368_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11368_mp4_11368_001.mp4
         - review: None
-    - CON4606:
-        - title: Building Amazing Applications with JavaFX
-        - abstract: 'Customers rank visual appearance and user experience as major considerations. Many developers believe that the #1 differentiator from the competition is how an application ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4606
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4606_PDF_4606_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4606_mp4_4606_001.mp4
-        - review: None
     - CON7042:
         - title: Building HTML5 Web Applications with Avatar
         - abstract: 'This session focuses on how to build HTML5, thin-server Web applications with the Avatar framework. It introduces the notion of thin-server architectures as well as the major ...'
@@ -392,13 +343,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5039_PDF_5039_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5039_mp4_5039_001.mp4
         - review: None
-    - CON6784:
-        - title: JavaFX Graphics Tips and Tricks
-        - abstract: JavaFX provides a rich set of graphical shapes and attributes that gives application developers many ways to achieve a variety of interesting visual effects. Many of these ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6784
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6784_PDF_6784_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6784_mp4_6784_001.mp4
-        - review: None
     - BOF6816:
         - title: A Java-Powered FIRST Robot
         - abstract: 'Presented by the coach of a FIRST robotics team, this session describes how team 1519, Mechanical Mayhem, used Java to program both its robot and image processing software ...'
@@ -419,13 +363,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5173
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5173_PDF_5173_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5173_mp4_5173_001.mp4
-        - review: None
-    - BOF5503:
-        - title: JFXtras Super Happy Dev BOF
-        - abstract: 'JFXtras, the open source JavaFX control and extensions project, is back for JavaFX 2.0. In this session, you will learn about the latest changes in JFXtras 2.0, including new ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5503
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5503_PDF_5503_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5503_mp4_5503_001.mp4
         - review: None
     - BOF3615:
         - title: The Java User Experience Team Presents the Latest UI Updates
@@ -483,26 +420,12 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3665_PDF_3665_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3665_mp4_3665_001.mp4
         - review: None
-    - CON6265:
-        - title: Visualizing the JVM Runtime Environment with JavaFX
-        - abstract: 'With the advent of the JavaFX client platform, Java GUI applications have taken a huge leap into the twenty-first century. But what if we turned the power of JavaFX inward ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6265
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6265_PDF_6265_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6265_mp4_6265_001.mp4
-        - review: None
     - CON6037:
         - title: 'Type-Safe, Efficient, Low-Level Programming for the JVM'
         - abstract: 'AL1 is a new assembler language for the JVM that doesn’t require any knowledge of its stack-based, sometimes nonintuitive instruction set. Instead it defines high-level, ... ...'
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6037
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6037_PDF_6037_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6037_mp4_6037_001.mp4
-        - review: None
-    - CON6094:
-        - title: JavaFX on Smart Embedded Devices
-        - abstract: This session presents an overview of the upcoming JavaFX release on embedded devices powered by ARM and Intel Atom chipsets. It describes the target hardware that can support ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6094
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6094_PDF_6094_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6094_mp4_6094_001.mp4
         - review: None
     - BOF6823:
         - title: 'Resource Management in Java: Tips, Traps, and Techniques'
@@ -517,13 +440,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3401
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3401_PDF_3401_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3401_mp4_3401_001.mp4
-        - review: None
-    - CON3362:
-        - title: 'Moving to the Client: JavaFX and HTML5'
-        - abstract: The Web revolution has moved logic from the server to the client. Advanced applications are now utilizing technologies such as JavaFX and HTML5 to build immersive customer ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3362
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3362_PDF_3362_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3362_mp4_3362_001.mp4
         - review: None
     - CON4365:
         - title: 'Polyglot Persistence: EclipseLink JPA for NoSQL, Relational, and Beyond'
@@ -595,13 +511,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF2717_PDF_2717_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF2717_mp4_2717_001.mp4
         - review: None
-    - CON2813:
-        - title: 'GroovyFX: Making JavaFX Groovy'
-        - abstract: GroovyFX is an API that makes working with JavaFX in Groovy much simpler and more natural to those well versed in Groovy. GroovyFX is focused on leveraging the Builder ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2813
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2813_PDF_2813_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2813_mp4_2813_001.mp4
-        - review: None
     - CON3253:
         - title: Monitoring and Managing a Complex Data Cloud
         - abstract: 'As application data grows rapidly and data systems struggle to keep up, many have turned to sharding their data or using NoSQL solutions. These new complex systems or “data ...'
@@ -623,13 +532,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5759_PDF_5759_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5759_mp4_5759_001.mp4
         - review: None
-    - TUT6942:
-        - title: Migrating Swing Applications to JavaFX 2
-        - abstract: Migrating an application from one technology to another is a step often taken after long analysis and consideration of the advantages and drawbacks of such a move. This ... ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6942
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT6942_PDF_6942_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT6942_mp4_6942_001.mp4
-        - review: None
     - BOF5045:
         - title: 'A Common Development Framework: From JSP to GSP at CERN'
         - abstract: The new tools and techniques of the Java ecosystem have enabled the Advanced Information Systems Group at the European Laboratory for Nuclear Research (CERN) to evolve and ...
@@ -650,13 +552,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4345
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4345_PDF_4345_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4345_mp4_4345_001.mp4
-        - review: None
-    - CON4996:
-        - title: JavaFX Meets Metro
-        - abstract: 'JavaFX is the next step in the evolution of Java as a rich client platform and the future of the Java desktop UI toolkit. On the other hand, Metro UI is used on Windows 8 ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4996
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4996_PDF_4996_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4996_mp4_4996_001.mp4
         - review: None
     - TUT4629:
         - title: 'JDK 7 in Action: Using New Core Platform Features in Real Code'
@@ -910,13 +805,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5165_PDF_5165_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5165_mp4_5165_001.mp4
         - review: None
-    - CON5329:
-        - title: 'JavaFX and Scala, Like Milk and Cookies'
-        - abstract: This presentation demonstrates the benefits of using JavaFX 2 together with the Scala programming language to provide a type-safe declarative syntax with support for lazy ... ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5329
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5329_PDF_5329_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5329_mp4_5329_001.mp4
-        - review: None
     - CON7755:
         - title: Security in the Real World
         - abstract: Java was built from the ground up with security clearly in mind and is now the engine powering a huge number of business-critical systems. With this visibility and ...
@@ -959,13 +847,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4667_PDF_4667_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4667_mp4_4667_001.mp4
         - review: None
-    - CON3138:
-        - title: 'The Ins and Outs of Text for JavaFX: The Graphic Details'
-        - abstract: 'Direct from the JavaFX Development team, this fast-paced, in-depth session covers the text APIs in JavaFX Scene Graph and UI controls, its internals, and how to get the best ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3138
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3138_PDF_3138_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3138_mp4_3138_001.mp4
-        - review: None
     - CON4737:
         - title: 'How-to: HTML5 Front-End Applications with a Java EE Back End'
         - abstract: 'In this code-focused session, you’ll learn how to take advantage of HTML5, CSS3, and JavaScript in your Java Web applications. After a quick recap of the history of ...'
@@ -979,20 +860,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4244
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4244_PDF_4244_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4244_mp4_4244_001.mp4
-        - review: None
-    - CON4648:
-        - title: 'Scala, JavaFX, Java EE 7, and Enterprise Integration'
-        - abstract: 'This session shows you how to use Scala, one of the hottest technologies, to build a JavaFX application that talks to a Java EE 7 application server. Scala is an ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4648
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4648_PDF_4648_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4648_mp4_4648_001.mp4
-        - review: None
-    - CON4643:
-        - title: Contemporary User Interface Design Patterns in JavaFX 2.2
-        - abstract: 'Design-time JavaFX: everyone can appreciate the technical aspects of the JavaFX platform, the Scene Graph, the UI components, cascading-styling philosophies, and the media ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4643
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4643_PDF_4643_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4643_mp4_4643_001.mp4
         - review: None
     - CON6803:
         - title: JDK 7 Updates in OpenJDK
@@ -1176,13 +1043,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7037_PDF_7037_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7037_mp4_7037_001.mp4
         - review: None
-    - CON6837:
-        - title: Rendering in JavaFX with the New Canvas Feature
-        - abstract: JavaFX introduces a new paradigm that frees developers from the hassles of a graphics engine to focus more on simply choosing the best attributes to make their applications ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6837
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6837_PDF_6837_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6837_mp4_6837_001.mp4
-        - review: None
     - BOF5303:
         - title: 'Women in Java: An Unconference'
         - abstract: This session presents a discussion of the role of women in Java in particular and IT in general. It includes a meet-and-greet moment for women and a short talk about jDuchess ...
@@ -1288,26 +1148,12 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5055_PDF_5055_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5055_mp4_5055_001.mp4
         - review: None
-    - TUT5466:
-        - title: 'JavaFX 2: A Java Developer’s Guide'
-        - abstract: This tutorial introduces you to the JavaFX 2 platform from the perspective of a seasoned Java developer. He explains the breadth of JavaFX APIs through several examples that ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5466
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5466_PDF_5466_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5466_mp4_5466_001.mp4
-        - review: None
     - CON3845:
         - title: Introduction to the Play Framework
         - abstract: 'The Play Framework is a lightweight, stateless Web framework for Java and Scala applications. It’s built on Java NIO, so it’s highly scalable. This session gives you an ... ...'
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3845
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3845_PDF_3845_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3845_mp4_3845_001.mp4
-        - review: None
-    - CON6224:
-        - title: JavaFX Mashups
-        - abstract: A mix of content or functionality from two or more Web-based services has become known as a mashup. This presentation takes the mashup concept one step further by mixing Web ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6224
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6224_PDF_6224_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6224_mp4_6224_001.mp4
         - review: None
     - CON3770:
         - title: 'Oracle JDeveloper and Oracle ADF: What’s New'
@@ -1322,13 +1168,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7905
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7905_PDF_7905_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7905_mp4_7905_001.mp4
-        - review: None
-    - UGF10362:
-        - title: NetBeans and JavaFX
-        - abstract: 'The NetBeans IDE has a great set of tools for learning about and developing in JavaFX. In this panel discussion session, you’ll see practical effects you can create with ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10362
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10362_PDF_10362_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10362_mp4_10362_001.mp4
         - review: None
     - BOF4540:
         - title: 'Community Driving the Future of Java: Adopt a JSR'
@@ -1435,13 +1274,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5884_PDF_5884_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5884_mp4_5884_001.mp4
         - review: None
-    - CON4348:
-        - title: A Tour of JavaFX Scene Builder
-        - abstract: 'JavaFX Scene Builder is a visual layout tool for designing JavaFX-based user interfaces. This session takes a complete tour of the tool, shows how it can help developers and ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4348
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4348_PDF_4348_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4348_mp4_4348_001.mp4
-        - review: None
     - CON6173:
         - title: Making Sense out of the Java PaaS Platforms
         - abstract: 'Java PaaS platforms have been growing like mushrooms, and many Java developers are confused about which one to use and whether Java PaaS makes sense for their applications. ...'
@@ -1483,13 +1315,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4247
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4247_PDF_4247_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4247_mp4_4247_001.mp4
-        - review: None
-    - CON6375:
-        - title: Custom Charts
-        - abstract: 'Using chart components is a great way to enable data visualization and reporting. The JavaFX platform provides the very convenient, simple, and extensible Charts API for ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6375
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6375_PDF_6375_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6375_mp4_6375_001.mp4
         - review: None
     - CON3984:
         - title: 'IMP.next: A Profile for an Embedded World with Increasing Demands'
@@ -1651,6 +1476,182 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=12919
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12919_PDF_12919_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12919_mp4_12919_001.mp4
+        - review: None
+- javafx:
+    - CON4853:
+        - title: 'JavaFX for Business: Monitoring a Container Terminal'
+        - abstract: This session provides details on the container-terminal monitoring application discussed in the related technical keynote. An extended demo leads through the key ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4853
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4853_PDF_4853_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4853_mp4_4853_001.mp4
+        - review: None
+    - BOF3482:
+        - title: 'Developing a Professional JavaFX Desktop Application: Challenges and Solutions'
+        - abstract: 'Engineers on the JavaFX Scene Builder team faced some new challenges while developing their product. Now that the tool has been released, it seems to be the best time to ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3482
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3482_PDF_3482_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3482_mp4_3482_001.mp4
+        - review: None
+    - BOF5440:
+        - title: 'Live-Coding BOF: Writing a Game with JavaFX'
+        - abstract: 'This BOF features development of a game that uses the JavaFX 2.0 library. Starting with an empty project, all parts are coded live, step by step, while the underlying ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5440
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5440_PDF_5440_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5440_mp4_5440_001.mp4
+        - review: None
+    - CON4644:
+        - title: JavaFX Extreme GUI Makeover
+        - abstract: 'JavaFX is a UI toolkit for building beautiful graphical user interfaces. Unfortunately, user interfaces don’t simply appear—they are the result of many hours of hard work. ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4644
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4644_PDF_4644_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4644_mp4_4644_001.mp4
+        - review: None
+    - TUT5729:
+        - title: 'Angry Duke: Physics-Based Games in JavaFX'
+        - abstract: 'The Duke is angry. He wants a cup of coffee, but somebody has stolen all his JavaBeans. Get out your keyboard and slingshot, and launch Duke at his enemies’ castle. JavaFX ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5729
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5729_PDF_5729_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5729_mp4_5729_001.mp4
+        - review: None
+    - CON4726:
+        - title: Writing Your Own JavaFX UI Controls
+        - abstract: 'Although JavaFX 2 includes many UI controls, there is often a need to write your own. This session walks you through the options that are available to you and demonstrates ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4726
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4726_PDF_4726_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4726_mp4_4726_001.mp4
+        - review: None
+    - CON4606:
+        - title: Building Amazing Applications with JavaFX
+        - abstract: 'Customers rank visual appearance and user experience as major considerations. Many developers believe that the #1 differentiator from the competition is how an application ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4606
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4606_PDF_4606_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4606_mp4_4606_001.mp4
+        - review: None
+    - CON6784:
+        - title: JavaFX Graphics Tips and Tricks
+        - abstract: JavaFX provides a rich set of graphical shapes and attributes that gives application developers many ways to achieve a variety of interesting visual effects. Many of these ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6784
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6784_PDF_6784_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6784_mp4_6784_001.mp4
+        - review: None
+    - BOF5503:
+        - title: JFXtras Super Happy Dev BOF
+        - abstract: 'JFXtras, the open source JavaFX control and extensions project, is back for JavaFX 2.0. In this session, you will learn about the latest changes in JFXtras 2.0, including new ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5503
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5503_PDF_5503_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5503_mp4_5503_001.mp4
+        - review: None
+    - CON6265:
+        - title: Visualizing the JVM Runtime Environment with JavaFX
+        - abstract: 'With the advent of the JavaFX client platform, Java GUI applications have taken a huge leap into the twenty-first century. But what if we turned the power of JavaFX inward ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6265
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6265_PDF_6265_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6265_mp4_6265_001.mp4
+        - review: None
+    - CON6094:
+        - title: JavaFX on Smart Embedded Devices
+        - abstract: This session presents an overview of the upcoming JavaFX release on embedded devices powered by ARM and Intel Atom chipsets. It describes the target hardware that can support ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6094
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6094_PDF_6094_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6094_mp4_6094_001.mp4
+        - review: None
+    - CON3362:
+        - title: 'Moving to the Client: JavaFX and HTML5'
+        - abstract: The Web revolution has moved logic from the server to the client. Advanced applications are now utilizing technologies such as JavaFX and HTML5 to build immersive customer ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3362
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3362_PDF_3362_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3362_mp4_3362_001.mp4
+        - review: None
+    - CON2813:
+        - title: 'GroovyFX: Making JavaFX Groovy'
+        - abstract: GroovyFX is an API that makes working with JavaFX in Groovy much simpler and more natural to those well versed in Groovy. GroovyFX is focused on leveraging the Builder ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2813
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2813_PDF_2813_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2813_mp4_2813_001.mp4
+        - review: None
+    - TUT6942:
+        - title: Migrating Swing Applications to JavaFX 2
+        - abstract: Migrating an application from one technology to another is a step often taken after long analysis and consideration of the advantages and drawbacks of such a move. This ... ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6942
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT6942_PDF_6942_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT6942_mp4_6942_001.mp4
+        - review: None
+    - CON4996:
+        - title: JavaFX Meets Metro
+        - abstract: 'JavaFX is the next step in the evolution of Java as a rich client platform and the future of the Java desktop UI toolkit. On the other hand, Metro UI is used on Windows 8 ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4996
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4996_PDF_4996_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4996_mp4_4996_001.mp4
+        - review: None
+    - CON5329:
+        - title: 'JavaFX and Scala, Like Milk and Cookies'
+        - abstract: This presentation demonstrates the benefits of using JavaFX 2 together with the Scala programming language to provide a type-safe declarative syntax with support for lazy ... ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5329
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5329_PDF_5329_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5329_mp4_5329_001.mp4
+        - review: None
+    - CON3138:
+        - title: 'The Ins and Outs of Text for JavaFX: The Graphic Details'
+        - abstract: 'Direct from the JavaFX Development team, this fast-paced, in-depth session covers the text APIs in JavaFX Scene Graph and UI controls, its internals, and how to get the best ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3138
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3138_PDF_3138_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3138_mp4_3138_001.mp4
+        - review: None
+    - CON4648:
+        - title: 'Scala, JavaFX, Java EE 7, and Enterprise Integration'
+        - abstract: 'This session shows you how to use Scala, one of the hottest technologies, to build a JavaFX application that talks to a Java EE 7 application server. Scala is an ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4648
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4648_PDF_4648_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4648_mp4_4648_001.mp4
+        - review: None
+    - CON4643:
+        - title: Contemporary User Interface Design Patterns in JavaFX 2.2
+        - abstract: 'Design-time JavaFX: everyone can appreciate the technical aspects of the JavaFX platform, the Scene Graph, the UI components, cascading-styling philosophies, and the media ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4643
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4643_PDF_4643_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4643_mp4_4643_001.mp4
+        - review: None
+    - CON6837:
+        - title: Rendering in JavaFX with the New Canvas Feature
+        - abstract: JavaFX introduces a new paradigm that frees developers from the hassles of a graphics engine to focus more on simply choosing the best attributes to make their applications ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6837
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6837_PDF_6837_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6837_mp4_6837_001.mp4
+        - review: None
+    - TUT5466:
+        - title: 'JavaFX 2: A Java Developer’s Guide'
+        - abstract: This tutorial introduces you to the JavaFX 2 platform from the perspective of a seasoned Java developer. He explains the breadth of JavaFX APIs through several examples that ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5466
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5466_PDF_5466_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5466_mp4_5466_001.mp4
+        - review: None
+    - CON6224:
+        - title: JavaFX Mashups
+        - abstract: A mix of content or functionality from two or more Web-based services has become known as a mashup. This presentation takes the mashup concept one step further by mixing Web ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6224
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6224_PDF_6224_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6224_mp4_6224_001.mp4
+        - review: None
+    - UGF10362:
+        - title: NetBeans and JavaFX
+        - abstract: 'The NetBeans IDE has a great set of tools for learning about and developing in JavaFX. In this panel discussion session, you’ll see practical effects you can create with ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=10362
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10362_PDF_10362_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10362_mp4_10362_001.mp4
+        - review: None
+    - CON4348:
+        - title: A Tour of JavaFX Scene Builder
+        - abstract: 'JavaFX Scene Builder is a visual layout tool for designing JavaFX-based user interfaces. This session takes a complete tour of the tool, shows how it can help developers and ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4348
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4348_PDF_4348_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4348_mp4_4348_001.mp4
+        - review: None
+    - CON6375:
+        - title: Custom Charts
+        - abstract: 'Using chart components is a great way to enable data visualization and reporting. The JavaFX platform provides the very convenient, simple, and extensible Charts API for ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6375
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6375_PDF_6375_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6375_mp4_6375_001.mp4
         - review: None
     - CON3908:
         - title: Building Serious JavaFX 2 Applications
