@@ -1,109 +1,4 @@
-- queued:
-    - BOF6272:
-        - title: 'JCP.Next: Reinvigorating Java Standards'
-        - abstract: The JCP plays a critical role in the evolution of Java. This session discusses recent and upcoming changes to the JCP’s processes that are intended to lower barriers to ... ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6272
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6272_PDF_6272_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6272_mp4_6272_001.mp4
-        - review: ...
-    - TUT5039:
-        - title: Cover Your Web and Mobile Applications with Integration Tests from Scratch
-        - abstract: 'Using a Web application is easy. Testing it should be easy as well. Arquillian, a revolutionary Java enterprise testing platform—together with its extensions Arquillian Drone ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5039
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5039_PDF_5039_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5039_mp4_5039_001.mp4
-        - review: ...
-    - BOF4315:
-        - title: 'JAX-WS.Next: Progress and Feedback'
-        - abstract: 'The JAX-WS specification is currently in its 2.2 release, but a larger update of the specification is in progress besides the current maintenance release. This session walks ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4315
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4315_PDF_4315_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4315_mp4_4315_001.mp4
-        - review: ...
-    - CON6385:
-        - title: Why There’s No Future in Java Futures
-        - abstract: 'This session examines how Java Future affects the design and implementation of highly concurrent multithreaded systems. It explains how, although being designed to facilitate ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6385
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6385_PDF_6385_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6385_mp4_6385_001.mp4
-        - review: ...
-    - CON3956:
-        - title: java.nio.file for Remote Systems
-        - abstract: 'The New I/O File API, introduced in Java SE 7, has overcome several shortcomings in the File API. Most importantly, it is now designed for extension. For example, you can ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3956
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3956_PDF_3956_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3956_mp4_3956_001.mp4
-        - review: ...
-    - BOF3665:
-        - title: Custom Static Code Analysis
-        - abstract: NetBeans 7.1 introduced a way to declaratively describe custom refactorings with a Java-like DSL. It can be used to improve large code bases quickly by replacing invocations ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3665
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3665_PDF_3665_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3665_mp4_3665_001.mp4
-        - review: ...
-    - CON6037:
-        - title: 'Type-Safe, Efficient, Low-Level Programming for the JVM'
-        - abstract: 'AL1 is a new assembler language for the JVM that doesn’t require any knowledge of its stack-based, sometimes nonintuitive instruction set. Instead it defines high-level, ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6037
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6037_PDF_6037_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6037_mp4_6037_001.mp4
-        - review: ...
-    - BOF6823:
-        - title: 'Resource Management in Java: Tips, Traps, and Techniques'
-        - abstract: This session explores the techniques and traps involved in correct and robust application resource management in Java.
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6823
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6823_PDF_6823_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6823_mp4_6823_001.mp4
-        - review: ...
-    - CON4365:
-        - title: 'Polyglot Persistence: EclipseLink JPA for NoSQL, Relational, and Beyond'
-        - abstract: Java data access isn’t just about reading and writing from relational databases. It’s also about being able to persist your objects in NoSQL databases and mapping your ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4365
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4365_PDF_4365_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4365_mp4_4365_001.mp4
-        - review: ...
-    - CON2718:
-        - title: The Power of Java 7 NIO.2
-        - abstract: 'In this session, hear how a leading financial services company uses Java 7’s NIO.2. It covers all the important aspects involved in developing NIO.2-based applications, ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2718
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2718_PDF_2718_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2718_mp4_2718_001.mp4
-        - review: ...
-    - BOF2628:
-        - title: 'OSGi for Earthlings: Meet Eclipse Libra'
-        - abstract: 'Eclipse Libra (www.eclipse.org/libra) provides standard tools for OSGi Enterprise application development, particularly tools that integrate the existing WTP and PDE tooling ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2628
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF2628_PDF_2628_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF2628_mp4_2628_001.mp4
-        - review: ...
-    - CON4345:
-        - title: 'Up, Up, and Out: Scaling Software with Akka'
-        - abstract: 'Developing concurrent and/or distributed applications often involves choosing between productivity and scalability: do I use easy-to-understand paradigms that don’t provide ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4345
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4345_PDF_4345_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4345_mp4_4345_001.mp4
-        - review: ...
-    - TUT4629:
-        - title: 'JDK 7 in Action: Using New Core Platform Features in Real Code'
-        - abstract: Java 7 has introduced a significant number of new technologies into the Java platform. There have been changes to the programming language (“Project Coin”) and to the Java ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4629
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT4629_PDF_4629_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT4629_mp4_4629_001.mp4
-        - review: ...
-    - BOF3727:
-        - title: Developing Multitenant Applications with HK2 2.0
-        - abstract: 'The HK2 implementation of the JSR 330 standard, besides dependency injection, provides a proven mechanism for application configuration. EclipseLink provides great support ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3727
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3727_PDF_3727_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3727_mp4_3727_001.mp4
-        - review: ...
-    - CON12853:
-        - title: 'I Got 99 Problems, but REST Ain’t One'
-        - abstract: 'The world’s most popular services expose ReST APIs. Whether it’s in Google, Twitter, Amazon, or even your middleware, ReST is everywhere. Have you ever wondered why APIs look ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=12853
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12853_PDF_12853_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12853_mp4_12853_001.mp4
-        - review: ...
+- queued: ~
 - considering:
     - CON3470:
         - title: Scala Tricks
@@ -1634,6 +1529,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6234_PDF_6234_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6234_mp4_6234_001.mp4
         - review: Good talk. Technical.
+    - BOF6272:
+        - title: 'JCP.Next: Reinvigorating Java Standards'
+        - abstract: The JCP plays a critical role in the evolution of Java. This session discusses recent and upcoming changes to the JCP’s processes that are intended to lower barriers to ... ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6272
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6272_PDF_6272_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6272_mp4_6272_001.mp4
+        - review: The Java Community Process (JCP) is necessary but not especially interesting to hear about.
     - CON6152:
         - title: Modern Software Development Antipatterns
         - abstract: 'Following on from the popular Diabolical Developer JavaOne 2011 presentation, the Diabolical Developer returns (with Ben Evans, the voice of reason?) with a presentation full ...'
@@ -1669,6 +1571,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON10656_PDF_10656_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON10656_mp4_10656_001.mp4
         - review: Not bad. Good to hear from the people who make application servers
+    - TUT5039:
+        - title: Cover Your Web and Mobile Applications with Integration Tests from Scratch
+        - abstract: 'Using a Web application is easy. Testing it should be easy as well. Arquillian, a revolutionary Java enterprise testing platform—together with its extensions Arquillian Drone ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5039
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5039_PDF_5039_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5039_mp4_5039_001.mp4
+        - review: A good overview of Arquillian.
     - CON5243:
         - title: Real-World Compatibility and the Java Promise
         - abstract: 'Ever wonder how Java achieves such success in fulfilling the “write once, run anywhere” (WORA) promise? In this session, a senior member of the IBM Java team speaks candidly ...'
@@ -1711,6 +1620,20 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_PDF_4930_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4930_mp4_4930_001.mp4
         - review: Speaker seems nice but talk is a little dull
+    - BOF4315:
+        - title: 'JAX-WS.Next: Progress and Feedback'
+        - abstract: 'The JAX-WS specification is currently in its 2.2 release, but a larger update of the specification is in progress besides the current maintenance release. This session walks ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4315
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4315_PDF_4315_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF4315_mp4_4315_001.mp4
+        - review: Not especially interesting to me. Maybe I should give it another chance.
+    - CON6385:
+        - title: Why There’s No Future in Java Futures
+        - abstract: 'This session examines how Java Future affects the design and implementation of highly concurrent multithreaded systems. It explains how, although being designed to facilitate ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6385
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6385_PDF_6385_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6385_mp4_6385_001.mp4
+        - review: A nice talk about futures in Java.
     - CON4012:
         - title: 'Practical Performance: Understand the Performance of Your Application'
         - abstract: This session discusses how you can maximize the performance of your application deployment with tools that are native to your server platform as well as cross-platform Java ...
@@ -1725,6 +1648,27 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5135_PDF_5135_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5135_mp4_5135_001.mp4
         - review: 'Great talk, a deep dive into how Java uses memory.'
+    - CON3956:
+        - title: java.nio.file for Remote Systems
+        - abstract: 'The New I/O File API, introduced in Java SE 7, has overcome several shortcomings in the File API. Most importantly, it is now designed for extension. For example, you can ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3956
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3956_PDF_3956_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3956_mp4_3956_001.mp4
+        - review: 'Details on a particular IO library: https://github.com/xebialabs/overthere'
+    - BOF3665:
+        - title: Custom Static Code Analysis
+        - abstract: NetBeans 7.1 introduced a way to declaratively describe custom refactorings with a Java-like DSL. It can be used to improve large code bases quickly by replacing invocations ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3665
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3665_PDF_3665_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3665_mp4_3665_001.mp4
+        - review: Not interesting. Only listened to half of it.
+    - CON6037:
+        - title: 'Type-Safe, Efficient, Low-Level Programming for the JVM'
+        - abstract: 'AL1 is a new assembler language for the JVM that doesn’t require any knowledge of its stack-based, sometimes nonintuitive instruction set. Instead it defines high-level, ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6037
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6037_PDF_6037_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6037_mp4_6037_001.mp4
+        - review: 'Interesting talk about AL1, a new assembler language for the JVM'
     - CON5774:
         - title: 'Who’s More Functional: Kotlin, Groovy, Scala, or Java?'
         - abstract: 'What is “functional programming” (FP)? Is it a paradigm, a mind-set, or just a buzzword? What’s good about it? How can we benefit from it? This session is about functional ...'
@@ -1732,6 +1676,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5774_PDF_5774_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5774_mp4_5774_001.mp4
         - review: Good. Interesting history of functional programming languages.
+    - BOF6823:
+        - title: 'Resource Management in Java: Tips, Traps, and Techniques'
+        - abstract: This session explores the techniques and traps involved in correct and robust application resource management in Java.
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6823
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6823_PDF_6823_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6823_mp4_6823_001.mp4
+        - review: Info on resource management. I think this was an ok talk. The speaker is experienced and knowledgeable (works for IBM on their implementation of Java).
     - CON7357:
         - title: Why Should I Switch to Java SE 7?
         - abstract: 'With Java SE 7 having been available for more than a year, it is time to start using it. A common question is, “Why should I update to Java SE 7? I don’t use any of the new ...'
@@ -1746,6 +1697,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5089_PDF_5089_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5089_mp4_5089_001.mp4
         - review: Interesting. Worth listening to
+    - CON4365:
+        - title: 'Polyglot Persistence: EclipseLink JPA for NoSQL, Relational, and Beyond'
+        - abstract: Java data access isn’t just about reading and writing from relational databases. It’s also about being able to persist your objects in NoSQL databases and mapping your ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4365
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4365_PDF_4365_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4365_mp4_4365_001.mp4
+        - review: Great talk on JPA and EclipseLink for NoSQL.
     - CON12924:
         - title: Social Developer Hackathon
         - abstract: 'In this session, the staff of the Oracle Social Developer Lab presents some social development tools that make integrating social functionality into your apps easier. This ...'
@@ -1753,6 +1711,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12924_PDF_12924_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12924_mp4_12924_001.mp4
         - review: 'A couple short talks about libraries for sharing via Twitter, LinkedIn, etc.'
+    - CON2718:
+        - title: The Power of Java 7 NIO.2
+        - abstract: 'In this session, hear how a leading financial services company uses Java 7’s NIO.2. It covers all the important aspects involved in developing NIO.2-based applications, ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2718
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2718_PDF_2718_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2718_mp4_2718_001.mp4
+        - review: Info on Java 7 NIO.2. Did not make a strong impression on me.
     - CON8049:
         - title: The Rise of NoSQL and Polyglot Persistence
         - abstract: The rise of NoSQL is characterized by confusion and ambiguity in the absence of well-defined standards and adequate software solutions. Many questions come to mind when ... ...
@@ -1774,6 +1739,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7147_PDF_7147_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7147_mp4_7147_001.mp4
         - review: Nice and technical.
+    - BOF2628:
+        - title: 'OSGi for Earthlings: Meet Eclipse Libra'
+        - abstract: 'Eclipse Libra (www.eclipse.org/libra) provides standard tools for OSGi Enterprise application development, particularly tools that integrate the existing WTP and PDE tooling ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2628
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF2628_PDF_2628_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF2628_mp4_2628_001.mp4
+        - review: OSGi and Libra is a bit in the weeds for me
     - CON6238:
         - title: Powerful Analytics Apps Fueled by Java for High Performance and Scalability
         - abstract: 'eBay has grown into one of the largest online marketplaces on the internet today, serving more than 100 million active users. The number of items listed on eBay and the fact ...'
@@ -1795,6 +1767,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4857_PDF_4857_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4857_mp4_4857_001.mp4
         - review: Good if you're interested in Groovy
+    - CON4345:
+        - title: 'Up, Up, and Out: Scaling Software with Akka'
+        - abstract: 'Developing concurrent and/or distributed applications often involves choosing between productivity and scalability: do I use easy-to-understand paradigms that don’t provide ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4345
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4345_PDF_4345_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4345_mp4_4345_001.mp4
+        - review: A nice introduction to Akka.
     - CON6430:
         - title: Java EE and Spring Framework Panel Discussion
         - abstract: 'In the age of Java EE 6 and Spring 3, enterprise Java developers have many architectural choices, including Java EE 6 and Spring, but which one is right for your project? ... ...'
@@ -1802,6 +1781,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6430_PDF_6430_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6430_mp4_6430_001.mp4
         - review: Good discussion. Would listen again.
+    - TUT4629:
+        - title: 'JDK 7 in Action: Using New Core Platform Features in Real Code'
+        - abstract: Java 7 has introduced a significant number of new technologies into the Java platform. There have been changes to the programming language (“Project Coin”) and to the Java ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4629
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT4629_PDF_4629_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT4629_mp4_4629_001.mp4
+        - review: A long talk but nice information about Java 7. Worth listening to again.
     - BOF7503:
         - title: Best Practices in Java Enterprise Monitoring
         - abstract: 'As applications become more service-oriented, interactions within a distributed enterprise application landscape add to the complexity of monitoring and troubleshooting ... ...'
@@ -1823,6 +1809,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5502_PDF_5502_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF5502_mp4_5502_001.mp4
         - review: Ok talk but pretty academic. Corpus analysis.
+    - BOF3727:
+        - title: Developing Multitenant Applications with HK2 2.0
+        - abstract: 'The HK2 implementation of the JSR 330 standard, besides dependency injection, provides a proven mechanism for application configuration. EclipseLink provides great support ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3727
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3727_PDF_3727_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3727_mp4_3727_001.mp4
+        - review: Info on HK2
     - CON4701:
         - title: 50 Tips in 50 Minutes for GlassFish Fans
         - abstract: This fast-paced session presents 50 tips and tricks for using GlassFish Server technology. Learn about features for both GlassFish Server Open Source Edition and Oracle ... ...
@@ -1872,6 +1865,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11879_PDF_11879_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11879_mp4_11879_001.mp4
         - review: A good talk but mostly about building applications on top of the NetBeans platform. It has very little to do with the NetBeans IDE itself.
+    - CON12853:
+        - title: 'I Got 99 Problems, but REST Ain’t One'
+        - abstract: 'The world’s most popular services expose ReST APIs. Whether it’s in Google, Twitter, Amazon, or even your middleware, ReST is everywhere. Have you ever wondered why APIs look ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=12853
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12853_PDF_12853_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12853_mp4_12853_001.mp4
+        - review: Great talk about designing REST APIs
     - CON2983:
         - title: 'Behavior-Driven Development on the JVM: A State of the Union'
         - abstract: 'Behavior-driven development (BDD) is an increasingly popular variation on test-driven development, which helps developers think more in terms of “executable specifications” ...'
