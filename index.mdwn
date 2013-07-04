@@ -2,7 +2,7 @@
 
 The [[sitemap]] shows everything but some highlights:
 
-- [[Java]] , [[Perl]] , [[Python]]
+- [[Java]], [[Perl]], [[Python]]
 - [[Vim]], [[NetBeans]]
 - [[Vagrant]]
 
