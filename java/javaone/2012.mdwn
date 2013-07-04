@@ -104,13 +104,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12853_PDF_12853_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12853_mp4_12853_001.mp4
         - review: ...
-    - CON4725:
-        - title: Hacking TableView
-        - abstract: 'TableView is a very powerful UI control, but the API can often hide useful functionality. This session works through several tweaks and API features that may not be apparent ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4725
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4725_PDF_4725_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4725_mp4_4725_001.mp4
-        - review: ...
 - considering:
     - CON3470:
         - title: Scala Tricks
@@ -1386,6 +1379,13 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4996
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4996_PDF_4996_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4996_mp4_4996_001.mp4
+        - review: None
+    - CON4725:
+        - title: Hacking TableView
+        - abstract: 'TableView is a very powerful UI control, but the API can often hide useful functionality. This session works through several tweaks and API features that may not be apparent ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4725
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4725_PDF_4725_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4725_mp4_4725_001.mp4
         - review: None
     - CON5329:
         - title: 'JavaFX and Scala, Like Milk and Cookies'
