@@ -1,7 +1,7 @@
 ## My dotfiles
 
-* http://git.greptilian.com/?p=dotfiles.git;a=blob;f=.vimrc;hb=HEAD
-* http://git.greptilian.com/?p=dotfiles.git;a=tree;f=.vim;hb=HEAD
+* https://github.com/pdurbin/dotfiles/blob/master/.vimrc
+* https://github.com/pdurbin/dotfiles/tree/master/.vim
 
 ## Pathogen and git submodules
 
