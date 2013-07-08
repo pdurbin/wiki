@@ -1,1 +1,17 @@
 [[!map pages=java/ee/*]]
+
+http://stackoverflow.com/questions/6576048/maven-archetype-for-pure-serverside-war-packaged-java-ee-6-application
+
+## EBJ
+
+Recommended by Ellen: CDI, JSF & Dependency Injection in Java EE 6 - By Reza Rahman - http://www.theserverside.com/discussions/thread.tss?thread_id=60642
+
+https://glassfish.java.net/javaee5/ejb/EJB_FAQ.html#How_do_I_unit_test_my_EJB_components
+
+http://openejb.apache.org/examples-trunk/simple-singleton/README.html
+
+Local EJB access from command line Java program? | Java.net - https://www.java.net//node/702700
+
+http://www.adam-bien.com/roller/abien/entry/embedding_ejb_3_1_container
+
+https://github.com/pschyska/embedded-glassfish-example via http://pschyska.blogspot.com/2011/06/unit-testing-ejb-31-with-netbeans-maven.html
