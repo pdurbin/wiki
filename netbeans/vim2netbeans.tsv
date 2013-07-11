@@ -19,3 +19,5 @@ Cmd-Shift-space	?	show documentation popup
 Cmd-Shift-i	?	fix all imports
 Cmd-;	?	complete line (add semicolon)
 Ctrl-e	?	next error (or warning) in editor
+Ctrl-Shift-leftArrow	<<	move code left
+Ctrl-Shift-rightArrow	>>	move code right
