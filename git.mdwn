@@ -2,6 +2,10 @@
 
 ## Howto
 
+### How to undo/revert your last commit 
+
+    git reset --soft HEAD^
+
 ### How to tell which files git is tracking
 
     git ls-files
