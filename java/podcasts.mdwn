@@ -1,0 +1,3 @@
+- http://javaposse.com
+- http://javapubhouse.com
+- https://blogs.oracle.com/javaspotlight
