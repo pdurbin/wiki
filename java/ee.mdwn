@@ -1,5 +1,7 @@
 [[!map pages=java/ee/*]]
 
+http://irclog.greptilian.com/javaee/today
+
 http://stackoverflow.com/questions/6576048/maven-archetype-for-pure-serverside-war-packaged-java-ee-6-application
 
 ## EBJ
