@@ -1,0 +1,56 @@
+- Fundamental Paradigms for Java Developers: NoSQL and OSGI [UGF10549] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=10549
+    - http://irclog.greptilian.com/javaee/2013-09-22#i_24249
+- Fifteen Years of the NetBeans IDE [UGF10366] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=10366
+    - http://irclog.greptilian.com/javaee/2013-09-22#i_24261
+- NetBeans Power Tools with James and Kirk [UGF10336] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=10336
+    - http://irclog.greptilian.com/javaee/2013-09-22#i_24306 
+- Getting Speakers, Finding Sponsors, Planning Events [UGF10331] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=10331 
+    - http://irclog.greptilian.com/javaee/2013-09-22#i_24422
+- Scala in Action [CON1729] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=1729  
+    - http://irclog.greptilian.com/javaee/2013-09-23#i_24501
+- Jump-starting Lambda Programming [TUT3877] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=3877
+    - http://irclog.greptilian.com/javaee/2013-09-23#i_24549
+- Demystifying Java EE [CON2231] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2231
+    - http://irclog.greptilian.com/javaee/2013-09-23#i_24721
+- Coding Java EE 7: Making Easy Even Easier [CON4456] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=4456
+    - http://irclog.greptilian.com/javaee/2013-09-23#i_24730 
+- What’s New with Bean Validation and Expression Language in Java EE 7 [BOF7696] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=7696
+    - http://irclog.greptilian.com/javaee/2013-09-23#i_24858
+- Using MongoDB in a Java Enterprise Application [BOF7857] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=7857
+    - http://irclog.greptilian.com/javaee/2013-09-24#i_24881
+- JSF 2.2 New Features in Context [CON3294] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=3294
+    - http://irclog.greptilian.com/javaee/2013-09-24#i_24968
+- Apache TomEE, Java EE Web Profile, and More on Tomcat [CON3969] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=3969
+    - http://irclog.greptilian.com/javaee/2013-09-24#i_24994
+- Nuts and Bolts of Java EE 7 Interceptors [CON7771] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=7771
+    - http://irclog.greptilian.com/javaee/2013-09-24#i_25034
+- Unlocking the Java EE Platform with HTML5 [CON3475] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=3475
+    - http://irclog.greptilian.com/javaee/2013-09-24#i_25071
+- Enterprise JavaBeans 3.2 with Examples [CON7759] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=7759
+    - http://irclog.greptilian.com/javaee/2013-09-24#i_25102
+- Meet the Java EE Specification Leads [BOF2795] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2795
+    - http://irclog.greptilian.com/javaee/2013-09-24#i_25121
+- NetBeans Dreamers: 10 Fun Ways to Make the Most of NetBeans [BOF2741] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2741
+    - http://irclog.greptilian.com/javaee/2013-09-25#i_25300
+- Lessons Learned from Using GlassFish with NetBeans [BOF2764] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2764
+    - http://irclog.greptilian.com/javaee/2013-09-25#i_25331
+- Just-in-Time Java EE: Provisioning Runtimes for Enterprise Applications [CON5634] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=5634
+    - http://irclog.greptilian.com/javaee/2013-09-25#i_25419
+- Lean and Opinionated Java EE 7 Applications [CON2196] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2196
+    - http://irclog.greptilian.com/javaee/2013-09-25#i_25424
+- A Practical Use of Servlet 3.1 (JSR 340): Implementing WebSocket (JSR 356) [CON3651] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=3651
+    - http://irclog.greptilian.com/javaee/2013-09-25#i_25479
+- Come and Play! with Java EE 7 [CON3496] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=3496
+    - http://irclog.greptilian.com/javaee/2013-09-25#i_25528
+- Modular JavaScript [CON2959] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2959
+    - http://irclog.greptilian.com/javaee/2013-09-25#i_25600
+- Application Resilience Engineering and Operations at Netflix with Hystrix [CON2624] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2624
+    - http://irclog.greptilian.com/javaee/2013-09-25#i_25706
+- Java Community Keynote [KEY11027] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=11027
+    - http://irclog.greptilian.com/javaee/2013-09-26#i_25819
+- Learning Scala? Learn the Fundamentals First! [CON1922] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=1922
+    - http://irclog.greptilian.com/javaee/2013-09-26#i_25887
+- Integrating JVM Languages [CON2077] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2077
+    - http://irclog.greptilian.com/javaee/2013-09-26#i_25927
+- The Emerging Languages Bowl: The Quest to Be in the Big Leagues [CON4892] https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=4892
+    - http://irclog.greptilian.com/javaee/2013-09-26#i_26020
