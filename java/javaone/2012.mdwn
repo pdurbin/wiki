@@ -28,13 +28,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON13535_PDF_13535_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON13535_mp4_13535_001.mp4
         - review: None
-    - CON3254:
-        - title: Forge New Ground in Rapid Enterprise Software Development
-        - abstract: 'How many times have you wanted to start a new project in Java EE but struggled to put all the pieces together? Has the Maven archetype syntax left you scratching your head? ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3254
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3254_PDF_3254_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3254_mp4_3254_001.mp4
-        - review: None
     - BOF7895:
         - title: Practical Guide to Using Operator Network APIs
         - abstract: 'Operators around the world are using network APIs such as payment, location, call control, and messaging to enable innovation internally, with partners, and across the long ...'
@@ -63,26 +56,12 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT6361_PDF_6361_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT6361_mp4_6361_001.mp4
         - review: None
-    - CON6703:
-        - title: 'ARM: Eight Billion Served—“Want That Java Superoptimized?”'
-        - abstract: 'With approximately eight billion ARM-based devices shipped in 2011, ARM-based chips are used in a wide range of embedded systems. New ARM-designed low-power multicore ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6703
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6703_PDF_6703_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6703_mp4_6703_001.mp4
-        - review: None
     - BOF7605:
         - title: Building Mobile Apps with HTML5 and Java
         - abstract: 'The next evolution of client/server applications has emerged: a thin client including HTML5, JavaScript, and CSS is connected via REST to a Java back end in the cloud. In ... ...'
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7605
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7605_PDF_7605_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF7605_mp4_7605_001.mp4
-        - review: None
-    - CON5875:
-        - title: Making Apps Scale with CDI and Data Grids
-        - abstract: 'This session walks through a live demo of building a Website with CDI, clustering it with Java EE clustering capabilities, and then introducing a data grid into the mix to ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5875
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5875_PDF_5875_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5875_mp4_5875_001.mp4
         - review: None
     - CON6664:
         - title: 'Java for Mobile Devices: New Horizons with Fantastic New Devices'
@@ -139,13 +118,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=11250
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11250_PDF_11250_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11250_mp4_11250_001.mp4
-        - review: None
-    - CON11236:
-        - title: 'The Coming M2M Revolution: Critical Issues for End-to-End Software and Systems'
-        - abstract: This session discusses critical systems and software issues inherent in the cost-effective deployment of end-to-end M2M systems. These factors include planning for security; ...
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=11236
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11236_PDF_11236_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11236_mp4_11236_001.mp4
         - review: None
     - CON11248:
         - title: Overview of an Embedded Platform for Big Data in Manufacturing
@@ -294,13 +266,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12917_PDF_12917_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12917_mp4_12917_001.mp4
         - review: None
-    - BOF11224:
-        - title: Protecting Machine-Only Processed Data
-        - abstract: 'This session presents a way to protect machine-only processed data throughout the lifetime of the data. Machine-only processed data such as credentials, credit card data, and ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=11224
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF11224_PDF_11224_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF11224_mp4_11224_001.mp4
-        - review: None
     - BOF7225:
         - title: 'New Security Features and Fundamentals: JDK 8 and Beyond'
         - abstract: This presentation gives an overview of security-related changes being designed for JDK 8. It also discusses possible future directions for security features and capabilities. ...
@@ -328,13 +293,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=2717
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF2717_PDF_2717_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF2717_mp4_2717_001.mp4
-        - review: None
-    - CON3253:
-        - title: Monitoring and Managing a Complex Data Cloud
-        - abstract: 'As application data grows rapidly and data systems struggle to keep up, many have turned to sharding their data or using NoSQL solutions. These new complex systems or “data ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3253
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3253_PDF_3253_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3253_mp4_3253_001.mp4
         - review: None
     - CON6651:
         - title: 'Oracle JRockit Mission Control Is Dead: Long Live Java Mission Control!'
@@ -1529,6 +1487,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6234_PDF_6234_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6234_mp4_6234_001.mp4
         - review: Good talk. Technical.
+    - CON3254:
+        - title: Forge New Ground in Rapid Enterprise Software Development
+        - abstract: 'How many times have you wanted to start a new project in Java EE but struggled to put all the pieces together? Has the Maven archetype syntax left you scratching your head? ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3254
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3254_PDF_3254_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3254_mp4_3254_001.mp4
+        - review: Nice intro to forge.
     - BOF6272:
         - title: 'JCP.Next: Reinvigorating Java Standards'
         - abstract: The JCP plays a critical role in the evolution of Java. This session discusses recent and upcoming changes to the JCP’s processes that are intended to lower barriers to ... ...
@@ -1536,6 +1501,20 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6272_PDF_6272_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6272_mp4_6272_001.mp4
         - review: The Java Community Process (JCP) is necessary but not especially interesting to hear about.
+    - CON6703:
+        - title: 'ARM: Eight Billion Served—“Want That Java Superoptimized?”'
+        - abstract: 'With approximately eight billion ARM-based devices shipped in 2011, ARM-based chips are used in a wide range of embedded systems. New ARM-designed low-power multicore ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6703
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6703_PDF_6703_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6703_mp4_6703_001.mp4
+        - review: ARM. Boring
+    - CON5875:
+        - title: Making Apps Scale with CDI and Data Grids
+        - abstract: 'This session walks through a live demo of building a Website with CDI, clustering it with Java EE clustering capabilities, and then introducing a data grid into the mix to ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=5875
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5875_PDF_5875_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5875_mp4_5875_001.mp4
+        - review: Scaling databases
     - CON6152:
         - title: Modern Software Development Antipatterns
         - abstract: 'Following on from the popular Diabolical Developer JavaOne 2011 presentation, the Diabolical Developer returns (with Ben Evans, the voice of reason?) with a presentation full ...'
@@ -1564,6 +1543,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6575_PDF_6575_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON6575_mp4_6575_001.mp4
         - review: I'm pretty sure I listened to this and it was ok.
+    - CON11236:
+        - title: 'The Coming M2M Revolution: Critical Issues for End-to-End Software and Systems'
+        - abstract: This session discusses critical systems and software issues inherent in the cost-effective deployment of end-to-end M2M systems. These factors include planning for security; ...
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=11236
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11236_PDF_11236_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON11236_mp4_11236_001.mp4
+        - review: Might be a good talk for CIOs. Very high level.
     - CON10656:
         - title: 'JavaEE.Next(): Java EE 7, 8, and Beyond'
         - abstract: 'In this session, hear from a distinguished panel of industry and open source luminaries regarding where they believe the Java EE community is headed, starting with Java EE 7. ...'
@@ -1711,6 +1697,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12924_PDF_12924_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON12924_mp4_12924_001.mp4
         - review: 'A couple short talks about libraries for sharing via Twitter, LinkedIn, etc.'
+    - BOF11224:
+        - title: Protecting Machine-Only Processed Data
+        - abstract: 'This session presents a way to protect machine-only processed data throughout the lifetime of the data. Machine-only processed data such as credentials, credit card data, and ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=11224
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF11224_PDF_11224_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF11224_mp4_11224_001.mp4
+        - review: Not a fascinating talk.
     - CON2718:
         - title: The Power of Java 7 NIO.2
         - abstract: 'In this session, hear how a leading financial services company uses Java 7’s NIO.2. It covers all the important aspects involved in developing NIO.2-based applications, ... ...'
@@ -1767,6 +1760,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4857_PDF_4857_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4857_mp4_4857_001.mp4
         - review: Good if you're interested in Groovy
+    - CON3253:
+        - title: Monitoring and Managing a Complex Data Cloud
+        - abstract: 'As application data grows rapidly and data systems struggle to keep up, many have turned to sharding their data or using NoSQL solutions. These new complex systems or “data ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3253
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3253_PDF_3253_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3253_mp4_3253_001.mp4
+        - review: Sharding databases in the cloud. A long commercial for ScaleBase.
     - CON4345:
         - title: 'Up, Up, and Out: Scaling Software with Akka'
         - abstract: 'Developing concurrent and/or distributed applications often involves choosing between productivity and scalability: do I use easy-to-understand paradigms that don’t provide ...'
