@@ -12,3 +12,7 @@ http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-patho
 http://en.wikipedia.org/wiki/Wikipedia:Text_editor_support#Use_It.27s_All_Text.21_to_invoke_an_external_editor
 
 http://kly.no/posts/2010_08_31__Wiki_sh___mediawiki_for_geeks__.html
+
+## Keeping width to 72 characters
+
+vim "+set textwidth=72" path/to/file.txt
