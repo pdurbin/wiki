@@ -539,13 +539,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7755_PDF_7755_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7755_mp4_7755_001.mp4
         - review: None
-    - CON3842:
-        - title: Client/Server Applications with HTML5 and Java
-        - abstract: 'The Web application landscape is rapidly shifting back to a client/server architecture. This time around, the client is JavaScript, HTML, and Cascading Style Sheets in the ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3842
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3842_PDF_3842_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3842_mp4_3842_001.mp4
-        - review: None
     - BOF4763:
         - title: Meet the Nashorn JavaScript Team
         - abstract: Come to this session to meet the Oracle JavaScript (Project Nashorn) language team
@@ -777,13 +770,6 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3648_PDF_3648_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3648_mp4_3648_001.mp4
         - review: None
-    - CON7830:
-        - title: Using Enterprise OSGi to Create an Adaptable and Scalable Platform for eBay
-        - abstract: 'Application environments and even languages get popular and wane. Once a company has invested in a particular application environment, it is usually stuck with its decision. ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7830
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7830_PDF_7830_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7830_mp4_7830_001.mp4
-        - review: None
     - CON3826:
         - title: 'Patterns for Modularity: What Modules Don’t Want You to Know'
         - abstract: 'Modular systems are designed to maximize their flexibility and extensibility. Often, complex modular systems evolve over time in a way that was not planned or desired, due to ...'
@@ -902,13 +888,6 @@
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=4285
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT4285_PDF_4285_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT4285_mp4_4285_001.mp4
-        - review: None
-    - BOF6661:
-        - title: 'Nashorn, Node, and Java Persistence'
-        - abstract: 'With Project Nashorn, developers will have a full and modern JavaScript engine available on the JVM. In addition, they will have support for running Node applications with ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6661
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6661_PDF_6661_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6661_mp4_6661_001.mp4
         - review: None
     - CON4367:
         - title: 'Java Everywhere: Ready for Mobile and Cloud'
@@ -1900,6 +1879,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5064_PDF_5064_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/TUT5064_mp4_5064_001.mp4
         - review: Great talk. Code at https://github.com/paulbakker/jfokus didn't 'just work' for me though :(
+    - CON3842:
+        - title: Client/Server Applications with HTML5 and Java
+        - abstract: 'The Web application landscape is rapidly shifting back to a client/server architecture. This time around, the client is JavaScript, HTML, and Cascading Style Sheets in the ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3842
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3842_PDF_3842_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON3842_mp4_3842_001.mp4
+        - review: 'Nice overview of HTML5 technologies. Modern Web Apps with JAX-RS, MongoDB, JSON, and jQuery code at https://github.com/jamesward/jaxrsbars'
     - CON7469:
         - title: 'Apache TomEE, a Java EE 6 Web Profile on Tomcat'
         - abstract: 'Making its Java EE 6 Web Profile certification debut at JavaOne 2011, Apache TomEE combines the simplicity of Tomcat with the power of Java EE. The first half of this session ...'
@@ -1991,6 +1977,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7157_PDF_7157_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7157_mp4_7157_001.mp4
         - review: Great talk. Speaker is founder of neo4j and very charismatic
+    - CON7830:
+        - title: Using Enterprise OSGi to Create an Adaptable and Scalable Platform for eBay
+        - abstract: 'Application environments and even languages get popular and wane. Once a company has invested in a particular application environment, it is usually stuck with its decision. ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7830
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7830_PDF_7830_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7830_mp4_7830_001.mp4
+        - review: Very nice talk by eBay about OSGI
     - CON4627:
         - title: Standardizing Web Flow Technology with JSF Faces Flows
         - abstract: 'JavaServer Faces has established itself as a full-featured framework for building sophisticated Java EE applications. One of the key things missing from JSF, though, is ... ...'
@@ -2026,6 +2019,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4204_PDF_4204_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON4204_mp4_4204_001.mp4
         - review: Meh. Fairly intuitive advice.
+    - BOF6661:
+        - title: 'Nashorn, Node, and Java Persistence'
+        - abstract: 'With Project Nashorn, developers will have a full and modern JavaScript engine available on the JVM. In addition, they will have support for running Node applications with ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6661
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6661_PDF_6661_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6661_mp4_6661_001.mp4
+        - review: Not actually about Nashorn and Node... interviews with Java Champions.
     - CON3566:
         - title: 'JSR 353: Java API for JSON Processing'
         - abstract: 'JSON is a lightweight data exchange format used increasingly in RESTful Web services by highly visible Websites (Facebook, Twitter, Amazon, and the like). The format is easy ...'
