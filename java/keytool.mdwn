@@ -1,0 +1,5 @@
+## Howto
+
+### How to view a cert
+
+    keytool -printcert -file my.cert
