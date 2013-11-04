@@ -1,12 +1,10 @@
-## How to reuse a wildcard SSL/TLS cert from Apache on Glassfish
-
-[[!toc levels=3]]
-
-### Introduction
+[[!meta title="How to reuse a wildcard SSL/TLS cert from Apache on Glassfish"]]
 
 In this tutorial we will be reusing a "star" or "wildcard" SSL/TSL certificate ( http://en.wikipedia.org/wiki/Wildcard_certificate ) from Apache on Glassfish.
 
-### Gather required files from Apache (SSLCertificateFile, SSLCertificateKeyFile, SSLCertificateChainFile)
+[[!toc levels=3]]
+
+## Gather required files from Apache (SSLCertificateFile, SSLCertificateKeyFile, SSLCertificateChainFile)
 
 Before you can begin, you'll need to gather three files from your Apache server. To use the Apache terminology:
 
@@ -21,7 +19,7 @@ In this tutorial, we're storing all these files in /tmp/certs but the key especi
     /tmp/certs/server.crt
     /tmp/certs/server.key
 
-### Navigate to the "config" directory of domain1 on Glassfish
+## Navigate to the "config" directory of domain1 on Glassfish
 
 In my case, I installed Glassfish using glassfish-3.1.2.2.zip
 
@@ -32,7 +30,7 @@ Probably it's best to stop Glassfish at this point:
 
     [root@dvn-vm2 config]# ../../../bin/asadmin stop-domain
 
-### List entries in keystore.jks
+## List entries in keystore.jks
 
 As a sanity check, we first list the entries in the Glassfish keystore.jks before we make any changes to it.
 
@@ -51,7 +49,7 @@ Now would be a good time to back it up. :)
     Certificate fingerprint (MD5): 52:BC:A6:6D:31:15:8E:6F:64:AA:14:E7:20:29:B1:AA
     [root@dvn-vm2 config]# 
 
-### Created intermediary pkcs12 keystore from SSLCertificateFile, SSLCertificateKeyFile, and SSLCertificateChainFile files
+## Created intermediary pkcs12 keystore from SSLCertificateFile, SSLCertificateKeyFile, and SSLCertificateChainFile files
 
 This step and the one following comes primarily from http://stackoverflow.com/questions/906402/importing-an-existing-x509-certificate-and-private-key-in-java-keystore-to-use-i/8224863#8224863
 
@@ -61,13 +59,13 @@ No output is expected since we supplied the openssl export password on the comma
 
 We use `--chain` so that we see something other than 1 for "Certificate chain length" in the output `keytool -list` and to satisfy some browsers as described at http://i-cat.blogspot.com/2009/02/glassfish-and-intermediate-ssl.html
 
-### Import the pks12 keystore into Glassfish's keystore.jks
+## Import the pks12 keystore into Glassfish's keystore.jks
 
 Please not that we need the export password from above to import the pks12 keystore:
 
 `[root@dvn-vm2 config]# keytool -importkeystore -deststorepass changeit -destkeypass changeit -destkeystore keystore.jks -srckeystore /tmp/certs/server.p12 -srcstoretype PKCS12 -srcstorepass some-password -alias some-alias`
 
-### Note that a new entry has been added to keystore.jks
+## Note that a new entry has been added to keystore.jks
 
 We called the entry "some-alias" because that's what was used in the Stack Overflow post but we could have used anything.
 
@@ -88,7 +86,7 @@ Use `-v` for verbose output, such as to see the certificate chain.
     Certificate fingerprint (MD5): 52:BC:A6:6D:31:15:8E:6F:64:AA:14:E7:20:29:B1:AA
     [root@dvn-vm2 config]# 
 
-### Reconfigure Glassfish to use the new certificate
+## Reconfigure Glassfish to use the new certificate
 
 Search and replace "s1as" with the name of your alias (i.e. "some-alias") in domain.xml. Here is an example change.
 
@@ -99,6 +97,6 @@ Search and replace "s1as" with the name of your alias (i.e. "some-alias") in dom
     >           <ssl classname="com.sun.enterprise.security.ssl.GlassfishSSLImpl" cert-nickname="some-alias" />
     [root@dvn-vm2 config]# 
 
-### Start Glassfish and verify the cert in your browser
+## Start Glassfish and verify the cert in your browser
 
     [root@dvn-vm2 config]# ../../../bin/asadmin start-domain
