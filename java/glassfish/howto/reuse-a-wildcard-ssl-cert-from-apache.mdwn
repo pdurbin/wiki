@@ -53,7 +53,7 @@ Now would be a good time to back it up. :)
 
 This step and the one following comes primarily from http://stackoverflow.com/questions/906402/importing-an-existing-x509-certificate-and-private-key-in-java-keystore-to-use-i/8224863#8224863
 
-`[root@dvn-vm2 config]# openssl pkcs12 -export -in /tmp/certs/server.crt -inkey /tmp/certs/server.key -out /tmp/certs/server.p12 -name some-alias -CAfile /tmp/certs/ca.crt -caname root -password pass:some-password --chain`
+`[root@dvn-vm2 config]# openssl pkcs12 -export -in /tmp/certs/server.crt -inkey /tmp/certs/server.key -out /tmp/certs/server.p12 -name some-alias -CAfile /tmp/certs/ca.crt -caname root -password pass:some-password -chain`
 
 No output is expected since we supplied the openssl export password on the command line.
 
