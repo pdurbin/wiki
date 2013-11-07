@@ -1,0 +1,3 @@
+asadmin create-network-listener --protocol http-listener-1 --listenerport 8009 --jkenabled true jk-connector
+
+See also `To Enable mod_proxy_ajp` at http://docs.oracle.com/cd/E26576_01/doc.312/e24928/webapps.htm#CIHJDAJD
