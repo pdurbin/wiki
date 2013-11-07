@@ -504,26 +504,12 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10465_PDF_10465_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/UGF10465_mp4_10465_001.mp4
         - review: None
-    - BOF3342:
-        - title: 'First Do No Harm: Deferred Checked Exception Handling Promotes Reliability'
-        - abstract: 'Unlike ignoring return codes, ignoring exceptions does not lead to difficult debugging; on the contrary, deferred handling of expected exceptions arises naturally because ... ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3342
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3342_PDF_3342_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3342_mp4_3342_001.mp4
-        - review: None
     - CON7945:
         - title: What’s New in Grails 2.0?
         - abstract: 'In this session, Grails project lead and 2010 JavaOne Rock Star Graeme Rocher delivers an update on the latest-and-greatest features of the Grails framework, a dynamic Web ...'
         - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=7945
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7945_PDF_7945_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON7945_mp4_7945_001.mp4
-        - review: None
-    - BOF6721:
-        - title: Meet the JDK Core Libraries Team
-        - abstract: 'In this BOF, a panel of engineers from Oracle’s JDK team answers questions on topics related to the JDK’s core libraries and APIs. Attendees should come armed with questions ...'
-        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6721
-        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6721_PDF_6721_0001.pdf
-        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6721_mp4_6721_001.mp4
         - review: None
     - BOF5165:
         - title: 'Real-Life Load Testing: Up to Your Knees in Mud'
@@ -1858,6 +1844,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2983_PDF_2983_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON2983_mp4_2983_001.mp4
         - review: Pretty slow and kinda boring. Tools section was decent.
+    - BOF3342:
+        - title: 'First Do No Harm: Deferred Checked Exception Handling Promotes Reliability'
+        - abstract: 'Unlike ignoring return codes, ignoring exceptions does not lead to difficult debugging; on the contrary, deferred handling of expected exceptions arises naturally because ... ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=3342
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3342_PDF_3342_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF3342_mp4_3342_001.mp4
+        - review: Nice talk about checked vs. uncheck exceptions. See also http://faculty.otterbein.edu/DBuck/HandlingExceptions.pdf
     - CON7488:
         - title: Java Deployment on Mac OS X
         - abstract: 'Oracle is now leading development of Java on Mac OS X, and with that you’ll get new choices for deploying your Java applications to end users. This session covers how users ...'
@@ -1872,6 +1865,13 @@
         - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5247_PDF_5247_0001.pdf
         - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/CON5247_mp4_5247_001.mp4
         - review: 'Nice overview of tools, especially when setting up a new Java EE project.'
+    - BOF6721:
+        - title: Meet the JDK Core Libraries Team
+        - abstract: 'In this BOF, a panel of engineers from Oracle’s JDK team answers questions on topics related to the JDK’s core libraries and APIs. Attendees should come armed with questions ...'
+        - url: https://oracleus.activeevents.com/connect/sessionDetail.ww?SESSION_ID=6721
+        - pdf: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6721_PDF_6721_0001.pdf
+        - mp4: http://www.myexpospace.com/JavaOne2012/SessionFiles/BOF6721_mp4_6721_001.mp4
+        - review: Nice panel discussion about JDK internals
     - TUT5064:
         - title: Real-World Java EE 6 Tutorial
         - abstract: 'This tutorial demonstrates how to use the Java EE 6 APIs together to build a portable, full-stack enterprise application and solve real-world problems. It not only focuses on ...'
