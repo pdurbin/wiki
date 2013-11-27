@@ -58,3 +58,9 @@ See also:
 http://blog.bogosity.se/2010/03/01/ssh-agent-without-the-gnome-keyring/
 
 https://live.gnome.org/GnomeKeyring/Ssh
+
+## Fedora 16/17+ random mouse clicking
+
+Unfortunately, I'm suffering from this problem:
+
+F17 cursor crazy - https://lists.fedoraproject.org/pipermail/users/2013-February/431969.html
