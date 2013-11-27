@@ -44,3 +44,7 @@ http://tools.ietf.org/html/rfc2812
 ### Can't click long links
 
 "[urlgrab.py] has one obvious limitation: it doesn’t work well if you’re running weechat on a remote host" -- http://blog.lnx.cx/2012/08/14/weechat/
+
+## Scripts
+
+- hotlist2extern.pl: waiting for hotlist to change and then execute a user specified command or writes the hotlist to screen title - http://www.weechat.org/scripts/source/hotlist2extern.pl.html/
