@@ -48,3 +48,6 @@ http://tools.ietf.org/html/rfc2812
 ## Scripts
 
 - hotlist2extern.pl: waiting for hotlist to change and then execute a user specified command or writes the hotlist to screen title - http://www.weechat.org/scripts/source/hotlist2extern.pl.html/
+
+    /set plugins.var.perl.hotlist2extern.use_title "off"
+    /set plugins.var.perl.hotlist2extern.external_command_hotlist "echo \'WeeChat Act: %X\' > /var/www/html/tmp/activity.txt"
