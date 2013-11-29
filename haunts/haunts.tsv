@@ -30,5 +30,14 @@ freenode/#richfaces	http://transcripts.jboss.org/channel/irc.freenode.org/%23ric
 freenode/#linuxcnc	http://psha.org.ru/irc/%23emc/today.html	http://linuxcnc.org
 freenode/#vagrant	http://irclogger.com/.vagrant	http://vagrantup.com
 freenode/#puppet	http://www.puppetlogs.com/puppet	http://puppetlabs.com
+freenode/#clojure	http://logs.lazybot.org/irc.freenode.net/%23clojure/today.txt	http://clojure.org
+freenode/#elixir-lang	http://irclogger.com/.elixir-lang	http://elixir-lang.org
+freenode/#ceylonlang	http://transcripts.jboss.org/channel/irc.freenode.org/%23ceylonlang	http://ceylon-lang.org
+freenode/##C++-general	http://alpha.visl.sdu.dk/~tino/pisg/freenode/logs	http://en.wikipedia.org/wiki/C++
+freenode/#nodeup	http://irclogger.com/.nodeup	http://nodeup.com
+freenode/#rabbitmq	http://dev.rabbitmq.com/irclog	http://rabbitmq.com
+freenode/#free-class	http://www.elitter.net/~amberj/irclogs/free-class	https://sites.google.com/site/onlineeduirc
+freenode/#ml-class	http://elitter.net/~amberj/irclogs/ml	https://sites.google.com/site/onlineeduirc/coursera
+irc.mozilla.org/#labs	http://irclog.gr/#browse/irc.mozilla.org/labs	http://mozillalabs.com
 irc.perl.org/#pdl	http://irclog.perlgeek.de/pdl/today	http://pdl.perl.org
 oftc/#ikiwiki	None	http://ikiwiki.info
