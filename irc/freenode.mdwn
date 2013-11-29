@@ -1,0 +1,6 @@
+## Alis (Advanced LIst Service)
+
+    /query alist
+    list * -topic *foo* -skip 90
+
+http://freenode.net/services.shtml
