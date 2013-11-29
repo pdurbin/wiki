@@ -6,6 +6,7 @@
     /filter list
     /filter add irc_smart * irc_smart_filter *
     /set weechat.look.buffer_notify_default message
+    /set weechat.look.hotlist_sort number_asc      
 
 ## Key bindings
 
