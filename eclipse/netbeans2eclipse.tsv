@@ -1,0 +1,23 @@
+NetBeans	Eclipse	Description
+Ctrl-Shift-o	Cmd-Shift-r	go to file
+Cmd-[	?	jump to matching bracket
+PageDown	?	scroll window forward
+PageUp	?	scroll window backward
+Cmd-Left	?	move cursor to beginning of line
+Cmd-Right	?	move cursor to end of line
+Cmd-upArrow	?	move cursor to beginning of file
+Cmd-downArrow	?	move cursor to end of file
+Cmd-Shift-b	?	go to source
+Cmd-Alt-b	?	go to implementation
+Ctrl-i	?	insert code
+Alt-Enter	?	show hints
+Cmd-/	?	toggle comment
+Ctrl-g	?	go to line
+Ctrl-space	?	show code completion popup
+Ctrl-Alt-space	?	show all code completion popup
+Cmd-Shift-space	?	show documentation popup
+Cmd-Shift-i	?	fix all imports
+Cmd-;	?	complete line (add semicolon)
+Ctrl-e	?	next error (or warning) in editor
+Ctrl-Shift-leftArrow	?	move code left
+Ctrl-Shift-rightArrow	?	move code right
