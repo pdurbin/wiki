@@ -1,0 +1,35 @@
+First, create the database user.
+
+Create the database, making the user the owner.
+
+Tweak you domain.xml as follows. I'm not sure if JDBC30DataSource and ConnectionAttributes are necessary:
+
+    murphy:4.0 pdurbin$ diff -u domain.xml.begin domain.xml.end
+    --- domain.xml.begin    2013-12-02 14:28:10.000000000 -0500
+    +++ domain.xml.end      2013-12-02 14:21:51.000000000 -0500
+    @@ -50,6 +50,16 @@
+         <managed-executor-service jndi-name="concurrent/__defaultManagedExecutorService" object-type="system-all"></managed-executor-service>
+         <context-service jndi-name="concurrent/__defaultContextService" object-type="system-all"></context-service>
+         <managed-thread-factory jndi-name="concurrent/__defaultManagedThreadFactory" object-type="system-all"></managed-thread-factory>
+    +    <jdbc-connection-pool datasource-classname="org.postgresql.ds.PGSimpleDataSource" res-type="javax.sql.DataSource" name="dataverseConnectionPool">
+    +      <property name="JDBC30DataSource" value="true"></property>
+    +      <property name="ConnectionAttributes" value=";create=true"></property>
+    +      <property name="portNumber" value="5432"></property>
+    +      <property name="databaseName" value="dataverseDb"></property>
+    +      <property name="serverName" value="localhost"></property>
+    +      <property name="user" value="dataverseApp"></property>
+    +      <property name="password" value="dataverseApp"></property>
+    +    </jdbc-connection-pool>
+    +    <jdbc-resource pool-name="dataverseConnectionPool" jndi-name="jdbc/VDCNetDS"></jdbc-resource>
+       </resources>
+       <servers>
+         <server name="server" config-ref="server-config">
+    @@ -61,6 +71,7 @@
+           <resource-ref ref="concurrent/__defaultManagedExecutorService"></resource-ref>
+           <resource-ref ref="concurrent/__defaultContextService"></resource-ref>
+           <resource-ref ref="concurrent/__defaultManagedThreadFactory"></resource-ref>
+    +      <resource-ref ref="jdbc/VDCNetDS"></resource-ref>
+         </server>
+       </servers>
+       <nodes>
+    murphy:4.0 pdurbin$ 
