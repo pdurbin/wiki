@@ -29,3 +29,7 @@ PrimeFaces showcase - http://www.primefaces.org/showcase/ui/home.jsf
 Java Persistence API www.html.it/articoli/java-persistence-api-1/
 
 Simple CRUD Web Application with JSF 2.1, PrimeFaces 3.5, Maven and JPA - http://www.simtay.com/simple-crud-web-application-with-jsf-2-1-primefaces-3-5-maven-and-jpa/
+
+http://java.dzone.com/articles/how-do-10-common-tasks-jsf-20
+
+http://incepttechnologies.blogspot.com/p/view-parameters-in-jsf-20.html
