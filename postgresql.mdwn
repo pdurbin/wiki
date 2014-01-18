@@ -131,8 +131,13 @@ http://wiki.postgresql.org/wiki/IRC2RWNames
     [root@localhost ~]# systemctl stop postgresql.service
     [root@localhost ~]# 
     [root@localhost ~]# cp -a /var/lib/pgsql/data/pg_hba.conf /var/lib/pgsql/data/pg_hba.conf.orig
+    [root@localhost ~]# # insecure... just for dev...
     [root@localhost ~]# vim /var/lib/pgsql/data/pg_hba.conf
     [root@localhost ~]# diff /var/lib/pgsql/data/pg_hba.conf.orig /var/lib/pgsql/data/pg_hba.conf
+    80c80
+    < local   all             all                                     peer
+    ---
+    > local   all             all                                     trust
     82c82
     < host    all             all             127.0.0.1/32            ident
     ---
@@ -140,6 +145,52 @@ http://wiki.postgresql.org/wiki/IRC2RWNames
     [root@localhost ~]# 
     [root@localhost ~]# systemctl start postgresql.service
     [root@localhost ~]# 
+    [root@localhost ~]# su - postgres
+    -bash-4.2$ psql -c '\du'
+                                 List of roles
+     Role name |                   Attributes                   | Member of 
+    -----------+------------------------------------------------+-----------
+     postgres  | Superuser, Create role, Create DB, Replication | {}
+
+    -bash-4.2$ psql -c "CREATE ROLE pguser1 UNENCRYPTED PASSWORD 'secret1' NOSUPERUSER CREATEDB CREATEROLE NOINHERIT LOGIN"
+    CREATE ROLE
+    -bash-4.2$ psql -c '\du'
+                                 List of roles
+     Role name |                   Attributes                   | Member of 
+    -----------+------------------------------------------------+-----------
+     pguser1   | No inheritance, Create role, Create DB         | {}
+     postgres  | Superuser, Create role, Create DB, Replication | {}
+
+    -bash-4.2$ 
+    -bash-4.2$ psql -c '\l'
+                                      List of databases
+       Name    |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges   
+    -----------+----------+----------+-------------+-------------+-----------------------
+     postgres  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+     template0 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+               |          |          |             |             | postgres=CTc/postgres
+     template1 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+               |          |          |             |             | postgres=CTc/postgres
+    (3 rows)
+
+    -bash-4.2$ 
+    -bash-4.2$ psql -c "CREATE DATABASE pgdatabase1 WITH OWNER = pguser1"
+    CREATE DATABASE
+    -bash-4.2$ psql -c '\l'
+                                       List of databases
+        Name     |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges   
+    -------------+----------+----------+-------------+-------------+-----------------------
+     pgdatabase1 | pguser1  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+     postgres    | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+     template0   | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+                 |          |          |             |             | postgres=CTc/postgres
+     template1   | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+                 |          |          |             |             | postgres=CTc/postgres
+    (4 rows)
+
+    -bash-4.2$ 
+
+
 
 See also:
 
