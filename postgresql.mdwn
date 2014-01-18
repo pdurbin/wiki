@@ -103,3 +103,45 @@ http://wiki.postgresql.org/wiki/IRC2RWNames
       0 | Arts             | Creativity St
       1 | Business         | Productivity Ave
     (snip)
+
+## PostgreSQL setup on Fedora 20
+
+    [root@localhost ~]# yum install postgresql-server
+    (snip)
+    [root@localhost ~]# systemctl start postgresql.service
+    Job for postgresql.service failed. See 'systemctl status postgresql.service' and 'journalctl -xn' for details.
+    [root@localhost ~]# 
+    [root@localhost ~]# systemctl status postgresql.service
+    postgresql.service - PostgreSQL database server
+       Loaded: loaded (/usr/lib/systemd/system/postgresql.service; disabled)
+       Active: failed (Result: exit-code) since Sat 2014-01-18 08:08:38 EST; 12s ago
+      Process: 4921 ExecStartPre=/usr/bin/postgresql-check-db-dir ${PGDATA} (code=exited, status=1/FAILURE)
+
+    Jan 18 08:08:38 localhost.localdomain systemd[1]: Starting PostgreSQL database server...
+    Jan 18 08:08:38 localhost.localdomain postgresql-check-db-dir[4921]: "/var/lib/pgsql/data" is missing or empty.
+    Jan 18 08:08:38 localhost.localdomain systemd[1]: postgresql.service: control process exited, code=exited status=1
+    Jan 18 08:08:38 localhost.localdomain systemd[1]: Failed to start PostgreSQL database server.
+    Jan 18 08:08:38 localhost.localdomain systemd[1]: Unit postgresql.service entered failed state.
+    [root@localhost ~]# 
+    [root@localhost ~]# postgresql-setup initdb
+    Initializing database ... OK
+    [root@localhost ~]# 
+    [root@localhost ~]# systemctl start postgresql.service
+    [root@localhost ~]# 
+    [root@localhost ~]# systemctl stop postgresql.service
+    [root@localhost ~]# 
+    [root@localhost ~]# cp -a /var/lib/pgsql/data/pg_hba.conf /var/lib/pgsql/data/pg_hba.conf.orig
+    [root@localhost ~]# vim /var/lib/pgsql/data/pg_hba.conf
+    [root@localhost ~]# diff /var/lib/pgsql/data/pg_hba.conf.orig /var/lib/pgsql/data/pg_hba.conf
+    82c82
+    < host    all             all             127.0.0.1/32            ident
+    ---
+    > host    all             all             127.0.0.1/32            trust
+    [root@localhost ~]# 
+    [root@localhost ~]# systemctl start postgresql.service
+    [root@localhost ~]# 
+
+See also:
+
+- Bug 771496 – On initial install, postgresql-server does not initialize /var/lib/pgsql/data - https://bugzilla.redhat.com/show_bug.cgi?id=771496
+- http://serverfault.com/questions/350045/postgresql-service-initdb-doesnt-work
