@@ -44,7 +44,7 @@ http://tools.ietf.org/html/rfc2812
 
 ### Can't click long links
 
-"[urlgrab.py] has one obvious limitation: it doesn’t work well if you’re running weechat on a remote host" -- http://blog.lnx.cx/2012/08/14/weechat/
+"Presumably, you're running weechat in a terminal... the links are hard-wrapped... (you won't be able to click the full url)... `[urlgrab.py]` has one obvious limitation: it doesn't work well if you’re running weechat on a remote host" -- http://blog.lnx.cx/2012/08/14/weechat/
 
 ## Scripts
 
