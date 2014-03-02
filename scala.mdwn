@@ -5,3 +5,7 @@ FOSDEM 2009 Scala - A Scalable Language - YouTube - http://www.youtube.com/watch
 http://www.slideshare.net/Odersky/fosdem-2009-1013261
 
 http://www.cs.duke.edu/courses/spring10/cps296.1/lectures/22-scala.pdf
+
+## Learning Scala
+
+http://www.scalakoans.org and http://aperiodic.net/phil/scala/s-99/ via http://javaposse.com/java-posse-447
