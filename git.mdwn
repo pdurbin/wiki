@@ -57,3 +57,13 @@ http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updatin
 > 1. Delete the now untracked submodule files.
 > 
 > -- https://git.wiki.kernel.org/index.php/GitSubmoduleTutorial
+
+## Learning git
+
+http://pcottle.github.io/learnGitBranching/?NODEMO
+
+http://think-like-a-git.net
+
+http://try.github.io/levels/1/challenges/1
+
+https://github.com/gazler/githug
