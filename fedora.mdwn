@@ -142,3 +142,5 @@ The former says, "Some devices have the buttons as part of the lower edge of the
 Strangely, it almost seems related to being plugged into power... if I touch and hold my finger on the touchpad while plugged into power, the cursor oscillates. When I unplug from power, the cursor is more stable. As of this writing I'm on Fedora 20. I don't see this behavior when I reboot into Windows.
 
 I wonder if this is related. I do have a Lenovo ThinkPad X220 Tablet: https://wiki.archlinux.org/index.php/Touchpad_Synaptics#Cursor_jump
+
+"The original configuration renders the touchpad quite useless, as it behaves very jumpily." -- https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X230#Touchpad
