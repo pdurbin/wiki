@@ -59,8 +59,83 @@ http://blog.bogosity.se/2010/03/01/ssh-agent-without-the-gnome-keyring/
 
 https://live.gnome.org/GnomeKeyring/Ssh
 
-## Fedora 16/17+ random mouse clicking
+## Fedora 16/17/??/20 random mouse clicking
 
 Unfortunately, I'm suffering from this problem:
 
 F17 cursor crazy - https://lists.fedoraproject.org/pipermail/users/2013-February/431969.html
+
+http://major.io/2013/08/24/get-a-rock-solid-linux-touchpad-configuration-for-the-lenovo-x1-carbon/ makes me wonder if this has something to do with my settings at /usr/share/X11/xorg.conf.d/50-synaptics.conf or /usr/share/X11/xorg.conf.d/50-wacom.conf 
+
+The former says, "Some devices have the buttons as part of the lower edge of the touchpad.  Pressing a button moves the cursor, causing cursor jumps and erroneous clicks." I'm definitely suffering from similar problems. Before making any changes, here are my current settings:
+
+    [pdurbin@localhost ~]$ synclient -l
+    Parameter settings:
+        LeftEdge                = 1752
+        RightEdge               = 5192
+        TopEdge                 = 1620
+        BottomEdge              = 4236
+        FingerLow               = 25
+        FingerHigh              = 30
+        MaxTapTime              = 180
+        MaxTapMove              = 221
+        MaxDoubleTapTime        = 180
+        SingleTapTimeout        = 180
+        ClickTime               = 100
+        EmulateMidButtonTime    = 0
+        EmulateTwoFingerMinZ    = 282
+        EmulateTwoFingerMinW    = 7
+        VertScrollDelta         = 100
+        HorizScrollDelta        = 100
+        VertEdgeScroll          = 0
+        HorizEdgeScroll         = 0
+        CornerCoasting          = 0
+        VertTwoFingerScroll     = 1
+        HorizTwoFingerScroll    = 1
+        MinSpeed                = 1
+        MaxSpeed                = 1.75
+        AccelFactor             = 0.0398089
+        TouchpadOff             = 0
+        LockedDrags             = 0
+        LockedDragTimeout       = 5000
+        RTCornerButton          = 0
+        RBCornerButton          = 0
+        LTCornerButton          = 0
+        LBCornerButton          = 0
+        TapButton1              = 1
+        TapButton2              = 3
+        TapButton3              = 2
+        ClickFinger1            = 1
+        ClickFinger2            = 3
+        ClickFinger3            = 2
+        CircularScrolling       = 0
+        CircScrollDelta         = 0.1
+        CircScrollTrigger       = 0
+        PalmDetect              = 0
+        PalmMinWidth            = 10
+        PalmMinZ                = 200
+        CoastingSpeed           = 20
+        CoastingFriction        = 50
+        PressureMotionMinZ      = 30
+        PressureMotionMaxZ      = 160
+        PressureMotionMinFactor = 1
+        PressureMotionMaxFactor = 1
+        GrabEventDevice         = 1
+        TapAndDragGesture       = 1
+        AreaLeftEdge            = 0
+        AreaRightEdge           = 0
+        AreaTopEdge             = 0
+        AreaBottomEdge          = 0
+        HorizHysteresis         = 8
+        VertHysteresis          = 8
+        ClickPad                = 1
+        RightButtonAreaLeft     = 3472
+        RightButtonAreaRight    = 0
+        RightButtonAreaTop      = 3900
+        RightButtonAreaBottom   = 0
+        MiddleButtonAreaLeft    = 0
+        MiddleButtonAreaRight   = 0
+        MiddleButtonAreaTop     = 0
+        MiddleButtonAreaBottom  = 0
+    [pdurbin@localhost ~]$ 
+
