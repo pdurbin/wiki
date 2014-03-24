@@ -12,13 +12,15 @@ freenode/#linuxvillage	http://irclog.perlgeek.de/linuxvillage/today	http://linux
 freenode/#netbeans	http://echelog.com/logs/browse/netbeans	http://netbeans.org
 freenode/#glassfish	http://www.evanchooly.com/logs/%23glassfish/today	http://glassfish.java.net
 freenode/##jsf	http://www.evanchooly.com/logs/%23%23jsf/today	http://jsf.java.net
-freenode/#forge	http://transcripts.jboss.org/channel/irc.freenode.org/%23forge/ 	http://forge.jboss.org
+freenode/#openhatch	http://irclogs.jackgrigg.com/irc.freenode.net/openhatch/today	http://openhatch.org/
 freenode/#positivepython	http://botbot.me/freenode/positivepython	http://gist.io/5833862
+frenode/#pyladies	https://botbot.me/freenode/pyladies	http://pyladies.com
 freenode/#openam	http://irclog.perlgeek.de/openam/today	http://openam.forgerock.org
 freenode/##shibboleth	http://irclog.perlgeek.de/shibboleth/today	http://shibboleth.net
 freenode/#indiewebcamp	http://indiewebcamp.com/irc/today	http://indiewebcamp.com
 freenode/#io	http://irclogs.shortcircuit.net.au/%23io/latest.log.html	http://iolanguage.org
 freenode/#circuits	http://irclogs.shortcircuit.net.au/%23circuits/latest.log.html	http://circuitsframework.com
+freenode/##virtualjug	http://www.youtube.com/user/virtualJUG	http://www.meetup.com/virtualJUG
 freenode/##java	http://www.evanchooly.com/logs/%23%23java/today	http://javachannel.net
 freenode/#mahout	http://colabti.org/irclogger/irclogger_log/mahout	http://mahout.apache.org
 freenode/#lift	http://irclogger.com/.lift	http://liftweb.net
@@ -26,6 +28,7 @@ freenode/#ubuntu-women-project	http://ubottu.com/meetingology/logs/today.php?cha
 freenode/#duraspace	http://irclogs.duraspace.org	http://duraspace.org
 freenode/#git	http://colabti.org/irclogger/irclogger_log/git	http://jk.gs/git
 freenode/#lucene-dev	http://colabti.org/irclogger/irclogger_log/lucene-dev	http://lucene.apache.org
+freenode/#forge	http://transcripts.jboss.org/channel/irc.freenode.org/%23forge/ 	http://forge.jboss.org
 freenode/#richfaces	http://transcripts.jboss.org/channel/irc.freenode.org/%23richfaces/ 	http://www.jboss.org/richfaces
 freenode/#linuxcnc	http://psha.org.ru/irc/%23emc/today.html	http://linuxcnc.org
 freenode/#vagrant	http://irclogger.com/.vagrant	http://vagrantup.com
@@ -34,6 +37,7 @@ freenode/#clojure	http://logs.lazybot.org/irc.freenode.net/%23clojure/today.txt	
 freenode/#elixir-lang	http://irclogger.com/.elixir-lang	http://elixir-lang.org
 freenode/#ceylonlang	http://transcripts.jboss.org/channel/irc.freenode.org/%23ceylonlang	http://ceylon-lang.org
 freenode/##C++-general	http://alpha.visl.sdu.dk/~tino/pisg/freenode/logs	http://en.wikipedia.org/wiki/C++
+freenode/#libuv	http://logs.libuv.org	https://github.com/joyent/libuv
 freenode/#nodeup	http://irclogger.com/.nodeup	http://nodeup.com
 freenode/#rabbitmq	http://dev.rabbitmq.com/irclog	http://rabbitmq.com
 freenode/#free-class	http://www.elitter.net/~amberj/irclogs/free-class	https://sites.google.com/site/onlineeduirc

@@ -6,6 +6,7 @@
 - http://transcripts.jboss.org/channel/irc.freenode.org/
 - http://irclogs.ubuntu.com
 - http://evanchooly.com
+- http://irclogs.jackgrigg.com/irc.freenode.net/
 - http://irclogs.shortcircuit.net.au
 - http://psha.org.ru/irc/
 - http://irclog.greptilian.com
