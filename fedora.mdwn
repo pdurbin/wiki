@@ -144,3 +144,5 @@ Strangely, it almost seems related to being plugged into power... if I touch and
 I wonder if this is related. I do have a Lenovo ThinkPad X220 Tablet: https://wiki.archlinux.org/index.php/Touchpad_Synaptics#Cursor_jump
 
 "The original configuration renders the touchpad quite useless, as it behaves very jumpily." -- https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X230#Touchpad
+
+"Using Ubuntu 12.04, 64-bit version, installed on Lenovo X220 laptop. Fresh "default" install and settings configuration.  When the laptop is plugged into a power source, the touchpad's onscreen cursor (the white arrow that shows position) shakes excessively when trying to use the touchpad to control the cursor." --  Bug #1028617 “Cursor shakes violently when connected to power so...” : Bugs : “xserver-xorg-input-synaptics” package : Ubuntu - https://bugs.launchpad.net/ubuntu/+source/xserver-xorg-input-synaptics/+bug/1028617
