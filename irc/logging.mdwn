@@ -2,6 +2,7 @@
 - http://botbot.me
 - http://colabti.org/irclogger/irclogger_logs
 - http://irclogger.com
+- http://logs.glob.uno
 - http://echelog.com
 - http://transcripts.jboss.org/channel/irc.freenode.org/
 - http://irclogs.ubuntu.com
