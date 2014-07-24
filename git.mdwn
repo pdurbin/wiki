@@ -67,3 +67,9 @@ http://think-like-a-git.net
 http://try.github.io/levels/1/challenges/1
 
 https://github.com/gazler/githug
+
+## fast forward
+
+http://nathaniel.themccallums.org/2010/10/18/using-git-fast-forward-merging-to-keep-branches-in-sync/
+
+http://365git.tumblr.com/post/504140728/fast-forward-merge
