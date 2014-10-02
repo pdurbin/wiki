@@ -1,0 +1,50 @@
+- UGF8872 -- Free Java Tools for Maven and Java EE https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=8872
+    - http://irclog.greptilian.com/sourcefu/2014-09-28#i_77811
+- KEY10422 -- Java Strategy and Technical Keynotes https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=10422
+    - http://irclog.greptilian.com/sourcefu/2014-09-28#i_77831
+- UGF9733 -- Everything You Ever Wanted to Know About Java https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=9733
+    - http://irclog.greptilian.com/sourcefu/2014-09-28#i_77900
+- Lightning Talks: Even More Productivity with Free Java Tools [UGF8906] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=8906
+    - http://irclog.greptilian.com/sourcefu/2014-09-29#i_77920
+- JSF 2.2 Deep Dive [TUT2527] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=2527
+    - http://irclog.greptilian.com/sourcefu/2014-09-29#i_77990
+- Programming with Lambda Expressions in Java [CON1770] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=1770
+    - http://irclog.greptilian.com/sourcefu/2014-09-29#i_78174
+- Reactive Streams with Rx [CON5749] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=5749
+    - http://irclog.greptilian.com/sourcefu/2014-09-29#i_78267
+- Java EE 7 Recipes [CON2038] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=2038
+    - http://irclog.greptilian.com/sourcefu/2014-09-29#i_78314
+- Faster Object Arrays [CON5659] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=5659
+    - http://irclog.greptilian.com/sourcefu/2014-09-29#i_78455
+- Graph All the Things: Graph Database Use Cases That Aren’t Social [CON6264] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=6264
+    - http://irclog.greptilian.com/sourcefu/2014-09-30#i_78490
+- Learning Scala - a practical approach [BOF3024] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=3024
+- Preventing Errors Before They Happen [TUT2161] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=2161
+    - http://irclog.greptilian.com/sourcefu/2014-09-30#i_78554
+- Clojure Made Simple [CON8870] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=8870
+    - http://irclog.greptilian.com/sourcefu/2014-09-30#i_78595
+- Securing JAX-RS Services with OAuth 2 [CON3774] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=3774
+    - http://irclog.greptilian.com/sourcefu/2014-09-30#i_78662
+- Taking the Application Server to Web Scale with Netflix Open Source Software [CON3394] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=3394
+    - http://irclog.greptilian.com/sourcefu/2014-10-01#i_78702
+- CON5575 Bean Validation: Practical Examples from a Real World Java EE7 Application [CON5575] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=5575
+- Lean Beans (Are Made of This): Command Pattern Versus MVC [BOF5619] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=5619 
+- When The PrimeFaces Bootstrap Theme Isn't Enough [BOF5475] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=5475
+- Creating Amazing Interactive Visualizations with JavaFX [CON2951] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=2951
+    - http://irclog.greptilian.com/sourcefu/2014-10-01#i_78772
+- Unorthodox Enterprise Practices [CON2301] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=2301
+    - http://irclog.greptilian.com/sourcefu/2014-10-01#i_78800
+- TypeScript for Java Developers [CON1861] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=1861
+    - http://irclog.greptilian.com/sourcefu/2014-10-01#i_78823
+- Script Bowl 2014: The Battle Rages On [CON2939] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=2939
+    - http://irclog.greptilian.com/sourcefu/2014-10-01#i_78892
+- Create the Game 2048 with Java 8 and JavaFX [HOL3244] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=3244
+    - http://irclog.greptilian.com/sourcefu/2014-10-01#i_78918
+- Enhanced Metadata in Java SE 8 [CON2929] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=2929
+    - http://irclog.greptilian.com/sourcefu/2014-10-01#i_78920
+- Lambda Programming Laboratory [HOL3373] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=3373
+    - http://irclog.greptilian.com/sourcefu/2014-10-02#i_79001
+- Enterprise Nashorn [CON2266] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=2266
+    - http://irclog.greptilian.com/sourcefu/2014-10-02#i_79034
+- Map, Flatmap, and Reduce Are Your New Best Friends [CON1914] https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=1914
+    - http://irclog.greptilian.com/sourcefu/2014-10-02#i_79077
