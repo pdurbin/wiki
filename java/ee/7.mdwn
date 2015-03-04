@@ -3,3 +3,5 @@ http://docs.oracle.com/javaee
 http://docs.oracle.com/javaee/7/firstcup/doc/home.htm
 
 http://docs.oracle.com/javaee/7/tutorial/doc/home.htm
+
+svn export https://svn.java.net/svn/javaeetutorial~svn/branches/javaee-tutorial-7.0.5/examples/ javaee-tutorial-7.0.5
