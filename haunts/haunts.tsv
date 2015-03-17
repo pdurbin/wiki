@@ -12,9 +12,9 @@ freenode/#pyladies	http://botbot.me/freenode/pyladies	http://pyladies.com
 freenode/#lucene-dev	http://colabti.org/irclogger/irclogger_log/lucene-dev	http://lucene.apache.org
 freenode/#io	http://irclogs.shortcircuit.net.au/%23io/latest.log.html	http://iolanguage.org
 freenode/#ilbot	http://irclog.perlgeek.de/ilbot/today	http://moritz.faui2k3.org/en/ilbot
-freenode/#glassfish	http://www.evanchooly.com/logs/%23glassfish/today	http://glassfish.java.net
+freenode/#glassfish	http://javabot.evanchooly.com/logs/%23glassfish/today	http://glassfish.java.net
 freenode/#netbeans	http://echelog.com/logs/browse/netbeans	http://netbeans.org
-freenode/##jsf	http://www.evanchooly.com/logs/%23%23jsf/today	http://jsf.java.net
+freenode/##jsf	http://javabot.evanchooly.com/logs/%23%23jsf/today	http://jsf.java.net
 freenode/#positivepython	http://botbot.me/freenode/positivepython	http://gist.io/5833862
 freenode/##shibboleth	http://irclog.perlgeek.de/shibboleth/today	http://shibboleth.net
 freenode/#linuxvillage	http://irclog.perlgeek.de/linuxvillage/today	http://linuxvillage.org
@@ -41,4 +41,4 @@ freenode/#rabbitmq	http://dev.rabbitmq.com/irclog	http://rabbitmq.com
 freenode/#linuxcnc	http://psha.org.ru/irc/%23emc/today.html	http://linuxcnc.org
 freenode/#openam	http://irclog.perlgeek.de/openam/today	http://openam.forgerock.org
 freenode/#richfaces	http://transcripts.jboss.org/channel/irc.freenode.org/%23richfaces/ 	http://www.jboss.org/richfaces
-freenode/##java	http://www.evanchooly.com/logs/%23%23java/today	http://javachannel.org
+freenode/##java	http://javabot.evanchooly.com/logs/%23%23java/today	http://javachannel.org
