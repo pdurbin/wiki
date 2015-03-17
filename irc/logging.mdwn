@@ -10,4 +10,5 @@
 - http://irclogs.jackgrigg.com/irc.freenode.net/
 - http://irclogs.shortcircuit.net.au
 - http://psha.org.ru/irc/
+- http://tunes.org/~nef/logs/
 - http://irclog.greptilian.com
