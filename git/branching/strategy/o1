@@ -1,0 +1,32 @@
+git checkout -b branch3x
+git checkout -b branch10
+git commit
+git checkout branch3x
+git checkout -b branch11
+git commit
+git checkout branch3x
+git merge branch10
+git merge branch11
+git checkout -b branch12
+git commit
+git checkout branch3x
+git checkout -b branch13
+git commit
+git checkout branch3x
+git merge branch12
+git merge branch13
+git checkout -b branch324
+git commit
+git tag tag324
+git checkout branch3x
+git commit
+git merge branch324
+git checkout -b branch14
+git commit
+git checkout branch3x
+git merge branch14 
+git checkout -b branch15
+git commit
+git checkout branch3x
+git checkout -b branch16
+git commit

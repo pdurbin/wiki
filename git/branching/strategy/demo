@@ -1,0 +1,15 @@
+#!/bin/bash
+if [ -z "$1" ]; then
+  echo "Please provide the name of a file with git commands"
+  exit 1
+else
+  STRATEGY=$1
+fi
+OUTPUT=$(echo "http://pcottle.github.io/learnGitBranching/?NODEMO&command=`cat $STRATEGY | sed 's/ /%20/g' | tr '\n' ';'`")
+UNAME=`uname`
+if [[ $UNAME == Linux ]]; then
+    CMD='xdg-open'
+elif [[ $UNAME == Darwin ]]; then
+    CMD='open'
+fi
+$CMD $OUTPUT
