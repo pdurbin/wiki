@@ -1,0 +1,29 @@
+This is a git branching strategy I've been thinking about:
+
+http://pcottle.github.io/learnGitBranching/?NODEMO&command=git%20tag%20v40;%20git%20checkout%20-b%20v401;%20gc;%20git%20checkout%20-b%20v402;%20gc;%20git%20checkout%20v401;%20gc;%20git%20checkout%20master;%20git%20merge%20v401;%20git%20branch%20-d%20v401;%20git%20tag%20v401;%20git%20checkout%20v402;%20git%20merge%20master;%20gc;%20git%20checkout%20-b%20v403;%20gc;%20git%20checkout%20v402;%20gc;%20git%20checkout%20master;%20git%20merge%20v402;%20git%20branch%20-d%20v402;%20git%20tag%20v402;%20git%20checkout%20v403;%20git%20merge%20master;%20gc
+
+    $ git tag v40
+    $ git checkout -b v401
+    $ git commit
+    $ git checkout -b v402
+    $ git commit
+    $ git checkout v401
+    $ git commit
+    $ git checkout master
+    $ git merge v401
+    $ git branch -d v401
+    $ git tag v401
+    $ git checkout v402
+    $ git merge master
+    $ git commit
+    $ git checkout -b v403
+    $ git commit
+    $ git checkout v402
+    $ git commit
+    $ git checkout master
+    $ git merge v402
+    $ git branch -d v402
+    $ git tag v402
+    $ git checkout v403
+    $ git merge master
+    $ git commit
