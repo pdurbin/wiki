@@ -1,3 +1,6 @@
-- http://javaposse.com
+- http://illegalargument.com
 - http://javapubhouse.com
-- https://blogs.oracle.com/javaspotlight
+- https://howtoprogramwithjava.com/java-podcast/
+- http://jsfcentral.com
+- http://virtualjug.com/podcast/
+- http://javaoffheap.com
