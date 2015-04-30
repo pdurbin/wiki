@@ -1,0 +1,3 @@
+asadmin get server.http-service.access-logging-enabled
+
+asadmin set server.http-service.access-logging-enabled=true
