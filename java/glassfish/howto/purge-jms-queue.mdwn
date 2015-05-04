@@ -1,0 +1,146 @@
+List brokers
+
+    murphy:NetBeans pdurbin$ glassfish4/mq/bin/imqcmd -u admin -passfile <(echo imq.imqcmd.password=admin) list bkr
+    Warning [A2016]: Unencoded name=value entry found in passfile /dev/fd/63. Please run 'imqusermgr encode' before use the passfile. Support of passfile that has unencoded name=value entries will be removed in a future release.
+
+    Listing all the brokers in the cluster that the following broker is a member of:
+
+    -------------------------
+    Host         Primary Port
+    -------------------------
+    localhost    7676
+
+    Cluster ID                    
+    Cluster is Highly Available   false
+
+    -----------------------------
+         Address          State  
+    -----------------------------
+    10.251.83.63:7676   OPERATING
+
+    Successfully listed brokers in the cluster.
+
+List destinations
+
+    murphy:NetBeans pdurbin$ glassfish4/mq/bin/imqcmd -u admin -passfile <(echo imq.imqcmd.password=admin) list dst
+    Warning [A2016]: Unencoded name=value entry found in passfile /dev/fd/63. Please run 'imqusermgr encode' before use the passfile. Support of passfile that has unencoded name=value entries will be removed in a future release.
+
+    Listing all the destinations on the broker specified by:
+
+    -------------------------
+    Host         Primary Port
+    -------------------------
+    localhost    7676
+
+    ----------------------------------------------------------------------------------------------------------
+         Name        Type    State      Producers        Consumers                      Msgs                    
+                                     Total  Wildcard  Total  Wildcard  Count  Remote  UnAck  InDelay  Avg Size
+    ----------------------------------------------------------------------------------------------------------
+    DataverseIngest  Queue  RUNNING  0      -         0      -         1      0       0      0        509.0
+    mq.sys.dmq       Queue  RUNNING  0      -         0      -         0      0       0      0        0.0
+
+    Successfully listed destinations.
+
+Query destination
+
+    murphy:NetBeans pdurbin$ glassfish4/mq/bin/imqcmd -u admin -passfile <(echo imq.imqcmd.password=admin) query dst -t q -n DataverseIngest
+    Warning [A2016]: Unencoded name=value entry found in passfile /dev/fd/63. Please run 'imqusermgr encode' before use the passfile. Support of passfile that has unencoded name=value entries will be removed in a future release.
+
+    Querying the destination where:
+
+    ------------------------------------
+    Destination Name    Destination Type
+    ------------------------------------
+    DataverseIngest     Queue
+
+    On the broker specified by:
+
+    -------------------------
+    Host         Primary Port
+    -------------------------
+    localhost    7676
+
+    Destination Name                      DataverseIngest
+    Destination Type                      Queue
+    Destination State                     RUNNING
+    Created Administratively              false
+                                          
+    Current Number of Messages            
+        Actual                            1
+        Remote                            0
+        In Delay Delivery                 0
+        Held in Transaction               0
+    Current Message Bytes                 
+        Actual                            509
+        Remote                            0
+        In Delay Delivery                 0
+        Held in Transaction               0
+    Current Number of Producers           0
+    Current Number of Active Consumers    0
+    Current Number of Backup Consumers    0
+                                          
+    Max Number of Messages                100000
+    Max Total Message Bytes               10737418240
+    Max Bytes per Message                 10485760
+    Max Number of Producers               100
+    Max Number of Active Consumers        unlimited (-1)
+    Max Number of Backup Consumers        0
+                                          
+    Limit Behavior                        REJECT_NEWEST
+    Consumer Flow Limit                   1000
+    Is Local Destination                  false
+    Local Delivery is Preferred           false
+    Use Dead Message Queue                true
+    XML schema validation enabled         false
+    XML schema URI List                   -
+    Reload XML schema on failure          false
+
+    Successfully queried the destination.
+
+Purge destination
+
+    murphy:NetBeans pdurbin$ glassfish4/mq/bin/imqcmd -u admin -passfile <(echo imq.imqcmd.password=admin) purge dst -t q -n DataverseIngest
+    Warning [A2016]: Unencoded name=value entry found in passfile /dev/fd/63. Please run 'imqusermgr encode' before use the passfile. Support of passfile that has unencoded name=value entries will be removed in a future release.
+
+    Purging the destination where:
+
+    ------------------------------------
+    Destination Name    Destination Type
+    ------------------------------------
+    DataverseIngest     Queue
+
+    On the broker specified by:
+
+    -------------------------
+    Host         Primary Port
+    -------------------------
+    localhost    7676
+
+    Are you sure you want to purge this destination? (y/n)[n] y
+
+    Successfully purged the destination.
+
+List destinations (to verify the purge was successful)
+
+    murphy:NetBeans pdurbin$ glassfish4/mq/bin/imqcmd -u admin -passfile <(echo imq.imqcmd.password=admin) query dst
+    Error [A3105]: The destination type needs to be specified with the -t option.
+    murphy:NetBeans pdurbin$ glassfish4/mq/bin/imqcmd -u admin -passfile <(echo imq.imqcmd.password=admin) list dst
+    Warning [A2016]: Unencoded name=value entry found in passfile /dev/fd/63. Please run 'imqusermgr encode' before use the passfile. Support of passfile that has unencoded name=value entries will be removed in a future release.
+
+    Listing all the destinations on the broker specified by:
+
+    -------------------------
+    Host         Primary Port
+    -------------------------
+    localhost    7676
+
+    ----------------------------------------------------------------------------------------------------------
+         Name        Type    State      Producers        Consumers                      Msgs                    
+                                     Total  Wildcard  Total  Wildcard  Count  Remote  UnAck  InDelay  Avg Size
+    ----------------------------------------------------------------------------------------------------------
+    DataverseIngest  Queue  RUNNING  0      -         0      -         0      0       0      0        0.0
+    mq.sys.dmq       Queue  RUNNING  0      -         0      -         0      0       0      0        0.0
+
+    Successfully listed destinations.
+
+See also http://danceb.in/hG6bxVy5BGngp6uDMIysQ/raw and http://javabot.evanchooly.com/logs/#glassfish/2015-05-04
