@@ -1,0 +1,23 @@
+git tag tag40
+git checkout -b featureA
+git commit
+git commit
+git checkout master
+git checkout -b featureB
+git commit
+git checkout featureA
+git commit
+git checkout master
+git merge featureA
+git tag tag401
+git commit
+git checkout -b bugC
+git commit
+git commit
+git checkout master
+git merge bugC
+git checkout featureB
+git rebase master
+git checkout master
+git merge featureB
+git tag tag402
