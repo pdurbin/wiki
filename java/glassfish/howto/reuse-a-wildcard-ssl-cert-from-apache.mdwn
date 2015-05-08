@@ -10,12 +10,12 @@ Before you can begin, you'll need to gather three files from your Apache server.
 
 - SSLCertificateFile (server.crt) Server PEM-encoded X.509 Certificate file http://httpd.apache.org/docs/2.2/mod/mod_ssl.html#sslcertificatefile
 - SSLCertificateKeyFile (server.key) Server PEM-encoded Private Key file http://httpd.apache.org/docs/trunk/mod/mod_ssl.html#sslcertificatekeyfile
-- SSLCertificateChainFile (ca.crt) File of PEM-encoded Server CA Certificates http://httpd.apache.org/docs/trunk/mod/mod_ssl.html#sslcertificatechainfile
+- SSLCertificateChainFile (server-chain.crt) File of PEM-encoded Server CA Certificates http://httpd.apache.org/docs/trunk/mod/mod_ssl.html#sslcertificatechainfile
 
 In this tutorial, we're storing all these files in /tmp/certs but the key especially should be kept secure:
 
     [root@dvn-vm2 config]# ls -1d /tmp/certs/*
-    /tmp/certs/ca.crt
+    /tmp/certs/server-chain.crt
     /tmp/certs/server.crt
     /tmp/certs/server.key
 
@@ -48,6 +48,10 @@ Now would be a good time to back it up. :)
     s1as, Jul 11, 2012, PrivateKeyEntry, 
     Certificate fingerprint (MD5): 52:BC:A6:6D:31:15:8E:6F:64:AA:14:E7:20:29:B1:AA
     [root@dvn-vm2 config]# 
+
+## Construct a CAfile
+
+    cat /tmp/certs/server-chain.crt /etc/ssl/certs/ca-bundle.crt > /tmp/certs/ca.crt
 
 ## Created intermediary pkcs12 keystore from SSLCertificateFile, SSLCertificateKeyFile, and SSLCertificateChainFile files
 
