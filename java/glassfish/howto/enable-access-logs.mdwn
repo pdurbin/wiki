@@ -1,3 +1,7 @@
 asadmin get server.http-service.access-logging-enabled
 
 asadmin set server.http-service.access-logging-enabled=true
+
+asadmin get server.http-service.access-log.write-interval-seconds
+
+asadmin set server.http-service.access-log.write-interval-seconds=1
