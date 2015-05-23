@@ -17,6 +17,8 @@
 
 http://www.weechat.org/files/doc/stable/weechat_quickstart.en.html#key_bindings
 
+To scroll up in Mac OS X Terminal.app (rather than holding down Shift+PageUp): `Esc` followed by `[5~` (scroll down is `Esc` then `[6~`) per https://emmanuelbernard.com/blog/2013/12/12/fixing-page-up-and-page-down-in-mac-os-x-terminal/
+
 ## Common commands
 
     /connect irc.freenode.net
