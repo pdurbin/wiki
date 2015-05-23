@@ -33,3 +33,5 @@ Simple CRUD Web Application with JSF 2.1, PrimeFaces 3.5, Maven and JPA - http:/
 http://java.dzone.com/articles/how-do-10-common-tasks-jsf-20
 
 http://incepttechnologies.blogspot.com/p/view-parameters-in-jsf-20.html
+
+At around 40:00 at http://www.javaoffheap.com/2015/05/episode-2-tales-of-microsoft-javascript.html there's a discussion about how JSF is good for doing things quickly with off the shelf components but not good for creating custom, pixel-perfect layouts because you have to write your own component, when it might be easier to simply write Javascript.
