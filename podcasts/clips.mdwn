@@ -1,0 +1,11 @@
+Shouldn't there be an easy way to share clips from podcasts?
+
+I first wrote about this in a September 2012 post asking [what tool to curate clips from podcasts?](https://plus.google.com/+PhilipDurbin/posts/EaycNBRDx6x)
+
+In March 2015 Emily White asked [Where is the Instagram for Audio?](https://medium.com/cuepoint/radio-cures-technical-barriers-in-audio-cf98440ee5c4)
+
+This prompted me to comment on an [AntennaPod issue about sharing podcasts](https://github.com/AntennaPod/AntennaPod/issues/120).
+
+My process is fairly tedious and manual, involving making sure I note the timestamp accurately enough while listening (often on the go) so that when I'm at a computer I can extract the clip.
+
+[[!map pages=podcasts/clips/*]]
