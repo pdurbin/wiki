@@ -10,6 +10,7 @@ http://greptilian.com has more about me. I have a few [[haunts]].
 
 You might also be interested in some of these:
 
+* http://podcasts.greptilian.com
 * http://git.greptilian.com
 * http://yum.greptilian.com
 * http://munin.greptilian.com
