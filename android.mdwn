@@ -1,0 +1,50 @@
+Random notes getting set up for Android dev on Ubuntu:
+
+install equivalent of ia32-libs
+
+sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0
+
+pdurbin@tabby:~$ ~/Android/Sdk/platform-tools/adb
+bash: /home/pdurbin/Android/Sdk/platform-tools/adb: No such file or directory
+pdurbin@tabby:~$ ~/Android/Sdk/platform-tools/adb^C
+pdurbin@tabby:~$ 
+
+http://stackoverflow.com/questions/13571145/android-adb-not-found
+
+pdurbin@tabby:~$ 
+pdurbin@tabby:~$ ~/Android/Sdk/platform-tools/adb
+/home/pdurbin/Android/Sdk/platform-tools/adb: error while loading shared libraries: libstdc++.so.6: cannot open shared object file: No such file or directory
+
+pdurbin@tabby:~$ sudo apt-get install lib32stdc++6
+
+
+pdurbin@tabby:~$ ~/Android/Sdk/tools/emulator64-x86 -avd Nexus_5_API_21_x86 -qemu -m 2047 -enable-kvm
+emulator: ERROR: Could not load OpenGLES emulation library: lib64OpenglRender.so: cannot open shared object file: No such file or directory
+emulator: WARNING: Could not initialize OpenglES emulation, using software renderer.
+ioctl(KVM_CREATE_VM) failed: 16 Device or resource busy
+ko:failed to initialize KVM
+pdurbin@tabby:~$ 
+
+http://android.stackexchange.com/questions/61833/setting-up-hardware-accelerated-android-emulation-haxm-on-fedora-or-other-rpm
+
+pdurbin@tabby:~$ LD_LIBRARY_PATH=~/Android/Sdk/tools/lib ~/Android/Sdk/tools/emulator64-x86 -avd Nexus_5_API_21_x86 -qemu -m 2047 -enable-kvm
+ioctl(KVM_CREATE_VM) failed: 16 Device or resource busy
+ko:failed to initialize KVM
+
+
+http://stackoverflow.com/questions/16168799/android-emulator-and-virtualbox-cannot-run-at-same-time
+
+vagrant halt
+
+
+pdurbin@tabby:~$ ~/Android/Sdk/platform-tools/adb devices
+List of devices attached 
+????????????	no permissions
+
+insufficient permissions for device
+
+pdurbin@tabby:~$ cat /etc/udev/rules.d/51-android.rules
+SUBSYSTEM=="usb", ATTR{idVendor}=="1004", MODE="0666", GROUP="plugdev" 
+
+http://developer.android.com/tools/device.html
+
