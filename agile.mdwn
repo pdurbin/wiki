@@ -1,0 +1,10 @@
+Agile Product Ownership in a Nutshell - https://www.youtube.com/watch?v=502ILHjX9EE
+
+https://dl.dropboxusercontent.com/u/1018963/Articles/PO-in-a-nutshell.png
+
+Notes
+
+- 4-6 stories per week
+- In order to maintain this pace (of 4-6 stories per week), and not get bogged down by manual regression testing, the team invests heavily in automated testing and continuous integration.
+- Product backlog (queue), "backlog grooming."
+- We need product owners who can say "no."
