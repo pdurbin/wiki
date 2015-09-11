@@ -1,0 +1,117 @@
+From https://canvas.harvard.edu/courses/5749 (STAT E-100, Fall 2015)
+
+    > options(warn=-1) # warnings from `library` are annoying
+    > options(device="png") # instead of Rplots.pdf
+    > out <- capture.output(suppressMessages(library("mosaic")))
+    > # conduct analyses of Titanic data
+    > # frequency table of counts with marginal totals
+    > tally(~Survived, format = "count", data = Titanic, margins = TRUE)
+
+       No   Yes Total 
+      618   427  1045 
+    > # bar graph of survival
+    > bargraph(~Survived, data = Titanic)
+
+<img src="titanic/Rplot001.png">
+
+    > # frequency table of propotions with marginal totals
+    > tally(~Survived, format = "proportion", data = Titanic, margins = TRUE)
+
+       No   Yes Total 
+     0.59  0.41  1.00 
+    > # frequency table of percentages with marginal totals
+    > tally(~Survived, format = "percent", data = Titanic, margins = TRUE)
+
+       No   Yes Total 
+       59    41   100 
+    > # pie chart of survival
+    > pie(tally(~Survived, format = "count", data = Titanic))
+
+<img src="titanic/Rplot002.png">
+
+    > # contingency table of counts
+    > tally(~Class + Survived, format = "count", margins=TRUE, data = Titanic)
+            Survived
+    Class      No  Yes Total
+      Lower   369  131   500
+      Middle  146  115   261
+      Upper   103  181   284
+      Total   618  427  1045
+    > # contingency table of proportions without conditioning
+    > tally(~Class + Survived, format = "proportion", margins=TRUE, data = Titanic)
+            Survived
+    Class       No   Yes Total
+      Lower  0.353 0.125 0.478
+      Middle 0.140 0.110 0.250
+      Upper  0.099 0.173 0.272
+      Total  0.591 0.409 1.000
+    > # contingency table of percentages without conditioning,
+    > tally(~Class + Survived, format = "percent", margins=TRUE, data = Titanic)
+            Survived
+    Class       No   Yes Total
+      Lower   35.3  12.5  47.8
+      Middle  14.0  11.0  25.0
+      Upper    9.9  17.3  27.2
+      Total   59.1  40.9 100.0
+    > # conditioning on survival
+    > # Of those who survived, what percentage were in the lower class? (31%)
+    > tally(~Class | Survived, format = "percent", data = Titanic, margins=TRUE)
+            Survived
+    Class     No Yes
+      Lower   60  31
+      Middle  24  27
+      Upper   17  42
+      Total  100 100
+    > # conditioning on passenger class
+    > # Of those in the lower class, what percent survived? (26%)
+    > tally(~Survived | Class, format = "percent", data = Titanic, margins=TRUE)
+            Class
+    Survived Lower Middle Upper
+       No       74     56    36
+       Yes      26     44    64
+       Total   100    100   100
+    > # Dodged Bar Graph: Survival with Class Subgroups
+    > bargraph(~Survived, groups=Class, auto.key=TRUE, data=Titanic)
+
+<img src="titanic/Rplot003.png">
+
+    > # Dodged Bar Graph: Class with Survival Subgroups
+    > bargraph(~Class, groups=Survived, auto.key=TRUE, data=Titanic)
+
+<img src="titanic/Rplot004.png">
+
+    > # Stacked Bar Graph: Survival with Class Subgroups
+    > bargraph(~Survived, groups=Class, auto.key=TRUE, stack=TRUE, data=Titanic)
+
+<img src="titanic/Rplot005.png">
+
+    > # Stacked Bar Graph: Class with Survival Subgroups
+    > bargraph(~Class, groups=Survived, auto.key=TRUE, stack=TRUE, data=Titanic)
+
+<img src="titanic/Rplot006.png">
+
+    > # Unconditional Distribution of Survival and Conditional Distributions of Class
+    > mosaicplot(~Survived + Class, color=TRUE, data=Titanic)
+
+<img src="titanic/Rplot007.png">
+
+    > # Distributions of class conditional on survival
+    > tally(~Class | Survived, format = "percent", data = Titanic, margins=TRUE)
+            Survived
+    Class     No Yes
+      Lower   60  31
+      Middle  24  27
+      Upper   17  42
+      Total  100 100
+    > # Unconditional Distribution of Class and Conditional Distributions of Survival
+    > mosaicplot(~Class + Survived, color=TRUE, data=Titanic)
+
+<img src="titanic/Rplot008.png">
+
+    > # Distributions of survival conditional on class
+    > tally(~Survived | Class, format = "percent", data = Titanic, margins=TRUE)
+            Class
+    Survived Lower Middle Upper
+       No       74     56    36
+       Yes      26     44    64
+       Total   100    100   100
