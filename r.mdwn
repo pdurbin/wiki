@@ -1,4 +1,4 @@
-From https://canvas.harvard.edu/courses/5749 (STAT E-100, Fall 2015)
+Inspired by https://canvas.harvard.edu/courses/5749 (STAT E-100, Fall 2015)
 
     > options(warn=-1) # warnings from `library` are annoying
     > options(device="png") # instead of Rplots.pdf
