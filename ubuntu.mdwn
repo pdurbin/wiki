@@ -43,3 +43,43 @@ http://askubuntu.com/questions/81585/what-is-dist-upgrade-and-why-does-it-upgrad
     useradd -m myuser -s /bin/bash
 
 https://help.ubuntu.com/community/AddUsersHowto
+
+## Shutdown and restart
+
+    poweroff
+
+    reboot
+
+## Change default $EDITOR from nano to vim
+
+    update-alternatives --config editor
+
+Choose "vim.basic".
+
+## Give user sudo access
+
+    newuser    ALL=(ALL:ALL) ALL
+
+or
+
+    newuser    ALL=NOPASSWD: ALL
+
+https://www.digitalocean.com/community/tutorials/how-to-add-delete-and-grant-sudo-privileges-to-users-on-a-debian-vps
+
+## iptables
+
+https://help.ubuntu.com/community/IptablesHowTo
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-iptables-on-ubuntu-14-04
+
+## Apache httpd
+
+    sudo apt-get install apache2
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts
+
+## MySQL
+
+    sudo apt-get install mysql-server
+
+https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial
