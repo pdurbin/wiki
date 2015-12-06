@@ -1,0 +1,42 @@
+Krita ( https://krita.org) is a sketching and painting program with animation features planned in version 3.0.
+
+What really caught my attention was the animation below of the cat from Pepper and Carrot in a post on Google+ by David Revoy at https://plus.google.com/+DavidRevoy/posts/FXihXUn9X1w
+
+<img src="https://lh3.googleusercontent.com/duvyMW1Bgp5U25x5BeMD7er4J5k1KrQkq_rCWjdqbf_n=w1366-h768-no"/>
+
+I was reminded instantly of my fondness for Disney Animation Studio (DAS) on my family's Amiga when I was a kid. In this video from 1990, you can see a demo of creating 12 cells in 40 seconds (of water dripping): https://youtu.be/qSeYivHZpB8?t=30s 
+
+Basically, DAS excelled at emulating old-school, paper flip books that kids like me loved to make. They look like this:
+
+<img src="https://v.dreamwidth.org/21009/20791"/>
+
+<img src="http://downloads.esbasura.com/comics/Calvin%20and%20Hobbes/1995/ch950618.jpg"/>
+
+Out of the box Krita: 2.9.9 Animation Edition (beta) isn't set up to create flip books quickly. It would be tough to make 12 frames in 40 seconds. However, you can add [keyboard shortcuts](https://userbase.kde.org/Krita/Manual/TopMenu/Settings#Configure_Shortcuts) for "next frame" and "previous frame" in the timeline. Then you hit the "Delete" key to make a new frame. It works well enough. Here's my quick sketch of water dripping:
+
+<img src="http://i.imgur.com/imkgt0B.gif"/>
+
+Now I need some ideas of what to draw. My friend Jim used to draw a crocodile (or dragon?) that looked something like this:
+
+<img src="http://i.imgur.com/UEJZIJR.gif"/>
+
+My kids decided to draw a smiley face:
+
+<img src="http://i.imgur.com/6GJyEH7.gif"/>
+
+Then we brought to life "Flip-O-Rama #4" from one of their favorite graphic novels:
+
+<img src="http://i.imgur.com/XEyh7hE.gif">
+
+Oh, at https://bugs.kde.org/show_bug.cgi?id=342479 it looks like they'll be working on animated gif export, which is great especially since https://krita.org/item/the-votes-are-in-2/ indicates a lot of people voted for this as a stretch goal, but in the meantime you can just save as PNG from "Export animation" and "Export Sequence" and then use this ImageMagick command: `convert -delay 3 -loop 0 *.png out.gif`
+
+Here are some links I've found interesting:
+
+- https://krita.org/item/krita-2-9-animation-edition-beta-released/
+- http://timotheegiet.com/blog/anim/krita-2-9-animation-edition-beta.html
+- https://krita.org/item/going-wild-with-animation/
+- http://kritaanimation.blogspot.com
+- https://en.wikipedia.org/wiki/List_of_2D_animation_software
+- Future of the animation feature: http://news.gmane.org/find-root.php?message_id=548F3A35.5090205%40gmail.com
+- Bug 342479 – APNG and GIF export support. - https://bugs.kde.org/show_bug.cgi?id=342479
+- https://github.com/KDE/krita
