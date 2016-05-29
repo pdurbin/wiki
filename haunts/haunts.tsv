@@ -29,7 +29,6 @@ channel	network	homepage	logs
 #mahout	freenode	http://mahout.apache.org	http://colabti.org/irclogger/irclogger_log/mahout
 #immutant	freenode	http://immutant.org	http://transcripts.jboss.org/channel/irc.freenode.org/%23immutant/
 #jython	freenode	http://www.jython.org	http://jython.extreme.st/irclogs
-#html5	freenode	https://en.wikipedia.org/wiki/HTML5	http://krijnhoetmer.nl/irc-logs/html5
 #pdl	perl	http://pdl.perl.org	http://irclog.perlgeek.de/pdl/today
 #indiewebcamp	freenode	http://indiewebcamp.com	http://indiewebcamp.com/irc/today
 #lift	freenode	http://liftweb.net	http://irclogger.com/.lift
