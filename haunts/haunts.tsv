@@ -1,54 +1,54 @@
-server/channel	logs	homepage
-freenode/#dataverse	http://irclog.iq.harvard.edu/dataverse/today	http://dataverse.org
-freenode/#sourcefu	http://irclog.greptilian.com/sourcefu/today	http://sourcefu.com
-freenode/#openknot	http://irclog.greptilian.com/openknot/today	http://github.com/openknot
-freenode/#rest	http://irclog.greptilian.com/rest/today	http://trygvis.io/rest-wiki
-freenode/#opensourcedesign	http://botbot.me/freenode/opensourcedesign	http://opensourcedesign.net
-freenode/#openhatch	http://irclogs.jackgrigg.com/irc.freenode.net/openhatch/today	http://openhatch.org
-freenode/#crimsonfu	http://irclog.perlgeek.de/crimsonfu/today	http://crimsonfu.github.io
-irc.mozilla.org/#sciencelab	http://logs.glob.uno/?c=sciencelab	http://mozillascience.org
-freenode/#virtualjug	http://irclog.greptilian.com/virtualJUG/today	http://virtualjug.com
-freenode/##friendlyjava	http://irclog.greptilian.com/friendlyjava/today	http://irclog.greptilian.com/friendlyjava
-irc.gitter.im/#cypress-io/cypress	https://gitter.im/cypress-io/cypress	http://cypress.io
-freenode/#lucene-dev	http://colabti.org/irclogger/irclogger_log/lucene-dev	http://lucene.apache.org
-freenode/#pyladies	http://botbot.me/freenode/pyladies	http://pyladies.com
-freenode/#kosmos	https://waves.kosmos.org/logs/freenode/kosmos/today	http://kosmos.org
-freenode/#sandstorm	https://botbot.me/freenode/sandstorm	http://sandstorm.io
-freenode/#snowdrift	http://ircbrowse.net/day/snowdrift/today	https://snowdrift.coop
-freenode/#io	http://irclogs.shortcircuit.net.au/%23io/latest.log.html	http://iolanguage.org
-freenode/#ilbot	http://irclog.perlgeek.de/ilbot/today	http://moritz.faui2k3.org/en/ilbot
-freenode/#glassfish	http://javabot.evanchooly.com/logs/%23glassfish/today	http://glassfish.java.net
-freenode/#netbeans	http://echelog.com/logs/browse/netbeans	http://netbeans.org
-freenode/##jsf	http://javabot.evanchooly.com/logs/%23%23jsf/today	http://jsf.java.net
-freenode/#positivepython	http://botbot.me/freenode/positivepython	http://gist.io/5833862
-freenode/##shibboleth	http://irclog.perlgeek.de/shibboleth/today	http://shibboleth.net
-freenode/#dat	https://botbot.me/freenode/dat	http://dat-data.com
-freenode/#linuxvillage	http://irclog.perlgeek.de/linuxvillage/today	http://linuxvillage.org
-freenode/#rosettacode	http://irclog.perlgeek.de/rosettacode/today	http://rosettacode.org
-freenode/#circuits	http://irclogs.shortcircuit.net.au/%23circuits/latest.log.html	http://circuitsframework.com
-freenode/#mahout	http://colabti.org/irclogger/irclogger_log/mahout	http://mahout.apache.org
-freenode/#immutant	http://transcripts.jboss.org/channel/irc.freenode.org/%23immutant/	http://immutant.org
-freenode/#jython	http://jython.extreme.st/irclogs	http://www.jython.org
-freenode/#html5	http://krijnhoetmer.nl/irc-logs/html5	https://en.wikipedia.org/wiki/HTML5
-irc.perl.org/#pdl	http://irclog.perlgeek.de/pdl/today	http://pdl.perl.org
-freenode/#indiewebcamp	http://indiewebcamp.com/irc/today	http://indiewebcamp.com
-freenode/#lift	http://irclogger.com/.lift	http://liftweb.net
-irc.w3.org/#social	http://socialwg.indiewebcamp.com/irc/social/today	http://www.w3.org/wiki/Socialwg
-freenode/#clojure	http://logs.lazybot.org/irc.freenode.net/%23clojure/today.txt	http://clojure.org
-freenode/#elixir-lang	http://irclogger.com/.elixir-lang	http://elixir-lang.org
-freenode/#git	http://colabti.org/irclogger/irclogger_log/git	http://jk.gs/git
-freenode/#forge	http://transcripts.jboss.org/channel/irc.freenode.org/%23forge/	http://forge.jboss.org
-freenode/#duraspace	http://irclogs.duraspace.org	http://duraspace.org
-freenode/#vagrant	http://irclogger.com/.vagrant	http://vagrantup.com
-freenode/#ceylonlang	http://transcripts.jboss.org/channel/irc.freenode.org/%23ceylonlang	http://ceylon-lang.org
-freenode/##C++-general	http://alpha.visl.sdu.dk/~tino/pisg/freenode/logs	http://en.wikipedia.org/wiki/C++
-freenode/#libuv	http://logs.libuv.org	http://github.com/joyent/libuv
-freenode/#puppet	http://www.puppetlogs.com/puppet	http://puppetlabs.com
-freenode/#rabbitmq	http://dev.rabbitmq.com/irclog	http://rabbitmq.com
-freenode/#linuxcnc	http://psha.org.ru/irc/%23emc/today.html	http://linuxcnc.org
-freenode/#openam	http://irclog.perlgeek.de/openam/today	http://openam.forgerock.org
-freenode/#richfaces	http://transcripts.jboss.org/channel/irc.freenode.org/%23richfaces/ 	http://www.jboss.org/richfaces
-freenode/#ubuntu-women-project	http://ubottu.com/meetingology/logs/today.php?channel=ubuntu-women-project	http://ubuntu-women.org
-freenode/##java	http://javabot.evanchooly.com/logs/%23%23java/today	http://javachannel.org
-irc.gitter.im/#scalawags/scalawags	http://gitter.im/scalawags/scalawags	http://scalawags.tv
-irc.gitter.im/#gitterHQ/gitter	http://gitter.im/gitterHQ/gitter	http://gitter.im
+channel	network	homepage	logs
+#dataverse	freenode	http://dataverse.org	http://irclog.iq.harvard.edu/dataverse/today
+#sourcefu	freenode	http://sourcefu.com	http://irclog.greptilian.com/sourcefu/today
+#openknot	freenode	http://github.com/openknot	http://irclog.greptilian.com/openknot/today
+#rest	freenode	http://trygvis.io/rest-wiki	http://irclog.greptilian.com/rest/today
+#opensourcedesign	freenode	http://opensourcedesign.net	http://botbot.me/freenode/opensourcedesign
+#openhatch	freenode	http://openhatch.org	http://irclogs.jackgrigg.com/irc.freenode.net/openhatch/today
+#crimsonfu	freenode	http://crimsonfu.github.io	http://irclog.perlgeek.de/crimsonfu/today
+#sciencelab	mozilla	http://mozillascience.org	http://logs.glob.uno/?c=sciencelab
+#virtualjug	freenode	http://virtualjug.com	http://irclog.greptilian.com/virtualJUG/today
+##friendlyjava	freenode	http://irclog.greptilian.com/friendlyjava	http://irclog.greptilian.com/friendlyjava/today
+#cypress-io/cypress	gitter	http://cypress.io	https://gitter.im/cypress-io/cypress
+#lucene-dev	freenode	http://lucene.apache.org	http://colabti.org/irclogger/irclogger_log/lucene-dev
+#pyladies	freenode	http://pyladies.com	http://botbot.me/freenode/pyladies
+#kosmos	freenode	http://kosmos.org	https://waves.kosmos.org/logs/freenode/kosmos/today
+#sandstorm	freenode	http://sandstorm.io	https://botbot.me/freenode/sandstorm
+#snowdrift	freenode	https://snowdrift.coop	http://ircbrowse.net/day/snowdrift/today
+#io	freenode	http://iolanguage.org	http://irclogs.shortcircuit.net.au/%23io/latest.log.html
+#ilbot	freenode	http://moritz.faui2k3.org/en/ilbot	http://irclog.perlgeek.de/ilbot/today
+#glassfish	freenode	http://glassfish.java.net	http://javabot.evanchooly.com/logs/%23glassfish/today
+#netbeans	freenode	http://netbeans.org	http://echelog.com/logs/browse/netbeans
+##jsf	freenode	http://jsf.java.net	http://javabot.evanchooly.com/logs/%23%23jsf/today
+#positivepython	freenode	http://gist.io/5833862	http://botbot.me/freenode/positivepython
+##shibboleth	freenode	http://shibboleth.net	http://irclog.perlgeek.de/shibboleth/today
+#dat	freenode	http://dat-data.com	https://botbot.me/freenode/dat
+#linuxvillage	freenode	http://linuxvillage.org	http://irclog.perlgeek.de/linuxvillage/today
+#rosettacode	freenode	http://rosettacode.org	http://irclog.perlgeek.de/rosettacode/today
+#circuits	freenode	http://circuitsframework.com	http://irclogs.shortcircuit.net.au/%23circuits/latest.log.html
+#mahout	freenode	http://mahout.apache.org	http://colabti.org/irclogger/irclogger_log/mahout
+#immutant	freenode	http://immutant.org	http://transcripts.jboss.org/channel/irc.freenode.org/%23immutant/
+#jython	freenode	http://www.jython.org	http://jython.extreme.st/irclogs
+#html5	freenode	https://en.wikipedia.org/wiki/HTML5	http://krijnhoetmer.nl/irc-logs/html5
+#pdl	perl	http://pdl.perl.org	http://irclog.perlgeek.de/pdl/today
+#indiewebcamp	freenode	http://indiewebcamp.com	http://indiewebcamp.com/irc/today
+#lift	freenode	http://liftweb.net	http://irclogger.com/.lift
+#social	w3	http://www.w3.org/wiki/Socialwg	http://socialwg.indiewebcamp.com/irc/social/today
+#clojure	freenode	http://clojure.org	http://logs.lazybot.org/irc.freenode.net/%23clojure/today.txt
+#elixir-lang	freenode	http://elixir-lang.org	http://irclogger.com/.elixir-lang
+#git	freenode	http://jk.gs/git	http://colabti.org/irclogger/irclogger_log/git
+#forge	freenode	http://forge.jboss.org	http://transcripts.jboss.org/channel/irc.freenode.org/%23forge/
+#duraspace	freenode	http://duraspace.org	http://irclogs.duraspace.org
+#vagrant	freenode	http://vagrantup.com	http://irclogger.com/.vagrant
+#ceylonlang	freenode	http://ceylon-lang.org	http://transcripts.jboss.org/channel/irc.freenode.org/%23ceylonlang
+##C++-general	freenode	http://en.wikipedia.org/wiki/C++	http://alpha.visl.sdu.dk/~tino/pisg/freenode/logs
+#libuv	freenode	http://github.com/joyent/libuv	http://logs.libuv.org
+#puppet	freenode	http://puppetlabs.com	http://www.puppetlogs.com/puppet
+#rabbitmq	freenode	http://rabbitmq.com	http://dev.rabbitmq.com/irclog
+#linuxcnc	freenode	http://linuxcnc.org	http://psha.org.ru/irc/%23emc/today.html
+#openam	freenode	http://openam.forgerock.org	http://irclog.perlgeek.de/openam/today
+#richfaces	freenode	http://www.jboss.org/richfaces	http://transcripts.jboss.org/channel/irc.freenode.org/%23richfaces/
+#ubuntu-women-project	freenode	http://ubuntu-women.org	http://ubottu.com/meetingology/logs/today.php?channel=ubuntu-women-project
+##java	freenode	http://javachannel.org	http://javabot.evanchooly.com/logs/%23%23java/today
+#scalawags/scalawags	gitter	http://scalawags.tv	http://gitter.im/scalawags/scalawags
+#gitterHQ/gitter	gitter	http://gitter.im	http://gitter.im/gitterHQ/gitter
