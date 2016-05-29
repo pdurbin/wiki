@@ -49,3 +49,27 @@ I installed dependencies with `cpanm`.
     python -m SimpleHTTPServer
 
 Browse to http://localhost:8000
+
+## Hack on table plugin
+
+TODO: start discussion at http://ikiwiki.info/plugins/table/ about how having data that starts with "#" such as an IRC channel or hashtag gets turned into h1 tags. :(
+
+    root@server2:~# diff -u /usr/share/perl5/IkiWiki/Plugin/table.pm.orig /usr/share/perl5/IkiWiki/Plugin/table.pm
+    --- /usr/share/perl5/IkiWiki/Plugin/table.pm.orig       2013-09-04 18:11:12.000000000 -0400
+    +++ /usr/share/perl5/IkiWiki/Plugin/table.pm    2016-05-29 14:00:50.218858999 -0400
+    @@ -179,8 +179,12 @@
+            my @ret;
+            push @ret, "\t\t<tr>";
+            for (my $x=0; $x < @data; $x++) {
+    +               # hack by pdurbin to avoid #sourcefu becoming <h1>sourcefu</h1>
+    +               my $hack = $data[$x];
+    +               $hack =~ s/#/&#x23;/g;
+                    my $cell=IkiWiki::htmlize($page, $destpage, $type,
+    -                        IkiWiki::preprocess($page, $destpage, $data[$x]));
+    +                        IkiWiki::preprocess($page, $destpage, $hack));
+    +                        #IkiWiki::preprocess($page, $destpage, $data[$x]));
+     
+                    # automatic colspan for empty cells
+                    my $colspan=1;
+    root@server2:~# 
+
