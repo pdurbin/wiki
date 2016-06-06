@@ -12,6 +12,5 @@ You might also be interested in some of these:
 
 * http://podcasts.greptilian.com
 * http://git.greptilian.com
-* http://yum.greptilian.com
 * http://munin.greptilian.com
 * http://data.greptilian.com
