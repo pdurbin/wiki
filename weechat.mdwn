@@ -14,6 +14,7 @@
     F6 buffer right
     F11 scroll nick list up
     F12 scroll nick list down
+    Alt-= toggle filters on or off
 
 http://www.weechat.org/files/doc/stable/weechat_quickstart.en.html#key_bindings
 
