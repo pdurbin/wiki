@@ -1,0 +1,43 @@
+Philip Durbin has been going by "pdurbin" since he got on the Internet in the 90s. Friends and family call him "[Phil][split]". Whatever is fine. :)
+
+That's enough third person.
+
+I'm honored that you are taking the time to read about me, dear reader. I'll try to give you some insight into what makes me tick.
+
+I maintain my resume (and this about page) in Markdown and git and throw it over the wall to my [profile on LinkedIn][LinkedIn]. If LinkedIn ever goes away or becomes especially evil`[1]`, I'll put my resume somewhere else and delete it from LinkedIn to keep the data [DRY][DRY]. These days GitHub is a bit of a resume as well, so you're welcome to check out my [profile on GitHub][GitHub] too. I'm on on Twitter as [@philipdurbin][Twitter].
+
+I guess the part of my resume that I haven't included on LinkedIn is the summary or objective I would have when I go to look for a new job some day. Here's what I have so far:
+
+> "Since late 2012 I have been writing code full-time for an open source product (Dataverse) and since 1998 I have been writing scripts and automating tasks as a sysadmin and network engineer. I would love to continue working in open source."
+
+It still needs work. The take away should be that I love open source and software development. Also, I have experience in a number of fields related to computing. It's fun. :)
+
+As the statement above indicates, right now I'm writing code full time for Dataverse. I work at the Institute for Quantitative Social Science (IQSS) at Harvard. I've been at Harvard since 2006 and I maintain a [bio][IQSS] on the IQSS website. More recently I also created a [bio][blogs] at blogs.harvard.edu. Bios everywhere, including here... so much for being DRY. :)
+
+I jumped at the chance to work on Dataverse for a variety of reasons. I've been a fan of open source since I discovered it in the late 90s. I first read the GPL after using [VNC][VNC] and I remember thinking, "This open source stuff is like science, standing on the shoulders of giants." Also, while I had been doing some software development on the side, I had never been paid to do it full-time. I still have a lot to learn but I absolutely love building things, especially a product that is filling a need and growing in adoption.
+
+Writing code is fun but I also very much enjoy participating in the open source community around Dataverse and other projects. I'm quite active on the [dataverse-community][dataverse-community] mailing list, the [#dataverse][#dataverse] channel on freenode IRC network, and [bi-weekly calls][calls]. We've started having an annual Dataverse conference which we call a "[community meeting][community meeting]" and it's been thrilling to meet people from around the world who are excited enough about our product to fly in and listen to talks or give one themselves. A group in Norway created a [video][TROLLing] explaining why you'd want to run software like Dataverse. Folks in the Netherlands [baked][cake1] [cakes][cake2] with the Dataverse logo on it.
+
+Suffice it to say that I've been quite happy with the direction my career has been taking. After years of using open source software, I'm able to contribute meaningfully to an open source project. I love it.
+
+I have more to say but that's enough for now. I'd rather ship early and often. Note that there's a "last updated" link below if you'd like to check back in the future for any updates to this page. Also below are some ways to contact me if you have any feedback on what I've written so far. Thanks for stopping by! 
+
+Footnotes:
+
+- `[1]` On LinkedIn becoming increasingly evil or at least counter to my desire for unfettered access to information when possible, I just noticed that when I visit http://linkedin.com/in/pdurbin from mobile I seem to be forced to log in, so the day that I move my resume somewhere else may come sooner rather than later. A work around seem to be to tap "Request desktop site" to see a bit more of what's there but there's an annoying "Join now to see Philip's full profile" popup and you can't scroll down to see everything that's there. Terrible. Maybe I need to revisit the settings to make it more open.
+
+[split]: http://thedurbins.com/phil/blog/2012/01/14/my-split-personality-online.html
+[LinkedIn]: http://linkedin.com/in/pdurbin
+[GitHub]: https://github.com/pdurbin
+[DRY]: https://pragprog.com/the-pragmatic-programmer/extracts/tips
+[Twitter]: https://twitter.com/philipdurbin
+[IQSS]: http://www.iq.harvard.edu/people/philip-durbin
+[blogs]: http://blogs.harvard.edu/pdurbin/about/
+[VNC]: https://en.wikipedia.org/wiki/Virtual_Network_Computing
+[dataverse-community]: https://groups.google.com/forum/#!forum/dataverse-community
+[#dataverse]: http://irclog.iq.harvard.edu/dataverse/today
+[calls]: http://dataverse.org/community-calls
+[community meeting]: http://dataverse.org/events
+[TROLLing]: https://www.youtube.com/watch?v=uEf0c0NT9_A
+[cake1]: https://twitter.com/johannesnicolai/status/831792997993967616
+[cake2]: https://twitter.com/DANSKNAW/status/831824618348539904
