@@ -1,3 +1,18 @@
 - https://www.sensible.com/dmmt.html
 - http://visualusabilitybook.com
 - http://designguyshow.blogspot.com
+- http://opensourcedesign.net
+- https://github.com/uxbox/uxbox
+- https://www.reddit.com/r/opensource/comments/5o8e4t/how_can_ux_designers_be_encouraged_to_contribute/
+- Distributed Co-Design for Open Source Software Development by studiospring - http://slides.com/studiospring/dcd
+
+These papers were highlighted in Victoria Bondarchuk's talk at https://fosdem.org/2017/schedule/event/osd_when_cultures_clash/ from her larger list at https://github.com/victoria-bondarchuk/List-of-Academic-Research-on-Usability-in-FOSS
+
+- Do open source software developers listen to their users?: https://www.researchgate.net/publication/287955808_Do_open_source_software_developers_listen_to_their_users
+- Non-response, Social Exclusion, and False Acceptance: Gatekeeping Tactics and Usability Work in Free-Libre Open Source Software Development: http://cc.oulu.fi/%7Emrajanen/INTERACT2015_rajanen_iivari_lanamaki.pdf
+- Integrating HCI Specialists into Open Source Software Development Projects: http://link.springer.com/chapter/10.1007%2F978-3-642-02032-2_22#page-1
+
+Her slides don't appear to have been posted yet but these are similar: https://www.slideshare.net/VictoriaBondarchuk/exploring-and-integrating-ux-in-open-source-software-development
+
+This talk was mentioned at https://botbot.me/freenode/opensourcedesign/msg/81236128/
+
