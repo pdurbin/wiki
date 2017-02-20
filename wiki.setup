@@ -41,7 +41,8 @@ add_plugins:
 #- search
 #- httpauth
 # plugins to disable
-disable_plugins: []
+disable_plugins:
+- smiley
 # additional directory to search for template files
 templatedir: /usr/share/ikiwiki/templates
 # base wiki source location
