@@ -33,9 +33,25 @@ cgi_wrappermode: '06755'
 rcs: git
 # plugins to add to the default configuration
 add_plugins:
-- goodstuff
+- brokenlinks
+- img
+- map
+- more
+- orphans
+- pagecount
+- pagestats
+- progress
+- shortcut
+- tag
+- table
+- template
+- toc
+- toggle
+- repolist
 - websetup
 - lockedit
+#- goodstuff
+#- smiley
 #- attachment
 #- textile
 #- search
