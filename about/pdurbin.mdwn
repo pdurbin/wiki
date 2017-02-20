@@ -4,7 +4,7 @@ That's enough third person.
 
 I'm honored that you are taking the time to read about me, dear reader. I'll try to give you some insight into what makes me tick.
 
-I maintain my resume (and this about page) in Markdown and git and throw it over the wall to my [profile on LinkedIn][LinkedIn]. If LinkedIn ever goes away or becomes especially evil`[1]`, I'll put my resume somewhere else and delete it from LinkedIn to keep the data [DRY][DRY]. These days GitHub is a bit of a resume as well, so you're welcome to check out my [profile on GitHub][GitHub] too. I'm on Twitter as [@philipdurbin][Twitter].
+I maintain my resume (and this about page) in Markdown and git and throw it over the wall to my [profile on LinkedIn][LinkedIn]. If LinkedIn ever goes away or becomes especially evil`[1]`, I'll put my resume somewhere else and delete it from LinkedIn to keep the data [DRY][DRY]. These days GitHub is a bit of a resume as well, so you're welcome to check out my [profile on GitHub][GitHub] too. I'm also on Twitter as [@philipdurbin][Twitter].
 
 I guess the part of my resume that I haven't included on LinkedIn is the summary or objective I would have when I go to look for a new job some day. Here's what I have so far:
 
