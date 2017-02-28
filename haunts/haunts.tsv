@@ -49,6 +49,7 @@ channel	network	homepage	logs
 #giltene/jHiccup	gitter	https://www.azul.com/jhiccup/	https://github.com/giltene/jHiccup
 #joeyklee/bec-explorer	gitter	http://www.bc-climate-explorer.org	https://gitter.im/joeyklee/bec-explorer
 #debian	oftc	http://debian.org	http://irclogs.thegrebs.com/debian
+#outreachy	mozilla	https://wiki.mozilla.org/Outreachy	http://logs.glob.uno/?c=outreachy
 ##java	freenode	http://javachannel.org	http://javabot.evanchooly.com/logs/%23%23java/today
 #indiewebcamp	freenode	http://indiewebcamp.com	http://indiewebcamp.com/irc/today
 #lift	freenode	http://liftweb.net	http://irclogger.com/.lift
