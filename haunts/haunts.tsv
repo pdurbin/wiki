@@ -3,7 +3,7 @@ channel	network	homepage	logs
 #sourcefu	freenode	http://sourcefu.com	http://irclog.greptilian.com/sourcefu/today
 #opensourcedesign	freenode	http://opensourcedesign.net	http://botbot.me/freenode/opensourcedesign
 #sciencelab	mozilla	http://mozillascience.org	http://logs.glob.uno/?c=sciencelab
-#mozillascience/community	https://science.mozilla.org	https://gitter.im/mozillascience/community
+#mozillascience/community	mozilla	https://science.mozilla.org	https://gitter.im/mozillascience/community
 #rest	freenode	http://trygvis.io/rest-wiki	http://irclog.greptilian.com/rest/today
 #openhatch	freenode	http://openhatch.org	http://irclogs.jackgrigg.com/irc.freenode.net/openhatch/today
 ##friendlyjava	freenode	http://irclog.greptilian.com/friendlyjava	http://irclog.greptilian.com/friendlyjava/today
