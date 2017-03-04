@@ -1,10 +1,13 @@
 **Druthers** allows for crowdsourced issue ordering. https://github.com/pdurbin/druthers contains proof of concept code. To see me mentioning the idea to a user asking about particular issues, see http://irclog.iq.harvard.edu/dataverse/2017-03-01#i_49428
 
- **Feedcritic** would allow you to rank, review, and categorize podcasts on your own website as well as rate or review individual episodes. I'm playing around with code at http://podcasts.greptilian.com and some [notes on Feedcritic][] where comments are welcome
+**Feedcritic** would allow you to rank, review, and categorize podcasts on your own website as well as rate or review individual episodes. I'm playing around with code at http://podcasts.greptilian.com and some [notes on Feedcritic][] where comments are welcome
 
-**Pastries** is a quick and dirty HTML5 game that could be cleaned up and used in an tutorial for how to get kids writing their own games: https://github.com/pdurbin/pastries
+**Pastries** is a quick and dirty HTML5 game that could be cleaned up and used in a tutorial for kids writing their own games: https://github.com/pdurbin/pastries
 
- **Outsiders** would allow you easily filter your GitHub issues down to the ones that weren't created by members of the project. An example [query][] would be `is:open repo:pdurbin/addressbookmvc -author:pdurbin -author:dhutty`.
+**Outsiders** would allow you easily filter your GitHub issues down to the ones that weren't created by members of the project. An example [query][] would be `is:open repo:pdurbin/addressbookmvc -author:pdurbin -author:dhutty`.
+
+**Unread** monitors your WeeChat [hotlist][] and provides a link to the public logs of an IRC channel so you can catch up in a browser when you don't have access to your screen session. There's some very rough code at http://unread.greptilian.com that needs to be cleaned up.
 
 [notes on Feedcritic]: https://docs.google.com/document/d/1oAw9vik_MNMZlSue3W4FY4ba46bfG0XrlWx0aRvsFso/edit?usp=sharing
 [query]: https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+repo%3Apdurbin%2Faddressbookmvc+-author%3Apdurbin+-author%3Adhutty&ref=simplesearch
+[hotlist]: https://weechat.org/files/doc/devel/weechat_user.en.html#screen_layout
