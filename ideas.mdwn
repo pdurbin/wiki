@@ -2,6 +2,8 @@
 
  **Feedcritic** would allow you to rank, review, and categorize podcasts on your own website as well as rate or review individual episodes. I'm playing around with code at http://podcasts.greptilian.com and some [notes on Feedcritic][] where comments are welcome
 
+**Pastries** is a quick and dirty HTML5 game that could be cleaned up and used in an tutorial for how to get kids writing their own games: https://github.com/pdurbin/pastries
+
  **Outsiders** would allow you easily filter your GitHub issues down to the ones that weren't created by members of the project. An example [query][] would be `is:open repo:pdurbin/addressbookmvc -author:pdurbin -author:dhutty`.
 
 [notes on Feedcritic]: https://docs.google.com/document/d/1oAw9vik_MNMZlSue3W4FY4ba46bfG0XrlWx0aRvsFso/edit?usp=sharing
