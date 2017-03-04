@@ -1,0 +1,6 @@
+ **Feedcritic** would allow you to rank, review, and categorize podcasts on your own website as well as rate or review individual episodes. I'm playing around with code at http://podcasts.greptilian.com and some [notes on Feedcritic][] where comments are welcome
+
+ **Outsiders** would allow you easily filter your GitHub issues down to the ones that weren't created by members of the project. An example [query][] would be `is:open repo:pdurbin/addressbookmvc -author:pdurbin -author:dhutty`.
+
+[notes on Feedcritic]: https://docs.google.com/document/d/1oAw9vik_MNMZlSue3W4FY4ba46bfG0XrlWx0aRvsFso/edit?usp=sharing
+[query]: https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+repo%3Apdurbin%2Faddressbookmvc+-author%3Apdurbin+-author%3Adhutty&ref=simplesearch
