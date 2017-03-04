@@ -1,3 +1,5 @@
+**Druthers** allows for crowdsourced issue ordering. https://github.com/pdurbin/druthers contains proof of concept code. To see me mentioning the idea to a user asking about particular issues, see http://irclog.iq.harvard.edu/dataverse/2017-03-01#i_49428
+
  **Feedcritic** would allow you to rank, review, and categorize podcasts on your own website as well as rate or review individual episodes. I'm playing around with code at http://podcasts.greptilian.com and some [notes on Feedcritic][] where comments are welcome
 
  **Outsiders** would allow you easily filter your GitHub issues down to the ones that weren't created by members of the project. An example [query][] would be `is:open repo:pdurbin/addressbookmvc -author:pdurbin -author:dhutty`.
