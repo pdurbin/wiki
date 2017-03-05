@@ -3,25 +3,27 @@ functional-geekery	5	1		Functional Geekery	https://www.functionalgeekery.com/fee
 programming-throwdown	5	1		Programming Throwdown	http://feeds.feedburner.com/ProgrammingThrowdown
 defn	4	1		defn	http://feeds.soundcloud.com/users/soundcloud:users:220484243/sounds.rss
 cognicast	4	1		The Cognicast	http://feeds.feedburner.com/cognicast
-software-engineering-daily	3	0		Software Engineering Daily	http://softwareengineeringdaily.com/feed/podcast/
+software-engineering-daily	4	0		Software Engineering Daily	http://softwareengineeringdaily.com/feed/podcast/
 off-heap	5	1		Off-Heap	http://offheap.libsyn.com/rss
 java-pub-house	5	1		Java Pub House	http://javapubhouse.libsyn.com/rss
 coders-campus	3	1		Coders Campus	http://coderscampus.com/feed/podcast
 changelog	4	0		The Changelog	http://feeds.feedburner.com/changelogshow
 request-for-commits	3	1		Request For Commits	https://changelog.com/rfc/feed
+illegal-argument	4	1		Illegal Argument	http://illegalargument.libsyn.com/rss
+scalawags	4	1		The Scalawags	http://thescalawags.libsyn.com/rss
+gitminutes	4	1		GitMinutes	http://feeds.gitminutes.com/gitminutes-podcast
 software-engineering-radio	4	0		Software Engineering Radio	http://feeds.feedburner.com/se-radio
 go-time	3	0		Go Time	https://changelog.com/gotime/feed
 floss-weekly	3	0		FLOSS Weekly	http://leoville.tv/podcasts/floss.xml
 science-vs	4	1		Science Vs	http://feeds.gimletmedia.com/sciencevs
 silver-screen-queens	4	0		Silver Screen Queens	http://silverscreenqueens.com/rss
 ralph-nader-radio-hour	4	0		Ralph Nader Radio Hour	http://ralphnaderradiohour.libsyn.com/rss
+open-source-musician		0		Open Source Musician Podcast	https://archive.org/services/collection-rss.php?collection=osmpodcast
+data-skeptic		0		Data Skeptic	http://dataskeptic.libsyn.com/rss
 women-in-tech-show	4	0		The Women in Tech Show	https://thewomenintechshow.com/category/podcast/https:/thewomenintechshow.com/category/podcast/feed/
 open-science-radio	4	1		Open Science Radio	http://www.openscienceradio.de/category/english-episodes/feed/mp3/
-scalawags	4	1		The Scalawags	http://thescalawags.libsyn.com/rss
-gitminutes	4	1		GitMinutes	http://feeds.gitminutes.com/gitminutes-podcast
 type-theory	4	1		The Type Theory Podcast	http://typetheorypodcast.com/feed/podcast/
 ploscast	4	0		PLOScast	http://feeds.soundcloud.com/users/soundcloud:users:8974411/sounds.rss
-illegal-argument	4	1		Illegal Argument	http://illegalargument.libsyn.com/rss
 sampler	3	0		Sampler	http://feeds.gimletmedia.com/samplershow
 test-and-code	3	1		Test and Code	http://pythontesting.net/feed/podcast/
 bike-shed	4	0		The Bike Shed	http://podcasts.thoughtbot.com/bikeshed.xml
@@ -38,14 +40,16 @@ magpie-talk-show		0		Magpie Talk Show	http://feeds.soundcloud.com/users/soundclo
 technotopia	2	0		Technotopia	http://technotopia.libsyn.com/rss
 codenewbie	4	0		CodeNewbie	http://feeds.codenewbie.org/cnpodcast.xml
 python-bytes	3	0		Python Bytes	https://pythonbytes.fm/episodes/rss
+reply-all	4	0		Reply All	http://feeds.gimletmedia.com/hearreplyall
+boss-level	3	0		Boss Level	https://simplecast.com/podcasts/1367/rss
 5-minutes-of-javascript		0		5 Minutes of JavaScript	https://fivejs.codeschool.com/feed.rss
 she-geeks-out	4	0		She Geeks Out	http://shegeeksout.libsyn.com/rss
 recompiler	3	0		The Recompiler	https://recompilermag.com/category/podcast/feed/
 new-rustacean		0		New Rustacean	http://www.newrustacean.com/feed.xml
 google-cloud-platform	2	0		Google Cloud Platform Podcast	https://feeds.feedburner.com/GcpPodcast
 developer-tea		0		Developer Tea	http://feeds.feedburner.com/developertea
-talk-python-to-me	2	0		Talk Python To Me	https://talkpython.fm/episodes/rss
 podcast-init	3	0		Podcast.__init__	https://www.podcastinit.com/feed/mp3/
+talk-python-to-me	2	0		Talk Python To Me	https://talkpython.fm/episodes/rss
 beats-rye-types	2	0		Beats, Rye & Types	http://beatsryetypes.com/feed.xml
 fragmented		0		Fragmented	http://fragmentedpodcast.com/feed/
 data-science-at-home		0		Data Science at Home	http://worldofpiggy.com/feed/podcast/
@@ -54,7 +58,6 @@ javascript-jabber		0		JavaScript Jabber	https://feeds.feedwrench.com/JavaScriptJ
 elixir-fountain		0		Elixir Fountain	http://feeds.soundcloud.com/users/soundcloud:users:24638646/sounds.rss
 r-podcast		0		The R-Podcast	https://r-podcast.org/categories/mp3.xml
 r-talk		0		R Talk	http://feeds.feedburner.com/RTalkPodcast
-codingblocks	2	0		{CodingBlocks}.NET	http://www.codingblocks.net/feed/
 ship-show	3	0		The Ship Show	http://theshipshow.com/podcast.xml
 rce	3	0		RCE - Super Computers	http://www.rce-cast.com/itunes
 web-ahead	3	0		The Web Ahead	http://feeds.5by5.tv/webahead
@@ -64,7 +67,6 @@ shoptalk	3	0		ShopTalk	http://shoptalkshow.com/feed/podcast
 nodeup	2	0		NodeUp	http://feeds.feedburner.com/NodeUp
 security-now	2	0		Security Now	http://feeds.twit.tv/sn
 php-town-hall	3	0		PHP Town Hall	https://phptownhall.com/itunes.rss
-solrcluster		0		SolrCluster	http://solrcluster.podbean.com/feed/
 another-round	2	0		Another Round	http://feeds.feedburner.com/AnotherRoundPodcast
 dev-hell	2	0		/dev/hell	http://feeds.feedburner.com/devhell-podcast
 hanselminutes	2	0		Hanselminutes	http://hanselminutes.com/subscribe
@@ -75,7 +77,6 @@ vjug	3	0		vJUG	http://feeds.soundcloud.com/users/soundcloud:users:141924360/soun
 talking-machines		0		Talking Machines	http://www.thetalkingmachines.com/blog/?format=RSS
 data-driven-security		0		Data Driven Security	http://feeds.podtrac.com/PnZeAJHjYHk-
 data-stories		0		Data Stories	http://datastori.es/feed/podcast/
-data-skeptic		0		Data Skeptic	http://dataskeptic.libsyn.com/rss
 partially-derivative		0		Partially Derivative	http://feeds.feedburner.com/PartiallyDerivative
 not-so-standard-deviations		0		Not So Standard Deviations	http://feeds.soundcloud.com/users/soundcloud:users:174789515/sounds.rss
 ux-and-growth	2	0		UX and Growth Podcast	http://feeds.soundcloud.com/users/soundcloud:users:159345243/sounds.rss
@@ -88,7 +89,6 @@ cloud-computing-weekly		0		Cloud Computing Weekly	http://feeds.feedburner.com/Cl
 talk-nerdy	2	0		Talk Nerdy	http://carasantamaria.com/podcast/?format=rss
 incomparable	2	0		The Incomparable	http://feeds.theincomparable.com/theincomparable
 unjustly-maligned	4	0		Unjustly Maligned	http://feeds.theincomparable.com/ump
-reply-all	4	0		Reply All	http://feeds.gimletmedia.com/hearreplyall
 econtalk	5	0		EconTalk	http://files.libertyfund.org/econtalk/EconTalk.xml
 hbr-ideacast		0		HBR IdeaCast	http://feeds.harvardbusiness.org/harvardbusiness/ideacast
 front-end-happy-hour	2	0		Front End Happy Hour	http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss
@@ -118,7 +118,6 @@ pseudocode		0		pseudocode	http://pseudocode.fm/?format=rss
 codepen-radio		0		CodePen Radio	https://blog.codepen.io/feed/podcast/
 kalzumeus		0		Kalzumeus	http://www.kalzumeus.com/categories/#podcasts/feed/
 crater		0		The Crater Podcast	http://podcast.crater.io/feed/
-boss-level	3	0		Boss Level	https://simplecast.com/podcasts/1367/rss
 react		0		React Podcast	http://feeds.feedburner.com/reactjspodcast
 unfinished-business		0		Unfinished Business	http://feeds.feedburner.com/buzzsprout/uJEz
 womens-tech-radio		0		Women’s Tech Radio	http://feeds.feedburner.com/wtrmp3
@@ -139,8 +138,8 @@ antic		0		ANTIC The Atari 8-bit Podcast	http://ataripodcast.libsyn.com/rss
 food-fight-show	2	0		The Food Fight Show	http://foodfight.libsyn.com/rss
 bsdtalk	2	0		bsdtalk	http://feeds.feedburner.com/Bsdtalk
 coding-101		0		Coding 101	http://feeds.twit.tv/code.xml
-bad-voltage		0		Bad Voltage	http://www.badvoltage.org/feed/mp3/
 admin-admin	2	0		Admin Admin Podcast	http://feeds.feedburner.com/TheAdminAdminPodcast
+codingblocks	2	0		{CodingBlocks}.NET	http://www.codingblocks.net/feed/
 mostly-erlang		0		Mostly Erlang	http://feeds.feedburner.com/MostlyErlangPodcast
 ttl		0		TTL Podcast	http://ttlpodcast.com/feeds/rss.xml
 how-to-hold-a-pencil		0		How to Hold a Pencil	https://simplecast.com/podcasts/31/rss
@@ -168,12 +167,13 @@ reactive		0		Reactive	https://simplecast.com/podcasts/1232/rss
 blerg		0		The Blerg	http://theblerg.net/podcast/rss
 media-and-politics		0		Media and Politics Podcast	http://shorensteincenter.libsyn.com/rss
 mashtalk		0		MashTalk	http://www.omnycontent.com/d/playlist/a80f1425-6a94-4d1f-b942-a59b00e48888/39202259-36c7-48f2-bba4-a59b00e4ecc2/45d4cecb-8bea-4736-880c-a59b00e4ecc7/podcast.rss
-open-source-musician		0		Open Source Musician Podcast	https://archive.org/services/collection-rss.php?collection=osmpodcast
 engineers-&-coffee		0		Engineers & Coffee	http://engineers.coffee/rss.xml
 accidental-creative		0		The Accidental Creative	http://feeds.feedburner.com/accidentalcreative/podcast
 under-the-radar		0		Under the Radar	https://www.relay.fm/radar/feed
 restless-device		0		Restless Device	http://www.restlessdevice.com/feed/podcast/
 groovy	2	0		Groovy Podcast	http://groovypodcast.podbean.com/feed/
+solrcluster		0		SolrCluster	http://solrcluster.podbean.com/feed/
+bad-voltage		0		Bad Voltage	http://www.badvoltage.org/feed/mp3/
 how-to-program-with-java	3	0	1	How to Program with Java	http://feeds.feedburner.com/howtoprogramwithjava
 from-python-import-podcast	3	0	1	From Python Import Podcast	http://feeds.feedburner.com/FromPythonImportPodcast
 design-guy	3	0	1	Design Guy	http://feeds.feedburner.com/blogspot/designguyshow
