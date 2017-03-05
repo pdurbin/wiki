@@ -103,7 +103,6 @@ serial		0		Serial	http://feeds.serialpodcast.org/serialpodcast
 build-phase		0		Build Phase	http://podcasts.thoughtbot.com/buildphase.xml
 debug		0		Debug	http://feeds.feedburner.com/debugshow
 core-intuition		0		Core Intuition	http://www.coreint.org/podcast.xml
-developing-perspective		0		Developing Perspective	http://developingperspective.com/feed/podcast/
 nsbrief		0		NSBrief	http://nsbrief.com/feeds/rss.xml
 vector		0		Vector	http://feeds.feedburner.com/vectorshow
 iterate		0		Iterate	http://feeds.feedburner.com/Iterate
@@ -112,7 +111,6 @@ revision-path		0		Revision Path	https://simplecast.com/podcasts/102/rss
 digital-drift	2	0		Digital Drift	http://digitaldrift.me/feeds.xml
 new-stack-at-scale		0		The New Stack @ Scale	http://feeds.soundcloud.com/users/soundcloud:users:172286536/sounds.rss
 new-stack-analysts		0		The New Stack Analysts	http://feeds.soundcloud.com/users/soundcloud:users:94518611/sounds.rss
-ieee-spectrum		0		IEEE Spectrum Podcast	http://feeds.feedburner.com/ieee/spectrumo
 2-devs-from-down-under		0		2 Devs from Down Under	http://2ddu.com/feed/
 pseudocode		0		pseudocode	http://pseudocode.fm/?format=rss
 codepen-radio		0		CodePen Radio	https://blog.codepen.io/feed/podcast/
@@ -137,7 +135,6 @@ hello-world		0		The Hello World Podcast	http://hwpod.libsyn.com/rss
 antic		0		ANTIC The Atari 8-bit Podcast	http://ataripodcast.libsyn.com/rss
 food-fight-show	2	0		The Food Fight Show	http://foodfight.libsyn.com/rss
 bsdtalk	2	0		bsdtalk	http://feeds.feedburner.com/Bsdtalk
-coding-101		0		Coding 101	http://feeds.twit.tv/code.xml
 admin-admin	2	0		Admin Admin Podcast	http://feeds.feedburner.com/TheAdminAdminPodcast
 codingblocks	2	0		{CodingBlocks}.NET	http://www.codingblocks.net/feed/
 mostly-erlang		0		Mostly Erlang	http://feeds.feedburner.com/MostlyErlangPodcast
