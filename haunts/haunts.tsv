@@ -2,8 +2,7 @@ channel	network	homepage	logs
 #dataverse	freenode	http://dataverse.org	http://irclog.iq.harvard.edu/dataverse/today
 #sourcefu	freenode	http://sourcefu.com	http://irclog.greptilian.com/sourcefu/today
 #opensourcedesign	freenode	http://opensourcedesign.net	http://botbot.me/freenode/opensourcedesign
-#sciencelab	mozilla	http://mozillascience.org	http://logs.glob.uno/?c=sciencelab
-#mozillascience/community	mozilla	https://science.mozilla.org	https://gitter.im/mozillascience/community
+#mozillascience/community	gitter	https://science.mozilla.org	https://gitter.im/mozillascience/community
 #rest	freenode	http://trygvis.io/rest-wiki	http://irclog.greptilian.com/rest/today
 #openhatch	freenode	http://openhatch.org	http://irclogs.jackgrigg.com/irc.freenode.net/openhatch/today
 ##friendlyjava	freenode	http://irclog.greptilian.com/friendlyjava	http://irclog.greptilian.com/friendlyjava/today
@@ -51,6 +50,7 @@ channel	network	homepage	logs
 #joeyklee/bec-explorer	gitter	http://www.bc-climate-explorer.org	https://gitter.im/joeyklee/bec-explorer
 #debian	oftc	http://debian.org	http://irclogs.thegrebs.com/debian
 #outreachy	mozilla	https://wiki.mozilla.org/Outreachy	http://logs.glob.uno/?c=outreachy
+#sciencelab	mozilla	http://mozillascience.org	http://logs.glob.uno/?c=sciencelab
 ##java	freenode	http://javachannel.org	http://javabot.evanchooly.com/logs/%23%23java/today
 #indiewebcamp	freenode	http://indiewebcamp.com	http://indiewebcamp.com/irc/today
 #lift	freenode	http://liftweb.net	http://irclogger.com/.lift
