@@ -109,7 +109,6 @@ vector		0		Vector	http://feeds.feedburner.com/vectorshow
 iterate		0		Iterate	http://feeds.feedburner.com/Iterate
 motherboard		0		Motherboard	http://rss.acast.com/motherboard
 revision-path		0		Revision Path	https://simplecast.com/podcasts/102/rss
-less-than-or-equal	2	0	1	Less Than or Equal	https://www.lessthanorequal.com/episodes/?format=rss
 digital-drift	2	0		Digital Drift	http://digitaldrift.me/feeds.xml
 new-stack-at-scale		0		The New Stack @ Scale	http://feeds.soundcloud.com/users/soundcloud:users:172286536/sounds.rss
 new-stack-analysts		0		The New Stack Analysts	http://feeds.soundcloud.com/users/soundcloud:users:94518611/sounds.rss
@@ -145,12 +144,10 @@ admin-admin	2	0		Admin Admin Podcast	http://feeds.feedburner.com/TheAdminAdminPo
 mostly-erlang		0		Mostly Erlang	http://feeds.feedburner.com/MostlyErlangPodcast
 ttl		0		TTL Podcast	http://ttlpodcast.com/feeds/rss.xml
 how-to-hold-a-pencil		0		How to Hold a Pencil	https://simplecast.com/podcasts/31/rss
-how-to-program-with-java	3	0	1	How to Program with Java	http://feeds.feedburner.com/howtoprogramwithjava
 rebuild		0		Rebuild	http://feeds.rebuild.fm/rebuildfm
 cdnify		0		CDNify	http://feeds.feedburner.com/cdnify
 mostly-lazy		0		Mostly Lazy	http://feeds.feedburner.com/MostlyLazy
 molecular-coding		0		Molecular Coding	http://dalkescientific.com/podcast/Molecular_Coding/Podcast/rss.xml
-from-python-import-podcast	3	0	1	From Python Import Podcast	http://feeds.feedburner.com/FromPythonImportPodcast
 ladies-in-tech		0		Ladies in Tech Podcast	http://ladiesintech.com/feed/podcast/
 tectonic		0		The Tectonic Podcast	http://tectonicpodcast.com/feed/
 astronomy-141		0		Astronomy 141- Life in the Universe	http://www.astronomy.ohio-state.edu/~pogge/Ast141/Audio/Ast141Au09.xml
@@ -161,7 +158,6 @@ identity-politics		0		Identity Politics	http://feeds.soundcloud.com/users/soundc
 product-hunt		0		Product Hunt	http://feeds.soundcloud.com/users/soundcloud:users:88985927/sounds.rss
 lostcast		0		Lostcast	http://www.lostdecadegames.com/lostcast.xml
 graphistania-neo4j		0		Graphistania (Neo4j)	http://feeds.soundcloud.com/users/soundcloud:users:141739624/sounds.rss
-design-guy	3	0	1	Design Guy	http://feeds.feedburner.com/blogspot/designguyshow
 this-week-in-ml-ai		0		This Week in Machine Learning & AI	https://twimlai.com/feed
 learning-machines-101	2	0		Learning Machines 101	http://learningmachines101.libsyn.com/rss
 composer-quest		0		Composer Quest	http://charliemccarron.com/composerquest.xml
@@ -178,3 +174,7 @@ accidental-creative		0		The Accidental Creative	http://feeds.feedburner.com/acci
 under-the-radar		0		Under the Radar	https://www.relay.fm/radar/feed
 restless-device		0		Restless Device	http://www.restlessdevice.com/feed/podcast/
 groovy	2	0		Groovy Podcast	http://groovypodcast.podbean.com/feed/
+how-to-program-with-java	3	0	1	How to Program with Java	http://feeds.feedburner.com/howtoprogramwithjava
+from-python-import-podcast	3	0	1	From Python Import Podcast	http://feeds.feedburner.com/FromPythonImportPodcast
+design-guy	3	0	1	Design Guy	http://feeds.feedburner.com/blogspot/designguyshow
+less-than-or-equal	2	0	1	Less Than or Equal	https://www.lessthanorequal.com/episodes/?format=rss
