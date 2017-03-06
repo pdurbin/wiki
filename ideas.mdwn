@@ -4,7 +4,7 @@
 
 **Pastries** is a quick and dirty HTML5 game that could be cleaned up and used in a tutorial for kids writing their own games: https://github.com/pdurbin/pastries
 
-**Connectors** would allow you to describe the relationships between people you know and where they hang out online. There is a proof of concept based on IRC channels at http://irc.greptilian.com
+**Connectors** allows you to describe the relationships between people you know and where they hang out online. There is a some proof of concept code at https://github.com/pdurbin/connectors and an example based on IRC channels at http://irc.greptilian.com
 
 **Outsiders** would allow you easily filter your GitHub issues down to the ones that weren't created by members of the project. An example [query][] would be `is:open repo:pdurbin/addressbookmvc -author:pdurbin -author:dhutty`.
 
