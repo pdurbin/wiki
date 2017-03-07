@@ -25,7 +25,7 @@ open-science-radio	4	1		Open Science Radio	http://www.openscienceradio.de/catego
 type-theory	4	1		The Type Theory Podcast	http://typetheorypodcast.com/feed/podcast/
 ploscast	4	0		PLOScast	http://feeds.soundcloud.com/users/soundcloud:users:8974411/sounds.rss
 sampler	3	0		Sampler	http://feeds.gimletmedia.com/samplershow
-test-and-code	3	1		Test and Code	http://pythontesting.net/feed/podcast/
+test-and-code	3	1		Test and Code	http://testandcode.com/rss
 bike-shed	4	0		The Bike Shed	http://podcasts.thoughtbot.com/bikeshed.xml
 ruby-rogues	3	0		Ruby Rogues	https://feeds.feedwrench.com/RubyRogues.rss
 becoming-a-data-scientist	3	1		Becoming A Data Scientist	http://www.becomingadatascientist.com/feed/podcast
@@ -52,7 +52,7 @@ podcast-init	3	0		Podcast.__init__	https://www.podcastinit.com/feed/mp3/
 talk-python-to-me	2	0		Talk Python To Me	https://talkpython.fm/episodes/rss
 beats-rye-types	2	0		Beats, Rye & Types	http://beatsryetypes.com/feed.xml
 fragmented		0		Fragmented	http://fragmentedpodcast.com/feed/
-data-science-at-home		0		Data Science at Home	http://worldofpiggy.com/feed/podcast/
+data-science-at-home		0		Data Science at Home	http://worldofpiggy.com/podcast.xml
 android-developers-backstage	3	0		Android Developers Backstage	http://feeds.feedburner.com/blogspot/AndroidDevelopersBackstage
 javascript-jabber		0		JavaScript Jabber	https://feeds.feedwrench.com/JavaScriptJabber.rss
 elixir-fountain		0		Elixir Fountain	http://feeds.soundcloud.com/users/soundcloud:users:24638646/sounds.rss
