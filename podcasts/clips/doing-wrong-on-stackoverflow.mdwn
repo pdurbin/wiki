@@ -8,7 +8,7 @@ At around 23:20 in https://stackoverflow.blog/2015/03/25/podcast-63-the-plumbers
 
 The thing we're doing wrong is those people who are frustrated, getting mad should be insulated from that. They don't want to see it. They want to see beautiful questions and answer them all day, and we should help them do that but we should help and allow those other two people..."
 
-At this point the speaker is cut off by another host.
+At this point the speaker is cut off by another host. Later, around 28:00 or so, they bring up the post "My Love-Hate Relationship with Stack Overflow" at https://www.embeddedrelated.com/showarticle/741.php to talk about questions being closed perhaps unfairly. You can safely fast forward to 32:00. They wonder, "Why can't we be nice to new people?" and "Why is a great answer on a closed question?" See also https://www.borngeek.com/2012/01/04/stack-overflow-hates-new-users/
 
 I first took some notes on this episode at http://irclog.greptilian.com/sourcefu/2015-04-16 which led to some interesting discussion and the "How almost every Stack Overflow question looks to me" image at http://i.imgur.com/dOLkgVR.png or https://twitter.com/idiot/status/580452127769800705
 
