@@ -1,0 +1,14 @@
+At around 23:20 in https://stackoverflow.blog/2015/03/25/podcast-63-the-plumbers-up-to-67-coins/ the hosts get at the heart of one of the problems with Stack Overflow. They're talking about the new review queues that users can see at https://stackoverflow.com/review .
+
+"One of the key things is separating people a little bit..."
+
+"The people that don't want to deal with questions like these, shouldn't have to..."
+
+"The thing that makes me the saddest on our sites is when someone comes in and asks a question that is not great but is, you know, trying, and it's on topic but it's weak, and it's poorly written and then someone else answers it, like gives some feedback or something and then a third party's like 'Stop doing that, that encourages the exact problem!'
+
+The thing we're doing wrong is those people who are frustrated, getting mad should be insulated from that. They don't want to see it. They want to see beautiful questions and answer them all day, and we should help them do that but we should help and allow those other two people..."
+
+At this point the speaker is cut off by another host.
+
+I first took some notes on this episode at http://irclog.greptilian.com/sourcefu/2015-04-16 which led to some interesting discussion and the "How almost every Stack Overflow question looks to me" image at http://i.imgur.com/dOLkgVR.png or https://twitter.com/idiot/status/580452127769800705
+
