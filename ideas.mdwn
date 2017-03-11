@@ -1,6 +1,6 @@
 **Druthers** allows for crowdsourced issue ordering. https://github.com/pdurbin/druthers contains proof of concept code. To see me mentioning the idea to a user asking about particular issues, see http://irclog.iq.harvard.edu/dataverse/2017-03-01#i_49428
 
-**Feedcritic** would allow you to rank, review, and categorize podcasts on your own website as well as rate or review individual episodes. I'm playing around with code at http://podcasts.greptilian.com and some [notes on Feedcritic][] where comments are welcome.
+**Feedcritic** would allow you to rank, review, and categorize podcasts on your own website as well as (someday) rate or review individual episodes. I'm playing around with code at https://github.com/pdurbin/feedcritic parts of which have been deployed to a proof of concept site at http://podcasts.greptilian.com . I'm keeping some [notes on Feedcritic][] where comments are welcome.
 
 **Pastries** is a quick and dirty HTML5 game that could be cleaned up and used in a tutorial for kids writing their own games: https://github.com/pdurbin/pastries
 
