@@ -1,8 +1,10 @@
 slug	ranking	every	dead	name	feed_url
 functional-geekery	5	1		Functional Geekery	https://www.functionalgeekery.com/feed/mp3/
 programming-throwdown	5	1		Programming Throwdown	http://feeds.feedburner.com/ProgrammingThrowdown
+case	5	1		CaSE	http://www.case-podcast.org/feed/mp3
 defn	4	1		defn	http://feeds.soundcloud.com/users/soundcloud:users:220484243/sounds.rss
 cognicast	4	1		The Cognicast	http://feeds.feedburner.com/cognicast
+stack-overflow	4	1		Stack Overflow	https://stackoverflow.blog/podcasts/?feed=podcast
 software-engineering-daily	4	0		Software Engineering Daily	http://softwareengineeringdaily.com/feed/podcast/
 off-heap	5	1		Off-Heap	http://offheap.libsyn.com/rss
 java-pub-house	5	1		Java Pub House	http://javapubhouse.libsyn.com/rss
@@ -10,6 +12,8 @@ coders-campus	3	1		Coders Campus	http://coderscampus.com/feed/podcast
 changelog	4	0		The Changelog	http://feeds.feedburner.com/changelogshow
 request-for-commits	3	1		Request For Commits	https://changelog.com/rfc/feed
 illegal-argument	4	1		Illegal Argument	http://illegalargument.libsyn.com/rss
+modern-web		0		Modern Web	http://modernweb.podbean.com/feed/
+jboss-asylum		0		JBoss Asylum	http://jbosscommunityasylum.libsyn.com/rss
 scalawags	4	1		The Scalawags	http://thescalawags.libsyn.com/rss
 gitminutes	4	1		GitMinutes	http://feeds.gitminutes.com/gitminutes-podcast
 software-engineering-radio	4	0		Software Engineering Radio	http://feeds.feedburner.com/se-radio
@@ -96,7 +100,7 @@ wtf	2	0		WTF with Marc Maron Podcast	http://wtfpod.libsyn.com/rss
 radiolab		0		Radiolab	http://www.radiolab.org/feeds/podcast/
 film-sack		0		Film Sack	http://feeds.frogpants.com/filmsack_feed.xml
 freakonomics-radio	2	0		Freakonomics Radio	http://feeds.feedburner.com/freakonomicsradio
-science-friday	2	0		Science Friday	http://www.sciencefriday.com/feed/podcast/podcast-episode
+science-friday	2	0		Science Friday	https://www.sciencefriday.com/feed/podcast/podcast-episode
 open-source	2	0		Open Source with Christopher Lydon	http://radioopensource.org/feed/
 serial		0		Serial	http://feeds.serialpodcast.org/serialpodcast
 99-percent-invisible	2	0		99% Invisible	http://feeds.99percentinvisible.org/99percentinvisible
