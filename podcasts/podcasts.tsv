@@ -45,7 +45,7 @@ technotopia	2	0		Technotopia	http://technotopia.libsyn.com/rss
 codenewbie	4	0		CodeNewbie	http://feeds.codenewbie.org/cnpodcast.xml
 python-bytes	3	0		Python Bytes	https://pythonbytes.fm/episodes/rss
 reply-all	4	0		Reply All	http://feeds.gimletmedia.com/hearreplyall
-boss-level	3	0		Boss Level	https://simplecast.com/podcasts/1367/rss
+boss-level	3	0		Boss Level	https://rss.simplecast.com/podcasts/1367/rss
 5-minutes-of-javascript		0		5 Minutes of JavaScript	https://fivejs.codeschool.com/feed.rss
 she-geeks-out	4	0		She Geeks Out	http://shegeeksout.libsyn.com/rss
 recompiler	3	0		The Recompiler	https://recompilermag.com/category/podcast/feed/
@@ -100,7 +100,7 @@ wtf	2	0		WTF with Marc Maron Podcast	http://wtfpod.libsyn.com/rss
 radiolab		0		Radiolab	http://www.radiolab.org/feeds/podcast/
 film-sack		0		Film Sack	http://feeds.frogpants.com/filmsack_feed.xml
 freakonomics-radio	2	0		Freakonomics Radio	http://feeds.feedburner.com/freakonomicsradio
-science-friday	2	0		Science Friday	https://www.sciencefriday.com/feed/podcast/podcast-episode
+science-friday	2	0		Science Friday	http://www.sciencefriday.com/feed/podcast/podcast-episode
 open-source	2	0		Open Source with Christopher Lydon	http://radioopensource.org/feed/
 serial		0		Serial	http://feeds.serialpodcast.org/serialpodcast
 99-percent-invisible	2	0		99% Invisible	http://feeds.99percentinvisible.org/99percentinvisible
@@ -111,7 +111,7 @@ nsbrief		0		NSBrief	http://nsbrief.com/feeds/rss.xml
 vector		0		Vector	http://feeds.feedburner.com/vectorshow
 iterate		0		Iterate	http://feeds.feedburner.com/Iterate
 motherboard		0		Motherboard	http://rss.acast.com/motherboard
-revision-path		0		Revision Path	https://simplecast.com/podcasts/102/rss
+revision-path		0		Revision Path	https://rss.simplecast.com/podcasts/102/rss
 digital-drift	2	0		Digital Drift	http://digitaldrift.me/feeds.xml
 new-stack-at-scale		0		The New Stack @ Scale	http://feeds.soundcloud.com/users/soundcloud:users:172286536/sounds.rss
 new-stack-analysts		0		The New Stack Analysts	http://feeds.soundcloud.com/users/soundcloud:users:94518611/sounds.rss
@@ -125,7 +125,7 @@ womens-tech-radio		0		Women’s Tech Radio	http://feeds.feedburner.com/wtrmp3
 geek-joy		0		The Geek Joy Podcast	http://geekjoypodcast.libsyn.com/rss
 arrested-devops		0		Arrested DevOps	http://feeds.podtrac.com/VGAulpN7MY1U
 ops-all-the-things		0		Ops All The Things!	http://opsallthethings.s3-website-us-east-1.amazonaws.com/podcast.xml
-frontside		0		Frontside the Podcast	https://simplecast.com/podcasts/96/rss
+frontside		0		Frontside the Podcast	https://rss.simplecast.com/podcasts/96/rss
 pagebreak		0		PageBreak Podcast	http://feeds.feedburner.com/pagebreakpodcast
 lady-loves-code		0		Lady Loves Code	http://www.ladylovescode.com/category/podcast/feed/
 its-a-thing		0		It's a Thing	http://feeds.feedburner.com/itsathing/cCoG
@@ -142,7 +142,7 @@ admin-admin	2	0		Admin Admin Podcast	http://feeds.feedburner.com/TheAdminAdminPo
 codingblocks	2	0		{CodingBlocks}.NET	http://www.codingblocks.net/feed/
 mostly-erlang		0		Mostly Erlang	http://feeds.feedburner.com/MostlyErlangPodcast
 ttl		0		TTL Podcast	http://ttlpodcast.com/feeds/rss.xml
-how-to-hold-a-pencil		0		How to Hold a Pencil	https://simplecast.com/podcasts/31/rss
+how-to-hold-a-pencil		0		How to Hold a Pencil	https://rss.simplecast.com/podcasts/31/rss
 rebuild		0		Rebuild	http://feeds.rebuild.fm/rebuildfm
 cdnify		0		CDNify	http://feeds.feedburner.com/cdnify
 mostly-lazy		0		Mostly Lazy	http://feeds.feedburner.com/MostlyLazy
@@ -163,7 +163,7 @@ composer-quest		0		Composer Quest	http://charliemccarron.com/composerquest.xml
 art-of-composing		0		The Art of Composing Podcast	https://www.artofcomposing.com/feed/podcast
 damn-interesting		0		Damn Interesting	http://feeds.feedburner.com/damn-interesting-podcast
 note-to-self		0		Note to Self	http://feeds.wnyc.org/notetoself-podcast
-reactive		0		Reactive	https://simplecast.com/podcasts/1232/rss
+reactive		0		Reactive	https://rss.simplecast.com/podcasts/1232/rss
 blerg		0		The Blerg	http://theblerg.net/podcast/rss
 media-and-politics		0		Media and Politics Podcast	http://shorensteincenter.libsyn.com/rss
 mashtalk		0		MashTalk	http://www.omnycontent.com/d/playlist/a80f1425-6a94-4d1f-b942-a59b00e48888/39202259-36c7-48f2-bba4-a59b00e4ecc2/45d4cecb-8bea-4736-880c-a59b00e4ecc7/podcast.rss
