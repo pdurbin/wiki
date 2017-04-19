@@ -45,7 +45,6 @@ Once your submodules are all set...
 
 http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/
 
-
 #### Remove a git submodule
 
 > To remove a submodule you need to:
