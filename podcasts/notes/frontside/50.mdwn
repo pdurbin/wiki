@@ -1,3 +1,9 @@
-https://frontsidethepodcast.simplecast.fm/50
+> STEPHANIE: I want to become an expert in JavaScript. But sometimes I have doubts in my ability to "become a programmer" or think like a programmer. I feel like the people that excel in programming, and you could tell me if I'm wrong, I don’t know if you’ve noticed this as well or haven’t. But it seems like the people that excel at programming are the people that are naturally good at math. It’s like they think in terms of math. I don’t know if they're seeing algorithms in their brain or what it is. And I don’t know if other people relate to this as well.
+> 
+> But I'm a natural problem solver. I like problem solving but I don’t think in terms of math. And I've taken a lot of math courses for my undergrad degree. I took Calculus for Biosciences like two and a half times, and so I beat my brain enough to understand those concepts. But I don’t know if you have also seen that, if that is the case. And if it is the case, is there any advice for the hopeless programmers like myself that are not naturally good at math. But I am interested and I do want to be good at this.
+> 
+> https://frontsidethepodcast.simplecast.fm/50
 
-The discussion about math reminds me of https://twitter.com/fossygrl/status/854461162108235777
+The discussion above reminds me of https://www.fossygirl.com/blog/2016/5/24/the-set-of-programmers-how-math-restricts-us by Carol Smith, which she subsequently turned into a talk I attended at LibrePlanet 2017 called "The set of programmers: How math restricts us." The video is available at https://media.libreplanet.org/u/libreplanet/m/the-set-of-programmers-how-math-restricts-us/
+
+Julie Sussman came to the talk and recommended SICP as well as https://mitpress.mit.edu/books/algorithms-unlocked
