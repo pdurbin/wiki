@@ -1,0 +1,1 @@
+At JavaOne 2014, Michael Bar-Sinai and I gave a talk called "Lean Beans (are made of this): Command pattern vs. MVC" and you can find the slides at http://iqss.github.io/javaone2014-bof5619 .
