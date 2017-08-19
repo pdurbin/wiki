@@ -1,0 +1,11 @@
+From Chapter 5 (Debugging: http://cm.bell-labs.com/cm/cs/tpop/debugging.html ) of The Practice of Programming by Brian W. Kernighan and Rob Pike
+
+> **Explain your code to someone else.**
+> 
+> Another effective technique is to explain your code to someone else. This will often cause you to explain the bug to yourself. Sometimes it takes no more than a few sentences, followed by an embarrassed "Never mind, I see what's wrong. Sorry to bother you." This works remarkably well; you can even use non-programmers as listeners. One university computer center kept a teddy bear near the help desk. Students with mysterious bugs were required to explain them to the bear before they could speak to a human counselor.
+
+See also:
+
+* http://stackoverflow.com/questions/1106683/what-is-this-particular-type-of-revelation-called
+* http://blog.yapb.net/post/2011/05/16/The-Programmer-Soliloquy.aspx
+* https://en.wikipedia.org/wiki/Rubber_duck_debugging
