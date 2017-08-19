@@ -1,0 +1,13 @@
+codecraft is a mailing list started by Michael Bar-Sinai and Philip Durbin in July 2015 about the craft of coding, programming languages, really. Not just "here's a cool trick in JS". 
+
+http://or8.net/mailman/listinfo/codecraft
+
+The mailing list archives are public as is the list of subscribers. Subscription requires approval. 
+
+Hit us up on Twitter with any questions! 
+
+-- @michbarsinai and @philipdurbin
+
+## List administration
+
+codecraft is hosted on Mailman and `generic_nonmember_action` was changed from "Hold" (the default) to "Discard" because spammers kept emailing the list which resulted in messages like "3 codecraft moderator request(s) waiting" being sent every day to the list administrators.
