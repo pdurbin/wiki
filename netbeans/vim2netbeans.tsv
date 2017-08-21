@@ -8,6 +8,7 @@ Cmd-Right	$	move cursor to end of line
 Cmd-upArrow	gg	move cursor to beginning of file
 Cmd-downArrow	G	move cursor to end of file
 Cmd-Shift-b	?	go to source
+Ctrl-leftArrow	?	back to line before "go to source"
 Cmd-Alt-b	?	go to implementation
 Ctrl-i	?	insert code
 Alt-Enter	?	show hints

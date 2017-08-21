@@ -11,3 +11,5 @@ http://plugins.netbeans.org/plugin/16018/sqlite-jdbc-driver works fine with http
 "Next error" seems buggy per https://twitter.com/philipdurbin/status/345540405615525888 ... the most reliable way to navigate to the next error using only a keyboard is to compile your project, hit Cmd-4 to bring up the Output window, arrow up and down over the blue links, and hit Enter to navigate directly to the line with the error. You can also use Ctrl-e ("Next Error in Editor") to jump to the next line with an error *but* this also jumps to lines with warnings and there is no way to go back.
 
 Bug 233199 – Firefox with Netbeans integration - https://netbeans.org/bugzilla/show_bug.cgi?id=233199
+
+On Mac, Mission Control interferes with using Ctrl-leftArrow to go "back". Mission Control wants to use this keyboard shortcut for "Move left a space".
