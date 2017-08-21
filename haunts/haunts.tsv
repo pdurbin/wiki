@@ -11,6 +11,7 @@ channel	network	homepage	logs
 #virtualJUG	freenode	http://virtualjug.com	http://irclog.greptilian.com/virtualJUG/today
 #openknot	freenode	http://github.com/openknot	http://irclog.greptilian.com/openknot/today
 #glassfish	freenode	http://glassfish.java.net	http://javabot.evanchooly.com/logs/%23glassfish/today
+#openorgambassadors	freenode	https://opensource.com/open-organization	https://botbot.me/freenode/openorgambassadors
 ##shibboleth	freenode	http://shibboleth.net	http://irclog.perlgeek.de/shibboleth/today
 #io	freenode	http://iolanguage.org	http://irclogs.shortcircuit.net.au/%23io/latest.log.html
 #lucene-dev	freenode	http://lucene.apache.org	http://colabti.org/irclogger/irclogger_log/lucene-dev
