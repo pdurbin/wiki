@@ -8,4 +8,6 @@ This prompted me to comment on an [AntennaPod issue about sharing podcasts](http
 
 My process is fairly tedious and manual, involving making sure I note the timestamp accurately enough while listening (often on the go) so that when I'm at a computer I can extract the clip.
 
+"This is Team Gretta's first crack at what we hope is a really good podcast sharing experience, for you." --About at https://www.gretta.com on 2017-09-04.
+
 [[!map pages=podcasts/clips/*]]
