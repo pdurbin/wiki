@@ -1,6 +1,6 @@
 My talk for JavaOne 2017 has been accepted and is titled "How to Run a Successful Open Source Java EE Project". I will be co-presenting with my colleague Stephen Kraffmiller.
 
-I will be giving a practice talk to Harvard's ABCD group on [Friday][], September 8th, 2017 at noon in William James Hall B1. All are welcome but if you aren't familiar with ABCD, please let me know if you plan to come.
+I will be giving a practice talk to Harvard's ABCD group on [Friday][], September 8th, 2017 at noon in [William James Hall B1][]. All are welcome but if you aren't familiar with ABCD, please let me know if you plan to come.
 
 [Friday]: http://www.abcd.harvard.edu/MeetingAnn.html
 [William James Hall B1]: http://imsroombook.fas.harvard.edu/room.php?rm=rm0113
