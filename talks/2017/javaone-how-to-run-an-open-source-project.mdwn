@@ -1,5 +1,10 @@
 My talk for JavaOne 2017 has been accepted and is titled "How to Run a Successful Open Source Java EE Project". I will be co-presenting with my colleague Stephen Kraffmiller.
 
+I will be giving a practice talk to Harvard's ABCD group on [Friday][], September 8th, 2017 at noon in William James Hall B1. All are welcome but if you aren't familiar with ABCD, please let me know if you plan to come.
+
+[Friday]: http://www.abcd.harvard.edu/MeetingAnn.html
+[William James Hall B1]: http://imsroombook.fas.harvard.edu/room.php?rm=rm0113
+
 You can read the abstract of the talk below or in the [session catalog][]:
 
 > Running an open source Java EE project can bring unique challenges for project managers and developers. Dataverse, an open source research data repository platform developed in an academic environment, has attracted interest from a growing number of developers who need to be brought up to speed with technologies such as JSF and CDI. Sysadmins in higher education have little to no experience with GlassFish. The Dataverse team at Harvard has more than 10 years of experience promoting and supporting the use of Java EE. This session covers community building, sysadmin support, automating installations, writing effective documentation, streamlining open source contributions, juggling communication channels, balancing priorities, and more.
