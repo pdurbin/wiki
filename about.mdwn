@@ -1,3 +1,3 @@
 * This domain: [[greptilian.com]]
-* The author, Philip Durbin: http://greptilian.com
+* The author, Philip Durbin: [[pdurbin]]
 * The software powering this wiki: [[ikiwiki]]
