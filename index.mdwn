@@ -1,16 +1,7 @@
 [[!meta title="wiki.greptilian.com"]]
 
-The [[sitemap]] shows everything but some highlights:
+This wiki belongs to [[Philip Durbin|about/pdurbin]] but you are welcome help [improve][] it.
 
-- [[Java]], [[Perl]], [[Python]]
-- [[Vim]], [[NetBeans]]
-- [[Vagrant]]
+The [[sitemap]] lists the contents. Happy hacking!
 
-http://greptilian.com has more about me. I have a few [[haunts]].
-
-You might also be interested in some of these:
-
-* http://podcasts.greptilian.com
-* http://git.greptilian.com
-* http://munin.greptilian.com
-* http://data.greptilian.com
+[improve]: https://github.com/pdurbin/wiki
