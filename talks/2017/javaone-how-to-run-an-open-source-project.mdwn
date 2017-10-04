@@ -2,6 +2,8 @@ Stephen Kraffmiller and I gave a talk called "How to Run a Successful Open Sourc
 
 https://www.slideshare.net/philipdurbin/how-to-run-a-successful-open-source-java-ee-project
 
+In the talk I mentioned a related case study and I'm writing about transparency and I'd love to get feedback on my draft, which you can find linked from https://github.com/open-organization-ambassadors/open-org-workbook/issues/6#issuecomment-331646784
+
 Eventually I'll also link to a long list of resources I've been gathering, especially from my [tweet][] asking about prior art.
 
 Running an open source project is such a broad topic that I've had to leave lots of ideas on the cutting room floor. If you're interested in this topic, please get in touch!
