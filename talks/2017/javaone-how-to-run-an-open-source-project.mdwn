@@ -1,15 +1,9 @@
-I will be giving a talk called "How to Run a Successful Open Source Java EE Project" at JavaOne in San Francisco on Tuesday, October 2017 at 7:45 p.m. in Moscone West, Room 2022. I will be co-presenting with my colleague Stephen Kraffmiller.
+Stephen Kraffmiller gave a talk called "How to Run a Successful Open Source Java EE Project" at JavaOne 2017 in San Francisco. Here are the slides:
 
-You can read the abstract of the talk below or in the [session catalog][]:
+https://www.slideshare.net/philipdurbin/how-to-run-a-successful-open-source-java-ee-project
 
-> Running an open source Java EE project can bring unique challenges for project managers and developers. Dataverse, an open source research data repository platform developed in an academic environment, has attracted interest from a growing number of developers who need to be brought up to speed with technologies such as JSF and CDI. Sysadmins in higher education have little to no experience with GlassFish. The Dataverse team at Harvard has more than 10 years of experience promoting and supporting the use of Java EE. This session covers community building, sysadmin support, automating installations, writing effective documentation, streamlining open source contributions, juggling communication channels, balancing priorities, and more.
+Eventually I'll also link to a long list of resources I've been gathering, especially from my [tweet][] asking about prior art.
 
-On Friday, September 8th, 2017 I gave a practice talk to Harvard's [ABCD][] group to an audience of thirty or so people. It was well received and I got lots of good feedback.
+Running an open source project is such a broad topic that I've had to leave lots of ideas on the cutting room floor. If you're interested in this topic, please get in touch!
 
-Running an open source project is such a broad topic that I've had to leave lots of ideas on the cutting room floor. That said, please get in touch if you have opinions on running an open source project!
-
-After I've given the talk at JavaOne, I'll link to my slides here. Somehow I'll also link to a long list of resources I've been gathering, especially from my [tweet][] asking about prior art.
-
-[session catalog]: https://events.rainfocus.com/catalog/oracle/oow17/catalogjavaone17?search=BOF2805
-[ABCD]: http://www.abcd.harvard.edu
 [tweet]: https://twitter.com/philipdurbin/status/901923825570508800
