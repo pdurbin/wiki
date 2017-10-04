@@ -1,4 +1,4 @@
-Stephen Kraffmiller gave a talk called "How to Run a Successful Open Source Java EE Project" at JavaOne 2017 in San Francisco. Here are the slides:
+Stephen Kraffmiller and I gave a talk called "How to Run a Successful Open Source Java EE Project" at JavaOne 2017 in San Francisco. Here are the slides:
 
 https://www.slideshare.net/philipdurbin/how-to-run-a-successful-open-source-java-ee-project
 
