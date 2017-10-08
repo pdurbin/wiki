@@ -1,0 +1,2 @@
+#!/bin/sh
+cat contrib.json | jq -r '.repos[]'
