@@ -1,0 +1,18 @@
+Scratch is awesome but the current version requires Flash to play. Here are my family's profiles:
+
+- https://scratch.mit.edu/users/pdurbin/
+- https://scratch.mit.edu/users/origamikitty/
+- https://scratch.mit.edu/users/pusheenicorn/
+
+Some day [Scratch 3][] will be out and it will support HTML5 instead of Flash.
+
+There's also [ScratchJr][], which is a tablet app for children as young as five.
+
+[[Hopscotch]] is very similar to Scratch but it's iPad only and you can't publish your work to the web.
+
+Scratch is open source. Version 2 can be found at https://github.com/LLK/scratch-flash but I'm holding off until Scratch 3 which seems to be at mostly at https://github.com/llk/scratch-blocks according to https://scratch.mit.edu/developers . The ScratchJr source code can be found at https://github.com/LLK/scratchjr
+
+If your kids are ready to advance beyond Scratch, I recommend [[Phaser]].
+
+[Scratch 3]: https://wiki.scratch.mit.edu/wiki/Scratch_3.0
+[ScratchJr]: http://www.scratchjr.org

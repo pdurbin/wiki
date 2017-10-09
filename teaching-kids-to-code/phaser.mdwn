@@ -1,0 +1,8 @@
+Phaser is a Javascript/HTML5 framework for building mobile games. It's fantastic but it's a big leap forward from [[Scratch]] or [[Hopscotch]] in the sense that you have to write actual code in plain text rather than dragging blocks around.
+
+Here are the games my kids and I have made using Phaser:
+
+- https://github.com/pdurbin/blossom
+- https://github.com/pdurbin/pastries
+
+The Phaser website is http://phaser.io

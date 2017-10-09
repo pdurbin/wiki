@@ -1,0 +1,5 @@
+Greenfoot is halfway between [[Scratch]] and [[Phaser]] in the sense that you get a visual environment to work in but you are forced to write actual code rather than dragging blocks around.
+
+There's an awesome demo of ants by one of the creators of Greenfoot at http://www.greenfoot.org/scenarios/1016 where the ants release a pheromone as they bring food back to their ant hills. You can download the code from chapter 11 of the "book scenarios" zip file from https://www.greenfoot.org/book/
+
+You can check out my "Butterfly" example at http://www.greenfoot.org/scenarios/19985 and the code behind it at https://github.com/pdurbin/greenfoot-butterfly
