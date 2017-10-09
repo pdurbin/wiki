@@ -1,0 +1,3 @@
+MIT App Inventor is like [[Scratch]] but allows you to build native Android apps. It's awesome but iOS is not supported and there's no way to publish your work to the web. It's great if you have an old Android device lying around because your kids can bring it to a friend's house to show off games they've made. If you have an iPad, you should use [[Hopscotch]] instead.
+
+Since there's no online gallery of apps, here's a picture of my daughter making an MIT App Inventor app: https://plus.google.com/+PhilipDurbin/posts/PbtgTWgqQry . She made an app for her little sister to help her remember her lunch code. The screen turns pink when she gets it right.
