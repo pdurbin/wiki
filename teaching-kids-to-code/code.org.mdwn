@@ -1,0 +1,6 @@
+https://code.org is similar to [[Scratch]] and very kid-friendly, with an "hour of code" focused on popular movies. My kids have enjoyed these:
+
+- Star Wars: https://code.org/starwars
+- Frozen: https://code.org/frozen
+
+With an Hour of Code, you're basically problem solving rather than expressing any creativity but it's a good intro to the block your kids will use in [[Scratch]] or similar.
