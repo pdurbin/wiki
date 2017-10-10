@@ -23,3 +23,7 @@ http://colabti.org/irclogger/irclogger_log/lucene-dev
 ## Tools
 
 https://github.com/solrpl/explain
+
+## Contributing
+
+"newdev" label: https://issues.apache.org/jira/issues/?jql=project%20%3D%20SOLR%20AND%20labels%20%3D%20newdev%20AND%20status%20in%20(Open%2C%20Reopened)
