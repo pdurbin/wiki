@@ -1,8 +1,4 @@
-https://media.libreplanet.org/u/libreplanet/m/lightning-talk-philip-durbin/
-
-https://www.youtube.com/watch?v=-GUr-cd_OWQ
-
-Here's a transcript of the talk:
+On March 26, 2017 I gave an impromptu five minute "lightning" talk at [LibrePlanet 2017][]. It has been shared at https://media.libreplanet.org/u/libreplanet/m/lightning-talk-philip-durbin/ and I uploaded it to https://www.youtube.com/watch?v=-GUr-cd_OWQ with the following transcription:
 
 Hi, my name's Phil Durbin. I work down the street at Harvard on an open source project called Dataverse. It's Apache-licensed and I don't have anything prepared so I'm going to keep it short and just open it to questions. The problem that it solves is that your tax money is going toward research and hopefully the outputs of that research are being put into open access journals, open access articles. But what about the data that's associated with that research? Dataverse is a platform for hosting research data. In the academic world, you write a paper, you get a DOI for that paper, a digital object identifier, to uniquely identify your paper. But then, if you have some data associated with your paper, what do you do with it? Do you just throw it on your website? Is that website going to be around in 30 years? That's the problem that we're trying to solve, having a permanent place for research data.
 
@@ -13,3 +9,5 @@ Again, I don't have too much more prepared. I could go on and on but I see a que
 Next question. [Inaudible.] Yeah, sure, we are always interested in partnering. We actually have a feature that we call "harvesting" which is based on a protocol called OAI-PMH. It's really more for discoverability where if someone else installs Dataverse or any other platform that implements this protocol you can harvest the metadata about the dataset between different installations so you can know that data exists elsewhere. We also have some cool data exploration tools so you can run statistical analysis on tabular data. We also have geospatial mapping of datasets as well.
 
 Another question? [Inaudible.] Again, we tend to replicate the metadata, not the actual data itself, but I imagine if you were truly going under, the ship is sinking, you could probably reach out to one of the other twenty installations of Dataverse and say, "Hey, we're going to go dark, can someone take our data?" It would be more of an arrangement between institutions I think, but there's a growing community Dataverse so I would think that someone would pick up the slack, so to speak.
+
+[LibrePlanet 2017]: https://libreplanet.org/2017/
