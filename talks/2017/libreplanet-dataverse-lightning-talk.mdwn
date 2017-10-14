@@ -14,4 +14,6 @@ On March 26, 2017 I gave an impromptu five minute "lightning" talk at [LibrePlan
 
 I tweeted about the talk at https://twitter.com/philipdurbin/status/918630772826918912
 
+You can also discuss it at https://groups.google.com/d/msg/dataverse-community/8hVghFrdNTQ/NHqWlf-oAQAJ where I link to my write up at http://blogs.harvard.edu/pdurbin/2017/10/14/dataverse-talk-at-libreplanet-2017/
+
 [LibrePlanet 2017]: https://libreplanet.org/2017/
