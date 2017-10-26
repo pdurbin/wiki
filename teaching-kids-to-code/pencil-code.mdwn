@@ -1,0 +1,5 @@
+Pencil Code looks interesting.
+
+It lets you make music: https://gym.pencilcode.net/jam/#/jam/awesome.html
+
+You can also toggle between blocks and code.
