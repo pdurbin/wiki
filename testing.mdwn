@@ -1,0 +1,2 @@
+- http://toolsday.io/episodes/headlesschrome.html
+- https://developers.google.com/web/updates/2017/04/headless-chrome
