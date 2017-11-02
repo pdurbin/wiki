@@ -2,7 +2,11 @@ Stephen Kraffmiller and I gave a talk called "How to Run a Successful Open Sourc
 
 https://www.slideshare.net/philipdurbin/how-to-run-a-successful-open-source-java-ee-project
 
-In the talk I mentioned a related case study and I'm writing about transparency and I'd love to get feedback on my draft, which you can find linked from https://github.com/open-organization-ambassadors/open-org-workbook/issues/6#issuecomment-331646784
+Please note that the outline I used during the talk is toward the back.
+
+While I was preparing for the talk I starting writing a [transcript](https://docs.google.com/document/d/15i72gEhy99doIcOJQyv96_NTND6AMAPtBYF0NbACQIM/edit?usp=sharing), an ideal version of what I'd say. It's not complete but it shows where I was going. If there's interest in a cleaned up version, please let me know!
+
+In the talk I mentioned a related case study and I was writing about transparency. You can read the published article at https://opensource.com/open-organization/17/11/transparency-dataverse-project as well as the [background](https://github.com/open-organization-ambassadors/open-org-workbook/issues/6) on this piece.
 
 Eventually I'll also link to a long list of resources I've been gathering, especially from my [tweet][] asking about prior art.
 
