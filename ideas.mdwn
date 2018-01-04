@@ -12,6 +12,8 @@
 
 **Clipshare** would allow you to pause the podcast you're listening to and share a clip that you find particularly interesting. See also a related [discussion][] in the AntennaPod issue tracker.
 
+**CopyAddressToClipboardAndTitle (CATCAT)** would be a Firefox add-on that copys the address (URL) and title of a web page to the clipboard. It would be useful for GitHub Issues, Twitter posts, news articles, and more. Previously I used CoLT for this purpose but there hasn't been any movement on https://github.com/jgbishop/colt/issues/16 so maybe it is time to start a new add-on, perhaps using https://github.com/def00111/copy-link-text as a starting point.
+
 [notes on Feedcritic]: https://docs.google.com/document/d/1oAw9vik_MNMZlSue3W4FY4ba46bfG0XrlWx0aRvsFso/edit?usp=sharing
 [query]: https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+repo%3Apdurbin%2Faddressbookmvc+-author%3Apdurbin+-author%3Adhutty&ref=simplesearch
 [hotlist]: https://weechat.org/files/doc/devel/weechat_user.en.html#screen_layout
