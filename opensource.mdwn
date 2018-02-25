@@ -1,3 +1,5 @@
 https://opensourcecontributo.rs
 
 https://opensourcecontributo.rs/api/user/pdurbin
+
+https://github.com/nayafia/awesome-maintainers
