@@ -1,9 +1,12 @@
 slug	ranking	every	dead	name	feed_url
 functional-geekery	5	1		Functional Geekery	https://www.functionalgeekery.com/feed/mp3/
+track-changes	5	1		Track Changes	http://trackchanges.libsyn.com/rss
+masters-of-scale	5	1		Masters of Scale	https://rss.art19.com/masters-of-scale
 programming-throwdown	5	1		Programming Throwdown	http://feeds.feedburner.com/ProgrammingThrowdown
 case	5	1		CaSE	http://www.case-podcast.org/feed/mp3
 defn	4	1		defn	http://feeds.soundcloud.com/users/soundcloud:users:220484243/sounds.rss
 cognicast	4	1		The Cognicast	http://feeds.feedburner.com/cognicast
+toolsday	4	0		Toolsday	http://www.toolsday.io/feeds/rss.xml
 stack-overflow	4	1		Stack Overflow	https://stackoverflow.blog/podcasts/?feed=podcast
 software-engineering-daily	4	0		Software Engineering Daily	http://softwareengineeringdaily.com/feed/podcast/
 off-heap	5	1		Off-Heap	http://offheap.libsyn.com/rss
