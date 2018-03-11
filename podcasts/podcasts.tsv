@@ -2,19 +2,27 @@ slug	ranking	every	dead	name	feed_url
 functional-geekery	5	1		Functional Geekery	https://www.functionalgeekery.com/feed/mp3/
 track-changes	5	1		Track Changes	http://trackchanges.libsyn.com/rss
 masters-of-scale	5	1		Masters of Scale	https://rss.art19.com/masters-of-scale
+command-line-heroes	5	1		Command Line Heroes	https://feeds.pacific-content.com/commandlineheroes
 programming-throwdown	5	1		Programming Throwdown	http://feeds.feedburner.com/ProgrammingThrowdown
 case	5	1		CaSE	http://www.case-podcast.org/feed/mp3
 defn	4	1		defn	http://feeds.soundcloud.com/users/soundcloud:users:220484243/sounds.rss
 cognicast	4	1		The Cognicast	http://feeds.feedburner.com/cognicast
 toolsday	4	0		Toolsday	http://www.toolsday.io/feeds/rss.xml
+observatory	4	0		The Observatory	https://designobserver.com/show.observatory.xml
+airhacks	5	1		airhacks	http://airhacks.fm/episodes/feed.xml
+openscienceradio	4	0		Open Science Radio	http://www.openscienceradio.org/category/english-episodes/feed/mp3/
+colper-science	4	0		Colper Science	http://feeds.feedburner.com/ColperScience
 stack-overflow	4	1		Stack Overflow	https://stackoverflow.blog/podcasts/?feed=podcast
-software-engineering-daily	4	0		Software Engineering Daily	http://softwareengineeringdaily.com/feed/podcast/
+software-engineering-daily	4	0		Software Engineering Daily	https://softwareengineeringdaily.com/feed/podcast
 off-heap	5	1		Off-Heap	http://offheap.libsyn.com/rss
 java-pub-house	5	1		Java Pub House	http://javapubhouse.libsyn.com/rss
+all-things-git	4	0		All Things Git	https://www.allthingsgit.com/episodes.xml
+soft-arch-radio	4	0		Software Architecture Radio	http://feeds.soundcloud.com/users/soundcloud:users:276322801/sounds.rss
 coders-campus	3	1		Coders Campus	http://coderscampus.com/feed/podcast
 changelog	4	0		The Changelog	http://feeds.feedburner.com/changelogshow
 request-for-commits	3	1		Request For Commits	https://changelog.com/rfc/feed
 illegal-argument	4	1		Illegal Argument	http://illegalargument.libsyn.com/rss
+javachannel	3	1		javachannel	https://javachannel.org/posts/category/podcast/feed/
 modern-web		0		Modern Web	http://modernweb.podbean.com/feed/
 breaking-into-startups	4	0		Breaking Into Startups	http://feeds.soundcloud.com/users/soundcloud:users:256509984/sounds.rss
 jboss-asylum		0		JBoss Asylum	http://jbosscommunityasylum.libsyn.com/rss
@@ -39,7 +47,7 @@ test-and-code	3	1		Test and Code	http://testandcode.com/rss
 bike-shed	4	0		The Bike Shed	http://podcasts.thoughtbot.com/bikeshed.xml
 ruby-rogues	3	0		Ruby Rogues	https://feeds.feedwrench.com/RubyRogues.rss
 becoming-a-data-scientist	3	1		Becoming A Data Scientist	http://www.becomingadatascientist.com/feed/podcast
-enterprise-java-newscast	3	1		Enterprise Java Newscast	http://feeds.feedburner.com/enterprisejavanews
+enterprise-java-newscast	3	1		Enterprise Java Newscast	http://enterprisejavanews.libsyn.com/rss
 giant-robots	2	0		Giant Robots	http://podcasts.thoughtbot.com/giantrobots.xml
 netbeans-community	4	1		NetBeans Community	http://feeds.feedburner.com/oracle/netbeanspodcast
 agileone-on-huffduffer	3	0		agileone on Huffduffer	https://huffduffer.com/agileone/rss
@@ -155,7 +163,7 @@ mostly-lazy		0		Mostly Lazy	http://feeds.feedburner.com/MostlyLazy
 molecular-coding		0		Molecular Coding	http://dalkescientific.com/podcast/Molecular_Coding/Podcast/rss.xml
 ladies-in-tech		0		Ladies in Tech Podcast	http://ladiesintech.com/feed/podcast/
 tectonic		0		The Tectonic Podcast	http://tectonicpodcast.com/feed/
-astronomy-141		0		Astronomy 141- Life in the Universe	http://www.astronomy.ohio-state.edu/~pogge/Ast141/Audio/Ast141Au09.xml
+astronomy-141		0		Astronomy 141: Life in the Universe	http://www.astronomy.ohio-state.edu/~pogge/Ast141/Audio/Ast141Au09.xml
 kevin-mcdonald		0		Kevin McDonald	http://feeds.soundcloud.com/users/soundcloud:users:244344721/sounds.rss
 goodmuslimbadmuslim		0		#GoodMuslimBadMuslim	https://audioboom.com/channels/4050594.rss
 see-something		0		See Something Say Something	http://feeds.feedburner.com/SeeSomethingSaySomething
