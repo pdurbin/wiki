@@ -14,5 +14,8 @@ Scratch is open source. Version 2 can be found at https://github.com/LLK/scratch
 
 If your kids are ready to advance beyond Scratch, I recommend [[Phaser]].
 
+A friend of mine has his kids using Scratch to program a cute little robot called [Cozmo][].
+
 [Scratch 3]: https://wiki.scratch.mit.edu/wiki/Scratch_3.0
 [ScratchJr]: http://www.scratchjr.org
+[Cozmo][]: https://www.anki.com/en-us/cozmo

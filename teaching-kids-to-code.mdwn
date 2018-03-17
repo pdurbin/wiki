@@ -5,9 +5,8 @@ A good way to start is with [[code.org]].
 Coding is much more fun if you can share your work with others. If the kid can bring an iPad to a friend's house, great, use [[Hopscotch]]. If you want to email a link to your game to Grandma, you should probably use [[Scratch]] but until Scratch 3 comes out, Grandma will have to have Flash installed.
 
 If you have Android devices lying around, try [[MIT App Inventor|app-inventor]]. 
-
 As your kids get older, you'll want to transition them to "real" coding with text rather than blocks. Check out [[Greenfoot]] and [[Phaser]].
 
-On each of these pages, you'll see more of my thoughts on the various options:
+On each of these pages, you'll see more of my thoughts on various options:
 
 [[!map pages=teaching-kids-to-code/*]]

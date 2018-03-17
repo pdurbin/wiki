@@ -1,0 +1,9 @@
+I met a guy from Rethink Robotics who swears by Lego Mindstorms.
+
+Our household got pretty excited about the [video][] that goes along with the [paper] "Liquid-handling Lego robots and experiments for STEM education and research".
+
+[video]: https://www.youtube.com/watch?v=vH2TgjuQm4s
+[paper]: https://doi.org/10.1371/journal.pbio.2001413
+
+
+
