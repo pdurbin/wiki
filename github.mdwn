@@ -1,3 +1,5 @@
 http://thinkupapp.com/docs/contribute/developers/devfromsource.html
 
 "useful if you want to treat Github's APIs as a database, querying over pull requests and issues" https://github.com/singingwolfboy/webhookdb https://nedbatchelder.com/blog/201412/rest_api_gotcha_and_webhookdb.html https://botbot.me/freenode/positivepython/msg/81165681/
+
+http://github-backup.branchable.com and https://github.com/sit-it/sit-import can be used to backup GitHub issues.
