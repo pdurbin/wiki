@@ -4,3 +4,21 @@
     list * -topic *foo* -skip 90
 
 http://freenode.net/services.shtml
+
+## Connecting from mobile with SASL
+
+I've used Yaaic to connect to freenode from mobile with the following settings:
+
+- Title: freenode
+- Host: irc.freenode.net
+- Port: 6697
+- Password: blank
+- Use SSL: checked
+- Nickname: pdurbin_m
+- Ident: yaaic
+- Real Name: Philip Durbin (mobile)
+- Authentication
+  - Authenticate with Nickserv: not checked
+  - Authenticate with SASL: checked
+  - SASL username: pdurbin_m
+  - SASL password: ****
