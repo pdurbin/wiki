@@ -1,3 +1,17 @@
+Because I like Python and have spent some time with it, I recognize some of its downsides. These criticisms are meant to be constructive.
+
+## Python 3 introduces breaking changes into the language
+
+It's common for code written for Python 2 to not work on Python 3. This is an unfortunate situation and means lots of code has been or needs to be ported. Once the dust settles and no one uses Python 2 anymore, this will be a non-issue. Until then https://pythonclock.org and http://python3statement.org are good sites to keep an eye on to see the latest news on the transistion.
+
+Over at https://matthiasbussonnier.com/posts/planning-an-early-death-for-python-2.html which was discussed at https://pythonbytes.fm/episodes/show/5/legacy-python-vs-python-and-why-words-matter-and-request-s-5-whys-retrospective it is argued that Python 2 should be referred to as "Legacy Python" to emphasize that it is going end of life soon.
+
+In https://github.com/python/devguide/pull/344 the date after which Python 2.x will no longer receive security updates has been finalized as January 1st, 2020.
+
+I remember when Steve Jobs gave a [eulogy] over Mac OS 9 in a casket and I feel like the Python community would benefit from watching it. The similarities are striking.
+
+[eulogy]: https://www.youtube.com/watch?v=G1SLCAiGkVQ
+
 ## Python's signficant white space prevents quick experimentation with code you paste in
 
 For me, one of the major downsides of Python is that it doesn't allow me to paste code into existing code and worry about reformating it (programmatically) later. Rather, Python insists that I adjust the indentation first or else the meaning of the code is changed. In my mind, this prevents me from trying quick experiements with code I've just pasted in.
