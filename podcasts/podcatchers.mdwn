@@ -1,0 +1,3 @@
+AntennaPod: https://github.com/AntennaPod/AntennaPod
+
+    select datetime(SUBSTR(pubdate, 1,LENGTH(pubdate)-3),'unixepoch','localtime') as pubdate,title from FeedItems where read=1 order by pubdate;
