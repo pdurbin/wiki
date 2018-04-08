@@ -1,3 +1,5 @@
+https://media.libreplanet.org/u/libreplanet/m/the-battle-to-free-the-code-at-the-department-of-defense/ mentions https://www.code.mil (see https://www.code.mil/why-open-source.html ). She talks about Oracle's writing about "false narratives" at https://github.com/GSA/modernization/issues/41
+
 https://media.libreplanet.org/u/libreplanet/m/diversity-in-free-software-no-longer-at-square-one/ was good and slides are similar to the ones at https://gitlab.com/marinaz/presentations/blob/master/Diversity_in_Open_Source_OSS_2017.pdf and sketchnotes are available at https://twitter.com/princi_ya/status/977933790927577088
 
 https://media.libreplanet.org/u/libreplanet/m/exposing-hidden-surveillance-in-mobile-apps/ was an interesting talk with a focus on Android. There was an etherpad during the talk and some browser plugins were mentioned that can help detect apps that engage in surveillance. Checks are being added to F-Droid. An Android app is in development.
@@ -29,7 +31,6 @@ https://media.libreplanet.org/u/libreplanet/m/practical-verifiable-software-free
 https://media.libreplanet.org/u/libreplanet/m/san-francisco-s-free-software-voting-system/
 https://media.libreplanet.org/u/libreplanet/m/sharing-strategies-for-welcoming-newcomers-into-floss-projects-first-timers-only-list-moderation-and-more/
 https://media.libreplanet.org/u/libreplanet/m/standardizing-network-freedom/
-https://media.libreplanet.org/u/libreplanet/m/the-battle-to-free-the-code-at-the-department-of-defense/
 https://media.libreplanet.org/u/libreplanet/m/the-dark-side-of-free-software-communities/
 https://media.libreplanet.org/u/libreplanet/m/what-college-students-do-and-don-t-know-about-free-software/
 https://media.libreplanet.org/u/libreplanet/m/who-cares-if-code-is-free-ux-and-free-software/
