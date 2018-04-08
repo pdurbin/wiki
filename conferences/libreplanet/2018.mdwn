@@ -1,37 +1,69 @@
+https://media.libreplanet.org/u/libreplanet/m/sharing-strategies-for-welcoming-newcomers-into-floss-projects-first-timers-only-list-moderation-and-more/ is about making it easier for people to contribute to open source.
+
+https://media.libreplanet.org/u/libreplanet/m/who-cares-if-code-is-free-ux-and-free-software/ is about how free software developers should care about UX.
+
+https://media.libreplanet.org/u/libreplanet/m/pathways-for-discovery-of-free-software/ is about the FSF directory, WikiData, and more.
+
 https://media.libreplanet.org/u/libreplanet/m/the-battle-to-free-the-code-at-the-department-of-defense/ mentions https://www.code.mil (see https://www.code.mil/why-open-source.html ). She talks about Oracle's writing about "false narratives" at https://github.com/GSA/modernization/issues/41
 
 https://media.libreplanet.org/u/libreplanet/m/diversity-in-free-software-no-longer-at-square-one/ was good and slides are similar to the ones at https://gitlab.com/marinaz/presentations/blob/master/Diversity_in_Open_Source_OSS_2017.pdf and sketchnotes are available at https://twitter.com/princi_ya/status/977933790927577088
 
+https://media.libreplanet.org/u/libreplanet/m/standardizing-network-freedom/ is about ActivityPub and the standards work that lead to it.
+
 https://media.libreplanet.org/u/libreplanet/m/exposing-hidden-surveillance-in-mobile-apps/ was an interesting talk with a focus on Android. There was an etherpad during the talk and some browser plugins were mentioned that can help detect apps that engage in surveillance. Checks are being added to F-Droid. An Android app is in development.
 
-https://media.libreplanet.org/u/libreplanet/m/a-newcomer-s-perspective-on-patches-for-the-free-software-movement/
-https://media.libreplanet.org/u/libreplanet/m/a-usability-study-of-the-gpl/
-https://media.libreplanet.org/u/libreplanet/m/a-wee-server-for-the-home/
-https://media.libreplanet.org/u/libreplanet/m/browsing-the-free-software-commons/
+https://media.libreplanet.org/u/libreplanet/m/in-business-keeping-free-software-sustainable/ is by the creator of https://jmp.chat
+
+https://media.libreplanet.org/u/libreplanet/m/browsing-the-free-software-commons/ is about archiving sites like GitHub.
+
 https://media.libreplanet.org/u/libreplanet/m/curated-web-of-trust-keyrings-for-free-software-projects-a-case-study-on-debian-s-experience/
-https://media.libreplanet.org/u/libreplanet/m/defense-through-collaboration-the-use-of-free-software-in-preventing-proprietary-software-based-virus-attacks/
-https://media.libreplanet.org/u/libreplanet/m/device-and-personal-privacy-technology-roundup/
-https://media.libreplanet.org/u/libreplanet/m/engaging-nonprofits-why-free-software-is-essential-to-the-social-good/
-https://media.libreplanet.org/u/libreplanet/m/evolving-government-policies-on-the-procurement-and-production-of-free-software/
-https://media.libreplanet.org/u/libreplanet/m/freedom-devices-and-health/
-https://media.libreplanet.org/u/libreplanet/m/free-software-as-a-catalyst-for-liberation-social-justice-and-social-medicine/
-https://media.libreplanet.org/u/libreplanet/m/free-software-for-nonprofit-fundraising-and-crowdfunding/
-https://media.libreplanet.org/u/libreplanet/m/free-software-in-academia/
-https://media.libreplanet.org/u/libreplanet/m/how-geonode-spread-across-the-globe/
-https://media.libreplanet.org/u/libreplanet/m/how-to-stream-with-free-software/
-https://media.libreplanet.org/u/libreplanet/m/in-business-keeping-free-software-sustainable/
-https://media.libreplanet.org/u/libreplanet/m/introduction-to-latex/
-https://media.libreplanet.org/u/libreplanet/m/it-s-real-free-software-has-been-changing-mexico/
-https://media.libreplanet.org/u/libreplanet/m/librecmc-the-libre-embedded-gnu-linux-distro/
-https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-cc-by-sa-4-0/
-https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-gfdl-1-3/
-https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-2-cc-by-sa-4-0/
-https://media.libreplanet.org/u/libreplanet/m/pathways-for-discovery-of-free-software/
-https://media.libreplanet.org/u/libreplanet/m/practical-verifiable-software-freedom-with-guixsd/
-https://media.libreplanet.org/u/libreplanet/m/san-francisco-s-free-software-voting-system/
-https://media.libreplanet.org/u/libreplanet/m/sharing-strategies-for-welcoming-newcomers-into-floss-projects-first-timers-only-list-moderation-and-more/
-https://media.libreplanet.org/u/libreplanet/m/standardizing-network-freedom/
+
 https://media.libreplanet.org/u/libreplanet/m/the-dark-side-of-free-software-communities/
+
+https://media.libreplanet.org/u/libreplanet/m/a-usability-study-of-the-gpl/ is a walkthrough of https://www.gnu.org/licenses/gpl-howto.en.html
+
+https://media.libreplanet.org/u/libreplanet/m/a-wee-server-for-the-home/ is a deep dive on commands used for getting set up.
+
+https://media.libreplanet.org/u/libreplanet/m/introduction-to-latex/ in an intro, like it says.
+
+https://media.libreplanet.org/u/libreplanet/m/a-newcomer-s-perspective-on-patches-for-the-free-software-movement/
+
+https://media.libreplanet.org/u/libreplanet/m/defense-through-collaboration-the-use-of-free-software-in-preventing-proprietary-software-based-virus-attacks/
+
+https://media.libreplanet.org/u/libreplanet/m/device-and-personal-privacy-technology-roundup/
+
+https://media.libreplanet.org/u/libreplanet/m/engaging-nonprofits-why-free-software-is-essential-to-the-social-good/
+
+https://media.libreplanet.org/u/libreplanet/m/evolving-government-policies-on-the-procurement-and-production-of-free-software/
+
+https://media.libreplanet.org/u/libreplanet/m/freedom-devices-and-health/
+
+https://media.libreplanet.org/u/libreplanet/m/free-software-as-a-catalyst-for-liberation-social-justice-and-social-medicine/
+
+https://media.libreplanet.org/u/libreplanet/m/free-software-for-nonprofit-fundraising-and-crowdfunding/
+
+https://media.libreplanet.org/u/libreplanet/m/free-software-in-academia/
+
 https://media.libreplanet.org/u/libreplanet/m/what-college-students-do-and-don-t-know-about-free-software/
-https://media.libreplanet.org/u/libreplanet/m/who-cares-if-code-is-free-ux-and-free-software/
+
+https://media.libreplanet.org/u/libreplanet/m/how-geonode-spread-across-the-globe/
+
+https://media.libreplanet.org/u/libreplanet/m/it-s-real-free-software-has-been-changing-mexico/ is by an OpenSUSE contributor.
+
 https://media.libreplanet.org/u/libreplanet/m/you-think-you-re-not-a-target-a-tale-of-three-developers/
+
+---
+
+https://media.libreplanet.org/u/libreplanet/m/how-to-stream-with-free-software/
+
+https://media.libreplanet.org/u/libreplanet/m/librecmc-the-libre-embedded-gnu-linux-distro/
+
+https://media.libreplanet.org/u/libreplanet/m/practical-verifiable-software-freedom-with-guixsd/
+
+https://media.libreplanet.org/u/libreplanet/m/san-francisco-s-free-software-voting-system/
+
+https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-cc-by-sa-4-0/
+
+https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-gfdl-1-3/
+
+https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-2-cc-by-sa-4-0/
