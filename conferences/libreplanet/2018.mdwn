@@ -10,7 +10,7 @@ https://media.libreplanet.org/u/libreplanet/m/the-battle-to-free-the-code-at-the
 
 https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-cc-by-sa-4-0/ had talks on biking (by Salt), hacking music notation systems using Clairnote and Lilypond, secure scuttlebutt (by Joey Hess), role playing games, subdo ( https://thomaslevine.com/scm/subdo ), GNU Screen, and LinuxConf Australia.
 
-https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-gfdl-1-3/ had talks on the [Barre Open Systems Institute](http://www.bosivt.org)
+https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-2-cc-by-sa-4-0/ had talks on the future of computing and creating convenient, ethical products (Todd), welcoming women in open source (Eris), Global Rescue Systems, Technoethical laptops (Curtis), https://autocrypt.org (dkg), Bash, and debugd (Joey Hess).
 
 https://media.libreplanet.org/u/libreplanet/m/standardizing-network-freedom/ is about ActivityPub and the standards work that lead to it.
 
@@ -46,9 +46,9 @@ https://media.libreplanet.org/u/libreplanet/m/you-think-you-re-not-a-target-a-ta
 
 https://media.libreplanet.org/u/libreplanet/m/free-software-as-a-catalyst-for-liberation-social-justice-and-social-medicine/ is about GNU Health and health challenges around the world.
 
----
+https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-gfdl-1-3/ was about the [Barre Open Systems Institute](http://www.bosivt.org).
 
-https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-2-cc-by-sa-4-0/
+---
 
 https://media.libreplanet.org/u/libreplanet/m/evolving-government-policies-on-the-procurement-and-production-of-free-software/
 
