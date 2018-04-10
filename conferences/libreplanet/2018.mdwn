@@ -12,6 +12,8 @@ https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-cc-by-sa
 
 https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-2-cc-by-sa-4-0/ had talks on the future of computing and creating convenient, ethical products (Todd), welcoming women in open source (Eris), Global Rescue Systems, Technoethical laptops (Curtis), https://autocrypt.org (dkg), Bash, and debugd (Joey Hess).
 
+https://media.libreplanet.org/u/libreplanet/m/evolving-government-policies-on-the-procurement-and-production-of-free-software/ explains the various advances in the use of open source by governments around the world.
+
 https://media.libreplanet.org/u/libreplanet/m/standardizing-network-freedom/ is about ActivityPub and the standards work that lead to it.
 
 https://media.libreplanet.org/u/libreplanet/m/exposing-hidden-surveillance-in-mobile-apps/ was an interesting talk with a focus on Android. There was an etherpad during the talk and some browser plugins were mentioned that can help detect apps that engage in surveillance. Checks are being added to F-Droid. An Android app is in development.
@@ -25,6 +27,8 @@ https://media.libreplanet.org/u/libreplanet/m/curated-web-of-trust-keyrings-for-
 https://media.libreplanet.org/u/libreplanet/m/the-dark-side-of-free-software-communities/ is about how we should be friendlier.
 
 https://media.libreplanet.org/u/libreplanet/m/a-usability-study-of-the-gpl/ is a walkthrough of https://www.gnu.org/licenses/gpl-howto.en.html
+
+https://media.libreplanet.org/u/libreplanet/m/a-newcomer-s-perspective-on-patches-for-the-free-software-movement/ is by a self-described millennial.
 
 https://media.libreplanet.org/u/libreplanet/m/a-wee-server-for-the-home/ is a deep dive on commands used for getting set up.
 
@@ -46,17 +50,13 @@ https://media.libreplanet.org/u/libreplanet/m/you-think-you-re-not-a-target-a-ta
 
 https://media.libreplanet.org/u/libreplanet/m/free-software-as-a-catalyst-for-liberation-social-justice-and-social-medicine/ is about GNU Health and health challenges around the world.
 
+https://media.libreplanet.org/u/libreplanet/m/defense-through-collaboration-the-use-of-free-software-in-preventing-proprietary-software-based-virus-attacks/ argues that free software helps keep us more secure.
+
 https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-gfdl-1-3/ was about the [Barre Open Systems Institute](http://www.bosivt.org).
 
+https://media.libreplanet.org/u/libreplanet/m/device-and-personal-privacy-technology-roundup/ is by der.hans.
+
 ---
-
-https://media.libreplanet.org/u/libreplanet/m/evolving-government-policies-on-the-procurement-and-production-of-free-software/
-
-https://media.libreplanet.org/u/libreplanet/m/a-newcomer-s-perspective-on-patches-for-the-free-software-movement/
-
-https://media.libreplanet.org/u/libreplanet/m/defense-through-collaboration-the-use-of-free-software-in-preventing-proprietary-software-based-virus-attacks/
-
-https://media.libreplanet.org/u/libreplanet/m/device-and-personal-privacy-technology-roundup/
 
 https://media.libreplanet.org/u/libreplanet/m/freedom-devices-and-health/
 
