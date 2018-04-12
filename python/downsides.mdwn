@@ -16,6 +16,10 @@ I remember when Steve Jobs gave a [eulogy] over Mac OS 9 in a casket and I feel 
 
 For me, one of the major downsides of Python is that it doesn't allow me to paste code into existing code and worry about reformating it (programmatically) later. Rather, Python insists that I adjust the indentation first or else the meaning of the code is changed. In my mind, this prevents me from trying quick experiements with code I've just pasted in.
 
+TODO: Rewrite this example using [go fmt][] and mention the section about "mechanical source transformation" at https://blog.golang.org/go-fmt-your-code especially "Mechanical transformation is invaluable when working with large code bases, as it is both more comprehensive and less error prone than making wide-sweeping changes by hand."
+
+[go fmt]: https://golang.org/cmd/gofmt/
+
 Let me try to illustrate with an example, contrasting Python with a language that doesn't have signficant whitespace (Perl):
 
 Let's say I have the following Perl code (with `use v5.10` for `say`):
