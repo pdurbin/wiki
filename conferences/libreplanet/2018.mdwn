@@ -1,10 +1,18 @@
 https://media.libreplanet.org/u/libreplanet/m/sharing-strategies-for-welcoming-newcomers-into-floss-projects-first-timers-only-list-moderation-and-more/ is about making it easier for people to contribute to open source. The talk is sort of a walk through of https://publiclab.org/wiki/software-outreach
 
+https://media.libreplanet.org/u/libreplanet/m/free-software-and-the-shifting-landscape-of-online-cooperation/ is about Mako's concerns over how proprietary is using free software techniques.
+
+https://media.libreplanet.org/u/libreplanet/m/free-software-forever/ is they opening keynote where Deb Nicholson explains that we must be friendly to newcomers.
+
 https://media.libreplanet.org/u/libreplanet/m/who-cares-if-code-is-free-ux-and-free-software/ is about how free software developers should care about UX. Slides can be found at https://duffy.fedorapeople.org/presentations/libreplanet2018/HTML and the talk can be discussed at https://discourse.opensourcedesign.net/t/keynote-on-open-source-and-ux-at-ohio-linux-fest-sep-30/294
+
+https://media.libreplanet.org/u/libreplanet/m/copyleft-diversity-critical-infrastructure/ is a talk by Karen Sandler where she explains her personal advocacy for free software due to her defibrillator and the need for diversity in the free software movement.
 
 https://media.libreplanet.org/u/libreplanet/m/pathways-for-discovery-of-free-software/ is about the FSF directory, WikiData, and more.
 
 https://media.libreplanet.org/u/libreplanet/m/diversity-in-free-software-no-longer-at-square-one/ was good and slides are similar to the ones at https://gitlab.com/marinaz/presentations/blob/master/Diversity_in_Open_Source_OSS_2017.pdf and sketchnotes are available at https://twitter.com/princi_ya/status/977933790927577088
+
+https://media.libreplanet.org/u/libreplanet/m/free-software-awards-1c4f/ is a talk by RMS who mentions some new initiatives.
 
 https://media.libreplanet.org/u/libreplanet/m/the-battle-to-free-the-code-at-the-department-of-defense/ mentions https://www.code.mil (see https://www.code.mil/why-open-source.html ). She talks about Oracle's writing about "false narratives" at https://github.com/GSA/modernization/issues/41
 
@@ -32,9 +40,9 @@ https://media.libreplanet.org/u/libreplanet/m/a-newcomer-s-perspective-on-patche
 
 https://media.libreplanet.org/u/libreplanet/m/a-wee-server-for-the-home/ is a deep dive on commands used for getting set up.
 
-https://media.libreplanet.org/u/libreplanet/m/engaging-nonprofits-why-free-software-is-essential-to-the-social-good/
+https://media.libreplanet.org/u/libreplanet/m/engaging-nonprofits-why-free-software-is-essential-to-the-social-good/ is about how non-profits engage in fundraising and need to manage their relationship with donors.
 
-https://media.libreplanet.org/u/libreplanet/m/free-software-for-nonprofit-fundraising-and-crowdfunding/
+https://media.libreplanet.org/u/libreplanet/m/free-software-for-nonprofit-fundraising-and-crowdfunding/ is about https://github.com/houdiniproject/houdini which is new software described as "fully-free and open fundraising infrastructure for nonprofits and NGOs.
 
 https://media.libreplanet.org/u/libreplanet/m/free-software-in-academia/
 
@@ -65,3 +73,21 @@ https://media.libreplanet.org/u/libreplanet/m/introduction-to-latex/ in an intro
 https://media.libreplanet.org/u/libreplanet/m/device-and-personal-privacy-technology-roundup/ is by der.hans.
 
 https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-gfdl-1-3/ was about the [Barre Open Systems Institute](http://www.bosivt.org).
+
+---
+
+https://media.libreplanet.org/u/libreplanet/m/incompossibilities-ubiquitous-engineering-tradeoffs/
+
+https://media.libreplanet.org/u/libreplanet/m/free-software-desktops-to-2020-beyond/
+
+https://media.libreplanet.org/u/libreplanet/m/freedom-embedded-vehicles/
+
+https://media.libreplanet.org/u/libreplanet/m/state-of-the-onion/
+
+https://media.libreplanet.org/u/libreplanet/m/the-ethics-void/
+
+https://media.libreplanet.org/u/libreplanet/m/libreoffice-certification-for-fsf-members/
+
+https://media.libreplanet.org/u/libreplanet/m/algorithmic-bias-where-it-comes-from-and-what-to-do-about-it-bc13/
+
+https://media.libreplanet.org/u/libreplanet/m/algorithmic-bias-where-it-comes-from-and-what-to-do-about-it-20f7/
