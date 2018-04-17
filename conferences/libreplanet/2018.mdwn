@@ -16,6 +16,8 @@ https://media.libreplanet.org/u/libreplanet/m/free-software-awards-1c4f/ is a ta
 
 https://media.libreplanet.org/u/libreplanet/m/the-battle-to-free-the-code-at-the-department-of-defense/ mentions https://www.code.mil (see https://www.code.mil/why-open-source.html ). She talks about Oracle's writing about "false narratives" at https://github.com/GSA/modernization/issues/41
 
+https://media.libreplanet.org/u/libreplanet/m/state-of-the-onion/ is an update on Tor. They're starting to use Rust instead of C. They think a lot about censorship.
+
 https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-cc-by-sa-4-0/ had talks on biking (by Salt), hacking music notation systems using Clairnote and Lilypond, secure scuttlebutt (by Joey Hess), role playing games, subdo ( https://thomaslevine.com/scm/subdo ), GNU Screen, and LinuxConf Australia.
 
 https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-2-cc-by-sa-4-0/ had talks on the future of computing and creating convenient, ethical products (Todd), welcoming women in open source (Eris), Global Rescue Systems, Technoethical laptops (Curtis), https://autocrypt.org (dkg), Bash, and debugd (Joey Hess).
@@ -23,6 +25,8 @@ https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-2-cc-by-sa
 https://media.libreplanet.org/u/libreplanet/m/evolving-government-policies-on-the-procurement-and-production-of-free-software/ explains the various advances in the use of open source by governments around the world.
 
 https://media.libreplanet.org/u/libreplanet/m/standardizing-network-freedom/ is about ActivityPub and the standards work that lead to it.
+
+https://media.libreplanet.org/u/libreplanet/m/free-software-desktops-to-2020-beyond/ is about GNOME.
 
 https://media.libreplanet.org/u/libreplanet/m/exposing-hidden-surveillance-in-mobile-apps/ was an interesting talk with a focus on Android. There was an etherpad during the talk and some browser plugins were mentioned that can help detect apps that engage in surveillance. Checks are being added to F-Droid. An Android app is in development.
 
@@ -50,9 +54,11 @@ https://media.libreplanet.org/u/libreplanet/m/what-college-students-do-and-don-t
 
 https://media.libreplanet.org/u/libreplanet/m/san-francisco-s-free-software-voting-system/ was interesting and he mentioned they published some data.
 
+https://media.libreplanet.org/u/libreplanet/m/incompossibilities-ubiquitous-engineering-tradeoffs/ mentions the importance of HTTPS, even for static sites, talking about how library circulation records are private.
+
 https://media.libreplanet.org/u/libreplanet/m/how-geonode-spread-across-the-globe/
 
-https://media.libreplanet.org/u/libreplanet/m/how-to-stream-with-free-software/
+https://media.libreplanet.org/u/libreplanet/m/how-to-stream-with-free-software/ seemed like an awesome live demo if you were in the room.
 
 https://media.libreplanet.org/u/libreplanet/m/practical-verifiable-software-freedom-with-guixsd/ is basically a new Linux distribution.
 
@@ -76,13 +82,7 @@ https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-gfdl-1-3
 
 ---
 
-https://media.libreplanet.org/u/libreplanet/m/incompossibilities-ubiquitous-engineering-tradeoffs/
-
-https://media.libreplanet.org/u/libreplanet/m/free-software-desktops-to-2020-beyond/
-
 https://media.libreplanet.org/u/libreplanet/m/freedom-embedded-vehicles/
-
-https://media.libreplanet.org/u/libreplanet/m/state-of-the-onion/
 
 https://media.libreplanet.org/u/libreplanet/m/the-ethics-void/
 
