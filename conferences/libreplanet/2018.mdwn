@@ -52,6 +52,8 @@ https://media.libreplanet.org/u/libreplanet/m/free-software-in-academia/
 
 https://media.libreplanet.org/u/libreplanet/m/what-college-students-do-and-don-t-know-about-free-software/
 
+https://media.libreplanet.org/u/libreplanet/m/freedom-embedded-vehicles/ is about the disconnect between the automotive industry and free software world, how they don't speak each other's language.
+
 https://media.libreplanet.org/u/libreplanet/m/san-francisco-s-free-software-voting-system/ was interesting and he mentioned they published some data.
 
 https://media.libreplanet.org/u/libreplanet/m/incompossibilities-ubiquitous-engineering-tradeoffs/ mentions the importance of HTTPS, even for static sites, talking about how library circulation records are private.
@@ -64,6 +66,8 @@ https://media.libreplanet.org/u/libreplanet/m/practical-verifiable-software-free
 
 https://media.libreplanet.org/u/libreplanet/m/freedom-devices-and-health/ explained how given current laws, you can distribute source code but not class 3 medical devices.
 
+https://media.libreplanet.org/u/libreplanet/m/the-ethics-void/ is about ethics.
+
 https://media.libreplanet.org/u/libreplanet/m/it-s-real-free-software-has-been-changing-mexico/ is by an OpenSUSE contributor.
 
 https://media.libreplanet.org/u/libreplanet/m/you-think-you-re-not-a-target-a-tale-of-three-developers/ is about reproducible builds.
@@ -74,20 +78,10 @@ https://media.libreplanet.org/u/libreplanet/m/librecmc-the-libre-embedded-gnu-li
 
 https://media.libreplanet.org/u/libreplanet/m/defense-through-collaboration-the-use-of-free-software-in-preventing-proprietary-software-based-virus-attacks/ argues that free software helps keep us more secure.
 
+https://media.libreplanet.org/u/libreplanet/m/libreoffice-certification-for-fsf-members/ is about the advances LibreOffice has made and certification.
+
 https://media.libreplanet.org/u/libreplanet/m/introduction-to-latex/ in an intro, like it says.
 
 https://media.libreplanet.org/u/libreplanet/m/device-and-personal-privacy-technology-roundup/ is by der.hans.
 
 https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-gfdl-1-3/ was about the [Barre Open Systems Institute](http://www.bosivt.org).
-
----
-
-https://media.libreplanet.org/u/libreplanet/m/freedom-embedded-vehicles/
-
-https://media.libreplanet.org/u/libreplanet/m/the-ethics-void/
-
-https://media.libreplanet.org/u/libreplanet/m/libreoffice-certification-for-fsf-members/
-
-https://media.libreplanet.org/u/libreplanet/m/algorithmic-bias-where-it-comes-from-and-what-to-do-about-it-bc13/
-
-https://media.libreplanet.org/u/libreplanet/m/algorithmic-bias-where-it-comes-from-and-what-to-do-about-it-20f7/
