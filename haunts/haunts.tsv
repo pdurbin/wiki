@@ -1,6 +1,7 @@
 channel	network	homepage	logs
 #dataverse	freenode	http://dataverse.org	http://irclog.iq.harvard.edu/dataverse/today
 #sourcefu	freenode	http://sourcefu.com	http://irclog.greptilian.com/sourcefu/today
+#publiclab	oftc	https://publiclab.org	https://gitter.im/publiclab/publiclab
 #opensourcedesign	freenode	http://opensourcedesign.net	http://botbot.me/freenode/opensourcedesign
 #mozillascience/community	gitter	https://science.mozilla.org	https://gitter.im/mozillascience/community
 #rest	freenode	http://trygvis.io/rest-wiki	http://irclog.greptilian.com/rest/today
