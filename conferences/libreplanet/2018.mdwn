@@ -1,86 +1,89 @@
 https://media.libreplanet.org/u/libreplanet/m/sharing-strategies-for-welcoming-newcomers-into-floss-projects-first-timers-only-list-moderation-and-more/ is about making it easier for people to contribute to open source. The talk is sort of a walk through of https://publiclab.org/wiki/software-outreach
 
-https://media.libreplanet.org/u/libreplanet/m/free-software-and-the-shifting-landscape-of-online-cooperation/ is about Mako's concerns over how proprietary is using free software techniques.
+https://media.libreplanet.org/u/libreplanet/m/free-software-and-the-shifting-landscape-of-online-cooperation/ is about Mako's concerns over how proprietary is using free software techniques. Slides at https://media.libreplanet.org/u/libreplanet/m/free-software-and-the-shifting-landscape-of-online-cooperation-a311/
 
-https://media.libreplanet.org/u/libreplanet/m/free-software-forever/ is they opening keynote where Deb Nicholson explains that we must be friendly to newcomers.
+https://media.libreplanet.org/u/libreplanet/m/free-software-forever-with-slides/ is they opening keynote where Deb Nicholson explains that we must be friendly to newcomers.
 
 https://media.libreplanet.org/u/libreplanet/m/who-cares-if-code-is-free-ux-and-free-software/ is about how free software developers should care about UX. Slides can be found at https://duffy.fedorapeople.org/presentations/libreplanet2018/HTML and the talk can be discussed at https://discourse.opensourcedesign.net/t/keynote-on-open-source-and-ux-at-ohio-linux-fest-sep-30/294
 
-https://media.libreplanet.org/u/libreplanet/m/copyleft-diversity-critical-infrastructure/ is a talk by Karen Sandler where she explains her personal advocacy for free software due to her defibrillator and the need for diversity in the free software movement.
+https://media.libreplanet.org/u/libreplanet/m/copyleft-diversity-critical-infrastructure/ is a talk by Karen Sandler where she explains her personal advocacy for free software due to her defibrillator and the need for diversity in the free software movement. Slides at
+https://media.libreplanet.org/u/libreplanet/m/copyleft-diversity-critical-infrastructure-c2f1/
 
-https://media.libreplanet.org/u/libreplanet/m/pathways-for-discovery-of-free-software/ is about the FSF directory, WikiData, and more.
+https://media.libreplanet.org/u/libreplanet/m/pathways-for-discovery-of-free-software/ is about the FSF directory, WikiData, and more. Slides at https://media.libreplanet.org/u/libreplanet/m/pathways-for-discovery-of-free-software-08f8/
 
-https://media.libreplanet.org/u/libreplanet/m/diversity-in-free-software-no-longer-at-square-one/ was good and slides are similar to the ones at https://gitlab.com/marinaz/presentations/blob/master/Diversity_in_Open_Source_OSS_2017.pdf and sketchnotes are available at https://twitter.com/princi_ya/status/977933790927577088
+https://media.libreplanet.org/u/libreplanet/m/diversity-in-free-software-no-longer-at-square-one/ was good and slides are similar to the ones at https://gitlab.com/marinaz/presentations/blob/master/Diversity_in_Open_Source_OSS_2017.pdf and sketchnotes are available at https://twitter.com/princi_ya/status/977933790927577088 . Slides at https://media.libreplanet.org/u/libreplanet/m/diversity-in-free-software-no-longer-at-square-one-5265/
+
+https://media.libreplanet.org/u/libreplanet/m/diversity-in-free-software-no-longer-at-square-one-5265/
 
 https://media.libreplanet.org/u/libreplanet/m/free-software-awards-1c4f/ is a talk by RMS who mentions some new initiatives.
 
-https://media.libreplanet.org/u/libreplanet/m/the-battle-to-free-the-code-at-the-department-of-defense/ mentions https://www.code.mil (see https://www.code.mil/why-open-source.html ). She talks about Oracle's writing about "false narratives" at https://github.com/GSA/modernization/issues/41
+https://media.libreplanet.org/u/libreplanet/m/the-battle-to-free-the-code-at-the-department-of-defense/ mentions https://www.code.mil (see https://www.code.mil/why-open-source.html ). She talks about Oracle's writing about "false narratives" at https://github.com/GSA/modernization/issues/41 . Slides at https://media.libreplanet.org/u/libreplanet/m/the-battle-to-free-the-code-at-the-department-of-defense-7724/
 
-https://media.libreplanet.org/u/libreplanet/m/state-of-the-onion/ is an update on Tor. They're starting to use Rust instead of C. They think a lot about censorship.
+https://media.libreplanet.org/u/libreplanet/m/state-of-the-onion/ is an update on Tor. They're starting to use Rust instead of C. They think a lot about censorship. Slides at https://media.libreplanet.org/u/libreplanet/m/state-of-the-onion-6fad/
 
 https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-1-cc-by-sa-4-0/ had talks on biking (by Salt), hacking music notation systems using Clairnote and Lilypond, secure scuttlebutt (by Joey Hess), role playing games, subdo ( https://thomaslevine.com/scm/subdo ), GNU Screen, and LinuxConf Australia.
 
 https://media.libreplanet.org/u/libreplanet/m/lightning-talks-session-2-cc-by-sa-4-0/ had talks on the future of computing and creating convenient, ethical products (Todd), welcoming women in open source (Eris), Global Rescue Systems, Technoethical laptops (Curtis), https://autocrypt.org (dkg), Bash, and debugd (Joey Hess).
 
-https://media.libreplanet.org/u/libreplanet/m/evolving-government-policies-on-the-procurement-and-production-of-free-software/ explains the various advances in the use of open source by governments around the world.
+https://media.libreplanet.org/u/libreplanet/m/evolving-government-policies-on-the-procurement-and-production-of-free-software/ explains the various advances in the use of open source by governments around the world. Slides at https://media.libreplanet.org/u/libreplanet/m/evolving-government-policies-on-the-procurement-and-production-of-free-software-6b10/
 
-https://media.libreplanet.org/u/libreplanet/m/standardizing-network-freedom/ is about ActivityPub and the standards work that lead to it.
+https://media.libreplanet.org/u/libreplanet/m/standardizing-network-freedom/ is about ActivityPub and the standards work that lead to it. Slides at https://media.libreplanet.org/u/libreplanet/m/standardizing-network-freedom-a141/
 
-https://media.libreplanet.org/u/libreplanet/m/free-software-desktops-to-2020-beyond/ is about GNOME.
+https://media.libreplanet.org/u/libreplanet/m/free-software-desktops-to-2020-beyond/ is about GNOME. Slides at https://media.libreplanet.org/u/libreplanet/m/free-software-desktops-to-2020-beyond-d584/
 
 https://media.libreplanet.org/u/libreplanet/m/exposing-hidden-surveillance-in-mobile-apps/ was an interesting talk with a focus on Android. There was an etherpad during the talk and some browser plugins were mentioned that can help detect apps that engage in surveillance. Checks are being added to F-Droid. An Android app is in development.
 
 https://media.libreplanet.org/u/libreplanet/m/in-business-keeping-free-software-sustainable/ is by the creator of https://jmp.chat and is about making money with free software.
 
-https://media.libreplanet.org/u/libreplanet/m/browsing-the-free-software-commons/ is about archiving sites like GitHub.
+https://media.libreplanet.org/u/libreplanet/m/browsing-the-free-software-commons/ is about archiving sites like GitHub. Slides at https://media.libreplanet.org/u/libreplanet/m/browsing-the-free-software-commons-6c13/
 
-https://media.libreplanet.org/u/libreplanet/m/curated-web-of-trust-keyrings-for-free-software-projects-a-case-study-on-debian-s-experience/
+https://media.libreplanet.org/u/libreplanet/m/curated-web-of-trust-keyrings-for-free-software-projects-a-case-study-on-debian-s-experience/ . Slides at https://media.libreplanet.org/u/libreplanet/m/curated-web-of-trust-keyrings-for-free-software-projects-a-case-study-on-debian-s-experience-b572/
 
-https://media.libreplanet.org/u/libreplanet/m/the-dark-side-of-free-software-communities/ is about how we should be friendlier.
+https://media.libreplanet.org/u/libreplanet/m/the-dark-side-of-free-software-communities/ is about how we should be friendlier. Slides at https://media.libreplanet.org/u/libreplanet/m/the-dark-side-of-free-software-communities-a2eb/
 
 https://media.libreplanet.org/u/libreplanet/m/a-usability-study-of-the-gpl/ is a walkthrough of https://www.gnu.org/licenses/gpl-howto.en.html
 
 https://media.libreplanet.org/u/libreplanet/m/a-newcomer-s-perspective-on-patches-for-the-free-software-movement/ is by a self-described millennial.
 
-https://media.libreplanet.org/u/libreplanet/m/a-wee-server-for-the-home/ is a deep dive on commands used for getting set up.
+https://media.libreplanet.org/u/libreplanet/m/a-wee-server-for-the-home/ is a deep dive on commands used for getting set up. Slides at https://media.libreplanet.org/u/libreplanet/m/a-wee-server-for-the-home-d715/
 
-https://media.libreplanet.org/u/libreplanet/m/engaging-nonprofits-why-free-software-is-essential-to-the-social-good/ is about how non-profits engage in fundraising and need to manage their relationship with donors.
+https://media.libreplanet.org/u/libreplanet/m/engaging-nonprofits-why-free-software-is-essential-to-the-social-good/ is about how non-profits engage in fundraising and need to manage their relationship with donors. Slides at https://media.libreplanet.org/u/libreplanet/m/engaging-nonprofits-why-free-software-is-essential-to-the-social-good-6c0d/
 
-https://media.libreplanet.org/u/libreplanet/m/free-software-for-nonprofit-fundraising-and-crowdfunding/ is about https://github.com/houdiniproject/houdini which is new software described as "fully-free and open fundraising infrastructure for nonprofits and NGOs.
+https://media.libreplanet.org/u/libreplanet/m/free-software-for-nonprofit-fundraising-and-crowdfunding/ is about https://github.com/houdiniproject/houdini which is new software described as "fully-free and open fundraising infrastructure for nonprofits and NGOs. Slides at https://media.libreplanet.org/u/libreplanet/m/free-software-for-nonprofit-fundraising-and-crowdfunding-e4e1/
 
-https://media.libreplanet.org/u/libreplanet/m/free-software-in-academia/
+https://media.libreplanet.org/u/libreplanet/m/free-software-in-academia/ . Slides at https://media.libreplanet.org/u/libreplanet/m/free-software-in-academia-e283/
 
 https://media.libreplanet.org/u/libreplanet/m/what-college-students-do-and-don-t-know-about-free-software/
 
 https://media.libreplanet.org/u/libreplanet/m/freedom-embedded-vehicles/ is about the disconnect between the automotive industry and free software world, how they don't speak each other's language.
 
-https://media.libreplanet.org/u/libreplanet/m/san-francisco-s-free-software-voting-system/ was interesting and he mentioned they published some data.
+https://media.libreplanet.org/u/libreplanet/m/san-francisco-s-free-software-voting-system/ was interesting and he mentioned they published some data. https://media.libreplanet.org/u/libreplanet/m/san-francisco-s-free-software-voting-system-e1a3/
 
-https://media.libreplanet.org/u/libreplanet/m/incompossibilities-ubiquitous-engineering-tradeoffs/ mentions the importance of HTTPS, even for static sites, talking about how library circulation records are private.
+https://media.libreplanet.org/u/libreplanet/m/incompossibilities-ubiquitous-engineering-tradeoffs/ mentions the importance of HTTPS, even for static sites, talking about how library circulation records are private. Slides at https://media.libreplanet.org/u/libreplanet/m/incompossibilities-ubiquitous-engineering-tradeoffs-343f/
 
 https://media.libreplanet.org/u/libreplanet/m/how-geonode-spread-across-the-globe/
 
 https://media.libreplanet.org/u/libreplanet/m/how-to-stream-with-free-software/ seemed like an awesome live demo if you were in the room.
 
-https://media.libreplanet.org/u/libreplanet/m/practical-verifiable-software-freedom-with-guixsd/ is basically a new Linux distribution.
+https://media.libreplanet.org/u/libreplanet/m/practical-verifiable-software-freedom-with-guixsd/ is basically a new Linux distribution. Slides at https://media.libreplanet.org/u/libreplanet/m/practical-verifiable-software-freedom-with-guixsd-eaff/
 
 https://media.libreplanet.org/u/libreplanet/m/freedom-devices-and-health/ explained how given current laws, you can distribute source code but not class 3 medical devices.
 
-https://media.libreplanet.org/u/libreplanet/m/the-ethics-void/ is about ethics.
+https://media.libreplanet.org/u/libreplanet/m/the-ethics-void/ is about ethics. Slides at https://media.libreplanet.org/u/libreplanet/m/the-ethics-void-7658/
 
-https://media.libreplanet.org/u/libreplanet/m/it-s-real-free-software-has-been-changing-mexico/ is by an OpenSUSE contributor.
+https://media.libreplanet.org/u/libreplanet/m/it-s-real-free-software-has-been-changing-mexico/ is by an OpenSUSE contributor. Slides at https://media.libreplanet.org/u/libreplanet/m/it-s-real-free-software-has-been-changing-mexico-1e2f/
 
 https://media.libreplanet.org/u/libreplanet/m/you-think-you-re-not-a-target-a-tale-of-three-developers/ is about reproducible builds.
 
 https://media.libreplanet.org/u/libreplanet/m/free-software-as-a-catalyst-for-liberation-social-justice-and-social-medicine/ is about GNU Health and health challenges around the world.
 
-https://media.libreplanet.org/u/libreplanet/m/librecmc-the-libre-embedded-gnu-linux-distro/ is about libreCMC.
+https://media.libreplanet.org/u/libreplanet/m/librecmc-the-libre-embedded-gnu-linux-distro/ is about libreCMC. Slides at https://media.libreplanet.org/u/libreplanet/m/librecmc-the-libre-embedded-gnu-linux-distro-cf5a/
 
-https://media.libreplanet.org/u/libreplanet/m/defense-through-collaboration-the-use-of-free-software-in-preventing-proprietary-software-based-virus-attacks/ argues that free software helps keep us more secure.
+https://media.libreplanet.org/u/libreplanet/m/defense-through-collaboration-the-use-of-free-software-in-preventing-proprietary-software-based-virus-attacks/ argues that free software helps keep us more secure. Slides at https://media.libreplanet.org/u/libreplanet/m/defense-through-collaboration-the-use-of-free-software-in-preventing-proprietary-software-based-virus-attacks-369d/
 
-https://media.libreplanet.org/u/libreplanet/m/libreoffice-certification-for-fsf-members/ is about the advances LibreOffice has made and certification.
+https://media.libreplanet.org/u/libreplanet/m/libreoffice-certification-for-fsf-members/ is about the advances LibreOffice has made and certification. Slides at https://media.libreplanet.org/u/libreplanet/m/libreoffice-certification-for-fsf-members-110d/
 
-https://media.libreplanet.org/u/libreplanet/m/introduction-to-latex/ in an intro, like it says.
+https://media.libreplanet.org/u/libreplanet/m/introduction-to-latex/ in an intro, like it says. Slides at https://media.libreplanet.org/u/libreplanet/m/introduction-to-latex-7fe4/
 
 https://media.libreplanet.org/u/libreplanet/m/device-and-personal-privacy-technology-roundup/ is by der.hans.
 
