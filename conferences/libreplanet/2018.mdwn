@@ -2,7 +2,7 @@ https://media.libreplanet.org/u/libreplanet/m/sharing-strategies-for-welcoming-n
 
 https://media.libreplanet.org/u/libreplanet/m/free-software-and-the-shifting-landscape-of-online-cooperation/ is about Mako's concerns over how proprietary is using free software techniques. Slides at https://media.libreplanet.org/u/libreplanet/m/free-software-and-the-shifting-landscape-of-online-cooperation-a311/
 
-https://media.libreplanet.org/u/libreplanet/m/free-software-forever-with-slides/ is they opening keynote where Deb Nicholson explains that we must be friendly to newcomers.
+https://media.libreplanet.org/u/libreplanet/m/free-software-forever-with-slides/ is they opening keynote where Deb Nicholson explains that we must be friendly to newcomers. "We may need to meet the village more than halfway. We may have to become the (alien) armadillo. Cyberpunk, alien, armadillo resisters." The story she talked about was The Enchanted Village by A.E. Van Vogt.
 
 https://media.libreplanet.org/u/libreplanet/m/who-cares-if-code-is-free-ux-and-free-software/ is about how free software developers should care about UX. Slides can be found at https://duffy.fedorapeople.org/presentations/libreplanet2018/HTML and the talk can be discussed at https://discourse.opensourcedesign.net/t/keynote-on-open-source-and-ux-at-ohio-linux-fest-sep-30/294
 
