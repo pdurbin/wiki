@@ -7,7 +7,7 @@ channel	network	homepage	logs
 #rest	freenode	http://trygvis.io/rest-wiki	http://irclog.greptilian.com/rest/today
 #openhatch	freenode	http://openhatch.org	http://irclogs.jackgrigg.com/irc.freenode.net/openhatch/today
 ##friendlyjava	freenode	http://irclog.greptilian.com/friendlyjava	http://irclog.greptilian.com/friendlyjava/today
-#crimsonfu	freenode	http://crimsonfu.github.io	http://irclog.perlgeek.de/crimsonfu/today
+#crimsonfu	freenode	http://crimsonfu.github.io	http://irclogs.shortcircuit.net.au/%23crimsonfu/latest.log.html
 #codeforscience/community	gitter	https://github.com/codeforscience	https://gitter.im/codeforscience/community
 #virtualJUG	freenode	http://virtualjug.com	http://irclog.greptilian.com/virtualJUG/today
 #openknot	freenode	http://github.com/openknot	http://irclog.greptilian.com/openknot/today
