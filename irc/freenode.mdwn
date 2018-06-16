@@ -1,9 +1,9 @@
 ## Alis (Advanced LIst Service)
 
-    /query alist
+    /query alis
     list * -topic *foo* -skip 90
 
-http://freenode.net/services.shtml
+https://freenode.net/kb/answer/findingchannels
 
 ## Connecting from mobile with SASL
 
