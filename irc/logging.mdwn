@@ -1,5 +1,6 @@
 - http://irclog.perlgeek.de
 - http://botbot.me
+- https://freenode.logbot.info
 - http://colabti.org/irclogger/irclogger_logs
 - http://irclogger.com
 - http://logs.glob.uno
