@@ -18,4 +18,4 @@ A friend of mine has his kids using Scratch to program a cute little robot calle
 
 [Scratch 3]: https://wiki.scratch.mit.edu/wiki/Scratch_3.0
 [ScratchJr]: http://www.scratchjr.org
-[Cozmo][]: https://www.anki.com/en-us/cozmo
+[Cozmo]: https://www.anki.com/en-us/cozmo
