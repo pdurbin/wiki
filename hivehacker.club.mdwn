@@ -1,0 +1,29 @@
+Hive Hacker Club is an experiment.
+
+Making the logo for http://hivehacker.club
+
+    convert input.jpg -crop 127x135+0+5 bee.jpg
+    jp2a bee.jpg --chars=" hive"
+    eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+    eeeeeeeeeeeviveeeeeeeeeeeeeevvvveeeeeeeeeee
+    eeeeeeeeeei   heeeeeeeeeeeevh   veeeeeeeeee
+    eeeeeeeeeevihhhveeevvvvvveeihhhieeeeeeeeeee
+    eeeeeeeeeeeeeevhhh       hhhveeeeeeeeeeeeee
+    eeeeeeeeeeeeeevh            ieeeeeeeeeeeeee
+    eeeeeeeeeeeeevh              ieeeeeeeeeeeee
+    eeeeeeeeeeihhhhiiiih   hiiiihh hiveeeeeeeee
+    eeeeeeevi hiveeeeeeeh  veeeeeevih hieeeeeee
+    eeeeevh hieeeeeeeeev   ieeeeeeeeevh  ieeeee
+    eeevh hveeeeeeeeeeeh   hveeeeeeeeeevi hveee
+    eevhhveeeeeeeeeeevh     hveeeeeeeeeeevh iee
+    ei hveeeeeeeeeeei         iveeeeeeeeeeei he
+    v  veeeeeeeeeevh hveeeeeei  iveeeeeeeeeeh i
+    i heeeeeeeevih  hiiivvvviih   iveeeeeeeei h
+    v hveeevvih                     hivveeevh i
+    evh     hhivh hihh       hhih  iiih     hie
+    eeeevvveeeeevh ieeeeeveeeeei  veeeeeevveeee
+    eeeeeeeeeeeeeeih ivveeeevih iveeeeeeeeeeeee
+    eeeeeeeeeeeeeeeevih     hhiveeeeeeeeeeeeeee
+    eeeeeeeeeeeeeeeeeeevh  ieeeeeeeeeeeeeeeeeee
+    eeeeeeeeeeeeeeeeeeeevhveeeeeeeeeeeeeeeeeeee
+    eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
