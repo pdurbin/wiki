@@ -1,29 +1,29 @@
 slug	ranking	every	dead	name	feed_url
-functional-geekery	5	1		Functional Geekery	https://www.functionalgeekery.com/feed/mp3/
 track-changes	5	1		Track Changes	http://trackchanges.libsyn.com/rss
-masters-of-scale	5	1		Masters of Scale	https://rss.art19.com/masters-of-scale
-command-line-heroes	5	1		Command Line Heroes	https://feeds.pacific-content.com/commandlineheroes
-defn	5	1		defn	http://feeds.soundcloud.com/users/soundcloud:users:220484243/sounds.rss
-illegal-argument	5	1		Illegal Argument	http://illegalargument.libsyn.com/rss
+functional-geekery	5	1		Functional Geekery	https://www.functionalgeekery.com/feed/mp3/
 programming-throwdown	5	1		Programming Throwdown	http://feeds.feedburner.com/ProgrammingThrowdown
-cognicast	4	1		The Cognicast	http://feeds.feedburner.com/cognicast
+defn	5	1		defn	http://feeds.soundcloud.com/users/soundcloud:users:220484243/sounds.rss
+airhacks	5	1		Airhacks	http://airhacks.fm/episodes/feed.xml
 off-heap	5	1		Off-Heap	http://offheap.libsyn.com/rss
 java-pub-house	5	1		Java Pub House	http://javapubhouse.libsyn.com/rss
-airhacks	5	1		Airhacks	http://airhacks.fm/episodes/feed.xml
-request-for-commits	3	1		Request For Commits	https://changelog.com/rfc/feed
-enterprise-java-newscast	4	1		Enterprise Java Newscast	http://enterprisejavanews.libsyn.com/rss
-women-in-tech-show	4	0		The Women in Tech Show	https://thewomenintechshow.com/category/podcast/https:/thewomenintechshow.com/category/podcast/feed/
+command-line-heroes	5	1		Command Line Heroes	https://feeds.pacific-content.com/commandlineheroes
+silver-screen-queens	5	0		Silver Screen Queens	http://silverscreenqueens.com/rss
+illegal-argument	5	1		Illegal Argument	http://illegalargument.libsyn.com/rss
+cognicast	4	1		The Cognicast	http://feeds.feedburner.com/cognicast
+masters-of-scale	5	1		Masters of Scale	https://rss.art19.com/masters-of-scale
+hbr-ideacast		0		HBR IdeaCast	http://feeds.harvardbusiness.org/harvardbusiness/ideacast
+floss-weekly	3	0		FLOSS Weekly	http://leoville.tv/podcasts/floss.xml
 case	4	1		CaSE	http://www.case-podcast.org/feed/mp3
 software-engineering-daily	4	0		Software Engineering Daily	https://softwareengineeringdaily.com/feed/podcast
+software-engineering-radio	4	0		Software Engineering Radio	http://feeds.feedburner.com/se-radio
 observatory	4	0		The Observatory	https://designobserver.com/show.observatory.xml
 toolsday	4	0		Toolsday	http://www.toolsday.io/feeds/rss.xml
 all-things-git	4	0		All Things Git	https://www.allthingsgit.com/episodes.xml
+women-in-tech-show	4	0		The Women in Tech Show	https://thewomenintechshow.com/category/podcast/https:/thewomenintechshow.com/category/podcast/feed/
+enterprise-java-newscast	4	1		Enterprise Java Newscast	http://enterprisejavanews.libsyn.com/rss
 soft-arch-radio	4	0		Software Architecture Radio	http://feeds.soundcloud.com/users/soundcloud:users:276322801/sounds.rss
 changelog	4	0		The Changelog	http://feeds.feedburner.com/changelogshow
-software-engineering-radio	4	0		Software Engineering Radio	http://feeds.feedburner.com/se-radio
-floss-weekly	3	0		FLOSS Weekly	http://leoville.tv/podcasts/floss.xml
 javachannel	3	1		javachannel	https://javachannel.org/posts/category/podcast/feed/
-silver-screen-queens	5	0		Silver Screen Queens	http://silverscreenqueens.com/rss
 ploscast	4	0		PLOScast	http://feeds.soundcloud.com/users/soundcloud:users:8974411/sounds.rss
 openscienceradio	4	0		Open Science Radio	http://www.openscienceradio.org/category/english-episodes/feed/mp3/
 colper-science	4	0		Colper Science	http://feeds.feedburner.com/ColperScience
@@ -36,7 +36,6 @@ stack-overflow	1	0		Stack Overflow	https://stackoverflow.blog/podcasts/?feed=pod
 modern-web		0		Modern Web	http://modernweb.podbean.com/feed/
 breaking-into-startups	4	0		Breaking Into Startups	http://feeds.soundcloud.com/users/soundcloud:users:256509984/sounds.rss
 jboss-asylum		0		JBoss Asylum	http://jbosscommunityasylum.libsyn.com/rss
-scalawags	4	1		The Scalawags	http://thescalawags.libsyn.com/rss
 go-time	3	0		Go Time	https://changelog.com/gotime/feed
 full-stack-radio	4	0		Full Stack Radio	https://rss.simplecast.com/podcasts/279/rss
 open-source-musician		0		Open Source Musician Podcast	https://archive.org/services/collection-rss.php?collection=osmpodcast
@@ -107,7 +106,6 @@ talk-nerdy	2	0		Talk Nerdy	http://carasantamaria.com/podcast/?format=rss
 incomparable	2	0		The Incomparable	http://feeds.theincomparable.com/theincomparable
 unjustly-maligned	4	0		Unjustly Maligned	http://feeds.theincomparable.com/ump
 econtalk	5	0		EconTalk	http://files.libertyfund.org/econtalk/EconTalk.xml
-hbr-ideacast		0		HBR IdeaCast	http://feeds.harvardbusiness.org/harvardbusiness/ideacast
 front-end-happy-hour	2	0		Front End Happy Hour	http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss
 wtf	2	0		WTF with Marc Maron Podcast	http://wtfpod.libsyn.com/rss
 radiolab		0		Radiolab	http://www.radiolab.org/feeds/podcast/
@@ -192,3 +190,5 @@ how-to-program-with-java	3	0	1	How to Program with Java	http://feeds.feedburner.
 from-python-import-podcast	3	0	1	From Python Import Podcast	http://feeds.feedburner.com/FromPythonImportPodcast
 design-guy	3	0	1	Design Guy	http://feeds.feedburner.com/blogspot/designguyshow
 less-than-or-equal	2	0	1	Less Than or Equal	https://www.lessthanorequal.com/episodes/?format=rss
+request-for-commits	3	1	1	Request For Commits	https://changelog.com/rfc/feed
+scalawags	4	1		The Scalawags	http://thescalawags.libsyn.com/rss
