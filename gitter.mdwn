@@ -1,0 +1,4 @@
+In August 2018 I asked about a Gitter roadmap at https://gitter.im/gitterHQ/contributing?at=5b83daefff44515616449c0a and it sounds like there isn't one. On the short list were these two issues:
+
+- threaded discussions: https://gitlab.com/gitlab-org/gitter/webapp/issues/741
+- notification bugs: https://gitlab.com/gitlab-org/gitter/webapp/issues/1205
