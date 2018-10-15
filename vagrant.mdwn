@@ -1,8 +1,8 @@
 In late 2012 I got [religion][] about Vagrant ( http://vagrantup.com ) after [hearing][] about it all year.
 
-[religion]: http://irclog.perlgeek.de/crimsonfu/2012-10-29#i_6108381
+[religion]: http://crimsonfu.github.io/irclogs/2012-10-29.html
 
-[hearing]: http://irclog.perlgeek.de/crimsonfu/2012-03-28#i_5363244
+[hearing]: http://crimsonfu.github.io/irclogs/2012-03-28.html
 
 [[!toc levels=3]]
 
