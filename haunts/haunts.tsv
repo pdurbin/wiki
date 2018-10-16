@@ -19,6 +19,9 @@ channel	network	homepage	logs
 #FreeCodeCamp/DataScience	gitter	https://gitter.im/FreeCodeCamp/DataScience	https://gitter.im/FreeCodeCamp/DataScience
 #FreeCodeCamp/Help	gitter	https://gitter.im/FreeCodeCamp/Help	https://gitter.im/FreeCodeCamp/Help
 #FreeCodeCamp/Contributors	gitter	https://gitter.im/FreeCodeCamp/Contributors	https://gitter.im/FreeCodeCamp/Contributors
+#Deep-Fried-Code/DeliciousGameDev	gitter	https://gitter.im/Deep-Fried-Code/DeliciousGameDev	https://gitter.im/Deep-Fried-Code/DeliciousGameDev
+#gitterHQ/irc-bridge	gitter	https://irc.gitter.im	https://gitter.im/gitterHQ/irc-bridge
+#gitterHQ/developers	gitter	https://gitter.im/gitterHQ/developers	https://gitter.im/gitterHQ/developers
 #mozillascience/community	gitter	https://science.mozilla.org	https://gitter.im/mozillascience/community
 #codeforscience/community	gitter	https://github.com/codeforscience	https://gitter.im/codeforscience/community
 #primefaces/primefaces	gitter	https://gitter.im/primefaces/primefaces	https://gitter.im/primefaces/primefaces
@@ -34,9 +37,6 @@ channel	network	homepage	logs
 #immutant	freenode	http://immutant.org	http://transcripts.jboss.org/channel/irc.freenode.org/%23immutant/
 #jython	freenode	http://www.jython.org	http://jython.extreme.st/irclogs
 #social	w3	http://www.w3.org/wiki/Socialwg	http://socialwg.indiewebcamp.com/irc/social/today
-#Deep-Fried-Code/DeliciousGameDev	gitter	https://gitter.im/Deep-Fried-Code/DeliciousGameDev	https://gitter.im/Deep-Fried-Code/DeliciousGameDev
-#gitterHQ/irc-bridge	gitter	https://irc.gitter.im	https://gitter.im/gitterHQ/irc-bridge
-#gitterHQ/developers	gitter	https://gitter.im/gitterHQ/developers	https://gitter.im/gitterHQ/developers
 #typelead/eta	gitter	http://eta-lang.org	https://gitter.im/typelead/eta
 #githubschool/on-demand	gitter	https://services.github.com/on-demand/	https://gitter.im/githubschool/on-demand
 #cypress-io/cypress	gitter	http://cypress.io	https://gitter.im/cypress-io/cypress
