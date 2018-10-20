@@ -1,0 +1,12 @@
+## server1.greptilian.com (launched 2012-04-11, decommissioned 2015-12-03)
+
+## server2.greptilian.com (launched 2015-09-27)
+
+http://munin.greptilian.com/greptilian.com/server2.greptilian.com/
+
+<img src="http://munin.greptilian.com/greptilian.com/server2.greptilian.com/df-week.png">
+<img src="http://munin.greptilian.com/greptilian.com/server2.greptilian.com/if_eth0-week.png">
+<img src="http://munin.greptilian.com/greptilian.com/server2.greptilian.com/cpu-week.png">
+<img src="http://munin.greptilian.com/greptilian.com/server2.greptilian.com/load-week.png">
+<img src="http://munin.greptilian.com/greptilian.com/server2.greptilian.com/memory-week.png">
+<img src="http://munin.greptilian.com/greptilian.com/server2.greptilian.com/uptime-week.png">
