@@ -1,6 +1,10 @@
 ## server1.greptilian.com (launched 2012-04-11, decommissioned 2015-12-03)
 
+server1 ran CentOS 6 and was hosted on [Space Compute](http://spacecompute.com).
+
 ## server2.greptilian.com (launched 2015-09-27)
+
+server2 runs Ubuntu 14.04 and is hosted on [Digital Ocean](http://digitalocean.com).
 
 http://munin.greptilian.com/greptilian.com/server2.greptilian.com/
 
