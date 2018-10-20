@@ -1,4 +1,0 @@
-server1.greptilian.com:
-
-    launched: 2012-04-11
-    paid_through: 2014-12-31
