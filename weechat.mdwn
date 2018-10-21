@@ -1,5 +1,7 @@
 [[!toc levels=4]]
 
+Originally tested on weechat 0.4.2, now using 1.9.1.
+
 ## Setup
 
     /set weechat.bar.input.size 0
@@ -7,6 +9,8 @@
     /filter add irc_smart * irc_smart_filter *
     /set weechat.look.buffer_notify_default message
     /set weechat.look.hotlist_sort number_asc      
+    /server add freenode chat.freenode.net
+    /set irc.server.freenode.autojoin "##friendlyjava,#openknot"
 
 ## Key bindings
 
@@ -22,7 +26,7 @@ To scroll up in Mac OS X Terminal.app (rather than holding down Shift+PageUp): `
 
 ## Common commands
 
-    /connect irc.freenode.net
+    /connect freenode
     /join #sourcefu
 
 ## To fix
