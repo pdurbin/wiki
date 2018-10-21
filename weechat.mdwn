@@ -11,6 +11,9 @@ Originally tested on weechat 0.4.2, now using 1.9.1.
     /set weechat.look.hotlist_sort number_asc      
     /server add freenode chat.freenode.net
     /set irc.server.freenode.autojoin "##friendlyjava,#openknot"
+    /server add gitter irc.gitter.im/6667 -ssl -autoconnect -password=YOUR_TOKEN_HERE
+    /ignore add gitter
+    /save
 
 ## Key bindings
 
