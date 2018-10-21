@@ -100,9 +100,23 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-
 
 ## Apache httpd
 
+Install Apache
+
     sudo apt-get install apache2
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts
+
+Restart Apache
+
+    systemctl reload apache2
+
+Enable site
+
+    a2ensite data.greptilian.com
+
+Show enabled sites
+
+    apache2ctl -S
 
 ## MySQL
 
