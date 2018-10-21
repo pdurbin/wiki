@@ -14,3 +14,8 @@ http://munin.greptilian.com/greptilian.com/server2.greptilian.com/
 <img src="http://munin.greptilian.com/greptilian.com/server2.greptilian.com/load-week.png">
 <img src="http://munin.greptilian.com/greptilian.com/server2.greptilian.com/memory-week.png">
 <img src="http://munin.greptilian.com/greptilian.com/server2.greptilian.com/uptime-week.png">
+
+## server3.greptilian.com (launched 2018-10-21)
+
+server3 runs Ubuntu 18.04 and is hosted on [Digital Ocean](http://digitalocean.com).
+
