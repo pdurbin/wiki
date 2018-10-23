@@ -59,7 +59,7 @@ Browse to http://localhost:8000
 
 ## Hack on table plugin
 
-TODO: start discussion at http://ikiwiki.info/plugins/table/ about how having data that starts with "#" such as an IRC channel or hashtag gets turned into h1 tags. :(
+The following hack is for ikiwiki 3.20130904.1ubuntu1 on Ubuntu 14.04 for when the first column of CSV data starts with a "#" or "##" (such as IRC channels or hashtags) and you don't want h1 or h2 tags. Discuss at http://ikiwiki.info/forum/table_plugin_and_Markdown_side_effects_on_data/
 
     root@server2:~# diff -u /usr/share/perl5/IkiWiki/Plugin/table.pm.orig /usr/share/perl5/IkiWiki/Plugin/table.pm
     --- /usr/share/perl5/IkiWiki/Plugin/table.pm.orig       2013-09-04 18:11:12.000000000 -0400
