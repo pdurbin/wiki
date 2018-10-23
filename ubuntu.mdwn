@@ -129,3 +129,11 @@ https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial
     sudo timedatectl set-timezone America/New_York
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-time-synchronization-on-ubuntu-18-04
+
+## Grub
+
+On a new installation of Ubuntu 18.04 on Digital Ocean I ran `sudo apt-get dist-upgrade` and saw this message:
+
+"A new version of /boot/grub/menu.lst is available, but the version installed currently has been locally modified. What would you like to do about menu.lst?
+
+I selected the first option called "install the package maintainer's version" even though the second option called "keep the local version currently installed" was highlighted. Showing differences didn't work. I rebooted the server and it came back up. There's a related post at https://www.digitalocean.com/community/questions/ubuntu-new-boot-grub-menu-lst-after-apt-get-upgrade
