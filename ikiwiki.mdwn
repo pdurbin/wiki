@@ -1,5 +1,10 @@
 Note: The information below about running this wiki on CentOS is out of date. It's now running on Ubuntu using the standard package.
 
+To get autolink working using ikiwiki 3.20180228-1 on Ubuntu 18.04:
+
+- add `$flags |= Text::Markdown::Discount::MKD_AUTOLINK();` to /usr/share/perl5/IkiWiki/Plugin/mdwn.pm
+- `cd /srv/wiki-srcdir && ikiwiki --setup wiki.setup`
+
 This wiki is running [ikiwiki](http://ikiwiki.info) on CentOS 6 with an [RPM](http://yum.greptilian.com/RPMS/noarch/ikiwiki-3.20120202-1.el6.noarch.rpm) I rebuild from a [ikiwiki Fedora spec file](https://admin.fedoraproject.org/pkgdb/acls/name/ikiwiki).  I also had to rebuild a number of dependencies, which you can find at http://yum.greptilian.com
 
 After installing the RPMs, I ran `ikiwiki --setup wiki.setup` on [[/wiki.setup]].
