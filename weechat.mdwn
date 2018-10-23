@@ -58,7 +58,7 @@ http://tools.ietf.org/html/rfc2812
 
 "Presumably, you're running weechat in a terminal... the links are hard-wrapped... (you won't be able to click the full url)... `[urlgrab.py]` has one obvious limitation: it doesn't work well if you’re running weechat on a remote host" -- http://blog.lnx.cx/2012/08/14/weechat/
 
-See the Alt-l tip above for bare display.
+See the Alt-l tip above for bare display. For more on bare display, see https://www.weechat.org/files/doc/stable/weechat_user.en.html#bare_display
 
 ## Scripts
 
