@@ -23,6 +23,7 @@ Originally tested on weechat 0.4.2, now using 1.9.1.
     F11 scroll nick list up
     F12 scroll nick list down
     Alt-= toggle filters on or off
+    Alt-l bare display (for long links)
 
 http://www.weechat.org/files/doc/stable/weechat_quickstart.en.html#key_bindings
 
@@ -56,6 +57,8 @@ http://tools.ietf.org/html/rfc2812
 ### Can't click long links
 
 "Presumably, you're running weechat in a terminal... the links are hard-wrapped... (you won't be able to click the full url)... `[urlgrab.py]` has one obvious limitation: it doesn't work well if you’re running weechat on a remote host" -- http://blog.lnx.cx/2012/08/14/weechat/
+
+See the Alt-l tip above for bare display.
 
 ## Scripts
 
