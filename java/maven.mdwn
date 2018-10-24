@@ -1,0 +1,3 @@
+To add missing javadoc:
+
+mvn dependency:sources -Dclassifier=javadoc
