@@ -13,6 +13,8 @@ Originally tested on weechat 0.4.2, now using 1.9.1.
     /set irc.server.freenode.autojoin "##friendlyjava,#openknot"
     /server add gitter irc.gitter.im/6667 -ssl -password=YOUR_TOKEN_HERE
     /set weechat.bar.buflist.size_max 22
+    /set weechat.color.chat_nick_self brown
+    /set weechat.color.status_name brown
     /ignore add gitter
     /save
 
