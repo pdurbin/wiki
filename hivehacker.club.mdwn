@@ -35,3 +35,7 @@ Making pixel art
 Game inspiration
 
 - https://www.emanueleferonato.com/2017/07/08/the-basics-behind-jumping-on-enemies-feature-explained-with-phaser-and-arcade-physics/
+
+Sprites
+
+[[!map pages=hivehacker.club/*/*]]
