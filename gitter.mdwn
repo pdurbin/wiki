@@ -1,3 +1,5 @@
 [Gitter roadmap][] via https://gitter.im/gitterHQ/contributing?at=5bd78c3d23d0ad2547912cb4
 
 [Gitter roadmap]: https://gitlab.com/groups/gitlab-org/-/roadmap?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Gitter&layout=QUARTERS
+
+The issue that's driving me the most crazy is that from IRC I can't see who's in the room so it's extra difficult to @mention people. It seems like the issue to work on is this one: https://gitlab.com/gitlab-org/gitter/irc-bridge/issues/52 .
