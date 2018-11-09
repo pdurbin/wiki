@@ -9,3 +9,7 @@ The culture of transparency Gitter brings to chat is healthy for free software. 
 ## The LibrePlanet program committee will use this to understand your proposed talk. Please limit this to 300 words.
 
 I've been running an IRC logger for #dataverse on freenode for six years with great success. The problem is that I'm going against the grain, against the culture of IRC. I'm considering moving to Gitter because the culture is more in line with the transparency that I think is healthy for free software projects.
+
+---
+
+Submitted for Libre Planet 2019 via https://my.fsf.org/node/20/done?sid=1023
