@@ -1,0 +1,11 @@
+## Title
+
+Transparency in chat culture: Gitter vs. IRC, Slack, and the rest
+
+## A brief summary, this will be printed on the Web site and in the program. Please aim for a maximum of 150 words.
+
+The culture of transparency Gitter brings to chat is healthy for free software. IRC, XMPP, Slack, and almost every other chat system encourage decision making behind closed doors.
+
+## The LibrePlanet program committee will use this to understand your proposed talk. Please limit this to 300 words.
+
+I've been running an IRC logger for #dataverse on freenode for six years with great success. The problem is that I'm going against the grain, against the culture of IRC. I'm considering moving to Gitter because the culture is more in line with the transparency that I think is healthy for free software projects.
