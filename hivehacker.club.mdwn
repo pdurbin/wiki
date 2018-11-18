@@ -30,7 +30,7 @@ Making the logo for http://hivehacker.club
 
 Making pixel art
 
-- https://www.piskelapp.com https://github.com/piskelapp/piskel
+- https://www.piskelapp.com https://github.com/piskelapp/piskel https://www.piskelapp.com/user/6039083336335360
 
 Game inspiration
 
