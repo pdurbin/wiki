@@ -35,3 +35,14 @@ http://java.dzone.com/articles/how-do-10-common-tasks-jsf-20
 http://incepttechnologies.blogspot.com/p/view-parameters-in-jsf-20.html
 
 At around 40:00 at http://www.javaoffheap.com/2015/05/episode-2-tales-of-microsoft-javascript.html there's a discussion about how JSF is good for doing things quickly with off the shelf components but not good for creating custom, pixel-perfect layouts because you have to write your own component, when it might be easier to simply write Javascript.
+
+## JSF debugging
+
+"error messages can be displayed during the Development stage but suppressed during the Production stage"
+
+    <context-param>
+        <param-name>javax.faces.PROJECT_STAGE</param-name>
+        <param-value>Development</param-value>
+    </context-param>
+
+https://docs.oracle.com/javaee/6/tutorial/doc/bnaxj.html
