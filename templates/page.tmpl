@@ -34,6 +34,7 @@
 <TMPL_IF FEEDLINKS><TMPL_VAR FEEDLINKS></TMPL_IF>
 <TMPL_IF RELVCS><TMPL_VAR RELVCS></TMPL_IF>
 <TMPL_IF META><TMPL_VAR META></TMPL_IF>
+<script src="<TMPL_VAR BASEURL>main.js"></script>
 </head>
 <body>
 
@@ -204,7 +205,7 @@ Last <a href="<TMPL_VAR HISTORYURL>">updated</a> <TMPL_VAR MTIME>
 <hr>
 
 <div>
-<a href="/">Home</a> | <a href="/about">About</a> | <a href="/sitemap">Sitemap</a> | <a href="http://git.greptilian.com/?p=wiki.git;a=shortlog">Recent changes</a> | &copy; 2018 <a href="http://greptilian.com">Philip Durbin</a> | <a href="http://twitter.com/philipdurbin">@philipdurbin</a> | <a href="mailto:philipdurbin@gmail.com">philipdurbin@gmail.com</a>
+<a href="/">Home</a> | <a href="/about">About</a> | <a href="/sitemap">Sitemap</a> | <a href="http://git.greptilian.com/?p=wiki.git;a=shortlog">Recent changes</a> | &copy; <span id="current-year"></span> <a href="http://greptilian.com">Philip Durbin</a> | <a href="http://twitter.com/philipdurbin">@philipdurbin</a> | <a href="mailto:philipdurbin@gmail.com">philipdurbin@gmail.com</a>
 </div>
 
 </body>
