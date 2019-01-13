@@ -1,23 +1,26 @@
 slug	ranking	every	dead	name	feed_url	url
+libre-lounge	5	1		Libre Lounge	https://librelounge.org/rss-feed.rss	https://librelounge.org
+free-as-in-freedom	5	1		Free as in Freedom	http://faif.us/feeds/cast-mp3/	http://faif.us
 track-changes	5	1		Track Changes	http://trackchanges.libsyn.com/rss	https://postlight.com/trackchanges
-functional-geekery	5	1		Functional Geekery	https://www.functionalgeekery.com/feed/mp3/	https://www.functionalgeekery.com
-programming-throwdown	5	1		Programming Throwdown	http://feeds.feedburner.com/ProgrammingThrowdown	https://www.programmingthrowdown.com
-defn	5	1		defn	http://feeds.soundcloud.com/users/soundcloud:users:220484243/sounds.rss	https://defn.audio
 airhacks	5	1		Airhacks	http://airhacks.fm/episodes/feed.xml	http://airhacks.fm
 off-heap	5	1		Off-Heap	http://offheap.libsyn.com/rss	http://www.javaoffheap.com
 java-pub-house	5	1		Java Pub House	http://javapubhouse.libsyn.com/rss	https://www.javapubhouse.com
+programming-throwdown	5	1		Programming Throwdown	http://feeds.feedburner.com/ProgrammingThrowdown	https://www.programmingthrowdown.com
+defn	5	1		defn	http://feeds.soundcloud.com/users/soundcloud:users:220484243/sounds.rss	https://defn.audio
+functional-geekery	5	1		Functional Geekery	https://www.functionalgeekery.com/feed/mp3/	https://www.functionalgeekery.com
+functional-design-in-clojure	5	1		Functional Design in Clojure	https://clojuredesign.club/index.xml	https://clojuredesign.club
 command-line-heroes	5	1		Command Line Heroes	https://feeds.pacific-content.com/commandlineheroes	https://www.redhat.com/en/command-line-heroes
 silver-screen-queens	5	0		Silver Screen Queens	http://silverscreenqueens.com/rss	https://silverscreenqueens.com
 illegal-argument	5	1		Illegal Argument	http://illegalargument.libsyn.com/rss	http://illegalargument.com
+toolsday	4	0		Toolsday	http://www.toolsday.io/feeds/rss.xml
 cognicast	4	1		The Cognicast	http://feeds.feedburner.com/cognicast	http://blog.cognitect.com/cognicast/
+floss-weekly	3	0		FLOSS Weekly	http://leoville.tv/podcasts/floss.xml	https://twit.tv/shows/floss-weekly
 masters-of-scale	5	1		Masters of Scale	https://rss.art19.com/masters-of-scale	https://mastersofscale.com
 hbr-ideacast		0		HBR IdeaCast	http://feeds.harvardbusiness.org/harvardbusiness/ideacast	https://hbr.org/podcasts/ideacast
-floss-weekly	3	0		FLOSS Weekly	http://leoville.tv/podcasts/floss.xml	https://twit.tv/shows/floss-weekly
 case	4	1		CaSE	http://www.case-podcast.org/feed/mp3	https://www.case-podcast.org
 software-engineering-daily	4	0		Software Engineering Daily	https://softwareengineeringdaily.com/feed/podcast
 software-engineering-radio	4	0		Software Engineering Radio	http://feeds.feedburner.com/se-radio
 observatory	4	0		The Observatory	https://designobserver.com/show.observatory.xml
-toolsday	4	0		Toolsday	http://www.toolsday.io/feeds/rss.xml
 all-things-git	4	0		All Things Git	https://www.allthingsgit.com/episodes.xml
 women-in-tech-show	4	0		The Women in Tech Show	https://thewomenintechshow.com/category/podcast/https:/thewomenintechshow.com/category/podcast/feed/
 enterprise-java-newscast	4	1		Enterprise Java Newscast	http://enterprisejavanews.libsyn.com/rss
