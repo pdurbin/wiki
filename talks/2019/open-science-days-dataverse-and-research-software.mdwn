@@ -1,0 +1,1 @@
+On February 6, 2019 I gave a talk called "Reproducibility and Dataverse" at the [Open Science Days 2019](http://osd.mpdl.mpg.de) at the Harnack House of the Max Planck Society in Berlin. My slides are available from the conference website as well as https://www.slideshare.net/philipdurbin/research-software-and-dataverse
