@@ -4,6 +4,10 @@
 
 "We build our JDK by taking the open source OpenJDK code base and replace/add certain proprietary (non-OSS) components to it." -- Henrik Stahl at https://blogs.oracle.com/henrik/entry/moving_to_openjdk_as_the#comment-1307877302754
 
+## Java on Mac
+
+On Mac, `java` looks in `/Library/Java/JavaVirtualMachines`.
+
 ## Misc
 
 http://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html
