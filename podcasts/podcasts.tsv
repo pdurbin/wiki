@@ -16,13 +16,13 @@ jsparty	4	0		JS Party	https://changelog.com/jsparty/feed	https://changelog.com/j
 silver-screen-queens	5	0		Silver Screen Queens	http://silverscreenqueens.com/rss	https://silverscreenqueens.com
 cognicast	4	1		The Cognicast	http://feeds.feedburner.com/cognicast	http://blog.cognitect.com/cognicast/
 floss-weekly	3	0		FLOSS Weekly	http://leoville.tv/podcasts/floss.xml	https://twit.tv/shows/floss-weekly
-hbr-ideacast		0		HBR IdeaCast	http://feeds.harvardbusiness.org/harvardbusiness/ideacast	https://hbr.org/podcasts/ideacast
-case	4	1		CaSE	http://www.case-podcast.org/feed/mp3	https://www.case-podcast.org
+hbr-ideacast	3	0		HBR IdeaCast	http://feeds.harvardbusiness.org/harvardbusiness/ideacast	https://hbr.org/podcasts/ideacast
+case	4	0		CaSE	http://www.case-podcast.org/feed/mp3	https://www.case-podcast.org
 command-line-heroes	5	1		Command Line Heroes	https://feeds.pacific-content.com/commandlineheroes	https://www.redhat.com/en/command-line-heroes
 software-engineering-daily	4	0		Software Engineering Daily	https://softwareengineeringdaily.com/feed/podcast
 software-engineering-radio	4	0		Software Engineering Radio	http://feeds.feedburner.com/se-radio
 observatory	4	0		The Observatory	https://designobserver.com/show.observatory.xml
-masters-of-scale	5	1		Masters of Scale	https://rss.art19.com/masters-of-scale	https://mastersofscale.com
+masters-of-scale	5	0		Masters of Scale	https://rss.art19.com/masters-of-scale	https://mastersofscale.com
 all-things-git	4	0		All Things Git	https://www.allthingsgit.com/episodes.xml
 women-in-tech-show	4	0		The Women in Tech Show	https://thewomenintechshow.com/category/podcast/https:/thewomenintechshow.com/category/podcast/feed/
 enterprise-java-newscast	4	1		Enterprise Java Newscast	http://enterprisejavanews.libsyn.com/rss
@@ -32,8 +32,8 @@ javachannel	3	1		javachannel	https://javachannel.org/posts/category/podcast/feed
 ploscast	4	0		PLOScast	http://feeds.soundcloud.com/users/soundcloud:users:8974411/sounds.rss
 openscienceradio	4	0		Open Science Radio	http://www.openscienceradio.org/category/english-episodes/feed/mp3/
 colper-science	4	0		Colper Science	http://feeds.feedburner.com/ColperScience
-test-and-code	3	1		Test and Code	http://testandcode.com/rss
-science-vs	4	1		Science Vs	http://feeds.gimletmedia.com/sciencevs
+test-and-code	3	0		Test and Code	http://testandcode.com/rss
+science-vs	4	0		Science Vs	http://feeds.gimletmedia.com/sciencevs
 ralph-nader-radio-hour	4	0		Ralph Nader Radio Hour	http://ralphnaderradiohour.libsyn.com/rss
 codenewbie	4	0		CodeNewbie	http://feeds.codenewbie.org/cnpodcast.xml
 coders-campus	3	1		Coders Campus	http://coderscampus.com/feed/podcast
@@ -46,16 +46,16 @@ full-stack-radio	4	0		Full Stack Radio	https://rss.simplecast.com/podcasts/279/r
 open-source-musician		0		Open Source Musician Podcast	https://archive.org/services/collection-rss.php?collection=osmpodcast
 data-skeptic		0		Data Skeptic	http://dataskeptic.libsyn.com/rss
 disruption	3	0		Disruption	https://www.relay.fm/disruption/feed
-open-science-radio	4	1		Open Science Radio	http://www.openscienceradio.de/category/english-episodes/feed/mp3/
+open-science-radio	4	0		Open Science Radio	http://www.openscienceradio.de/category/english-episodes/feed/mp3/
 type-theory	4	1		The Type Theory Podcast	http://typetheorypodcast.com/feed/podcast/
 sampler	3	0		Sampler	http://feeds.gimletmedia.com/samplershow
 bike-shed	4	0		The Bike Shed	http://podcasts.thoughtbot.com/bikeshed.xml
 ruby-rogues	3	0		Ruby Rogues	https://feeds.feedwrench.com/RubyRogues.rss
-becoming-a-data-scientist	3	1		Becoming A Data Scientist	http://www.becomingadatascientist.com/feed/podcast
+becoming-a-data-scientist	3	0		Becoming A Data Scientist	http://www.becomingadatascientist.com/feed/podcast
 giant-robots	2	0		Giant Robots	http://podcasts.thoughtbot.com/giantrobots.xml
 netbeans-community	4	1		NetBeans Community	http://feeds.feedburner.com/oracle/netbeanspodcast
 agileone-on-huffduffer	3	0		agileone on Huffduffer	https://huffduffer.com/agileone/rss
-syscast	4	1		Syscast	http://podcast.sysca.st/feed/podcast
+syscast	4	0		Syscast	http://podcast.sysca.st/feed/podcast
 web-platform		0		The Web Platform Podcast	http://thewebplatform.libsyn.com/rss
 magic-read-along		0		Magic Read Along	http://www.magicreadalong.com/episode?format=rss
 magpie-talk-show		0		Magpie Talk Show	http://feeds.soundcloud.com/users/soundcloud:users:174223456/sounds.rss
@@ -190,10 +190,10 @@ restless-device		0		Restless Device	http://www.restlessdevice.com/feed/podcast/
 groovy	2	0		Groovy Podcast	http://groovypodcast.podbean.com/feed/
 solrcluster		0		SolrCluster	http://solrcluster.podbean.com/feed/
 bad-voltage		0		Bad Voltage	http://www.badvoltage.org/feed/mp3/
-gitminutes	4	1	1	GitMinutes	http://feeds.gitminutes.com/gitminutes-podcast
+gitminutes	4	0	1	GitMinutes	http://feeds.gitminutes.com/gitminutes-podcast
 how-to-program-with-java	3	0	1	How to Program with Java	http://feeds.feedburner.com/howtoprogramwithjava
 from-python-import-podcast	3	0	1	From Python Import Podcast	http://feeds.feedburner.com/FromPythonImportPodcast
 design-guy	3	0	1	Design Guy	http://feeds.feedburner.com/blogspot/designguyshow
 less-than-or-equal	2	0	1	Less Than or Equal	https://www.lessthanorequal.com/episodes/?format=rss
-request-for-commits	3	1	1	Request For Commits	https://changelog.com/rfc/feed
-scalawags	4	1		The Scalawags	http://thescalawags.libsyn.com/rss
+request-for-commits	3	0	1	Request For Commits	https://changelog.com/rfc/feed
+scalawags	4	0		The Scalawags	http://thescalawags.libsyn.com/rss
