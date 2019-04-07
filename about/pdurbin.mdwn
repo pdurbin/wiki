@@ -1,6 +1,6 @@
 Hi! My name is Philip Durbin and I'm an open source software developer. My website is [greptilian.com][].
 
-I've had the privilege of being paid to work full time on open source as a [software developer][IQSS profile] for the last five years on a project called [Dataverse][] at the Institute for Quantitative Social Science ([IQSS][]) at Harvard.
+I've had the privilege of being paid to work full time on open source as a [software developer][IQSS profile] since 2012 on a project called [Dataverse][] at the Institute for Quantitative Social Science ([IQSS][]) at Harvard.
 
 You can read more of my work history on [LinkedIn][], which highlights my experience with software development, Linux, and networking. I'm on GitHub as [pdurbin][GitHub] and Twitter as [@philipdurbin][Twitter].
 
