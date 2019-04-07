@@ -1,5 +1,5 @@
-[[!map pages="* and !*/* and !favicon.ico and !ikiwiki/* and !index and !local.css and !recentchanges and !sandbox and !shortcuts and !sitemap and !smileys* and !style.css and !templates* and !wikiicons/* and !wiki.setup"]]
+[[!map pages="* and !*/* and !favicon.ico and !ikiwiki/* and !index and !local.css and !recentchanges and !sandbox and !shortcuts and !sitemap and !smileys* and !style.css and !templates* and !wikiicons/* and !wiki.setup and !local.setup"]]
 
 ----
 
-[[!map pages="* and !favicon.ico and !ikiwiki/* and !index and !local.css and !recentchanges and !sandbox and !shortcuts and !sitemap and !smileys* and !style.css and !templates* and !wikiicons/*"]]
+[[!map pages="* and !favicon.ico and !ikiwiki/* and !index and !local.css and !recentchanges and !sandbox and !shortcuts and !sitemap and !smileys* and !style.css and !templates* and !wikiicons/* and !wiki.setup and !local.setup"]]
