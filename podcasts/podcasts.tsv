@@ -19,14 +19,14 @@ floss-weekly	3	0		FLOSS Weekly	http://leoville.tv/podcasts/floss.xml	https://twi
 hbr-ideacast	3	0		HBR IdeaCast	http://feeds.harvardbusiness.org/harvardbusiness/ideacast	https://hbr.org/podcasts/ideacast
 case	4	0		CaSE	http://www.case-podcast.org/feed/mp3	https://www.case-podcast.org
 command-line-heroes	5	1		Command Line Heroes	https://feeds.pacific-content.com/commandlineheroes	https://www.redhat.com/en/command-line-heroes
-software-engineering-daily	4	0		Software Engineering Daily	https://softwareengineeringdaily.com/feed/podcast
-software-engineering-radio	4	0		Software Engineering Radio	http://feeds.feedburner.com/se-radio
-observatory	4	0		The Observatory	https://designobserver.com/show.observatory.xml
+software-engineering-daily	4	0		Software Engineering Daily	https://softwareengineeringdaily.com/feed/podcast	https://softwareengineeringdaily.com
+software-engineering-radio	4	0		Software Engineering Radio	http://feeds.feedburner.com/se-radio	https://www.se-radio.net
+observatory	4	0		The Observatory	https://designobserver.com/show.observatory.xml	https://designobserver.com/podcast-the-observatory.php
 masters-of-scale	5	0		Masters of Scale	https://rss.art19.com/masters-of-scale	https://mastersofscale.com
-all-things-git	4	0		All Things Git	https://www.allthingsgit.com/episodes.xml
-women-in-tech-show	4	0		The Women in Tech Show	https://thewomenintechshow.com/category/podcast/https:/thewomenintechshow.com/category/podcast/feed/
-enterprise-java-newscast	4	1		Enterprise Java Newscast	http://enterprisejavanews.libsyn.com/rss
-soft-arch-radio	4	0		Software Architecture Radio	http://feeds.soundcloud.com/users/soundcloud:users:276322801/sounds.rss
+all-things-git	4	0		All Things Git	https://www.allthingsgit.com/episodes.xml	https://www.allthingsgit.com
+women-in-tech-show	4	0		The Women in Tech Show	https://thewomenintechshow.com/category/podcast/https:/thewomenintechshow.com/category/podcast/feed/	https://thewomenintechshow.com
+enterprise-java-newscast	4	1		Enterprise Java Newscast	http://enterprisejavanews.libsyn.com/rss	http://enterprisejavanews.com
+soft-arch-radio	4	0		Software Architecture Radio	http://feeds.soundcloud.com/users/soundcloud:users:276322801/sounds.rss	http://www.softwarearchitecturerad.io
 changelog	4	0		The Changelog	http://feeds.feedburner.com/changelogshow
 javachannel	3	1		javachannel	https://javachannel.org/posts/category/podcast/feed/
 ploscast	4	0		PLOScast	http://feeds.soundcloud.com/users/soundcloud:users:8974411/sounds.rss
