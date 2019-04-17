@@ -12,7 +12,7 @@ defn	5	1		defn	http://feeds.soundcloud.com/users/soundcloud:users:220484243/soun
 functional-design-in-clojure	5	1		Functional Design in Clojure	https://clojuredesign.club/index.xml	https://clojuredesign.club
 the-repl	5	1		The REPL	https://feeds.therepl.net/therepl	https://www.therepl.net
 functional-geekery	5	1		Functional Geekery	https://www.functionalgeekery.com/feed/mp3/	https://www.functionalgeekery.com
-toolsday	4	0		Toolsday	http://www.toolsday.io/feeds/rss.xml
+toolsday	4	0		Toolsday	https://rss.simplecast.com/podcasts/4211/rss	https://spec.fm/podcasts/toolsday
 jsparty	4	0		JS Party	https://changelog.com/jsparty/feed	https://changelog.com/jsparty
 silver-screen-queens	5	0		Silver Screen Queens	http://silverscreenqueens.com/rss	https://silverscreenqueens.com
 cognicast	4	1		The Cognicast	http://feeds.feedburner.com/cognicast	http://blog.cognitect.com/cognicast/
