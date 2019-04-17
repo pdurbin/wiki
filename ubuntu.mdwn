@@ -10,16 +10,19 @@ https://help.ubuntu.com/community/AptGet/Howto
     dpkg --list
 
     # show info for a package
-    dpkg --status package_name
+    dpkg --status foobar
 
-    # show files owned by a package
-    dpkg --listfiles package_name
+    # show files owned by an installed package
+    dpkg --listfiles foobar
+
+    # show files owned by an uninstalled package
+    apt-file list foobar
 
     # show which package owns a file
-    dpkg -S /usr/bin/pdftoppm
+    dpkg -S /usr/bin/foobar
 
     # show which package will own a file
-    apt-file find /usr/bin/convert
+    apt-file find /usr/bin/foobar
 
     # resynchronize the package index files from their sources
     apt-get update
