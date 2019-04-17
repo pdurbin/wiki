@@ -15,6 +15,12 @@ https://help.ubuntu.com/community/AptGet/Howto
     # show files owned by a package
     dpkg --listfiles package_name
 
+    # show which package owns a file
+    dpkg -S /usr/bin/pdftoppm
+
+    # show which package will own a file
+    apt-file find /usr/bin/convert
+
     # resynchronize the package index files from their sources
     apt-get update
 
