@@ -1,3 +1,5 @@
+https://r-graphics.org
+
 Inspired by https://canvas.harvard.edu/courses/5749/assignments/syllabus (STAT E-100, Fall 2015)
 
     > options(warn=-1) # warnings from `library` are annoying
