@@ -15,6 +15,7 @@ Originally tested on weechat 0.4.2, now using 1.9.1.
     /set weechat.bar.buflist.size_max 22
     /set weechat.color.chat_nick_self brown
     /set weechat.color.status_name brown
+    /set buflist.look.display_conditions "${buffer.hidden}==0 && ((${type}!=server && ${buffer.full_name}!=core.weechat) || ${buffer.active}==1)"
     /ignore add gitter
     /save
 
