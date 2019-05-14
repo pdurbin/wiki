@@ -1,0 +1,111 @@
+I started a thread called "What did you enjoy about LibrePlanet 2019?" at https://lists.gnu.org/archive/html/libreplanet-discuss/2019-04/msg00001.html that includes some of the feedback below.
+
+What did you enjoy about LibrePlanet?
+
+The people, the FSF open house, the talks, the hallway track, hanging out at Scholars, Deb being recognized, hanging out at Grendels. It was all great.
+
+What would you change about LibrePlanet? 
+
+This year I attended my second ever FSF Associate Member Meeting and I'm concerned that I couldn't remember much about what we talked about last year. Notes were taken but they are gone now. I'd like to suggest that there could be a second, even more optional "on the record" member meeting where notes are made public afterward. I wrote more about this at https://forum.members.fsf.org/t/what-happens-to-the-notes-from-the-annual-fsf-associate-member-meeting-at-libreplanet/1050
+
+What were three of your favorite sessions? 
+
+- Hackerspace Rancho Electrónico
+- Governing the software commons
+- Sharing opportunities in the Wikipedia community
+
+Please list up to three topics you would like to see more of at LibrePlanet. 
+
+1. Increasing diversity.
+2. Science.
+3. Design.
+
+Is there anything else you would like us to know?
+
+Tarek Loubani's talk was very powerful.
+
+Before the conference a post crossed by radar called "Is LibrePlanet Safe?" written by Eric Schultz and signed by many former speakers ( https://wwahammy.com/on-safety-at-libreplanet/ ). I guess I'm wondering if the FSF plans to respond.
+
+I'm wondering if you would consider an "opt in" list of attendees to make it easier for people to connect afterwards.
+
+List of talks:
+
+What do you consider your area of expertise? (e.g. art, dev ops, journalism, legal, policy, programming)
+
+How can we prevent the Orwellian 1984 digital world? at https://media.libreplanet.org/u/libreplanet/m/how-can-we-prevent-the-orwellian-1984-digital-world/
+
+Awards presentation and speech at https://media.libreplanet.org/u/libreplanet/m/awards-presentation-and-speech/
+
+Free software/utopia at https://media.libreplanet.org/u/libreplanet/m/free-software-utopia/
+
+Copying files between computers at https://media.libreplanet.org/u/libreplanet/m/copying-files-between-computers/
+
+OpenStreetMap at https://media.libreplanet.org/u/libreplanet/m/openstreetmap/
+
+Right to Repair and the DMCA at https://media.libreplanet.org/u/libreplanet/m/right-to-repair-and-the-dmca/
+
+Welcome to LibrePlanet 2019! at https://media.libreplanet.org/u/libreplanet/m/welcome-to-libreplanet-2019/
+
+LibrePlanet 2019 Closing, FSF staff at https://media.libreplanet.org/u/libreplanet/m/libreplanet-2019-closing-fsf-staff/
+
+LP 2019 Lightning Talks at https://media.libreplanet.org/u/libreplanet/m/lp-2019-lightning-talks/
+
+Free software for safe and happy chickens at https://media.libreplanet.org/u/libreplanet/m/free-software-for-safe-and-happy-chickens/
+
+Who's afraid of Spectre and Meltdown? at https://media.libreplanet.org/u/libreplanet/m/who-s-afraid-of-spectre-and-meltdown/
+
+The secret battle of encryption algorithms at https://media.libreplanet.org/u/libreplanet/m/the-secret-battle-of-encryption-algorithms/
+
+Technical drivers of cloud centralization and megacorporate domination at https://media.libreplanet.org/u/libreplanet/m/technical-drivers-of-cloud-centralization-and-megacorporate-domination/
+
+Modern Emacs IDE at https://media.libreplanet.org/u/libreplanet/m/modern-emacs-ide/
+
+Free software in the 3D-printing community at https://media.libreplanet.org/u/libreplanet/m/free-software-in-the-3d-printing-community/
+
+Accessibility in front-end environments at https://media.libreplanet.org/u/libreplanet/m/accessibility-in-front-end-environments-ddf9/
+
+Saving democracy with the Web's infrastructure at https://media.libreplanet.org/u/libreplanet/m/saving-democracy-with-the-web-s-infrastructure/
+
+GPL enforcement and customer benefits: Evidence from OpenWRT at https://media.libreplanet.org/u/libreplanet/m/gpl-enforcement-and-customer-benefits-evidence-from-openwrt/
+
+Large-scale collaboration with free software at https://media.libreplanet.org/u/libreplanet/m/large-scale-collaboration-with-free-software-bfc2/
+
+Trauma directors toolbox: Free software for the visualization, analysis, and improvement of trauma care at https://media.libreplanet.org/u/libreplanet/m/trauma-directors-toolbox-free-software-for-the-visualization-analysis-and-improvement-of-trauma-care-1a63/
+
+A survey of GNU Guile software at https://media.libreplanet.org/u/libreplanet/m/a-survey-of-gnu-guile-software-c818/
+
+Why I forked my own project and my own company at https://media.libreplanet.org/u/libreplanet/m/why-i-forked-my-own-project-and-my-own-company-31c3/
+
+Meta-rules for codes of conduct: Communicating about the commons at https://media.libreplanet.org/u/libreplanet/m/meta-rules-for-codes-of-conduct-communicating-about-the-commons/
+
+The joy of bug reporting at https://media.libreplanet.org/u/libreplanet/m/the-joy-of-bug-reporting/
+
+What do courts think the GPL means (so far)? at https://media.libreplanet.org/u/libreplanet/m/what-do-courts-think-the-gpl-means-so-far/
+
+Sparking change: What free software can learn from successful social movements at https://media.libreplanet.org/u/libreplanet/m/sparking-change-what-free-software-can-learn-from-successful-social-movements/
+
+Computational symbiosis: Methods that meld mind and machine at https://media.libreplanet.org/u/libreplanet/m/computational-symbiosis-methods-that-meld-mind-and-machine/
+
+Building network equipment and a business with free software and liberated hardware at https://media.libreplanet.org/u/libreplanet/m/building-network-equipment-and-a-business-with-free-software-and-liberated-hardware/
+
+Security by and for free software at https://media.libreplanet.org/u/libreplanet/m/security-by-and-for-free-software/
+
+Teaching privacy and security via free software at https://media.libreplanet.org/u/libreplanet/m/teaching-privacy-and-security-via-free-software/
+
+Governing the software commons at https://media.libreplanet.org/u/libreplanet/m/governing-the-software-commons/
+
+Free APIs: The next generation at https://media.libreplanet.org/u/libreplanet/m/free-apis-the-next-generation/
+
+Sharing global opportunities for new developers in the Wikipedia community at https://media.libreplanet.org/u/libreplanet/m/sharing-global-opportunities-for-new-developers-in-the-wikipedia-community/
+
+The Tor Project: State of the Onion at https://media.libreplanet.org/u/libreplanet/m/the-tor-project-state-of-the-onion/
+
+The future of computing and why you should care at https://media.libreplanet.org/u/libreplanet/m/the-future-of-computing-and-why-you-should-care/
+
+DistrictBuilder: Free software for public mapping to revolutionize redistricting at https://media.libreplanet.org/u/libreplanet/m/districtbuilder-free-software-for-public-mapping-to-revolutionize-redistricting/
+
+Redis Labs and the tragedy of the Commons Clause at https://media.libreplanet.org/u/libreplanet/m/redis-labs-and-the-tragedy-of-the-commons-clause-b4d1/
+
+Hackerspace Rancho Electrónico at https://media.libreplanet.org/u/libreplanet/m/hackerspace-rancho-electronico/
+
+Library Freedom Institute: A new hope at https://media.libreplanet.org/u/libreplanet/m/library-freedom-institute-a-new-hope/
