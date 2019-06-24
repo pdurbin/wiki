@@ -1,0 +1,111 @@
+Hi, everybody. I'm Phil Durbin. I'm one of the developers for Dataverse and I've been with the project for about six and a half years.
+
+I'm standing between you and a reception. I'm sorry about that.
+
+I'm thinking about throwing you a curveball.
+
+I have a prepared talk about crazy ideas and I have an unprepared live demo of starting with a dataset in Dataverse and running a Jupyter Notebook from that and playing around.
+
+So who votes for Jupyter Notebook?
+
+Who votes for crazy ideas?
+
+Who votes for both?
+
+Ok, I'll try to go fast.
+
+Let's to the Jupyter Notebook first.
+
+Here's a dataset. If you don't know, there's a chat room for Dataverse. chat.dataverse.org. I'm in there all the time with Stefan and Don, wherever he is. And so my dataset is that data about all the chats we have every day, about Dataverse.
+
+I've been thinking about all these related features, how we want to import from GitHub and we want reproducibility.
+
+The data is going to be the chat logs. I threw it on GitHub because I like GitHub and it's a good place to manage my code.
+
+So here I've got a Jupyter Notebook.
+
+There's this tool called Binder that's really cool. I'm just going to click this "launch binder" button for a second. We heard about this in the CoReRe context. You guys at Odum are using BinderHub but we'll wait for CoReRe to see Binder working.
+
+Instead we're going to try a different tool called Whole Tale.
+
+If you were here a couple of years ago you might remember Victoria Stodden told us all about Whole Tale. I got the opportunity to go to Chicago back in September to learn all about this reproducibility platform. Very cool and open source, by the way. I was just in their Slack room this morning saying, "Can we get this thing to go?" And they're like, "Do it, do it, do it." So here we go.
+
+I'm scrolling down to a Jupyter Notebook. The reason I pinged the Whole Tale team is that as of Datavere 4.15 if you upload an "ipynb" file to Dataverse it is now recognized as a Jupyter Notebook.
+
+Jim Myers provided the hook I needed to associate file types with external tools. I actually have three different versions of Whole Tale. They told me to use the "stage" one, not the "production" one. Ok, fine, we'll use the stage one.
+
+We click on a Jupyter Notebook. Fingers crossed. Live demo. Demo gods! Good, the dataset title carries over: Dataverse IRC Metrics.
+
+By the way, Merce is always saying she needs the metrics for the slides, so in the future we'll use this Jupyter Notebook.
+
+Whole Tale happens to provide a variety of environment such as RStudio and Spark and OpenRefine. Jupyter with R is the one I need so I'll select it and click "Launch Tale".
+
+Lots of stuff, happening here. You may have noticed that I launched Whole Tale from the file level. As of last week the problem was that in Whole Tale I'd only have the one file I clicked, just the Jupyter Notebook and none of the data or other files. We don't have dataset level explore yet. So with Whole Tale we agreed that if any file is clicked, Whole Tale will fetch all the files in that dataset. That's the work around we've agreed to.
+
+It's saying "container started". That's good. Boom! Here we are. Jupyter Notebook! Woo! The idea is that you can click on these individual cells and execute them.
+
+I don't really know R. Actually, I came to our Data Science Services group at IQSS with a Python version of this Notebook and they said, "Just use R." Ok fine, you guys are the experts so we'll use R. This second line I put in just in case the data wasn't available I could download it from my server. But you know what? It is available. So I can skip this line.
+
+I get these weird pink errors here. Thu-Mai can help me with some data cleaning.
+
+I have no idea what this R code does. I pasted it from Stack Overflow.
+
+So here we go. We have reproduced the plot. We're a chatty bunch in the IRC channel. I launched this channel when I started working on Dataverse and you can see we have a lot of activity.
+
+So that was Whole Tale Jupyter Notebook stuff.
+
+Let's talk about crazy ideas.
+
+I want us to end strong. This is a great book: Thinking Fast and Slow. You might remember the experiencing self versus the remembering self. The point here is that there's this great TED talk where he gives an anecdote about how there's this beautify symphony that his friend is listening to. And there's a sour note at the end and it ruined the memory of the whole thing. That's what I don't want here. I want us to end strong.
+
+Crazy ideas. I tried to organize these a little bit. We have some principles. Make our users awesome. Keep things moving. Listen to people. Be bold. Be SLOPI. Wait for it.
+
+Make our users awesome. This comes from a book called "Badass" by Kathy Sierra. She's talking about software. For Dataverse we have multiple users. We have researchers. We have curators. We should be making the curators better at doing their jobs. We should be making the researchers better at doing their jobs. She has a nice TED talk too.
+
+Keep everyone unblocked. You might remember that last year I talked about the Enormous Crocodile. He's back. He still has secret plans. I don't like the secret plans. I think we should all be putting it all out there. If we've got plans let's put it all out there so we can link to each other and keep the conversation rolling.
+
+We talk a lot about our issue tracker at IQSS. It turns out the University of Alberta has isn't own issue tracker. They've got issues for Dataverse on their own. I think this is a cool idea that anyone who runs Dataverse could use.
+
+I realized there's a hack you can do. We are always adding all you folks as "members" of the IQSS organization on GitHub. It means that you're able to create a project under IQSS on GitHub just by being a member. Where's Don Sizemore? I said, "Don, help me out, buddy. Go make a project so I can have a slide for this."
+
+Don's categories are "would like to do", "should do", and "on fire put it out put it out". At the institution level this forces you to think about what you really want. Because we're not going to scroll and scroll and scroll forever, right? You put the think you want at the top. Think hard about the next bug fix or feature that you want.
+
+Then I thought about going even beyond that. A crazy idea would be that everyone could have a board. Maybe instead of the institution level I have my own board and I want to get off Glassfish 4.1 and I want more continous integration. When you're making projects on GitHub they suggest a template called "bug triage" and this is what you get: high priority and low priority. I kind of like Don's labels better. Get creative. Do whatever you want.
+
+Listen to each other. Sherry helped me out recently. And not just Sherry. Lots of people replied to a Google Group thread I started saying, "Our feature list hasn't been updated since 2015. We should do something about this." Now we have a spreadsheet and a good process going forward. We'll just make a new tab, copy the list of features over, add to it, and shift the order of features. Maybe some day we'll add images. Thank you everyone for helping me with the crowdsourcing of our feature list.
+
+Janet had to go. But she has been on me the whole conference about how we need more data on installations of Dataverse. What we have already is this wonderful map we talk about all the time. It's powered by a little database that yesterday I elevated to its own GitHub repo. This "dataverse-installations" repo is new. The code used to be buried away in the miniverse repo. We love our map. We don't want it to go away. Thank you, Raman and Jordi who originally made this. The concept of installation personas seems to be getting legs. We heard Tania and Jon talking about it. So let's do this thing.
+
+What if we had a place for crazy ideas? We already do. I look at 931 open issues and I get a little depressed and concerned but I think we should keep in mind that we have almost 4,000 closed issues. So keep the crazy ideas coming!
+
+The problem is that across 5,000 issues you start to wonder who's who. Who is poikilotherm? Who is scolapasta? Who is RightInTwo? These are the kind of problems I have. Someone will post something and I'm like, "Who is this person again?" So I have this little cheat sheet that I use all the time.
+
+Be bold. I mentioned this in passing earlier about students. Look at how bold these students are at the University of Zurich. They just showed up one day and said their professor said to go find an open source project to contribute to. "Can we contribute to your project and write some tests?" And we said, "Yes!" And we merged I don't know how many pull requests, probably half a dozen or more. A lot you have students at your institution. Send them our way and we will put them on bug crushing duty.
+
+What if we had a monthly newsletter? This is just a crazy idea I had back in 2016. Wouldn't it be nice to collect the news. Slava gave another talk. Let's link to his slides. I continue to do this. I could use help with this. At the end of every newsletter I link to the draft of the next one so you can help me add slides or whatever else is going on.
+
+What if we had a build service for the community. I put this under "be bold" because this was just me and Don Sizemore talking one day. I said, "Does UNC want to run Jenkins for the Dataverse community?" He said, "Sure, let me check with my boss, Jon." Jon said yes, green light, let's go. Now we have a Jenkins build server. All the code for Jenkins, the config, is on GitHub too. So let's all work together and get the language packs going and whatever else. It's a litle cloudy now but it'll go green. We just need to put a little more time into it.
+
+SLOPI. Ok. So. FAIR data. It's a thing. Merce's on the paper and it's only a couple years old. And I thought, "I have ideas for concepts I want to get across to people. Maybe I can come up with my own acronym.
+
+SLOPI is a communication style I use all the time and it stands for Searchable Linkable Open Public Indexed. Now, not everybody likes being as sloppy as I do, but I think this is a great way for us all to keep each other informed. So the next time you're in Slack and you're sending a private message to someone, think to yourself, "Maybe I should just post to the Google Group. Let's get some more chatter going around this."
+
+Last thing, finally. What if every school had a Dataverse logo? These are my kids playing in front of their school. Just talk to the principal. Not a big deal. That's it. Thank you!
+
+Any questions? Thu-Mai?
+
+Thu-Mai: "There's so much activity happening among the community with the Google Group and all that stuff. It really would be nice if on dataverse.org we could represent all these things happening. Because right now it's a little bit tough. I think people would be surprised to find out that people are having these ongoing conversations. They're doing all this development. There should be one place where we can see all that stuff."
+
+Phil: "Right. Right. I have an idea for that too and it's called "SMACKI" but I can't remember all of it. Searchable Knowledge Index. It's so nascent that I don't have it all written down. But it's coming. Next year, we'll talk about SMACKI."
+ 
+
+
+
+
+
+
+
+
+
+
+
