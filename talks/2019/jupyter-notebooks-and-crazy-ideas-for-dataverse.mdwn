@@ -14,7 +14,7 @@ Who votes for both?
 
 Ok, I'll try to go fast.
 
-Let's to the Jupyter Notebook first.
+Let's do the Jupyter Notebook first.
 
 Here's a dataset. If you don't know, there's a chat room for Dataverse. chat.dataverse.org. I'm in there all the time with Stefan and Don, wherever he is. And so my dataset is that data about all the chats we have every day, about Dataverse.
 
@@ -97,15 +97,3 @@ Any questions? Thu-Mai?
 Thu-Mai: "There's so much activity happening among the community with the Google Group and all that stuff. It really would be nice if on dataverse.org we could represent all these things happening. Because right now it's a little bit tough. I think people would be surprised to find out that people are having these ongoing conversations. They're doing all this development. There should be one place where we can see all that stuff."
 
 Phil: "Right. Right. I have an idea for that too and it's called "SMACKI" but I can't remember all of it. Searchable Knowledge Index. It's so nascent that I don't have it all written down. But it's coming. Next year, we'll talk about SMACKI."
- 
-
-
-
-
-
-
-
-
-
-
-
