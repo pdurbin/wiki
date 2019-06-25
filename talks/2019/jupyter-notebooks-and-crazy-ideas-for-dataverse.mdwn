@@ -64,11 +64,11 @@ Make our users awesome. This comes from a book called "Badass" by Kathy Sierra. 
 
 Keep everyone unblocked. You might remember that last year I talked about the Enormous Crocodile. He's back. He still has secret plans. I don't like the secret plans. I think we should all be putting it all out there. If we've got plans let's put it all out there so we can link to each other and keep the conversation rolling.
 
-We talk a lot about our issue tracker at IQSS. It turns out the University of Alberta has isn't own issue tracker. They've got issues for Dataverse on their own. I think this is a cool idea that anyone who runs Dataverse could use.
+We talk a lot about our issue tracker at IQSS. It turns out the University of Alberta has its own issue tracker. They've got issues for Dataverse on their own. I think this is a cool idea that anyone who runs Dataverse could use.
 
 I realized there's a hack you can do. We are always adding all you folks as "members" of the IQSS organization on GitHub. It means that you're able to create a project under IQSS on GitHub just by being a member. Where's Don Sizemore? I said, "Don, help me out, buddy. Go make a project so I can have a slide for this."
 
-Don's categories are "would like to do", "should do", and "on fire put it out put it out". At the institution level this forces you to think about what you really want. Because we're not going to scroll and scroll and scroll forever, right? You put the think you want at the top. Think hard about the next bug fix or feature that you want.
+Don's categories are "would like to do", "should do", and "on fire put it out put it out". At the institution level this forces you to think about what you really want. Because we're not going to scroll and scroll and scroll forever, right? You put the thing you want at the top. Think hard about the next bug fix or feature that you want.
 
 Then I thought about going even beyond that. A crazy idea would be that everyone could have a board. Maybe instead of the institution level I have my own board and I want to get off Glassfish 4.1 and I want more continous integration. When you're making projects on GitHub they suggest a template called "bug triage" and this is what you get: high priority and low priority. I kind of like Don's labels better. Get creative. Do whatever you want.
 
