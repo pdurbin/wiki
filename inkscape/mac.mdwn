@@ -8,6 +8,10 @@ Inkscape 1.0alpha2 is the first release to offer a download for Mac.
 
 ### Downloading Inkscape.app.tar.gz
 
+Update: According to the [discussion][] in the "team_devel_mac" channel on 2019-08-17, a dmg file may be available soon.
+
+[discussion]: https://chat.inkscape.org/channel/team_devel_mac?msg=ZnBKxDk98Fnizrfq5
+
 https://inkscape.org/release/inkscape-1.0alpha2/ is the place to start. Click "Mac OS" and the file "Inkscape.app.tar.gz" should be automatically saved to your "Downloads" folder.
 
 ### Expanding Inkscape.app.tar.gz
