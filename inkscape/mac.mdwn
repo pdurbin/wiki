@@ -4,67 +4,20 @@ Alpha releases of Inkscape 1.0 are available that more or less "just work" on Ma
 
 ## Installing Inkscape 1.0alpha2 on Mac
 
-Inkscape 1.0alpha2 is the first release to offer a download for Mac.
+Inkscape 1.0alpha2 is the first release to offer a download for Mac that works as a native application.
 
-### Downloading Inkscape.app.tar.gz
+You can download the dmg from https://inkscape.org/release/inkscape-1.0alpha2/mac-os-x/dl/
 
-Update: According to the [discussion][] in the "team_devel_mac" channel on 2019-08-17, a dmg file may be available soon.
-
-[discussion]: https://chat.inkscape.org/channel/team_devel_mac?msg=ZnBKxDk98Fnizrfq5
-
-https://inkscape.org/release/inkscape-1.0alpha2/ is the place to start. Click "Mac OS" and the file "Inkscape.app.tar.gz" should be automatically saved to your "Downloads" folder.
-
-### Expanding Inkscape.app.tar.gz
-
-"tar.gz" indicates that you have downloaded a "tarball", which is very similar to a zip file. You will need to "expand" this tarball before you have an "Inkscape" file that you can drag into your "Applications" folder.
-
-Unfortunately, if you simply double-click "Inkscape.app.tar.gz" in your "Downloads" folder, you will get the following error:
-
-> Unable to expand "Inkscape.app.tar.gz" into "Downloads".  
-> (Error 1 - Operation not permitted)
-
-A workaround for expanding the tarball is to open the "Terminal" application and type the following commands:
-
-    cd Downloads
-    tar xfz Inkscape.app.tar.gz
-
-You will see some errors about "Python.framework" that you can safely ignore. (See below under "known issues" for more details on these errors.)
-
-You should now have a file called "Inkscape" that looks like the Inkscape logo in your "Downloads" folder.
-
-### Putting Inkscape in your Applications Folder
-
-Drag "Inkscape" from "Downloads" to "Applications".
+Once you have opened the dmg, drag "Inkscape" to "Applications".
 
 ### Launching Inkscape for the first time
 
 Depending on your security settings, you may see an error like the following when you double-click "Inkscape" to launch it:
 
-> "Inkscape" can't be opened because it is from an unidentified developer.  
-> Your security preferences allow installation of only apps from the App Store and identified developers.
-
-The workaround is go to open "System Preferences" and then click "Security & Privacy" and then click "Open Anyway" next to the message that says the following:
-
-> "Inkscape" was blocked from opening because it is not from an identified developer.
-
-Once you have clicked "Open Anyway" you should see a dialog that say the following:
-
-> "Inkscape is from an unidentified developer. Are you sure you want to open it?  
-> Opening "Inkscape" will always allow it to run on this Mac.
+> "Inkscape" is an app downloaded from the Internet. Are you sure you want to open it?
 
 Click "Open" and Inkscape should open.
 
-## Known issues with Inkscape 1.0alpha2 on Mac
+## Related discussion
 
-### Python.framework errors when expanding tarball
-
-When you use the `tar xfz Inkscape.app.tar.gz` workaround above, the following errors will be shown:
-
-    Inkscape.app/Contents/Frameworks/Python.framework/Versions/Current/Headers: Can't remove already-existing dir
-    Inkscape.app/Contents/Frameworks/Python.framework/Versions/3.6/Headers: Can't remove already-existing dir
-    Inkscape.app/Contents/Frameworks/Python.framework/Versions/Current: Can't remove already-existing dir
-    Inkscape.app/Contents/Frameworks/Python.framework/Headers: Can't remove already-existing dir
-    Inkscape.app/Contents/Frameworks/Python.framework/Resources: Can't remove already-existing dir
-    tar: Error exit delayed from previous errors.
-
-It is unknown if these errors relate to any bugs in Inkscape 1.0alpha2.
+https://apple.stackexchange.com/questions/237953/install-inkscape-without-xquartz
