@@ -1,0 +1,19 @@
+## Quarkus PostgreSQL and REST
+
+cd clone https://github.com/quarkusio/quarkus-quickstarts.git
+
+cd quarkus-quickstarts/hibernate-orm-resteasy
+
+docker run --ulimit memlock=-1:-1 -it --rm=true --memory-swappiness=0 --name quarkus_test -e POSTGRES_USER=quarkus_test -e POSTGRES_PASSWORD=quarkus_test -e POSTGRES_DB=quarkus_test -p 5432:5432 postgres:10.5
+
+echo '%dev.quarkus.http.port=8787' >> src/main/resources/application.properties
+
+mvn compile quarkus:dev
+
+curl http://localhost:8787/fruits
+
+## DevConf 2019 talk
+
+[Daniel Oh](https://github.com/danieloh30) gave a fantastic talk called [Quarkus brings Serverless to Java developers](https://devconfus2019.sched.com/event/RknJ/quarkus-brings-serverless-to-java-developers) at DevConf 2019.
+
+A camera was rolling so I've been keeping an eye on the [DevConf YouTube channel](https://www.youtube.com/channel/UCmYAQDZIQGm_kPvemBc_qwg/videos) and will probably email hello@devconf.info if it isn't up soon.
