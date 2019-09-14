@@ -1,6 +1,6 @@
 ## Quarkus PostgreSQL and REST
 
-cd clone https://github.com/quarkusio/quarkus-quickstarts.git
+git clone https://github.com/quarkusio/quarkus-quickstarts.git
 
 cd quarkus-quickstarts/hibernate-orm-resteasy
 
