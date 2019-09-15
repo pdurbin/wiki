@@ -12,6 +12,24 @@ mvn compile quarkus:dev
 
 curl http://localhost:8787/fruits
 
+## Building a native image
+
+You will see instructions if you try this:
+
+mvn package -Pnative
+
+We'll try again after installing Graal.
+
+Download the latest release from https://github.com/oracle/graal/releases
+
+For example https://github.com/oracle/graal/releases/download/vm-19.2.0.1/graalvm-ce-linux-amd64-19.2.0.1.tar.gz
+
+tar xvfz graalvm-ce-*
+
+gu install native-image
+
+mvn package -Pnative
+
 ## DevConf 2019 talk
 
 [Daniel Oh](https://github.com/danieloh30) gave a fantastic talk called [Quarkus brings Serverless to Java developers](https://devconfus2019.sched.com/event/RknJ/quarkus-brings-serverless-to-java-developers) at DevConf 2019.
