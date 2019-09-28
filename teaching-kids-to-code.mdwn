@@ -10,3 +10,7 @@ As your kids get older, you'll want to transition them to "real" coding with tex
 On each of these pages, you'll see more of my thoughts on various options:
 
 [[!map pages=teaching-kids-to-code/*]]
+
+On August 28, the GNOME Foundation announced the [2019 Coding Education Challenge][], a competition aimed to attract projects that offer educators and students new and innovative ideas to teach coding with free and open source software.
+
+[2019 Coding Education Challenge]: https://www.gnome.org/news/2019/08/gnome-foundation-launches-coding-education-challenge/
