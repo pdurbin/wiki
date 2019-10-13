@@ -35,3 +35,5 @@ mvn package -Pnative
 [Daniel Oh](https://github.com/danieloh30) gave a fantastic talk called [Quarkus brings Serverless to Java developers](https://devconfus2019.sched.com/event/RknJ/quarkus-brings-serverless-to-java-developers) at DevConf 2019.
 
 A camera was rolling so I've been keeping an eye on the [DevConf YouTube channel](https://www.youtube.com/channel/UCmYAQDZIQGm_kPvemBc_qwg/videos) and will probably email hello@devconf.info if it isn't up soon.
+
+Update: The video is available at https://www.youtube.com/watch?v=k9P7p3HF72U
