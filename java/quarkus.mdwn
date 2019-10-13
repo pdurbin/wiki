@@ -23,7 +23,6 @@ We'll try again after installing Graal.
 Download the latest release from https://github.com/oracle/graal/releases
 
 For example https://github.com/oracle/graal/releases/download/vm-19.2.0.1/graalvm-ce-linux-amd64-19.2.0.1.tar.gz
-
 tar xvfz graalvm-ce-*
 
 gu install native-image
@@ -37,3 +36,8 @@ mvn package -Pnative
 A camera was rolling so I've been keeping an eye on the [DevConf YouTube channel](https://www.youtube.com/channel/UCmYAQDZIQGm_kPvemBc_qwg/videos) and will probably email hello@devconf.info if it isn't up soon.
 
 Update: The video is available at https://www.youtube.com/watch?v=k9P7p3HF72U
+
+Slides from two previous talks seem similar:
+
+- [Knative](https://www.slideshare.net/DanielOh20/knative-makes-developers-incredible-on-serverless)
+- [Podman](https://www.slideshare.net/DanielOh20/podman-buildah-and-quarkus-the-latest-in-linux-containers-technologies)
