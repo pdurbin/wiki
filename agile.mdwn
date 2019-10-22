@@ -1,6 +1,7 @@
-Agile Product Ownership in a Nutshell - https://www.youtube.com/watch?v=502ILHjX9EE
+Agile Product Ownership in a Nutshell by Henrik Kniberg - https://www.youtube.com/watch?v=502ILHjX9EE
 
-https://dl.dropboxusercontent.com/u/1018963/Articles/PO-in-a-nutshell.png
+- image: https://www.dropbox.com/s/ph3spbc3evgoh3m/PO-in-a-nutshell.png
+- transcript: https://blog.crisp.se/2012/10/25/henrikkniberg/agile-product-ownership-in-a-nutshell
 
 Notes
 
