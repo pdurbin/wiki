@@ -37,6 +37,8 @@ A camera was rolling so I've been keeping an eye on the [DevConf YouTube channel
 
 Update: The video is available at https://www.youtube.com/watch?v=k9P7p3HF72U
 
+Update: The slides are available at https://www.slideshare.net/DanielOh20/devconfus-2019quarkus-brings-serverless-to-java-developers
+
 Slides from two previous talks seem similar:
 
 - [Knative](https://www.slideshare.net/DanielOh20/knative-makes-developers-incredible-on-serverless)
