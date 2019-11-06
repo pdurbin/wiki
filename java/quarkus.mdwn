@@ -43,3 +43,7 @@ Slides from two previous talks seem similar:
 
 - [Knative](https://www.slideshare.net/DanielOh20/knative-makes-developers-incredible-on-serverless)
 - [Podman](https://www.slideshare.net/DanielOh20/podman-buildah-and-quarkus-the-latest-in-linux-containers-technologies)
+
+## Quarkus and war files
+
+I asked if Quarkus supports war files at https://github.com/quarkusio/quarkusio.github.io/issues/285
