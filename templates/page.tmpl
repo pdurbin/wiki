@@ -1,5 +1,5 @@
 <TMPL_IF HTML5><!DOCTYPE html>
-<html>
+<html lang="en">
 <TMPL_ELSE><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -37,9 +37,9 @@
 </head>
 <body>
 
-<TMPL_IF HTML5><article class="page"><TMPL_ELSE><div class="page"></TMPL_IF>
+<TMPL_IF HTML5><div class="page"><TMPL_ELSE><div class="page"></TMPL_IF>
 
-<TMPL_IF HTML5><section class="pageheader"><TMPL_ELSE><div class="pageheader"></TMPL_IF>
+<TMPL_IF HTML5><div class="pageheader"><TMPL_ELSE><div class="pageheader"></TMPL_IF>
 <TMPL_IF HTML5><header class="header"><TMPL_ELSE><div class="header"></TMPL_IF>
 <span>
 <span class="parentlinks">
@@ -112,7 +112,7 @@
 <TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
 </TMPL_IF>
 
-<TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
+<TMPL_IF HTML5></div><TMPL_ELSE></div></TMPL_IF>
 
 <TMPL_IF SIDEBAR>
 <TMPL_IF HTML5><aside class="sidebar"><TMPL_ELSE><div class="sidebar"></TMPL_IF>
@@ -122,13 +122,13 @@
 
 <div id="pagebody">
 
-<TMPL_IF HTML5><section id="content"><TMPL_ELSE><div id="content"></TMPL_IF>
+<TMPL_IF HTML5><div id="content"><TMPL_ELSE><div id="content"></TMPL_IF>
 <TMPL_VAR CONTENT>
-<TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
+<TMPL_IF HTML5></div><TMPL_ELSE></div></TMPL_IF>
 
 <TMPL_UNLESS DYNAMIC>
 <TMPL_IF COMMENTS>
-<TMPL_IF HTML5><section id="comments"><TMPL_ELSE><div id="comments"></TMPL_IF>
+<TMPL_IF HTML5><div id="comments"><TMPL_ELSE><div id="comments"></TMPL_IF>
 <TMPL_VAR COMMENTS>
 <TMPL_IF ADDCOMMENTURL>
 <div class="addcomment">
@@ -137,7 +137,7 @@
 <TMPL_ELSE>
 <div class="addcomment">Comments on this page are closed.</div>
 </TMPL_IF>
-<TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
+<TMPL_IF HTML5></div><TMPL_ELSE></div></TMPL_IF>
 </TMPL_IF>
 </TMPL_UNLESS>
 
@@ -199,7 +199,7 @@ Last <a href="<TMPL_VAR HISTORYURL>">updated</a> <TMPL_VAR MTIME>
 <!-- from <TMPL_VAR WIKINAME> -->
 <TMPL_IF HTML5></footer><TMPL_ELSE></div></TMPL_IF>
 
-<TMPL_IF HTML5></article><TMPL_ELSE></div></TMPL_IF>
+<TMPL_IF HTML5></div><TMPL_ELSE></div></TMPL_IF>
 
 <hr>
 
