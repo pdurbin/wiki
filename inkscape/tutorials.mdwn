@@ -9,3 +9,13 @@ Drawing a kitten's face by hand:
 Drawing the same kitten's face in Inkscape:
 
 [![Draw a cute kitten in Inkscape](https://i.ytimg.com/vi/Jg-NC69vCok/hqdefault.jpg)](https://www.youtube.com/watch?v=Jg-NC69vCok)
+
+## Inkscape animated gif tutorials
+
+[Inkscape for Noobs – Part II : Practice](https://vektorrascheln.de/posts/2015/Dec/inkscape-fuer-einsteiger-teil-ii-praxis-en.html)
+
+## Inkscape written tutorials
+
+[Inkscape special editions of Full Circle Magazine](http://fullcirclemagazine.org/inkscape-special-editions/) via the [Inkscape Tutorial in Full Circle Magazine]() thread on inkscapeforum.com archive (which has more in individual issues).
+
+[Inkscape: Guide to a Vector Drawing Program](http://tavmjong.free.fr/INKSCAPE/MANUAL/html/index.html)
