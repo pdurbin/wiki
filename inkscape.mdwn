@@ -1,1 +1,5 @@
 [[!map pages=inkscape/*]]
+
+In this [thread][] I talked about the laptop I bought in 2011 to use with Inkscape.
+
+[thread]: https://sourceforge.net/p/inkscape/mailman/message/28172996/
