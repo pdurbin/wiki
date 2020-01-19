@@ -1,0 +1,149 @@
+On September 8th, 2017 I gave a talk called "How to Run a Successful Open Source Project" at the main meeting of ABCD, the "383rd Consecutive (One After The Othereth) Meeting of the ABCD Committee."
+
+This was a practice talk for a talk I was giving the next month at JavaOne 2017.
+
+Norton Allen took the following minutes, which I edited slightly.
+
+---
+
+Unfortunately, Steve could not make it.
+
+This will be a practice talk for a conference talk I'll be giving
+next month
+
+Part I of this series was great, because there was a new project
+and lots of ideas about how to open source it. This is a project
+that is 10 years in, so a completely different perspective.
+
+I want to dig into the title: "How to Run a Successful Open Source
+Project." We are actually developers, so we're not exactly running
+it. We participate. As for successful, here's an image showing our
+26 installations around the world.
+
+Q: What is the Dataverse?
+
+A: I'm glad you asked that. It's a tool for hosting data. 3 of the dots on the map, including Harvard, offer an open invitation for people to post data. Others are private. We've had dataverse.nl and dataverse.no. It would be great if every country had a dataverse installation. You can also think of it as a Java EE Project using GlassFish.
+
+Agenda:
+
+- build the right thing
+- presenting your project to the world
+- culture
+- encouraging contribution
+- challenges
+
+Build the right thing
+
+- User experience (UX) is key
+- "The Design of Everyday Things" by Don Norman is a great book.
+- "Open Source Design" is a great group with an active forum
+- Also wanted to plug an IT Academy class on UX, Dorian Freeman and Mike Lawrence
+
+- Make your users awesome, feel their pain
+- You should be making people better at their jobs, that they are better researchers or archivers
+- Badass: Making Users Awesome by Kathy Sierra
+- Sense & Respond by Jeff Gothelf & Josh Seiden
+- Social Architecture: Building On-line Communities by Pieter Hintjens
+
+Project Website
+
+- Everyone is going to have a project website
+- Everyone will want to know "what does your product do?"
+- There may be multiple audiences
+- Users may want to see a roadmap as to where the project is going
+ - What's in the next release or the current sprint
+- Can they have influence? Will bugs I report be fixed?
+- Who is using the product?
+
+"I'm not dead": You want to make it clear that things are happening
+
+Producing Open Source Software: How to run a successful free software project
+
+- Talks a lot about the issue tracker
+- Somewhat controversial quote:
+  - "The higher the number of bugs in the database, the better the software looks"
+- Look at the bug tracker first when evaluating a project. The question is how they manage and organize incoming bug reports
+
+- Commit history is also relevant. Another quote: less about meeting deadlines, more about active community.
+
+GitHub survey: What is important to people?
+
+- Security: Stability and Security are super important
+- User experience is somewhat important
+- Support is dead last
+
+I find this curious, because users need support. I think it's important to let people know the level of support you offer. Also let them know what you are not supporting. We have community supported code.
+
+Documentation
+
+- 93% of people reported being frustrated with incomplete documentation. "Free Software is Suffering because Coders don't know how to write documentation"
+
+- We have 6 different guides for Dataverse. You should find someone who does know how to write documentation.
+
+Q: Did the survey indicate what type of documentation people were missing?
+
+A: I don't know, I'll check
+
+- Executable Documentation
+  - Scripts to do the installation that sys admins can translate into Puppet or Chef or whatever
+
+Design the community you want
+
+- Matthew Turk "How to scale code in a human dimension"
+  1: Listening
+  2: Transparency
+
+Listening
+
+- We have periodic community meetings. It's a great high-bandwidth way to exchange information. For a year and a half we have been having community calls. We give a brief update and then open the floor. I make a point to take notes.
+
+Usability testing
+
+- Evangelism: We have group members who go to conferences. We're in the business of scholarly publishing.
+- Nuggets: key ideas from a conversation that we add to the database.
+
+Transparency:
+
+- Ned Batchelder: EdX It can be scary to have your work on display, but for some it is exciting
+- We post our strategic goals on the web site
+- Multiple public communication channels
+  - IRC channel that is logged publicly
+  - bi-weekly community call
+  - GitHub Issues: GitHub is fairly low friction, since many people already have an account
+
+"Maximize the value of your keystrokes"
+
+- Think of all the emails you write: If you instead wrote a blog post, it would go to a broader audience.
+
+Hope vs Reality
+
+- We are trying to communicate with very busy people
+
+Transparency in the dev process
+
+- Travis CI shows which branches are passing or failing
+  - We also have a code coverage button on our readme, and it's red because our coverage isn't high enough, but I think that encourages us to improve.
+
+- Encouraging Contribution
+  - Tweet: When you're excited to contribute to an open source project, but then you start looking at the code
+
+Attention, not just code
+
+- The true currency of OS projects is attention. When users contribute,they benefit from attention even if their submission is not accepted.
+- Feedback from our community meeting was that the community wants to help. We have a long list of issues, but need to organize them. We organize by roles.
+- Use pull requests for everyone, internal or external.  Everything goes through code review.
+- Can invite contributors as read only members of our GitHub Org and then assign issues to them.
+
+The hard stuff
+
+- Money, grant funding. Work on the grant has to take some priority over random feature requests. We had a user suggest a feature, and I said "sure, send us a pull request," and he did, and it was huge. It's over a year old, and I doubt we'll get to it soon, because we weren't ready. 
+- Hackathons are hard, so you need to be ready.
+
+Q: I come from the waterfall world: do you have formal sprints?
+A: Yes
+
+Q: How do you decide what goes into sprints?
+A: Backlog grooming. Waffle (tied into GitHub Issues), KanBan board
+
+Q: Are external contributions tied into your sprints?
+A: Not directly, it's mostly for the internal teams, but we do try to reserve time for dealing with pull requests.
