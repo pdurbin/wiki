@@ -35,10 +35,9 @@ Agenda:
 Build the right thing
 
 - User experience (UX) is key
-- "The Design of Everyday Things" by Don Norman is a great book.
-- "Open Source Design" is a great group with an active forum
+  - "The Design of Everyday Things" by Don Norman is a great book.
+  - "Open Source Design" is a great group with an active forum
 - Also wanted to plug an IT Academy class on UX, Dorian Freeman and Mike Lawrence
-
 - Make your users awesome, feel their pain
 - You should be making people better at their jobs, that they are better researchers or archivers
 - Badass: Making Users Awesome by Kathy Sierra
@@ -63,7 +62,6 @@ Producing Open Source Software: How to run a successful free software project
 - Somewhat controversial quote:
   - "The higher the number of bugs in the database, the better the software looks"
 - Look at the bug tracker first when evaluating a project. The question is how they manage and organize incoming bug reports
-
 - Commit history is also relevant. Another quote: less about meeting deadlines, more about active community.
 
 GitHub survey: What is important to people?
@@ -77,7 +75,6 @@ I find this curious, because users need support. I think it's important to let p
 Documentation
 
 - 93% of people reported being frustrated with incomplete documentation. "Free Software is Suffering because Coders don't know how to write documentation"
-
 - We have 6 different guides for Dataverse. You should find someone who does know how to write documentation.
 
 Q: Did the survey indicate what type of documentation people were missing?
@@ -123,7 +120,6 @@ Transparency in the dev process
 
 - Travis CI shows which branches are passing or failing
   - We also have a code coverage button on our readme, and it's red because our coverage isn't high enough, but I think that encourages us to improve.
-
 - Encouraging Contribution
   - Tweet: When you're excited to contribute to an open source project, but then you start looking at the code
 
