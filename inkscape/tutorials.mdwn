@@ -10,6 +10,10 @@ Drawing the same kitten's face in Inkscape:
 
 [![Draw a cute kitten in Inkscape](https://i.ytimg.com/vi/Jg-NC69vCok/hqdefault.jpg)](https://www.youtube.com/watch?v=Jg-NC69vCok)
 
+### Tiled Clones Spiral
+
+[Tiled Clones Spiral in Inkscape 0.92.4](https://www.youtube.com/watch?v=aR0mibEFZc0)
+
 ## Inkscape animated gif tutorials
 
 [Inkscape for Noobs – Part II : Practice](https://vektorrascheln.de/posts/2015/Dec/inkscape-fuer-einsteiger-teil-ii-praxis-en.html)
