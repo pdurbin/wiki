@@ -12,7 +12,7 @@ Drawing the same kitten's face in Inkscape:
 
 ### Tiled Clones Spiral
 
-[Tiled Clones Spiral in Inkscape 0.92.4](https://www.youtube.com/watch?v=aR0mibEFZc0)
+[![Tiled Clones Spiral in Inkscape 0.92.4](https://i.ytimg.com/vi/aR0mibEFZc0/hqdefault.jpg)](https://www.youtube.com/watch?v=aR0mibEFZc0)
 
 ## Inkscape animated gif tutorials
 
