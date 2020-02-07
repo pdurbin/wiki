@@ -20,3 +20,17 @@ Dataverse, again, is for research data. We would say that it's open source resea
 I saw this on Twitter a few weeks ago and asked this scientist if I can put him in my slides. His name is Arvind P. Ravikumar. He's working on climate change. You can see here that he's tweeting his heart out. He is preparing a manuscript, a paper, for publication in a journal. He is explaining his argument. He is making data visualizations of all of this.
 
 Then he asks hashtag academic Twitter, "If I have primary data, what should I do with it?" In the past he's saying he has always put it under what's called supplementary information in the journal article, but one of the reviewers of his paper is saying, "You should get a DOI for your data."
+
+A DOI is a digital object identifier. It's a whole thing. I was just in Lisbon this week for a conference called PIDapalooza, PID being a Persistent IDentifier. In the academic world, this is how we cite each others work. This is how we acknowledge each other. We build up a graph of "this work is derived from this work." We are all standing on the shoulders of giants.
+
+With Dataverse what we are trying to do is elevate the dataset to be a first class research object. Instead of just your papers, think about a citation for your data.
+
+In the end, I'm happy so say that this scientist decided to put his data into Harvard Dataverse and this is what that looks like.
+
+Harvard Dataverse, and I have these pamphlets here, is a little unique among the 50 installations of Dataverse in that we accept from around the world and will host it for free, up to one terabyte. So this is an invitation to the crowd that if you yourself have research data and you don't know where to put it, or you know someone who does, please send them to Harvard Dataverse and we'd be happy to host the data for them.
+
+Another thing I wanted to point out about this dataset is that his raw data, his primary data is only about half a megabyte in size and yet you can see how rich the data is.  He's exploring the data with data visualization. He obviously has a lot to say on Twitter about his data.
+
+We might call this the long tail of science.
+
+If you work in, say, biochemistry, you might have a natural place to put your data. Maybe you put it in the Protein Data Bank,  for example. But for a lot of science there is no place for their data, so that's part of the need that Harvard Dataverse and the Dataverse project as a whole is trying to meet. We want to welcome all scientists from all disciplines to publish their data.
