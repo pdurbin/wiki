@@ -7,16 +7,10 @@ The talk is on [YouTube][] and my [slides][] are available on the FOSDEM website
 
 Thank you, everyone, for coming. Again, my name is Philip Durbin. I'm a software developer at Harvard University. This is a picture of our campus. We're across the river from Boston in the United States. I'm here to tell you about Dataverse.
 
-Dataverse is a community of data enthusiasts, specifically research data. That means that we are scientists, researchers, and often we come from the academic library world, so librarians and data curators, data scientists, sotware developers like myself.
+Dataverse is a community of data enthusiasts, specifically research data. That means that we are scientists, researchers, and often we come from the academic library world, so librarians and data curators, data scientists, software developers like myself.
 
-These are some pictures from our annual gathering in Cambridge, Massachusetts. We have our sixth annual this June and every one welcome to come. We always play what we call soccer.
+These are some pictures from our annual gathering in Cambridge, Massachusetts. We have our sixth annual Datavers Community Meeting this June and everyone welcome to come. We always play what we call soccer.
 
-For importantly for FOSDEM, Dataverse is open source software. We are Apache licensed.
+For importantly for FOSDEM, Dataverse is open source software. We are Apache licensed. There are 52 installation of Dataverse around the world across six continents. It has been translated into ten languages and there is an opportunity to contribute there, for sure.
 
-52 installation of Dataverse around the world across six continents.
-It has been translated into 10 language.
-Over 100 contributors
-We are written in Java
-Javascript, Python, R
-
-Lots of ways to get involved.
+Here are some stats from GitHub for our repository. Over 100 contributors. We are written in Java but I'd like to emphasize that we have APIs and client libraries for a variety of languages such as Javascript, Python, and R. So if you would like to contribute to Dataverse there are lots of ways to get involved.
