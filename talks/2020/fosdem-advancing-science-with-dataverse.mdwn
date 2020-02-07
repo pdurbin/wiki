@@ -1,0 +1,6 @@
+On February 2nd, 2020 I gave a talk at FOSDEM called "Advancing Science with Dataverse."
+
+The talk is on [YouTube][] and my [slides][] are available on the FOSDEM website.
+
+[YouTube]: https://twitter.com/philipdurbin/status/1224245828971388930
+[slides]: https://fosdem.org/2020/schedule/event/dataverse/
