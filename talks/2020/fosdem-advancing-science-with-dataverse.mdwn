@@ -14,3 +14,9 @@ These are some pictures from our annual gathering in Cambridge, Massachusetts. W
 For importantly for FOSDEM, Dataverse is open source software. We are Apache licensed. There are 52 installation of Dataverse around the world across six continents. It has been translated into ten languages and there is an opportunity to contribute there, for sure.
 
 Here are some stats from GitHub for our repository. Over 100 contributors. We are written in Java but I'd like to emphasize that we have APIs and client libraries for a variety of languages such as Javascript, Python, and R. So if you would like to contribute to Dataverse there are lots of ways to get involved.
+
+Dataverse, again, is for research data. We would say that it's open source research data repository software. But what does that mean? Research data. Let me give you an example.
+
+I saw this on Twitter a few weeks ago and asked this scientist if I can put him in my slides. His name is Arvind P. Ravikumar. He's working on climate change. You can see here that he's tweeting his heart out. He is preparing a manuscript, a paper, for publication in a journal. He is explaining his argument. He is making data visualizations of all of this.
+
+Then he asks hashtag academic Twitter, "If I have primary data, what should I do with it?" In the past he's saying he has always put it under what's called supplementary information in the journal article, but one of the reviewers of his paper is saying, "You should get a DOI for your data."
