@@ -34,3 +34,11 @@ Another thing I wanted to point out about this dataset is that his raw data, his
 We might call this the long tail of science.
 
 If you work in, say, biochemistry, you might have a natural place to put your data. Maybe you put it in the Protein Data Bank,  for example. But for a lot of science there is no place for their data, so that's part of the need that Harvard Dataverse and the Dataverse project as a whole is trying to meet. We want to welcome all scientists from all disciplines to publish their data.
+
+I want to talk a little bit about cultural change and try to explain that people like the scientist we saw are very similar to open source developers.
+
+You can see that we like to share code and we are seeing that researchers are willing to share data, but this is a relatively new thing.
+
+This pyramid is a diagram that's based on a tweet storm by Brian Nosek from the Center for Open Science and what it means to me is that first we had to build the ability to share data at all. That's at the bottom. Then, projects like Dataverse have come along to hopefully improve the user experience for sharing data. I stopped by the Open Source Design table this morning and efforts like that are great. Let's not just have open source software. Let's make the software usable. Let's make it painless to share data.
+
+As we go up the pyramid what we're seeing now is some cultural change. Again, the reviewer of the paper is the one who said, "Hey, you should make your dataset a first class, citable, scholarly object." That's great. That's exactly what we've been trying to do for years, is get there where it becomes a good scientific practice to share your data with the world.
