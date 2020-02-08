@@ -5,7 +5,7 @@ The talk is on [YouTube][] and my [slides][] are available on the FOSDEM website
 [YouTube]: https://twitter.com/philipdurbin/status/1224245828971388930
 [slides]: https://fosdem.org/2020/schedule/event/dataverse/
 
-Thank you, everyone, for coming. Again, my name is Philip Durbin. I'm a software developer at Harvard University. This is a picture of our campus. We're across the river from Boston in the United States. I'm here to tell you about Dataverse.
+Thank you, everyone, for coming. My name is Philip Durbin. I'm a software developer at Harvard University. This is a picture of our campus. We're across the river from Boston in the United States. I'm here to tell you about Dataverse.
 
 Dataverse is a community of data enthusiasts, specifically research data. That means that we are scientists, researchers, and often we come from the academic library world, so librarians and data curators, data scientists, software developers like myself.
 
