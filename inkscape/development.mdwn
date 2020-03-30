@@ -1,0 +1,5 @@
+- [issues][]
+- [merge requests][]
+
+[issues]: https://gitlab.com/inkscape/inkscape/-/boards
+[merge requests]: https://gitlab.com/inkscape/inkscape/-/merge_requests?scope=all&utf8=%E2%9C%93&state=opened&wip=no
