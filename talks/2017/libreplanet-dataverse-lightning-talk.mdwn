@@ -10,7 +10,7 @@ On March 26, 2017 I gave an impromptu five minute "lightning" talk at [LibrePlan
 > 
 > Next question. [Inaudible.] Yeah, sure, we are always interested in partnering. We actually have a feature that we call "harvesting" which is based on a protocol called OAI-PMH. It's really more for discoverability where if someone else installs Dataverse or any other platform that implements this protocol you can harvest the metadata about the dataset between different installations so you can know that data exists elsewhere. We also have some cool data exploration tools so you can run statistical analysis on tabular data. We also have geospatial mapping of datasets as well.
 > 
-> Another question? [Inaudible.] Again, we tend to replicate the metadata, not the actual data itself, but I imagine if you were truly going under, the ship is sinking, you could probably reach out to one of the other twenty installations of Dataverse and say, "Hey, we're going to go dark, can someone take our data?" It would be more of an arrangement between institutions I think, but there's a growing community Dataverse so I would think that someone would pick up the slack, so to speak.
+> Another question? [Inaudible.] Again, we tend to replicate the metadata, not the actual data itself, but I imagine if you were truly going under, the ship is sinking, you could probably reach out to one of the other twenty installations of Dataverse and say, "Hey, we're going to go dark, can someone take our data?" It would be more of an arrangement between institutions I think, but there's a growing community behind Dataverse so I would think that someone would pick up the slack, so to speak.
 
 I tweeted about the talk at https://twitter.com/philipdurbin/status/918630772826918912
 
