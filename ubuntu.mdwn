@@ -146,3 +146,12 @@ On a new installation of Ubuntu 18.04 on Digital Ocean I ran `sudo apt-get dist-
 "A new version of /boot/grub/menu.lst is available, but the version installed currently has been locally modified. What would you like to do about menu.lst?
 
 I selected the first option called "install the package maintainer's version" even though the second option called "keep the local version currently installed" was highlighted. Showing differences didn't work. I rebooted the server and it came back up. There's a related post at https://www.digitalocean.com/community/questions/ubuntu-new-boot-grub-menu-lst-after-apt-get-upgrade
+
+## Installing Docker on Ubuntu 18.04
+
+https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce
+
+   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+   apt install docker-ce
+   usermod -aG docker pdurbin
