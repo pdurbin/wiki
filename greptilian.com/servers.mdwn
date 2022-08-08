@@ -19,3 +19,6 @@ http://munin.greptilian.com/greptilian.com/server2.greptilian.com/
 
 server3 runs Ubuntu 18.04 and is hosted on [Digital Ocean](http://digitalocean.com).
 
+## server4.greptilian.com (launched 2022-07-17)
+
+server4 runs Ubuntu 22.04 and is hosted on [Digital Ocean](http://digitalocean.com).
