@@ -30,7 +30,7 @@ channel	network	homepage	logs
 #lucene-dev	freenode	http://lucene.apache.org	http://colabti.org/irclogger/irclogger_log/lucene-dev
 #scalawags/scalawags	gitter	http://scalawags.tv	http://gitter.im/scalawags/scalawags
 #netbeans	freenode	http://netbeans.org	http://echelog.com/logs/browse/netbeans
-#snowdrift	freenode	https://snowdrift.coop	https://riot.im/app/#/room/#snowdrift:matrix.org
+#snowdrift	freenode	https://snowdrift.coop	https://view.matrix.org/alias/%23snowdrift:matrix.org
 ##jsf	freenode	http://jsf.java.net	http://javabot.evanchooly.com/logs/%23%23jsf/today
 #kosmos	freenode	http://kosmos.org	https://waves.kosmos.org/logs/freenode/kosmos/today
 #circuits	freenode	http://circuitsframework.com	http://irclogs.shortcircuit.net.au/%23circuits/latest.log.html
