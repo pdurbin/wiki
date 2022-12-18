@@ -1,9 +1,24 @@
 Note: The information below about running this wiki on CentOS is out of date. It's now running on Ubuntu using the standard package.
 
-To get autolink working using ikiwiki 3.20180228-1 on Ubuntu 18.04:
+To get autolink working using ikiwiki 3.20200202.3-1 on Ubuntu 22.04:
 
-- add `$flags |= Text::Markdown::Discount::MKD_AUTOLINK();` to /usr/share/perl5/IkiWiki/Plugin/mdwn.pm
+- as shown below, add `$flags |= Text::Markdown::Discount::MKD_AUTOLINK();` to /usr/share/perl5/IkiWiki/Plugin/mdwn.pm
 - `cd /srv/wiki-srcdir && ikiwiki --setup wiki.setup`
+
+The diff: 
+
+    $ diff -u mdwn.pm.orig mdwn.pm
+    --- mdwn.pm.orig	2020-02-13 09:52:14.000000000 +0000
+    +++ mdwn.pm	2022-12-17 23:58:26.490591527 +0000
+    @@ -152,6 +152,8 @@
+     	unless ($config{mdwn_alpha_lists}) {
+     		$flags |= Text::Markdown::Discount::MKD_NOALPHALIST();
+     	}
+    +	# Autolink so links don't require <> around them
+    +	$flags |= Text::Markdown::Discount::MKD_AUTOLINK();
+     
+     	return Text::Markdown::Discount::markdown($t, $flags);
+     }
 
 This wiki is running [ikiwiki](http://ikiwiki.info) on CentOS 6 with an [RPM](http://yum.greptilian.com/RPMS/noarch/ikiwiki-3.20120202-1.el6.noarch.rpm) I rebuild from a [ikiwiki Fedora spec file](https://admin.fedoraproject.org/pkgdb/acls/name/ikiwiki).  I also had to rebuild a number of dependencies, which you can find at http://yum.greptilian.com
 
