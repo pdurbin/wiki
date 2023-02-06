@@ -1,5 +1,7 @@
 **SLOPI** (pronounced "sloppy") is short for Searchable Linkable Open Public Indexed, a style of communication I recommend for open source projects: <https://github.com/good-labs/slopi-communication>
 
+**Skipper** allows you easily filter your GitHub issues down to the ones that weren't created by members of the project. An example [query][] would be `is:open repo:pdurbin/addressbookmvc -author:pdurbin -author:dhutty`. Code at <https://github.com/pdurbin/skipper>
+
 **Feedcritic** helps you keep track of the many podcasts you're subscribed to and choose which episodes to listen to. I'm playing around with code at <https://github.com/pdurbin/feedcritic> (includes screenshots) which has been deployed to <http://podcasts.greptilian.com>
 
 **Pastries** is a quick and dirty HTML5 game that could be cleaned up and used in a tutorial for kids writing their own games: <https://github.com/pdurbin/pastries>
@@ -7,8 +9,6 @@
 **Druthers** allows for crowdsourced issue ordering. <https://github.com/pdurbin/druthers> contains proof of concept code. To see me mentioning the idea to a user asking about particular issues, see <http://irclog.iq.harvard.edu/dataverse/2017-03-01#i_49428>
 
 **Connectors** allows you to describe the relationships between people you know and where they hang out online. There is a some proof of concept code at <https://github.com/pdurbin/connectors> and an example based on IRC channels at <http://irc.greptilian.com>
-
-**Outsiders** would allow you easily filter your GitHub issues down to the ones that weren't created by members of the project. An example [query][] would be `is:open repo:pdurbin/addressbookmvc -author:pdurbin -author:dhutty`.
 
 **Unread** monitors your WeeChat [hotlist][] and provides a link to the public logs of an IRC channel so you can catch up in a browser when you don't have access to your screen session. There's some very rough code at <http://unread.greptilian.com> that needs to be cleaned up.
 
