@@ -1,0 +1,13 @@
+Chamath Palihapitiya: The problem with chat, in my opinion, is that Slack has become totally overrun where you could be five person company and all of the sudden you have five hundred channels.
+
+So there's no scarcity, and that scarcity is, in my opinion, what makes all corporate chats, in this modern version, Teams included, totally unusable. So much noise and distraction.
+
+So, how are you thinking about that product problem?
+
+David Sacks: I totally agree with that. What you hear from every single company that has more than, I don't know, 50 employees is that Slack doesn't scale because what happens is, you have a channel get created. And there's a whole bunch of conversations in there that are kind of munged together. And if anybody in the company wants to participate in any one of those conversations, they have to join that entire channel. And as a result, every single employee ends up in every single channel and it's just a giant mess and there's way too much noise.
+
+So I think that the channel model was beautiful in terms of letting people get started really easily. You just jump into and channel and start posting, but it's not particular enough in terms of addressing conversations to the right people.
+
+All-In podcast episode 161 at 51:16 - https://youtu.be/EJEAq0Nsesc?si=HzHP7OGyvU60kLaT&t=3076
+
+https://gluegroups.com for now, then https://glue.ai
