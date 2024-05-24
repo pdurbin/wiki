@@ -3,3 +3,40 @@ Zed was first demoed in May 2022, and the creator linked to the [video](https://
 For now, <https://en.wikipedia.org/wiki/Zed_(text_editor)> redirects to Atom but the official website is https://zed.dev
 
 I started playing with it in May 2024 and have been putting feedback at https://dataverse.zulipchat.com/#narrow/stream/379673-dev/topic/Zed/near/440085588 and https://github.com/pdurbin/zed/discussions/1
+
+## First impressions
+
+I'm using Zed Zed 0.136.2.
+
+The first thing I clicked was "install the CLI" because I can't imagine not being able to launch my editor from a terminal. It worked fine.
+
+I'm starting with Markdown, this very wiki page, but my I need to teach Zed that .mdwn is a Markdown file.
+
+The docs at https://zed.dev/docs/configuring-zed#file-types seem clear enough
+
+The default only had this:
+
+```
+"ui_font_size": 16,
+"buffer_font_size": 16,
+```
+
+```
+"file_types": {
+  "Markdown": ["mdwn"]
+}
+```
+
+Next, I would like to have an HTML preview of the Markdown to one side of the file I'm editing.
+
+There are no hits at https://zed.dev/docs/?search=markdown and Markdown isn't listed under Language Support.
+
+Within Zed, I searched extensions for "markdown" and found something called [Markdown Oxide](https://github.com/Feel-ix-343/markdown-oxide). Would this allow me to preview Markdown? I wasn't sure.
+
+I [asked][] the friend who clued me in to Zed and pointed me at https://github.com/zed-industries/zed/pull/6958 which had a video that enlighted me that I would need to bring up an "execute a command" dialog and type "markdown: open preview". Great! Markdown preview is built in! But how do I execute a command?
+
+[asked]: https://dataverse.zulipchat.com/#narrow/stream/379673-dev/topic/Zed/near/440085614
+
+After stumbling around, I somehow figured out that I needed to hit cmd-shift-p to bring up the dialog I saw in the video. According to the menus, it's called the command palette.
+
+Suffice it to say that it was fairly non-obvious to me how to activate the built-in Markdown previewer.
