@@ -1,0 +1,5 @@
+Zed was first demoed in May 2022, and the creator linked to the [video](https://www.youtube.com/watch?v=wXT73bBr83s) shortly after on [Hacker News](https://news.ycombinator.com/item?id=31668426).
+
+For now, https://en.wikipedia.org/wiki/Zed_(text_editor) redirects to Atom but the official website is https://zed.dev
+
+I started playing with it in May 2024 and have been putting feedback at https://dataverse.zulipchat.com/#narrow/stream/379673-dev/topic/Zed/near/440085588 and https://github.com/pdurbin/zed/discussions/1
