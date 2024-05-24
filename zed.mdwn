@@ -10,6 +10,8 @@ I'm using Zed Zed 0.136.2.
 
 The first thing I clicked was "install the CLI" because I can't imagine not being able to launch my editor from a terminal. It worked fine.
 
+### Markdown
+
 I'm starting with Markdown, this very wiki page, but my I need to teach Zed that .mdwn is a Markdown file.
 
 The docs at https://zed.dev/docs/configuring-zed#file-types seem clear enough
@@ -26,6 +28,8 @@ The default only had this:
   "Markdown": ["mdwn"]
 }
 ```
+
+I'm trying to obviate the need to add this config with https://github.com/zed-industries/zed/pull/12224
 
 Next, I would like to have an HTML preview of the Markdown to one side of the file I'm editing.
 
