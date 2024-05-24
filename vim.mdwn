@@ -15,7 +15,9 @@ http://kly.no/posts/2010_08_31__Wiki_sh___mediawiki_for_geeks__.html
 
 ## Keeping width to 72 characters
 
+```
 vim "+set textwidth=72" path/to/file.txt
+```
 
 ## vim-tsv
 
