@@ -12,4 +12,4 @@ http://plugins.netbeans.org/plugin/16018/sqlite-jdbc-driver works fine with http
 
 Bug 233199 – Firefox with Netbeans integration - https://netbeans.org/bugzilla/show_bug.cgi?id=233199
 
-On Mac, Mission Control interferes with using Ctrl-leftArrow to go "back". Mission Control wants to use this keyboard shortcut for "Move left a space".
+On Mac, Mission Control interferes with using Ctrl-leftArrow to go "back". Mission Control wants to use this keyboard shortcut for "Move left a space". Per [Stack Overflow](https://stackoverflow.com/questions/6403375/netbeans-shortcut-for-returning-to-previous-position-after-invoking-go-to-dec/46007500#46007500) go to System Preferences -> Keyboard -> Shortcuts and under "Mission Control" disable the ctrl-arrow sequences.
