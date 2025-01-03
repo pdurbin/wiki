@@ -1,0 +1,40 @@
+## git-annex tutorial
+
+In this tutorial we'll set up a server to host a directory of large or at least binary files. 
+
+On the server, create a directory and configure it. Then add a README and make an initial commit so we can clone the repo from the client.
+
+```
+cd /var/www/annex
+git init
+git annex init
+git config receive.denyCurrentBranch updateInstead
+echo "large files" > README.md
+git add README.md
+git commit -m "initial commit" README.md
+```
+
+(The `git config receive.denyCurrentBranch updateInstead` command allows files to be pushed to the working tree. See <https://git-annex.branchable.com/tips/making_a_remote_repo_update_when_changes_are_pushed_to_it/> and <https://github.com/emanuele/git-annex_tutorial>.)
+
+From a client, clone the repo, add a large file, and sync it.
+
+```
+git clone git.greptilian.com:/var/www/annex
+cd annex
+cp /tmp/large-file.pdf large-file.pdf
+git annex add large-file.pdf
+git commit -m "add large PDF" large-file.pdf
+git push
+git annex sync --content
+```
+
+## brew services
+
+I'm not sure what to make of this message I got when installing git-annex with brew.
+
+```
+To start git-annex now and restart at login:
+  brew services start git-annex
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/git-annex/bin/git-annex assistant --autostart
+```
