@@ -4,6 +4,10 @@ For now, <https://en.wikipedia.org/wiki/Zed_(text_editor)> redirects to Atom but
 
 I started playing with it in May 2024 and have been putting feedback at https://dataverse.zulipchat.com/#narrow/stream/379673-dev/topic/Zed/near/440085588 and https://github.com/pdurbin/zed/discussions/1
 
+## Keyboard shortcuts
+
+[[!table format=dsv delimiter="	" file="zed/shortcuts.tsv"]]
+
 ## First impressions
 
 I'm using Zed Zed 0.136.2.
