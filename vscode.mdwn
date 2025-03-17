@@ -1,0 +1,3 @@
+## Keyboard shortcuts
+
+[[!table format=dsv delimiter="	" file="vscode/shortcuts.tsv"]]
