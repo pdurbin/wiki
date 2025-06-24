@@ -1,0 +1,1 @@
+Distributed Metadata and Data with Dataverse [slides](https://dataverse.org/presentations/distributed-metadata-and-data-dataverse) [video](https://www.youtube.com/watch?v=jSzwAIqjq-o) [writeup](https://groups.google.com/g/dataverse-community/c/huhI8TyE8a0/m/7xldNlW8AQAJ)
