@@ -5,3 +5,5 @@ F2	rename
 F12	go to definition
 cmd-p	go to file
 ctrl-`	toggle terminal
+cmd-shift-\	jump to matching bracket
+ctrl--	go back
